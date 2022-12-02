@@ -197,6 +197,14 @@ header svg:hover {
 
 }
 
+.card p {
+    font-weight: 200;
+    font-size: 17px;
+    color: #ffffffc7;
+    container-type: inline-size;
+    word-wrap: break-word;
+}
+
 .btn_link {
     display: block;
     padding: 15px;
