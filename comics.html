@@ -10,7 +10,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header><h1>COMICS</h1><a href="index.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></header>
+	<header>
+		<h1>COMICS</h1>
+		<nav class="btn_list">
+			<div class="settingsBlock">
+			<div class="settings_btn" id="btn-dropdown" onclick="LangDropDown()"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4"><path d="m34 41l10-17L34 7H14L4 24l10 17h20Z"/><path d="M24 29a5 5 0 1 0 0-10a5 5 0 0 0 0 10Z"/></g></svg>
+			</div>
+				<div id="lang-Dropdown" class="lang-content">
+					<button onclick="DefaultGrid()">Default</button>
+					<button onclick="ReverseGrid()">Reverse</button>
+					<button onclick="LargeReverseGrid()">Large-reverse</button>				
+  </div>
+		</div>
+			<a href="index.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/>
+			</svg></a>
+	</nav>
+	</header>
 <div class="container-cards">
 	<!-- end -->
 	<div class="card">
@@ -222,5 +237,6 @@
 
 
 </div>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

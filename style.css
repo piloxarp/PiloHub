@@ -242,6 +242,7 @@ header svg:hover {
     object-fit: cover;
     width: 200px;
     max-height: 305px;
+    border-radius: 10px;
 }
 
 
@@ -280,6 +281,57 @@ header svg:hover {
     padding: 10px;
 }
 
+.btn_list {
+    display: flex;
+    gap:15px;
+}
+
+.show {display: flex!important;}
+
+    .lang-content {
+        display: none;
+        position: absolute;
+        background: var(--bg);
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: -15px;
+        border-radius: 10px;
+        gap: 15px;
+        padding: 15px;
+        z-index: 2;
+}
+
+    .lang-content button {
+        text-decoration: none;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 100;
+        background: transparent;
+        border: none;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .lang-content button:hover {
+        color: #FF9F9F;
+    }
+
+    .cardReverse {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cardImgLargeReverse {
+        width: 400px;
+        max-height: 1000px;
+    }
+
+    .cardImgLargeReverseMobile {
+        width: 310px !important;
+        max-height: 1000px;
+    }
+
 
 
 @media screen and (max-width: 768px) {
@@ -294,11 +346,30 @@ header svg:hover {
     padding: 10px;
 }
 
-    .card {
-        flex-direction: column;
-        align-items: center;
+    .container-cards {
+        justify-content: center;
     }
     .menu {
         flex-direction: column;
     }
+
+    header svg, .card {
+        border: 2px solid rgba(255, 255, 255, 0.1);
+    }
+    .banner {
+        width: 180px;
+}
+    .card nav {
+        width: initial;
+    }
+    .btn_link {
+        font-size: 14px;
+    }
+    .card h1 {
+        font-size: 16px;
+    }
+    .lang-content {
+        margin-left: -45px;
+    }
+
 }
