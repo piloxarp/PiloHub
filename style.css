@@ -37,7 +37,6 @@ body {
 	display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: stretch;
     gap: 15px;
 }
 
@@ -48,6 +47,7 @@ body {
     align-content: center;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .start_page {
@@ -332,7 +332,243 @@ header svg:hover {
         max-height: 1000px;
     }
 
+    .container-collection {
+        overflow-x: overlay;
+        display: flex;
+        gap:15px;
+        border-radius: 15px;
+    }
 
+    .container-collection::-webkit-scrollbar {
+        display: none;
+    }   
+
+    .cardColl {
+        background: linear-gradient(0deg, rgb(0 0 0), rgb(0 0 0 / 10%)), 
+        url(https://lh3.google.com/u/0/d/1BBW_ApifvMEF8N-MkFYnOmSTio78PTWZ=w1885-h936-iv1);
+        background-repeat: no-repeat;
+        background-position: center 0;
+        width: 400px;
+        height: 300px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column-reverse;
+        box-sizing: border-box;
+        flex: 0 0 25%;
+    }
+    .cc-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .cc-info nav h1 {
+        color: #fff;
+    }
+    .cc-info nav h2 {
+        color: var(--primary);
+        font-size: 16px;
+    }
+    .cc-info nav p {
+        color: #ffffffc7;
+    }
+    .cc-info nav {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cc-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    color: #fff;
+    border: 3px solid;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+    .cc-link svg {
+        font-size: 64px;
+    }
+
+    .cc-link:hover {
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+
+
+
+/* Slider Collection */
+
+#cardC {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: 100%;
+}
+
+#cardC .containerLeft img {
+    width: 295px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#cardC .containerLeft {
+    background-color: #151515;
+    flex: 0 0 40%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#cardC .containerRight {
+    background-color: #111111;
+    flex: 0 0 49.7%;
+    padding: 15px;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.textC {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+
+.btnC {
+    color: #fff;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    width: fit-content;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.035em;
+    cursor: pointer;
+
+}
+
+.btnC:hover {
+    background: var(--primary);
+    color: var(--bg);
+    
+}
+
+.containerBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 15px;
+
+}
+
+.textC h3 {
+    position: initial;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.035em;
+  color: #535353;
+  list-style: circle;
+}
+
+.textC h1 {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+}
+
+.textC h2 {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.035em;
+  color: #C5C5C5;
+}
+
+.containerBtn #number {
+    border:1px solid rgb(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    background: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.035em;
+    
+}
+
+.listC {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.listCItem {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid rgb(255 255 255 / 10%);
+    border-radius: 10px;
+    color: #fff;
+} 
+
+#listLabel {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.035em;
+}
+
+.tooltip svg {
+    font-size: 24px;
+}
+
+/* Slider Collection END */
+
+div.container.videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 
 @media screen and (max-width: 768px) {
     .start_page {
