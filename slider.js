@@ -1,7 +1,7 @@
 var Counts = document.querySelector("#number");
 Collection_type = ["Author", "Story", "Character"];
-Label_name = ["Nick","First trip"];
-Author = ["Picturd","Green"];
+Label_name = ["Gelatomusume Pack"];
+Author = ["Gelatomusume"];
 Cover = ["https://lh3.google.com/u/0/d/10IUh2GRY0EXRyoS3NgooaHxOOoKdPoZu=w1215-h966-iv1"
 ,"https://lh3.google.com/u/0/d/1AkplHpnK3v1D-jdIOnvB_c1cbSrUOthU=w1885-h936-iv1"];
 List = [
@@ -10,13 +10,16 @@ List = [
     {label:"Label 2", cover:"#", link:"#"}
     // Collection 2
 ];
+Link = ["Collection/GelatomusumePack.html"];
 
-let btnLeft = document.querySelectorAll(".btnC")[1]; // btn left -1
-let btnRight = document.querySelectorAll(".btnC")[2]; // btn right +1
+let btnLeft = document.querySelectorAll(".btnC")[0]; // btn left -1
+let btnRight = document.querySelectorAll(".btnC")[1]; // btn right +1
 let TextC_t = document.querySelector("nav.textC h3"); // text Collection (h3)
 let TextL_n = document.querySelector("nav.textC h1"); // text Header (h1)
 let TextA = document.querySelector("nav.textC h2"); // text Author (h2)
 let TextCover = document.querySelector("div.containerLeft img"); // Left Cover
+let LinkBtn = document.querySelectorAll(".btnC")[2]; // btn link
+
 
 function ListItem(a,b,c) {
 /*
@@ -66,9 +69,7 @@ function Slider() {
         TextC_t.innerHTML = `Collection: ${Collection_type[0]}`;
         TextL_n.innerHTML = Label_name[0];
         TextA.innerHTML = `Author: ${Author[0]}`;
-        // List 🠗
-        ListItemDelete();
-        ListItem(0,0,0);
+        LinkBtn.href = Link[0];
         
     } 
     if (Items === "2") {
@@ -79,9 +80,20 @@ function Slider() {
     } 
 }
 
-function RightClick() {Counts.innerHTML++; Slider();}
+function RightClick() {
 
-function LeftClick() { Counts.innerHTML--; Slider();}
+            Counts.innerHTML++; 
+    Slider();
+
+
+}
+
+function LeftClick() {
+            Counts.innerHTML--; 
+    Slider();
+
+
+}
 
 
 
