@@ -1,16 +1,17 @@
 var Counts = document.querySelector("#number");
-Collection_type = ["Author", "Story", "Character"];
-Label_name = ["Gelatomusume Pack"];
-Author = ["Gelatomusume"];
-Cover = ["https://lh3.google.com/u/0/d/10IUh2GRY0EXRyoS3NgooaHxOOoKdPoZu=w1215-h966-iv1"
-,"https://lh3.google.com/u/0/d/1AkplHpnK3v1D-jdIOnvB_c1cbSrUOthU=w1885-h936-iv1"];
+Collection_type = ["Author", "Story", "Character","Topic"];
+Label_name = ["Gelatomusume Pack","BBC"];
+Author = ["Gelatomusume","Society"];
+Cover = ["https://lh3.google.com/u/0/d/1E7MkCfeWTnubStY96js83t4bdOr0PyMN=w1887-h938-iv1"
+,"https://lh3.google.com/u/0/d/1I8wxUkeLvNQerGyRgQccmN1pwTbSeWqG=w1887-h938-iv1"
+];
 List = [
     // Collection 1
     {label: "Label 1", cover:"https://lh3.google.com/u/0/d/10IUh2GRY0EXRyoS3NgooaHxOOoKdPoZu=w1215-h966-iv1", link:"index.html"},
     {label:"Label 2", cover:"#", link:"#"}
     // Collection 2
 ];
-Link = ["Collection/GelatomusumePack.html"];
+Link = ["Collection/GelatomusumePack.html", "Collection/BBC Pack.html"];
 
 let btnLeft = document.querySelectorAll(".btnC")[0]; // btn left -1
 let btnRight = document.querySelectorAll(".btnC")[1]; // btn right +1
@@ -74,9 +75,10 @@ function Slider() {
     } 
     if (Items === "2") {
         TextCover.src = Cover[1];
-        TextC_t.innerHTML = `Collection: ${Collection_type[0]}`;
+        TextC_t.innerHTML = `Collection: ${Collection_type[3]}`;
         TextL_n.innerHTML = Label_name[1];
-        TextA.innerHTML = `Author: ${Author[1]}`;      
+        TextA.innerHTML = `Author: ${Author[1]}`;
+        LinkBtn.href = Link[1];   
     } 
 }
 

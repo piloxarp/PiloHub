@@ -418,6 +418,12 @@ header svg:hover {
     height: 450px;
     object-fit: cover;
     border-radius: 15px;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+#cardC .containerLeft img:hover {
+    filter: none;
 }
 
 #cardC .containerLeft {
