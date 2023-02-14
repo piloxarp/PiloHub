@@ -4,16 +4,16 @@
 }
     /* Handle */
     ::-webkit-scrollbar-thumb {
-    background: #ffb5b5b3;
+    background: var(--primary-hidden);
     border-radius: 46px;
 }
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-    background: #ffb5b5;
+    background: var(--primary);
 }
     /* Track */
     ::-webkit-scrollbar-track {
-    background: #151515;
+    background: var(--bg);
 }
 
 
@@ -27,8 +27,13 @@
 
 :root {
 	--bg: #151515;
-	--primary: #FF9F9F;
+	--primary: #E67EDB;
+    --primary-hidden:#5E3359;
     --secondry: #9fffa2;
+    --white:#fff;
+    --bg-secondry:#111111;
+    --text-secondry:#C5C5C5;
+    --text-black:#535353;
 }
 
 body {
@@ -51,45 +56,81 @@ body {
 }
 
 .start_page {
-	font-weight: 700;
-	font-size: 128px;
-	line-height: 161px;
-	/* identical to box height */
-	letter-spacing: 0.035em;
-	background: linear-gradient(93.98deg, rgba(255, 105, 105, 0.42) 0%, rgba(255, 255, 255, 0.17) 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	text-fill-color: transparent;
-    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0.035em;
+    text-align: left;
+	color: var(--primary);
+
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    gap:20px;
     align-items: stretch;
     justify-content: center;
-    align-content: center;
-    gap: 25px;
 }
 
 .button_m {
-    background: transparent;
+    background: var(--bg);
     border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     padding: 15px;
-    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.3s;
+    justify-content: space-between;
+}
+
+.button_m img {
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.button_m h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 45px;
+    letter-spacing: 0.035em;
     color: var(--primary);
-    font-size: 21px;
-    text-align: center;
+}
+
+a.button_m:hover {
+    background: var(--primary-hidden);
+    border: 3px solid var(--primary);
+    transform: translateY(-10px);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header span.icon {
+    padding: 9px;
+    background: var(--primary-hidden);
+    border: 3px solid var(--primary);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header span.icon svg {
+    font-size: 40px;
+    color: var(--primary);
     transition: 0.3s;
 }
 
-.button_m:hover {
-	color: var(--bg);
-	background: var(--primary);
-}
 
 a {
 	text-decoration: none;
@@ -104,14 +145,15 @@ header {
 }
 
 header h1 {
-	color: #fff;
+	color: var(--white);
 	font-size: 32px;
 	font-weight: 700;
 	letter-spacing: 0.03em;
+    word-break: break-all;
 }
 
 header svg {
-	color: #fff;
+	color: var(--primary);
 	font-size: 32px;
 	font-weight: 700;
 	padding: 15px;
@@ -123,8 +165,8 @@ header svg {
 }
 
 header svg:hover {
-	background: var(--primary);
-	color: var(--bg);
+	background: var(--primary-hidden);
+	border-color: var(--primary);
 }
 
 .paper {
@@ -150,9 +192,10 @@ header svg:hover {
 .description h2 {
 	margin-left: 5px;
 	margin-top: 5px;
-    color: #fff;
+    color: var(--white);
 	font-size: 20px;
 	margin-bottom: 10px;
+    word-break: break-all;
 }
 
 .description p {
@@ -190,7 +233,7 @@ header svg:hover {
 .card h1 {
     font-weight: 500;
     font-size: 20px;
-    color: #fff;
+    color: var(--white);
     letter-spacing: 0.03em;
     container-type: inline-size;
     word-wrap: break-word;
@@ -200,7 +243,7 @@ header svg:hover {
 .card p {
     font-weight: 200;
     font-size: 17px;
-    color: #ffffffc7;
+    color: var(--text-secondry);
     container-type: inline-size;
     word-wrap: break-word;
 }
@@ -217,7 +260,7 @@ header svg:hover {
 }
 
 .btn_link:hover {
-    color: var(--bg);
+    color: var(--primary);
 }
 
 .t_primary {
@@ -225,8 +268,8 @@ header svg:hover {
 }
 
 .t_primary:hover {
-    background: var(--primary);
-    color: var(--bg);
+    background: var(--primary-hidden);
+    border-color: var(--primary);
 }
 
 .t_secondry {
@@ -249,7 +292,7 @@ header svg:hover {
 .card nav {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 20px;
     width: 145px;
 }
@@ -304,7 +347,7 @@ header svg:hover {
 
     .lang-content button {
         text-decoration: none;
-        color: #fff;
+        color: var(--white);
         font-size: 17px;
         font-weight: 100;
         background: transparent;
@@ -314,12 +357,15 @@ header svg:hover {
     }
 
     .lang-content button:hover {
-        color: #FF9F9F;
+        color: var(--primary);
     }
 
     .cardReverse {
         flex-direction: column;
         justify-content: space-between;
+    }
+    .cardNAV {
+        width: 100% !important;
     }
 
     .cardImgLargeReverse {
@@ -356,50 +402,6 @@ header svg:hover {
         box-sizing: border-box;
         flex: 0 0 25%;
     }
-    .cc-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 20px;
-        border-radius: 15px;
-    }
-
-    .cc-info nav h1 {
-        color: #fff;
-    }
-    .cc-info nav h2 {
-        color: var(--primary);
-        font-size: 16px;
-    }
-    .cc-info nav p {
-        color: #ffffffc7;
-    }
-    .cc-info nav {
-        gap: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    .cc-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: transparent;
-    color: #fff;
-    border: 3px solid;
-    border-radius: 15px;
-    transition: 0.3s;
-}
-
-    .cc-link svg {
-        font-size: 64px;
-    }
-
-    .cc-link:hover {
-        border-color: var(--primary);
-        color: var(--primary);
-    }
-
-
 
 /* Slider Collection */
 
@@ -427,14 +429,17 @@ header svg:hover {
 }
 
 #cardC .containerLeft {
-    background-color: #151515;
+    background-color: var(--bg);
     flex: 0 0 40%;
     padding: 15px;
     border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #cardC .containerRight {
-    background-color: #111111;
+    background-color: var(--bg-secondry);
     flex: 0 0 49.7%;
     padding: 15px;
     border-radius: 0px 15px 15px 0px;
@@ -454,7 +459,7 @@ header svg:hover {
 
 
 .btnC {
-    color: #fff;
+    color: var(--white);
     border: 3px solid rgba(255, 255, 255, 0.1);
     padding: 15px;
     width: fit-content;
@@ -486,34 +491,31 @@ header svg:hover {
 
 .textC h3 {
     position: initial;
-  font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.035em;
-  color: #535353;
+  color: var(--text-black);
   list-style: circle;
 }
 
 .textC h1 {
-  font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
   letter-spacing: 0.035em;
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 .textC h2 {
-  font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 27px;
   letter-spacing: 0.035em;
-  color: #C5C5C5;
+  color: var(--text-secondry);
 }
 
 .containerBtn #number {
@@ -551,11 +553,11 @@ header svg:hover {
     gap: 10px;
     border: 1px solid rgb(255 255 255 / 10%);
     border-radius: 10px;
-    color: #fff;
+    color: var(--white);
 } 
 
 #listLabel {
-    color: #fff;
+    color: var(--white);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -569,16 +571,50 @@ header svg:hover {
 
 /* Slider Collection END */
 
-div.container.videos {
+footer {
+    margin-top: 30px;
+    display: flex;
+    gap:20px;
+}
+
+.button_f {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
+    gap:15px;
+    padding: 15px;
+    background: var(--bg);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    color: var(--primary);
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.button_f:hover {
+    border-color: var(--primary);
+    background: var(--primary-hidden);
 
 }
 
+.button_f svg {
+    font-size: 24px;
+}
+
+
 @media screen and (max-width: 768px) {
     .start_page {
-        font-size: 64px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .button_m {
+        align-items: center;
+    }
+    .header span.icon svg {
+        font-size: 32px;
     }
     .container {
         align-items: stretch;
@@ -589,7 +625,7 @@ div.container.videos {
 }
 
     header h1 {
-        font-size: 27px;
+        font-size: 24px;
     }
 
     .container-cards {

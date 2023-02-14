@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link type="image/x-icon" rel="shortcut icon" href="icons/favicon.ico">
-	<link type="image/png" sizes="16x16" rel="icon" href="icons/favicon-16x16.png">
-	<link type="image/png" sizes="32x32" rel="icon" href="icons/favicon-32x32.png">
-	<link type="image/png" sizes="192x192" rel="icon" href="icons/android-chrome-192x192.png">
-	<link type="image/png" sizes="512x512" rel="icon" href="icons/android-chrome-512x512.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
@@ -34,15 +32,34 @@
 </head>
 <body>
 	<div class="container">
-<h1 class="start_page">PILOHUB</h1>
+<div class="header"><span class="icon"><span class="iconify" data-icon="bx:archive"></span></span>
+<h1 class="start_page">PILOHUB</h1></div>
 <div class="menu">
-	<a href="solo.html" class="button_m">SOLO</a>
-	<a href="comics.html" class="button_m">COMICS</a>
-	<a href="mini-comics.html" class="button_m">MINI-COMICS</a>
-	<a href="all.html" class="button_m">ALL</a>
-    <a href="https://drive.google.com/drive/folders/10GkAESeGc3p_cNWBqaSFMk7b4kmhTMTx?usp=share_link" class="button_m">VIDEOS</a>
+    <a href="comics.html" class="button_m">
+        <img id="imgCOMICS" src="loading.png" alt="">
+        <h2>COMICS</h2>
+    </a>
+        <a href="mini-comics.html" class="button_m">
+        <img id="imgMINI" src="loading.png" alt="">
+        <h2>MINI</h2>
+    </a>
+    <a href="solo.html" class="button_m">
+        <img id="imgOTHER" src="loading.png" alt="">
+        <h2>OTHER</h2>
+    </a>   
+    <a href="collection.html" class="button_m">
+        <img id="imgCOLLECTION" src="loading.png" alt="">
+        <h2>COLLECTION</h2>
+    </a>
 </div>
+<footer>
+    <a href="https://drive.google.com/drive/folders/10GkAESeGc3p_cNWBqaSFMk7b4kmhTMTx?usp=share_link" class="button_f"><span class="iconify" data-icon="material-symbols:video-file-outline-rounded"></span>VIDEOS</a>
+    <a href="https://piloxarp.github.io/STR/index.html" class="button_f"><span class="iconify" data-icon="mdi:web"></span>STR</a>
+</footer>
 
+
+
+<!--
 <div id="cardC">
     <div class="containerLeft">
     <img src="" alt="image">
@@ -53,12 +70,12 @@
     <h1>text eror</h1>
     <h2>Author: Eror</h2>
     </nav>
-    <!--
+    
     <div class="listC">
         <a target="_blank" href="#" class="listCItem">
             <div class="tooltip"><span class="tooltiptext"><img src="https://lh3.google.com/u/0/d/10IUh2GRY0EXRyoS3NgooaHxOOoKdPoZu=w1215-h966-iv1" alt=""></span><span  id="PreviewIMG" class="iconify" data-icon="material-symbols:image-search"></span></div>
             <p id="listLabel">Error</p></a>
-        </div> -->
+        </div> 
     <div class="containerBtn">
     <button class="btnC" onclick="LeftClick()">🠔</button>
     <button class="btnC" onclick="RightClick()">➝</button>
@@ -66,10 +83,11 @@
     <p id="number">1</p>
     </div>
     </div>
-    </div>
+    </div> -->
 
 </div>
-<script src="slider.js"></script>
+<!-- <script src="slider.js"></script> -->
+<script src="card.js"></script>
 <style>
     /* Tooltip container */
     .tooltip {

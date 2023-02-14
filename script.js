@@ -39,6 +39,7 @@ function DefaultGrid() {
     console.log(localStorage.Default);
   } else {
   var card = document.querySelectorAll(".card");
+    var cardNAV = document.querySelectorAll(".card > nav");
   var cardIMG = document.querySelectorAll(".card > img");
   localStorage.setItem("Default", 1)
   localStorage.setItem("Reverse", 0);
@@ -46,6 +47,7 @@ function DefaultGrid() {
   for (var i = 0; i < cardIMG.length; i++) {
     card[i].classList.remove("cardReverse");
     cardIMG[i].classList.remove("cardImgLargeReverseMobile");
+    cardNAV[i].classList.remove("cardNAV");
   }}}
 
 function ReverseGrid() {
@@ -55,13 +57,17 @@ function ReverseGrid() {
     localStorage.setItem("LargeReverse", 0);
   var card = document.querySelectorAll(".card");
   var cardIMG = document.querySelectorAll(".card > img");
+  var cardNAV = document.querySelectorAll(".card > nav");
   for (var i = 0; i < card.length; i++) {
     cardIMG[i].classList.remove("cardImgLargeReverseMobile");
     card[i].classList.add("cardReverse");
+    cardNAV[i].classList.add("cardNAV");
   }} else {
   var card = document.querySelectorAll(".card");
+  var cardNAV = document.querySelectorAll(".card > nav");
   for (var i = 0; i < card.length; i++) {
     card[i].classList.add("cardReverse");
+    cardNAV[i].classList.add("cardNAV");
   }   
   }
   }
@@ -72,10 +78,12 @@ function LargeReverseGrid() {
   localStorage.setItem("Reverse", 0);
   localStorage.setItem("LargeReverse", 1);
   var card = document.querySelectorAll(".card");
+  var cardNAV = document.querySelectorAll(".card > nav");
   var cardIMG = document.querySelectorAll(".card > img");
   for (var i = 0; i < cardIMG.length; i++) {
     card[i].classList.add("cardReverse");
     cardIMG[i].classList.add("cardImgLargeReverseMobile");
+    cardNAV[i].classList.add("cardNAV");
   }
 }
 
@@ -89,6 +97,7 @@ function DefaultGrid() {
     console.log(localStorage.Default);
   } else {
   var card = document.querySelectorAll(".card");
+    var cardNAV = document.querySelectorAll(".card > nav");
   var cardIMG = document.querySelectorAll(".card > img");
   localStorage.setItem("Default", 1)
   localStorage.setItem("Reverse", 0);
@@ -96,6 +105,7 @@ function DefaultGrid() {
   for (var i = 0; i < cardIMG.length; i++) {
     card[i].classList.remove("cardReverse");
     cardIMG[i].classList.remove("cardImgLargeReverse");
+    cardNAV[i].classList.remove("cardNAV");
   }}}
 
 function ReverseGrid() {
@@ -104,14 +114,18 @@ function ReverseGrid() {
   if (localStorage.LargeReverse == 1) {
     localStorage.setItem("LargeReverse", 0);
   var card = document.querySelectorAll(".card");
+    var cardNAV = document.querySelectorAll(".card > nav");
   var cardIMG = document.querySelectorAll(".card > img");
   for (var i = 0; i < card.length; i++) {
     cardIMG[i].classList.remove("cardImgLargeReverse");
     card[i].classList.add("cardReverse");
+    cardNAV[i].classList.add("cardNAV");
   }} else {
   var card = document.querySelectorAll(".card");
+  var cardNAV = document.querySelectorAll(".card > nav");
   for (var i = 0; i < card.length; i++) {
     card[i].classList.add("cardReverse");
+    cardNAV[i].classList.add("cardNAV");
   }   
   }
   }
@@ -122,10 +136,12 @@ function LargeReverseGrid() {
   localStorage.setItem("Reverse", 0);
   localStorage.setItem("LargeReverse", 1);
   var card = document.querySelectorAll(".card");
+    var cardNAV = document.querySelectorAll(".card > nav");
   var cardIMG = document.querySelectorAll(".card > img");
   for (var i = 0; i < cardIMG.length; i++) {
     card[i].classList.add("cardReverse");
     cardIMG[i].classList.add("cardImgLargeReverse");
+    cardNAV[i].classList.add("cardNAV");
   }
 }
 
