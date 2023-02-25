@@ -27,6 +27,7 @@ function topFunction() {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+  elemCount.innerHTML = count.length;
   localStorage.setItem("Default", 1);
   localStorage.setItem("Reverse", 0);
   localStorage.setItem("LargeReverse", 0);
@@ -146,3 +147,24 @@ function LargeReverseGrid() {
 }
 
 }
+
+let sortbtn = document.getElementById("sortbtn");
+let container = document.querySelector(".container");
+let FramSVG = document.querySelector("#sortIcon");
+let svgUP = "M5.71 6.29a1 1 0 0 0-.33-.21a1 1 0 0 0-.76 0a1 1 0 0 0-.33.21l-2 2a1 1 0 0 0 1.42 1.42l.29-.3V17a1 1 0 0 0 2 0V9.41l.29.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42ZM11 8h10a1 1 0 0 0 0-2H11a1 1 0 0 0 0 2Zm10 8H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Zm0-5H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z";
+let svgDown = "m6.29 14.29l-.29.3V7a1 1 0 0 0-2 0v7.59l-.29-.3a1 1 0 0 0-1.42 1.42l2 2a1 1 0 0 0 .33.21a.94.94 0 0 0 .76 0a1 1 0 0 0 .33-.21l2-2a1 1 0 0 0-1.42-1.42ZM11 8h10a1 1 0 0 0 0-2H11a1 1 0 0 0 0 2Zm10 3H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Zm0 5H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z";
+
+
+function SortUP() {
+  container.setAttribute("style","flex-direction: column-reverse; gap:15px;");
+  FramSVG.setAttribute("d",svgDown);
+  sortbtn.setAttribute("onclick","SortDown()");
+}
+function SortDown() {
+  container.setAttribute("style","gap:15px;");
+  FramSVG.setAttribute("d",svgUP);
+  sortbtn.setAttribute("onclick","SortUP()");
+}
+
+let count = document.querySelectorAll(".paper");
+let elemCount = document.querySelector("#count");
