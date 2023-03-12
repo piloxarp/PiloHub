@@ -1,15 +1,28 @@
 header svg {
-	background:#151515;
+	background:transparent;
+	backdrop-filter: blur(3px);
 }
 
 #count {
-	background: #151515;
+	background:transparent;
+	backdrop-filter: blur(3px);
 }
 
 body {
 	background: url(bbcBG.png) #151515 repeat;
+	background-size: 50%;
 }
 
 #myBtn {
-	background: #151515;
+	background:transparent;
+	backdrop-filter: blur(3px);
+}
+
+
+
+@media screen and (max-width: 768px) {
+	body {
+		background-size: 240%;
+	}
+
 }
