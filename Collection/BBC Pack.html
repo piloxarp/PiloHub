@@ -18,9 +18,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+	<audio id="videos" loop><source src="hypno.mp3" type="audio/mpeg"></audio>
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
-	<header><nav><p id="count">0</p><img class="icon-header" src="../icons/Q ICON/android-chrome-512x512.png" alt="q icon"><h1>BBC Pack</h1></nav><span style="gap:15px;display: flex;"><button id="sortbtn" onclick="SortUP()"><svg  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path id="sortIcon" fill="currentColor" d="M5.71 6.29a1 1 0 0 0-.33-.21a1 1 0 0 0-.76 0a1 1 0 0 0-.33.21l-2 2a1 1 0 0 0 1.42 1.42l.29-.3V17a1 1 0 0 0 2 0V9.41l.29.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42ZM11 8h10a1 1 0 0 0 0-2H11a1 1 0 0 0 0 2Zm10 8H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Zm0-5H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z"/></svg></button><a href="https://drive.google.com/drive/folders/1HOmx4iB1ZSimGWKsWyvETqDf71xZ9eKY?usp=sharing"><span class="iconify" data-icon="mdi:folder-google-drive"></span></a><a href="../collection.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></span></header>
+	<header><nav><p id="count">0</p><img class="icon-header" src="../icons/Q ICON/android-chrome-512x512.png" alt="q icon"><h1>BBC Pack</h1><</span></nav><span style="gap:15px;display: flex;"><button id="SoundHypno" onclick="PlaySound()"><span class="iconify" data-icon="bi:hypnotize"></span></button><button id="sortbtn" onclick="SortUP()"><svg  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path id="sortIcon" fill="currentColor" d="M5.71 6.29a1 1 0 0 0-.33-.21a1 1 0 0 0-.76 0a1 1 0 0 0-.33.21l-2 2a1 1 0 0 0 1.42 1.42l.29-.3V17a1 1 0 0 0 2 0V9.41l.29.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42ZM11 8h10a1 1 0 0 0 0-2H11a1 1 0 0 0 0 2Zm10 8H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Zm0-5H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z"/></svg></button><a href="https://drive.google.com/drive/folders/1HOmx4iB1ZSimGWKsWyvETqDf71xZ9eKY?usp=sharing"><span class="iconify" data-icon="mdi:folder-google-drive"></span></a><a href="../collection.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></span></header>
 <div class="container" style="gap:15px">
+	<nav class="mangaFlex">
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1I8wxUkeLvNQerGyRgQccmN1pwTbSeWqG=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1I8wxUkeLvNQerGyRgQccmN1pwTbSeWqG=w1887-h938-iv1" alt="Waifu Interview1"></a>
@@ -37,7 +39,8 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1I-WTkA_a-BF2oiTD6TtrwopJBF11UZkW=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1I-WTkA_a-BF2oiTD6TtrwopJBF11UZkW=w1887-h938-iv1" alt="Waifu Interview4"></a>
 		<nav class="description"><h2>Waifu Interview</h2><p>04/04</p></nav></div>
-	<!-- end -->
+	<!-- end --></nav>
+	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1HuOl6msyb-EGSkCzQ2my8xOXThCYuplN=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1HuOl6msyb-EGSkCzQ2my8xOXThCYuplN=w1887-h938-iv1" alt="A new side of Uraraka1"></a>
 		<nav class="description"><h2>A new side of Uraraka</h2><p>01/03</p></nav></div>
@@ -49,23 +52,52 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1HnwoAnqeqzHTsQDx-SfL0OfdW8AuYEm7=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1HnwoAnqeqzHTsQDx-SfL0OfdW8AuYEm7=w1887-h938-iv1" alt="A new side of Uraraka3"></a>
 		<nav class="description"><h2>A new side of Uraraka</h2><p>03/03</p></nav></div>
-	<!-- end -->
+	<!-- end --></nav>
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1HmlLzUt_z6nQ75-gPstZ7TjjDOt7JEqX=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1HmlLzUt_z6nQ75-gPstZ7TjjDOt7JEqX=w1887-h938-iv1" alt="Breakfast from BBC"></a>
-		<nav class="description"><h2>Breakfast from BBC</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Breakfast from BBC</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1HloitGQRZATaYyI9Gw5CaiFMWJ09xdz2=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1HloitGQRZATaYyI9Gw5CaiFMWJ09xdz2=w1887-h938-iv1" alt="Changes at the Komi for the year"></a>
-		<nav class="description"><h2>Changes at the Komi for the year</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Changes at the Komi for the year</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1HWqDFdbJQKpdeX77poGoQbOCYoPpjCi7=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1HWqDFdbJQKpdeX77poGoQbOCYoPpjCi7=w1887-h938-iv1" alt="Don`t worry"></a>
-		<nav class="description"><h2>Don`t worry</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Don`t worry</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1HVigTmfc5-kpgQQn6Hg22EC9wOoJhhdy=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1HVigTmfc5-kpgQQn6Hg22EC9wOoJhhdy=w1887-h938-iv1" alt="Good boy"></a>
-		<nav class="description"><h2>Good boy</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Good boy</h2></nav></div>
 	<!-- end -->
+	<nav class="mangaFlex">
+	<div class="paper">
+		<a href= "https://lh3.google.com/u/0/d/1BWNICxRFMpJrdqICDyoEeMTlsSfSjh3L=w1887-h938-iv1">
+		<img loading="lazy" src="https://lh3.google.com/u/0/d/1BWNICxRFMpJrdqICDyoEeMTlsSfSjh3L=w1887-h938-iv1" alt="Deku-kun and Ochaco with master1"></a>
+		<nav class="description">
+			<h2>Deku-kun and Ochaco with master</h2>
+			<p>01/03</p>
+		</nav>
+	</div>
+	<!-- end -->
+	<div class="paper">
+		<a href= "https://lh3.google.com/u/0/d/1B_Q4FkSwWcNWGIp53mrOprkKz2slALms=w1887-h938-iv1">
+		<img loading="lazy" src="https://lh3.google.com/u/0/d/1B_Q4FkSwWcNWGIp53mrOprkKz2slALms=w1887-h938-iv1" alt="Deku-kun and Ochaco with master2"></a>
+		<nav class="description">
+			<h2>Deku-kun and Ochaco with master</h2>
+			<p>02/03</p>
+		</nav>
+	</div>
+	<!-- end -->
+	<div class="paper">
+		<a href= "https://lh3.google.com/u/0/d/1BYKX_xHooI_7dxkCrxvM0MSQ5FbCxeRw=w1887-h938-iv1">
+		<img loading="lazy" src="https://lh3.google.com/u/0/d/1BYKX_xHooI_7dxkCrxvM0MSQ5FbCxeRw=w1887-h938-iv1" alt="Deku-kun and Ochaco with master2"></a>
+		<nav class="description">
+			<h2>Deku-kun and Ochaco with master</h2>
+			<p>03/03</p>
+		</nav>
+	</div>
+	<!-- end --></nav>
+	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1ITVewpsVviXzCToPJYk-eycmvdRf14t7=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1ITVewpsVviXzCToPJYk-eycmvdRf14t7=w1887-h938-iv1" alt="Inko and BBC1"></a>
 		<nav class="description"><h2>Inko and BBC</h2><p>01/02</p></nav></div>
@@ -73,63 +105,64 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1IHDUIJy8nUmTlokERZkVlxAGMvzSvVw_=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1IHDUIJy8nUmTlokERZkVlxAGMvzSvVw_=w1887-h938-iv1" alt="Inko and BBC2"></a>
 		<nav class="description"><h2>Inko and BBC</h2><p>02/02</p></nav></div>
-	<!-- end -->
+	<!-- end --></nav>
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1IBSUx3A661s0U3wMrfo2k3IuYL8DyMaE=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1IBSUx3A661s0U3wMrfo2k3IuYL8DyMaE=w1887-h938-iv1" alt="Lube pussy for BBC"></a>
-		<nav class="description"><h2>Lube pussy for BBC</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Lube pussy for BBC</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1IuaFmakT5BuDBEKs2Xd9G3LXqRxYc7zx=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1IuaFmakT5BuDBEKs2Xd9G3LXqRxYc7zx=w1887-h938-iv1" alt="Mommy guest"></a>
-		<nav class="description"><h2>Mommy guest</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Mommy guest</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1InVWHQaZnzQ8-G1dc1eeqvKK9_87NoLk=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1InVWHQaZnzQ8-G1dc1eeqvKK9_87NoLk=w1887-h938-iv1" alt="Inko and Bakugo"></a>
-		<nav class="description"><h2>Inko and Bakugo</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Inko and Bakugo</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1IZGi0ByKccNvUt2vWifcsIbztSxN-yWB=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1IZGi0ByKccNvUt2vWifcsIbztSxN-yWB=w1887-h938-iv1" alt="Mistress & Sissy"></a>
-		<nav class="description"><h2>Mistress & Sissy</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Mistress & Sissy</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1Iiwr4BiQRs1ZM7_cu1-gRvSNo3Km0-30=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1Iiwr4BiQRs1ZM7_cu1-gRvSNo3Km0-30=w1887-h938-iv1" alt="Mommy help"></a>
-		<nav class="description"><h2>Mommy help</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Mommy help</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JSX7AUKdtfm1fuPW0s_TKcZ99OzoMYGS=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JSX7AUKdtfm1fuPW0s_TKcZ99OzoMYGS=w1887-h938-iv1" alt="Mother`s deal"></a>
-		<nav class="description"><h2>Mother`s deal</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Mother`s deal</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JRAzukMKB9PYN-jKVVOS78dAGITQ1fi1=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JRAzukMKB9PYN-jKVVOS78dAGITQ1fi1=w1887-h938-iv1" alt="Ochaco need money?"></a>
-		<nav class="description"><h2>Ochaco need money?</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Ochaco need money?</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JNpedRyUfkOxGrYKR13SbaGddM6u42T0=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JNpedRyUfkOxGrYKR13SbaGddM6u42T0=w1887-h938-iv1" alt="Ochaco size different"></a>
-		<nav class="description"><h2>Ochaco size different</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Ochaco size different</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JI7HfDZyVrXbUes8BQVsmCkaJfTQ2Udm=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JI7HfDZyVrXbUes8BQVsmCkaJfTQ2Udm=w1887-h938-iv1" alt="Plan"></a>
-		<nav class="description"><h2>Plan</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Plan</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JH3KsZP9kXb0w2rsq_KB6foKHfXxWc2V=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JH3KsZP9kXb0w2rsq_KB6foKHfXxWc2V=w1887-h938-iv1" alt="Promise"></a>
-		<nav class="description"><h2>Promise</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Promise</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1IovilpiEvfoIghuCjPXmKGhrkoUDv6GR=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1IovilpiEvfoIghuCjPXmKGhrkoUDv6GR=w1887-h938-iv1" alt="Punishment"></a>
-		<nav class="description"><h2>Punishment</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Punishment</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JggQbQ0vrHMRbzvKuPjiQh1QfGL9HEBS=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JggQbQ0vrHMRbzvKuPjiQh1QfGL9HEBS=w1887-h938-iv1" alt="Pussy free senpai"></a>
-		<nav class="description"><h2>Pussy free senpai</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Pussy free senpai</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JgNxlkXmN3wOy5-k7AXOASpOYeNTL3Gg=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JgNxlkXmN3wOy5-k7AXOASpOYeNTL3Gg=w1887-h938-iv1" alt="Suddenly a Guest"></a>
-		<nav class="description"><h2>Suddenly a Guest</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Suddenly a Guest</h2></nav></div>
 	<!-- end -->
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1J_KMbOYR-cWk24JPpdaD1BWQK1UWUsni=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1J_KMbOYR-cWk24JPpdaD1BWQK1UWUsni=w1887-h938-iv1" alt="Surprised Rabbit"></a>
-		<nav class="description"><h2>Surprised Rabbit</h2><p>01/01</p></nav></div>
+		<nav class="description"><h2>Surprised Rabbit</h2></nav></div>
 	<!-- end -->
+	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JThrXi5a8X4yIPgxFMuaDIWtpLQ0wR1R=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JThrXi5a8X4yIPgxFMuaDIWtpLQ0wR1R=w1887-h938-iv1" alt="Waitress for bbc1"></a>
 		<nav class="description"><h2>Waitress for bbc</h2><p>01/02</p></nav></div>
@@ -137,7 +170,8 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1Ip-aTim-kv9TgTms91RxPdwluZ3ciZ5y=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1Ip-aTim-kv9TgTms91RxPdwluZ3ciZ5y=w1887-h938-iv1" alt="Waitress for bbc2"></a>
 		<nav class="description"><h2>Waitress for bbc</h2><p>02/02</p></nav></div>
-	<!-- end -->
+	<!-- end --></nav>
+	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1JoJdKwNQdrxe3KW4uqzi8BLKsC1MfXPp=w1083-h907-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1JoJdKwNQdrxe3KW4uqzi8BLKsC1MfXPp=w1083-h907-iv1" alt="Mother assisted femboy test"></a>
 		<nav class="description"><h2>Mother assisted femboy test</h2><p>01/06</p></nav></div>
@@ -161,7 +195,7 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1Jonm_J9eKEuWHOzbF_2zIazc92nh59xn=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1Jonm_J9eKEuWHOzbF_2zIazc92nh59xn=w1887-h938-iv1" alt="Mother assisted femboy test"></a>
 		<nav class="description"><h2>Mother assisted femboy test</h2><p>06/06</p></nav></div>	
-	<!-- end -->
+	<!-- end --></nav>
 	<div class="paper">
 		<a href= "https://lh3.google.com/u/0/d/1wIX2XgBNi2GQ2KQlReUa6iISFq6GkpvT=w1885-h918-iv3">
 		<img loading="lazy" src="https://lh3.google.com/u/0/d/1wIX2XgBNi2GQ2KQlReUa6iISFq6GkpvT=w1885-h918-iv3" alt="BBC and Tsunade"></a>
@@ -170,6 +204,7 @@
 		</nav>
 	</div>
 	<!-- end -->	
+	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1KNU-sLGx_DjOJEHMj92griSN4kB7m19r=w1887-h938-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1KNU-sLGx_DjOJEHMj92griSN4kB7m19r=w1887-h938-iv1" alt="The_new_Black_Worldorder_Teachers"></a>
 		<nav class="description"><h2>The_new_Black_Worldorder_Teachers</h2><p>01/18</p></nav></div>	
@@ -241,7 +276,7 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1KmnWO74UTv1OjIksMMZ7X5Kyurl8JJHJ=w923-h934-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1KmnWO74UTv1OjIksMMZ7X5Kyurl8JJHJ=w923-h934-iv1" alt="The_new_Black_Worldorder_Teachers"></a>
 		<nav class="description"><h2>The_new_Black_Worldorder_Teachers</h2><p>18/18</p></nav></div>	
-	<!-- end -->	
+	<!-- end -->	</nav>
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1LIFW3vG_XDj0UqydxUgCSp0zVzCgKuCO=w923-h934-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1LIFW3vG_XDj0UqydxUgCSp0zVzCgKuCO=w923-h934-iv1" alt="Yennefer and BBC"></a>
 		<nav class="description"><h2>Yennefer and BBC</h2></nav></div>	
@@ -341,7 +376,7 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1NJ_4gNXibkN5GXxjA4vcPJtF6z_RpfHw=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NJ_4gNXibkN5GXxjA4vcPJtF6z_RpfHw=w1885-h936-iv1" alt="ghetto slut"></a>
 		<nav class="description"><h2>ghetto slut</h2></nav></div>
-	<!-- end -->	
+	<!-- end -->	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1N3YmTA8CEW9f50BV7se6AyQqk4IrYdSW=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1N3YmTA8CEW9f50BV7se6AyQqk4IrYdSW=w1885-h936-iv1" alt="Cuckold Relationship"></a>
 		<nav class="description"><h2>Cuckold Relationship</h2><p>01/11</p></nav></div>	
@@ -385,7 +420,7 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1N2ZZ-IuhQ7hjO3QD-FaV5ZQVLkai1VsZ=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1N2ZZ-IuhQ7hjO3QD-FaV5ZQVLkai1VsZ=w1885-h936-iv1" alt="Cuckold Relationship"></a>
 		<nav class="description"><h2>Cuckold Relationship</h2><p>11/11</p></nav></div>	
-	<!-- end -->
+	<!-- end --></nav>
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1NBFnqn-HApDS3dGi4WtmV-xUKTJ18ohN=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NBFnqn-HApDS3dGi4WtmV-xUKTJ18ohN=w1885-h936-iv1" alt="Great fighter takes revenge"></a>
 		<nav class="description"><h2>Great fighter takes revenge</h2></nav></div>
@@ -425,7 +460,7 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1NRHpKrcB3SsdLpQ8K4pCfwhB8pItCFTl=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NRHpKrcB3SsdLpQ8K4pCfwhB8pItCFTl=w1885-h936-iv1" alt="Treats for the doggy"></a>
 		<nav class="description"><h2>Treats for the doggy</h2></nav></div>
-	<!-- end -->	
+	<!-- end -->	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1MFkphai9PlaLeBwp6PWw5eNoojbjy_u-=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1MFkphai9PlaLeBwp6PWw5eNoojbjy_u-=w1885-h936-iv1" alt="Stretch"></a>
 		<nav class="description"><h2>Stretch</h2><p>01/03</p></nav></div>	
@@ -437,7 +472,8 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1MHNny34_Uid5TDiWYpHbkwR5LUO18NeB=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1MHNny34_Uid5TDiWYpHbkwR5LUO18NeB=w1885-h936-iv1" alt="Stretch"></a>
 		<nav class="description"><h2>Stretch</h2><p>03/03</p></nav></div>	
-	<!-- end -->	
+	<!-- end -->	</nav>
+	<nav class="mangaFlex">
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1NV0RELsrJ-Or06D2rBJYJZdinG2soSlR=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NV0RELsrJ-Or06D2rBJYJZdinG2soSlR=w1885-h936-iv1" alt="After"></a>
 		<nav class="description"><h2>After</h2><p>01/02</p></nav></div>	
@@ -445,13 +481,46 @@
 	<div class="paper">
 		<a href="https://lh3.google.com/u/0/d/1NWacxjkVJy3on9eRV8nuk9ONES-sH-LC=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NWacxjkVJy3on9eRV8nuk9ONES-sH-LC=w1885-h936-iv1" alt="After"></a>
 		<nav class="description"><h2>After</h2><p>02/02</p></nav></div>	
+	<!-- end -->	</nav>
+<nav class="mangaFlex">
 	<!-- end -->	
-
-
+	<div class="paper">
+		<a href="https://lh3.google.com/u/0/d/1NxyrdotQwNy0-yav79kagWcmxvNUO0zi=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NxyrdotQwNy0-yav79kagWcmxvNUO0zi=w1885-h936-iv1" alt="Mother Training Daughter"></a>
+		<nav class="description"><h2>Mother Training Daughter</h2><p>01/04</p></nav></div>	
+	<!-- end -->	
+	<div class="paper">
+		<a href="https://lh3.google.com/u/0/d/1NrIH9tKug7z-aOkc2Z3azV1L1ECIIjXr=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NrIH9tKug7z-aOkc2Z3azV1L1ECIIjXr=w1885-h936-iv1" alt="Mother Training Daughter"></a>
+		<nav class="description"><h2>Mother Training Daughter</h2><p>02/04</p></nav></div>	
+	<!-- end -->	
+	<div class="paper">
+		<a href="https://lh3.google.com/u/0/d/1NmlvV8Ul2AXbv6m1nzx073LoRVU2shuv=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NmlvV8Ul2AXbv6m1nzx073LoRVU2shuv=w1885-h936-iv1" alt="Mother Training Daughter"></a>
+		<nav class="description"><h2>Mother Training Daughter</h2><p>03/04</p></nav></div>	
+	<!-- end -->	
+	<div class="paper">
+		<a href="https://lh3.google.com/u/0/d/1NlmNBAVwis6ffd_IMzCT-Ji3I97c9mzh=w1885-h936-iv1"><img loading="lazy" src="https://lh3.google.com/u/0/d/1NlmNBAVwis6ffd_IMzCT-Ji3I97c9mzh=w1885-h936-iv1" alt="Mother Training Daughter"></a>
+		<nav class="description"><h2>Mother Training Daughter</h2><p>04/04</p></nav></div>	
+	<!-- end --></nav>
 
 
 
 </div>
+<script>
+	let btnHypno = document.querySelector("#SoundHypno");
+	
+	let vid = document.querySelector("#videos");
+	function PlaySound() {
+		vid.play();
+		let svgBtn = document.querySelector("#SoundHypno > svg");
+		svgBtn.setAttribute("id","activeBtn");
+		btnHypno.setAttribute("onclick","PauseSound()");
+	}
+	function PauseSound() {
+		vid.pause();
+		let svgBtn = document.querySelector("#SoundHypno > svg");
+		svgBtn.removeAttribute("id","activeBtn");
+		btnHypno.setAttribute("onclick","PlaySound()");		
+	}
+</script>
 <script type="text/javascript" src="../script.js"></script>
 </body>
 </html>
