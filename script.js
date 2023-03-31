@@ -27,7 +27,6 @@ function topFunction() {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-  elemCount.innerHTML = count.length;
   localStorage.setItem("Default", 1);
   localStorage.setItem("Reverse", 0);
   localStorage.setItem("LargeReverse", 0);
@@ -166,5 +165,5 @@ function SortDown() {
   sortbtn.setAttribute("onclick","SortUP()");
 }
 
-let count = document.querySelectorAll(".paper");
-let elemCount = document.querySelector("#count");
+
+

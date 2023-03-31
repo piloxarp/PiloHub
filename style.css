@@ -158,9 +158,9 @@ header svg {
 	color: var(--primary);
 	font-size: 32px;
 	font-weight: 700;
-	padding: 15px;
+	padding: 10px;
     background: transparent;
-    border: 3px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     transition: 0.3s;	
     cursor: pointer;
@@ -631,7 +631,7 @@ div.paper:hover > nav.description {
     color: var(--white);
     font-size: 32px;
     font-weight: 500;
-    padding: 15px;
+    padding: 10px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -650,6 +650,14 @@ div.paper:hover > nav.description {
     border-color: var(--primary);
 }
 
+.bottom-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#btnNext {
+    cursor: pointer;
+}
 
 
 
