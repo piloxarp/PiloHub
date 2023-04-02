@@ -62,7 +62,8 @@ List = [
     {name:"Elf", banner:"https://lh3.google.com/u/0/d/1QlYbgc_afx02c04uuDSfPMDerB8AP9WJ=w1885-h936-iv1",pages:2,link:"comics62"},
     {name:"A manga about brainwashing a brother and sister", banner:"https://lh3.google.com/u/0/d/1RvFysodd6JEuP2xheEfk-EMtckVaNQH7=w1885-h936",pages:2,link:"comics63"},
     {name:"Kirito Sissy",banner:"https://lh3.google.com/u/0/d/1SEJhsGgD8zcsuqex8YD5lwmgdBQvFNFU=w1885-h936-iv1",pages:17,link:"comics64",bbc:true},
-    {name:"It's just his dick is so much better",banner:"https://lh3.google.com/u/0/d/1TONdC4tSNsm8ySZbutqE6u3s_b5aDtzk=w1885-h936-iv1",pages:2,link:"comics65",bbc:true}  
+    {name:"It's just his dick is so much better",banner:"https://lh3.google.com/u/0/d/1TONdC4tSNsm8ySZbutqE6u3s_b5aDtzk=w1885-h936-iv1",pages:2,link:"comics65",bbc:true},
+    {name:"BLACKED Person",banner:"https://lh3.google.com/u/0/d/1VHI683QMCun8AonTdWuMExtxZFZSkain=w1885-h936-iv1",pages:9,link:"comics66",bbc:true}  
 ];
 
 // positionBanner: 
