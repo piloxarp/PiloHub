@@ -1,3 +1,5 @@
+// Comics cards
+
 List = [
     {name:"James", banner:"https://lh3.google.com/u/0/d/1-6JjiqGGEawxXm7YwXl6e5q3HnB_bo_Z=w1823-h966-iv1",pages:3,link:"comics2"},
     {name:"Nick", banner:"https://lh3.google.com/u/0/d/10IUh2GRY0EXRyoS3NgooaHxOOoKdPoZu=w1215-h966-iv1",pages:4,link:"comics3"},
@@ -73,11 +75,15 @@ List = [
 // 3 - center
 
 
+// pages
+
 let page1 = List.slice(0,30);
 let page2 = List.slice(30,60);
 let page3 = List.slice(60,90);
 
     
+
+// functions
 
 function card(x,page) {
     let div = document.createElement("div");
