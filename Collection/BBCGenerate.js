@@ -1,6 +1,7 @@
 // Lists
 
 Other = [
+	// {name:"NNN",banner:"ban"},
 	{name:"Breakfast from BBC",banner:"https://lh3.google.com/u/0/d/1HmlLzUt_z6nQ75-gPstZ7TjjDOt7JEqX=w1887-h938-iv1"},
 	{name:"Changes at the Komi for the year",banner:"https://lh3.google.com/u/0/d/1HloitGQRZATaYyI9Gw5CaiFMWJ09xdz2=w1887-h938-iv1"},
 	{name:"Don`t worry",banner:"https://lh3.google.com/u/0/d/1HWqDFdbJQKpdeX77poGoQbOCYoPpjCi7=w1887-h938-iv1"},
@@ -97,7 +98,12 @@ Other = [
 	{name:"This is what a real cock looks like",banner:"https://lh3.google.com/u/0/d/1VMHb20BpfI5gc4yZYogoVMi3oZ-_lNW8=w1885-h936-iv1"},
 	{name:"Good night, Nick",banner:"https://lh3.google.com/u/0/d/1VMgeRYESGc47-Pwj7k8pyJa81b0FB0BH=w1885-h936-iv1"},
 	{name:"Sorry darling",banner:"https://lh3.google.com/u/0/d/1VSX6uInp1wP0hDgAHJxMx_zwcn4OdrCD=w1885-h936-iv2"},
-	// {name:"NNN",banner:"ban"},
+	{name:"I have shit to do after-wards",banner:"https://lh3.google.com/u/0/d/1WClGq7NDIpnmr-G9m721yw6-pNlZOUOV=w1885-h936-iv1"},
+	{name:"He seems to fancy pretty boys lately",banner:"https://lh3.google.com/u/0/d/1W-mFehXpAiIpir-nq3AEs9KBJ8wvJ9e3=w1885-h936-iv1"},
+	{name:"Kiss your girlfriend",banner:"https://lh3.google.com/u/0/d/1W6-4t-tVyzkqtVZvBJW9rEvvE3_AX0ag=w1885-h936-iv1"},
+	{name:"Money`s worth",banner:"https://lh3.google.com/u/0/d/1WEdIHchRACTo_5mGjUQ30zcDkvf40eVP=w1885-h936-iv1"},
+
+	
 ];
 
 /*
@@ -321,6 +327,7 @@ function Uploading(Comics,Solo) {
 		} 		
 	}
 	if (Comics == 1) {
+		// stick on top
 		MultiPost(BLACKED_Person);
 		MultiPost(Its_just_his_dick_is_so_much_better);
 		MultiPost(Kirito_Sissy);
