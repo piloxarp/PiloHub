@@ -12,8 +12,15 @@ Other = [
 	{name:"Femboy tip",banner:"https://lh3.google.com/u/0/d/1Wp4Xike3lDeUEYSN6H-cSoHRwSYoPIHR=w1885-h936-iv1"},
 	{name:"Growing type of relationships",banner:"https://lh3.google.com/u/0/d/1WspvXVmPs772Ok748d2937dg7feRxvUv=w1885-h936-iv1"},
 	{name:"Kuvira",banner:"https://lh3.google.com/u/0/d/1X3AWd2cBHTwGdxo8hd8_o3EEczeDlh3r=w1885-h936-iv1"},
-	{name:"Joy",banner:"https://lh3.google.com/u/0/d/1X8a-F7sDb80k7wPfVpduqWtHnq63mxEm=w1885-h936-iv1"}
-
+	{name:"Joy",banner:"https://lh3.google.com/u/0/d/1X8a-F7sDb80k7wPfVpduqWtHnq63mxEm=w1885-h936-iv1"},
+	{name:"Venti",banner:"https://lh3.google.com/u/0/d/1XPi0cnMkhJyQziQgWXEujGgZ7hCKlono=w1885-h940-iv1"},
+	{name:"Venti 2",banner:"https://lh3.google.com/u/0/d/1XZHllQPdYrlBCeecx0RfOKKk3eZ8MEW3=w1885-h940-iv1"},
+	{name:"Bad cow venti",banner:"https://lh3.google.com/u/0/d/1XwwzpObIRyqDtNCuNJ0F5XTH1HhgfqXT=w1885-h940-iv1"},
+	{name:"God cow venti",banner:"https://lh3.google.com/u/0/d/1XzXOMyhUtSIvWKPedYOF0ziAOmPsjrSG=w1885-h940-iv1"},
+	{name:"Thanks for the alcohol",banner:"https://lh3.google.com/u/0/d/1Y8rR0UAAXICVjZAwl9PHGsWIDbv_iRnX=w1885-h940-iv1"},
+	{name:"Venti in chastity",banner:"https://lh3.google.com/u/0/d/1Y87Xo8OIi1pwNy2e8AJw3AccihfiK5_U=w1885-h940-iv1"},
+	{name:"Punishment for stealing wine",banner:"https://lh3.google.com/u/0/d/1YRdlTimuvd46php2RFiiLFGSpskqfZDW=w1885-h940-iv1"},
+	{name:"Payed bill",banner:"https://lh3.google.com/u/0/d/1Z_QLTwFyJBvNoYytANKRKPRc1uIkH_c6=w923-h917-iv1"},
 ];
 
 

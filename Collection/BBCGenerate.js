@@ -102,21 +102,36 @@ Other = [
 	{name:"He seems to fancy pretty boys lately",banner:"https://lh3.google.com/u/0/d/1W-mFehXpAiIpir-nq3AEs9KBJ8wvJ9e3=w1885-h936-iv1"},
 	{name:"Kiss your girlfriend",banner:"https://lh3.google.com/u/0/d/1W6-4t-tVyzkqtVZvBJW9rEvvE3_AX0ag=w1885-h936-iv1"},
 	{name:"Money`s worth",banner:"https://lh3.google.com/u/0/d/1WEdIHchRACTo_5mGjUQ30zcDkvf40eVP=w1885-h936-iv1"},
-
-	
+	{name:"Double penetration for Vent",banner:"https://lh3.google.com/u/0/d/1XhXUAmbGFljuhGGPgqL1OWfYlDSfhc3e=w1885-h940-iv1"},
+	{name:"SPH",banner:"https://lh3.google.com/u/0/d/1Xm7Sm-B3mPu_HgRveV6vLDYNsECseCk9=w1885-h940-iv1"},
+	{name:"Venti in good hands",banner:"https://lh3.google.com/u/0/d/1XquW4qOlqQD47mz8noDjd2GXTsHtQuGN=w1885-h940-iv1"},
+	{name:"Venti gangbang",banner:"https://lh3.google.com/u/0/d/1X9E39UtYKmYSfH7leyFErNMTikVupQWE=w1885-h940-iv1"},
+	{name:"Loser venti",banner:"https://lh3.google.com/u/0/d/1XUEh0ftLEgS6W5092eUIAZW7Tx1AHkaY=w1885-h940-iv1"},
+	{name:"A typical Venti day",banner:"https://lh3.google.com/u/0/d/1Y-59xRWtaNF3El0D6UZaqk3gaAPi7LDj=w1885-h940-iv1"},
+	{name:"Venti in a flower field",banner:"https://lh3.google.com/u/0/d/1Y09ps97Ew2oC-wvXcxMHHHx9L_hBYZuv=w923-h933-iv1"},
+	{name:"Venty's Friend",banner:"https://lh3.google.com/u/0/d/1Y0wTRNl6Jz_dM_qKfe7MJDF3vkwxtIVV=w923-h933-iv1"},
+	{name:"Workspace for Venti",banner:"https://lh3.google.com/u/0/d/1Y2XNetgjI7W4ZSIaBGdcocER08A_EbU5=w923-h933-iv1"},
+	{name:"This is venti",banner:"https://lh3.google.com/u/0/d/1Y3YuAEIlFrX6SiqunUvECg-d1ZCFRyiM=w923-h933-iv1"},
+	{name:"Venti cumming",banner:"https://lh3.google.com/u/0/d/1YJTXCqyoynKM3U0JWQIV_kyEcJQrzVB5=w923-h933-iv1"},
+	{name:"Venti happy",banner:"https://lh3.google.com/u/0/d/1YEtEm1Ptq19GnVBetiRaFbJmTazjh44i=w923-h933-iv1"},
+	{name:"Shocked Venti",banner:"https://lh3.google.com/u/0/d/1YbE-PQ13EH-kHXpvpfPwj1zD8Xdf1TuH=w923-h933-iv1"},
+	{name:"Another round diluc!",banner:"https://lh3.google.com/u/0/d/1YrStawpy6NQi0nlMSdrSuHshEfnuGky0=w923-h917-iv1"},
+	{name:"Why braids",banner:"https://lh3.google.com/u/0/d/1YwTbN_tgRoawuMZKx0Z2DBPDDOEPyyU5=w923-h917-iv1"},
+	{name:"First time for Venti",banner:"https://lh3.google.com/u/0/d/1YbziBS6iTcCqvsw2-tJs8nIHmYjV6-gh=w923-h917-iv1"},
+	{name:"Venti boyfriend",banner:"https://lh3.google.com/u/0/d/1ZGz6HKJi3ZZhqrLYN_pq1nWOfwDPNrBH=w923-h917-iv1"},
 ];
 
 /*
 Sample = [
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
-	{name:"NML", banner:"BNT",page:},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
+	{name:"NML", banner:"BNT"},
 ]; */
 
 Waifu_Interview = [
@@ -259,6 +274,7 @@ BLACKED_Person = [
 	{name:"BLACKED Person", banner:"https://lh3.google.com/u/0/d/1Ug8o0SXQ-YQBKB_LMKdX486RLvys-qvS=w1885-h936-iv1"},
 	{name:"BLACKED Person", banner:"https://lh3.google.com/u/0/d/1VT4XFJuq9XW1J3vSwmfY8-WZs7hANP3z=w1885-h936-iv1"}
 ];
+
 
 // Generation
 

@@ -261,6 +261,7 @@ header svg:hover {
     font-weight: 600;
     text-align: center;
     transition: 0.3s;
+    background: transparent;
 }
 
 .btn_link:hover {
