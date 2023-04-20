@@ -459,6 +459,33 @@ Will_you_really_cover_my_entire_bill = [
     {name:"Will_you_really_cover_my_entire_bill", banner:"https://lh3.google.com/u/0/d/1ZfEUTCzYpitFTVJVf6ms7im7paYIvmq-=w923-h917-iv1"}
 ];
 
+Defeating_Traveler_and_Wendy = [
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_Wv8dofQH4m8bYSuqcTxWvUBweTmBuwi=w1885-h940-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1__9TPvCVUBA9-Tdu3m_DjrXG3iAm126A=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_YpKR8g1vwnVzi_fzRj8ajlkgv8mOvjl=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_ak-Bd8wgZTff9qVnO0PTHGuHUCmdgSJ=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_laG5oNBzWvgkZ-hw9CNY3HjcfOJj7ik=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_s6JH4arJoZPpJ6ausLHF0DdVaulaghl=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_uU6SuVfUykMncAL3JioRqeUrbeLZbXM=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1a2BnBTVdWp9otmUuPRemlUMoJN90kpb6=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1a5t1N_oqh5ewEnPtVseS2zXUEPFCeFpt=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1a6UzncG8D-f0NV1KqqBgtpDvcFeglNPd=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1aO2QVOCuuQ3ACKJku79lFyUP18gCWIHs=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1aQ1kxNDzM1NsRI0CUNjr2ESa1naSco3O=w1885-h940-iv1"},
+];
+
+Submissive_Scaramouche = [
+    {name:"Scaramouche feminization process 1",banner:"https://lh3.google.com/u/0/d/1c6YvarhNjcYLW1nETcEY2RpMBNEqB2Iw=w923-h933-iv1"},
+    {name:"Scaramouche feminization process 2",banner:"https://lh3.google.com/u/0/d/1bku7QDYp_R_Rg-RTtAQaSdRSj_qV4jBK=w923-h933-iv1"}, 
+    {name:"Birthday present for Scaramouche 1",banner:"https://lh3.google.com/u/0/d/1bJDjzt9PDNoE_YXHTqCBH8aVEMIL2gqK=w923-h933-iv1"},
+    {name:"Birthday present for Scaramouche 2",banner:"https://lh3.google.com/u/0/d/1bhwweLCab85JL0jnE48Pzs0xt9HMhmGe=w923-h933-iv1"},
+    {name:"Scaramouche",banner:"https://lh3.google.com/u/0/d/1cE-uxDJjpjh_X7F2vYT73bSkECjfxIIt=w923-h933-iv1"},
+    {name:"Scaramouche 2",banner:"https://lh3.google.com/u/0/d/1cDT6O8IZqRgeUywJvoR1KgkXENfEYx_W=w923-h933-iv1"},
+    {name:"I punish you for that!(No)",banner:"https://lh3.google.com/u/0/d/1bMIcA5fcMUW7sOYKKHBwtOlCHX8kTC6I=w923-h933-iv1"},
+    {name:"Have you ever touched yourself like this",banner:"https://lh3.google.com/u/0/d/1bULeA2ERAZsazwQVgbPz4rgSubW6S4D2=w923-h933-iv1"},
+    {name:"He`s worse than an animal in heat",banner:"https://lh3.google.com/u/0/d/1cxPVzDYjB80TyOGmdbxKKv_zkhxVDhgj=w923-h933-iv1"},
+];
+
 
 
 function MultiPost(page) {

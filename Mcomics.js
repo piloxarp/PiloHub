@@ -70,6 +70,8 @@ List = [
     {name:"Mariya_Shidou",banner:"https://lh3.google.com/u/0/d/1VtTaZf63GbfZpHxgk38Ah04mzFtL3TEs=w1885-h936-iv1",pages:4},
     {name:"Valeria_Disciplining_Millie",banner:"https://lh3.google.com/u/0/d/1VyPYSaoV-cLkzPXAUhkm8OjBCpRgSj89=w1885-h936-iv1",pages:2},
     {name:"Will_you_really_cover_my_entire_bill",banner:"https://lh3.google.com/u/0/d/1ZZ6UTWWpVBcwDxFVT0JyE91mowdU8mT7=w923-h917-iv1",pages:2},
+    {name:"Defeating_Traveler_and_Wendy",banner:"https://lh3.google.com/u/0/d/1_Wv8dofQH4m8bYSuqcTxWvUBweTmBuwi=w1885-h940-iv1",pages:12,bbc:true,machineTS:true},
+    {name:"Submissive_Scaramouche",banner:"IN PROGRESS",pages:9},
     // {name:"Naming",banner:"img",pages:NNN,bbc:true},
 ];
 
@@ -112,6 +114,13 @@ function card(x,page) {
     }
     let nav = document.createElement("nav");
     let div2 = document.createElement("div");
+    div2.style = "gap:5px; display: flex;flex-direction: column;"
+    let h2 = document.createElement("h2");
+    if (page[x].machineTS == true) {
+        h2.innerHTML = "Machine Translate"
+        h2.className = "tag_RED"
+    }
+    
     let h1 = document.createElement("h1");
     h1.innerHTML = page[x].name;
     let p = document.createElement("p");
@@ -125,6 +134,7 @@ function card(x,page) {
     nav.append(div2);
     div2.prepend(h1);
     div2.append(p);
+    div2.append(h2);
     nav.append(a);
     div.append(nav);
     cardPlace.append(div)

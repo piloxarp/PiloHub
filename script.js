@@ -166,4 +166,23 @@ function SortDown() {
 }
 
 
+function MW0() {
+  let PagesList = document.querySelectorAll(".paper");
+  for (var i = 0; i < PagesList.length; i++) {
+    PagesList[i].style = "max-width:100%;"
+  }
+  let MW0btn = document.querySelector(".MW0");
+  MW0btn.setAttribute("id","activeBtn");
+  MW0btn.setAttribute("onclick", "MW0A()");
+}
+
+function MW0A() {
+  let PagesList = document.querySelectorAll(".paper");
+  for (var i = 0; i < PagesList.length; i++) {
+    PagesList[i].removeAttribute("style");
+  }
+  let MW0btn = document.querySelector(".MW0");
+  MW0btn.removeAttribute("id");
+  MW0btn.setAttribute("onclick", "MW0()");
+}
 

@@ -119,6 +119,18 @@ Other = [
 	{name:"Why braids",banner:"https://lh3.google.com/u/0/d/1YwTbN_tgRoawuMZKx0Z2DBPDDOEPyyU5=w923-h917-iv1"},
 	{name:"First time for Venti",banner:"https://lh3.google.com/u/0/d/1YbziBS6iTcCqvsw2-tJs8nIHmYjV6-gh=w923-h917-iv1"},
 	{name:"Venti boyfriend",banner:"https://lh3.google.com/u/0/d/1ZGz6HKJi3ZZhqrLYN_pq1nWOfwDPNrBH=w923-h917-iv1"},
+	{name:"Dating Circa 2035",banner:"https://lh3.google.com/u/0/d/1aYPdAZ5mRFvCMInjkcdLyxMrP30vrgmS=w1885-h940-iv1"},
+	{name:"Correct education",banner:"https://lh3.google.com/u/0/d/1abnQ6f3RDzadcVSeOBk0zeqmOvtewd4u=w923-h933-iv1"},
+	{name:"3 2 Oh! A bit quick today",banner:"https://lh3.google.com/u/0/d/1akWrO8_4i2hO7HEHIh3lb8YgM1QN-2iW=w923-h933-iv1"},
+	{name:"This is nothing..",banner:"https://lh3.google.com/u/0/d/1ajbe4xZnmmszieq0Rgp_pO4ezIPG9mIw=w923-h933-iv1"},
+	{name:"Size angel",banner:"https://lh3.google.com/u/0/d/1bD-5fFog6F9y3MaJXvf5FHMEKAO-vA7B=w1885-h940-iv1"},
+	{name:"Bbc only",banner:"https://lh3.google.com/u/0/d/1bGYbbOxmzTX-adcKblhuUWgV8ATQ9YO4=w923-h933-iv1"},
+	{name:"The video will blow up",banner:"https://lh3.google.com/u/0/d/1bC9YlI_H3iGrOW0qdaccPaZRmYLyCBKY=w923-h933-iv1"},
+	{name:"9S",banner:"https://lh3.google.com/u/0/d/1b2Gfl9Co54AoWOdqVy2FyWzcYxWoldIy=w923-h933-iv1"},
+	{name:"Tighnari bbc slut",banner:"https://lh3.google.com/u/0/d/1b6AToUTy2mdLz3RKWqZdscGTQLd5hM2Z=w923-h933-iv1"},
+	{name:"Good beta boy",banner:"https://lh3.google.com/u/0/d/1bDaNOUB0Fgs16Zk76xb5WwGE5QS-SWLD=w923-h933-iv1"},
+	{name:"Tighnari bbc only",banner:"https://lh3.google.com/u/0/d/1cljag8IcVJs6kBmtyg2t7b9dsHGyu93L=w923-h933-iv1"},
+	{name:"Tighnari in sexy outfit",banner:"https://lh3.google.com/u/0/d/1ci3cNH4Bb_-gdhI0lLS60_YgeR7WKXla=w923-h933-iv1"},
 ];
 
 /*
@@ -275,6 +287,21 @@ BLACKED_Person = [
 	{name:"BLACKED Person", banner:"https://lh3.google.com/u/0/d/1VT4XFJuq9XW1J3vSwmfY8-WZs7hANP3z=w1885-h936-iv1"}
 ];
 
+Defeating_Traveler_and_Wendy = [
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_Wv8dofQH4m8bYSuqcTxWvUBweTmBuwi=w1885-h940-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1__9TPvCVUBA9-Tdu3m_DjrXG3iAm126A=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_YpKR8g1vwnVzi_fzRj8ajlkgv8mOvjl=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_ak-Bd8wgZTff9qVnO0PTHGuHUCmdgSJ=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_laG5oNBzWvgkZ-hw9CNY3HjcfOJj7ik=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_s6JH4arJoZPpJ6ausLHF0DdVaulaghl=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1_uU6SuVfUykMncAL3JioRqeUrbeLZbXM=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1a2BnBTVdWp9otmUuPRemlUMoJN90kpb6=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1a5t1N_oqh5ewEnPtVseS2zXUEPFCeFpt=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1a6UzncG8D-f0NV1KqqBgtpDvcFeglNPd=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1aO2QVOCuuQ3ACKJku79lFyUP18gCWIHs=w923-h933-iv1"},
+    {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1aQ1kxNDzM1NsRI0CUNjr2ESa1naSco3O=w1885-h940-iv1"},
+];
+
 
 // Generation
 
@@ -344,6 +371,7 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Defeating_Traveler_and_Wendy);
 		MultiPost(BLACKED_Person);
 		MultiPost(Its_just_his_dick_is_so_much_better);
 		MultiPost(Kirito_Sissy);
