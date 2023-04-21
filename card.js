@@ -16,8 +16,8 @@ function Anim(frames) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-	setInterval(Anim,1000,0);
-	setInterval(Anim,2000,1);
-	setInterval(Anim,3000,2);
-	setInterval(Anim,4000,3);
+	let anim1 = setInterval(Anim,1000,0);
+	let anim2 = setInterval(Anim,2000,1);
+	let anim3 = setInterval(Anim,3000,2);
+	let anim4 = setInterval(Anim,4000,3);
   });

@@ -131,6 +131,8 @@ Other = [
 	{name:"Good beta boy",banner:"https://lh3.google.com/u/0/d/1bDaNOUB0Fgs16Zk76xb5WwGE5QS-SWLD=w923-h933-iv1"},
 	{name:"Tighnari bbc only",banner:"https://lh3.google.com/u/0/d/1cljag8IcVJs6kBmtyg2t7b9dsHGyu93L=w923-h933-iv1"},
 	{name:"Tighnari in sexy outfit",banner:"https://lh3.google.com/u/0/d/1ci3cNH4Bb_-gdhI0lLS60_YgeR7WKXla=w923-h933-iv1"},
+	{name:"Before my knight arrives",banner:"https://lh3.google.com/u/0/d/1d4BfvKsEtANfJfUsKqH1GupSzozMlffm=w1885-h940-iv1"},
+	{name:"Armin and Titan",banner:"https://lh3.google.com/u/0/d/1d79Wc98nVjaTQ4aNZrOtgOLSIS4DK3wG=w981-h933-iv1"},
 ];
 
 /*

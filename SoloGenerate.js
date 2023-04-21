@@ -43,6 +43,20 @@ Other = [
 	{name:"You want me to stop? NO",banner:"https://lh3.google.com/u/0/d/1d3WUx_b34YAM0mFTArydZI7Qdwf4N0Mw=w923-h933-iv1"},
 	{name:"Cyno submissive",banner:"https://lh3.google.com/u/0/d/1cmc2oBwGNTUN8kvlcHbc2hKGst6JY_KG=w923-h933-iv1"},
 	{name:"He`s worse than an animal in heat",banner:"https://lh3.google.com/u/0/d/1cxPVzDYjB80TyOGmdbxKKv_zkhxVDhgj=w923-h933-iv1"},
+	{name:"Naughty boy",banner:"https://lh3.google.com/u/0/d/1dXCJ3kdPlvG8NHhxDr83kfdGBLr3e2OL=w981-h933-iv1"},
+	{name:"Tsaritsa considered you a threat",banner:"https://lh3.google.com/u/0/d/1dXVrk6H_e17l4cglNE8CgIvogHlgq_y3=w981-h933-iv1"},
+	{name:"I can pay you in other ways though",banner:"https://lh3.google.com/u/0/d/1dY65eCiYtcalqFxr7WpVaSGPuQ0vM1_P=w981-h933-iv1"},
+	{name:"Please we can talk about this",banner:"https://lh3.google.com/u/0/d/1db1KM9nF72YyZDibk685O1G4Mv4ZlIUb=w981-h933-iv1"},
+	{name:"Breathe deeply",banner:"https://lh3.google.com/u/0/d/1dltB0vi83wa2XEmf5Ens3uNMQxEqpaTA=w981-h933-iv1"},
+	{name:"Princess marco",banner:"https://lh3.google.com/u/0/d/1dovM2D9Ba942eBqqoPejZ-NBRj9cI9GI=w981-h933-iv1"},
+	{name:"'Miss hina'",banner:"https://lh3.google.com/u/0/d/1dpLhDx5xunTERjSowN1aPY8Aro85wYl-=w981-h933-iv1"},
+	{name:"Watatsumi bitch",banner:"https://lh3.google.com/u/0/d/1dA8M0GmUILlh8T2MMsr681xzK-9qHvts=w981-h933-iv1"},
+	{name:"Good boy, aether",banner:"https://lh3.google.com/u/0/d/1dBlrFiuBDsy2lJ6LvFMjHaxVJKMYvvSW=w981-h933-iv1"},
+	{name:"Femboy hooters",banner:"https://lh3.google.com/u/0/d/1dCB0gMm2BUiUTlTB-X4ONUf-Mh-0QgWU=w981-h933-iv1"},
+	{name:"Happy night",banner:"https://lh3.google.com/u/0/d/1dDNVuVeZ-QMFTffY-PVRryvl5xMO4I6Z=w981-h933-iv1"},
+	{name:"Snuggling",banner:"https://lh3.google.com/u/0/d/1dPclvGod7-KwIW3g6mdlgD7eaWYRjyw1=w981-h933-iv1"},
+	{name:"Great itto!",banner:"https://lh3.google.com/u/0/d/1d9mJnkh8hJrGUH9ZppswAePPQ_xUFMzQ=w981-h933-iv1"},
+	
 ];
 
 
