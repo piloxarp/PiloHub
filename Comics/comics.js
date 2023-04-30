@@ -252,7 +252,10 @@ Lynn_Defeated_and_Trained = [
     {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/18p1V3Pg5RVSExYlnGN5AOCkAOScEsG-t=w1301-h918-iv1"},
     {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/18oE978jg230cebLj53ApnxVYPVnUg9oG=w1301-h918-iv1"},
     {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/18e_SP4O_AE83ku5YARnDfu6MxGIbP7nt=w1301-h918-iv1"},
-    {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/18bjGx5WJqCFZ-9C3sxlEE-MNmN0CVicG=w1301-h918-iv1"}
+    {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/18bjGx5WJqCFZ-9C3sxlEE-MNmN0CVicG=w1301-h918-iv1"},
+    {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/1e879RTsa420TagtmfnXY7QdT31Tm57EC=w1108-h933-iv1"},
+    {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/1eCQd2Z_7Yx3WizU5n8iGku13okPCNR3I=w1108-h933-iv1"},
+    {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/1eHzr4ruCxSDp97m1BcXyzBw6yfWi-inq=w1108-h933-iv1"},
 ];
 Venti = [
     {name:"Venti", banner:"https://lh3.google.com/u/0/d/18xN26gVfD0aWnrnToIs_d-CJwOrVV863=w1885-h918-iv1"},

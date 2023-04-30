@@ -56,7 +56,14 @@ Other = [
 	{name:"Happy night",banner:"https://lh3.google.com/u/0/d/1dDNVuVeZ-QMFTffY-PVRryvl5xMO4I6Z=w981-h933-iv1"},
 	{name:"Snuggling",banner:"https://lh3.google.com/u/0/d/1dPclvGod7-KwIW3g6mdlgD7eaWYRjyw1=w981-h933-iv1"},
 	{name:"Great itto!",banner:"https://lh3.google.com/u/0/d/1d9mJnkh8hJrGUH9ZppswAePPQ_xUFMzQ=w981-h933-iv1"},
-	
+	{name:"I`ve warned you",banner:"https://lh3.google.com/u/0/d/1eMXuzR8IBYH3HQg3xIWBkzQz62CHKadB=w1885-h940-iv1"},
+	{name:"Too late",banner:"https://lh3.google.com/u/0/d/1eb5h7QZt0sVxXvvNb978KksKqBYlVcJz=w1108-h933-iv1"},
+	{name:"Fell off, scum!",banner:"https://lh3.google.com/u/0/d/1ecQkf2GMM9OvP63KUuKOiMpgIP6mZMKG=w1108-h933-iv1"},
+	{name:"Goro humiliation",banner:"https://lh3.google.com/u/0/d/1ejZ4P3ZKTy7JPPtke2cYGofCSNvCzkXR=w1108-h933-iv1"},
+	{name:"Xingqiu humiliation",banner:"https://lh3.google.com/u/0/d/1elPVD6E-_NsWu0dhwsQ9_74ZHwtQm023=w1108-h933-iv1"},
+	{name:"You need to be quiet Nari",banner:"https://lh3.google.com/u/0/d/1esVaevRx35RDBm0IUfgW9X_ex7B3sjEO=w1108-h933-iv1"},
+	{name:"Did you miss me that much?",banner:"https://lh3.google.com/u/0/d/1eU7AH8L7YKCREK4DwEnxQ58-B6IwjHmJ=w1108-h933-iv1"},
+	{name:"Traveler slut",banner:"https://lh3.google.com/u/0/d/1f4TAywbmR8B3n3MRDmGBAHm_EhnMaf5n=w1885-h940-iv1"},
 ];
 
 

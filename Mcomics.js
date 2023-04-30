@@ -17,7 +17,7 @@ List = [
     {name:"Jade", banner:"https://lh3.google.com/u/0/d/14MaiQqMdx2Ka2rV7Wwok7oOF4ZLVU9lF=w1215-h966-iv1",pages:4},
     {name:"LolaxBugs", banner:"https://lh3.google.com/u/0/d/155g0No0CAiPF6xqruHG9423dqPU2trJd=w1215-h966-iv1",pages:3},
     {name:"Midna", banner:"https://lh3.google.com/u/0/d/15C-lHoWNBLb1gXaxrexrSAf_FCTAGBcB=w1215-h966-iv1",pages:7},
-    {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/18XnnjQjpErkOBIw8wbtvGVmHFFVTCDXy=w1885-h918-iv1",pages:5},
+    {name:"Lynn_Defeated_and_Trained", banner:"https://lh3.google.com/u/0/d/18XnnjQjpErkOBIw8wbtvGVmHFFVTCDXy=w1885-h918-iv1",pages:8},
     {name:"Venti", banner:"https://lh3.google.com/u/0/d/18xN26gVfD0aWnrnToIs_d-CJwOrVV863=w1885-h918-iv1",pages:3},
     {name:"Cody", banner:"https://lh3.google.com/u/0/d/19F6yMScxUkGpZqiqX-a7t9GdksiqQKxR=w1885-h918-iv1",pages:3},
     {name:"Isui", banner:"https://lh3.google.com/u/0/d/19JF1ynZvt2bRR_LAYukhwEhBtNagn12z=w1885-h913-iv1",pages:2},
@@ -71,7 +71,7 @@ List = [
     {name:"Valeria_Disciplining_Millie",banner:"https://lh3.google.com/u/0/d/1VyPYSaoV-cLkzPXAUhkm8OjBCpRgSj89=w1885-h936-iv1",pages:2},
     {name:"Will_you_really_cover_my_entire_bill",banner:"https://lh3.google.com/u/0/d/1ZZ6UTWWpVBcwDxFVT0JyE91mowdU8mT7=w923-h917-iv1",pages:2},
     {name:"Defeating_Traveler_and_Wendy",banner:"https://lh3.google.com/u/0/d/1_Wv8dofQH4m8bYSuqcTxWvUBweTmBuwi=w1885-h940-iv1",pages:12,bbc:true,machineTS:true},
-    {name:"Submissive_Scaramouche",banner:"IN PROGRESS",pages:9},
+    {name:"Submissive_Scaramouche",banner:"https://lh3.google.com/u/0/d/1cDT6O8IZqRgeUywJvoR1KgkXENfEYx_W=w923-h933-iv1",pages:9},
     // {name:"Naming",banner:"img",pages:NNN,bbc:true},
 ];
 
@@ -84,9 +84,10 @@ List = [
 
 // pages
 
-let page1 = List.slice(0,30);
-let page2 = List.slice(30,60);
-let page3 = List.slice(60,90);
+let page1 = List.slice(0,20);
+let page2 = List.slice(20,40);
+let page3 = List.slice(40,60);
+let page4 = List.slice(60,80);
 
     
 
@@ -142,24 +143,61 @@ function card(x,page) {
 }
 
 
-    for (var i = page1.length - 1; i >= 0; i--) {
-        card(i,page1);
+function pages(page) {
+    let BtnPage1 = document.querySelector("#btn-generate-1");
+    let BtnPage2 = document.querySelector("#btn-generate-2");
+    let BtnPage3 = document.querySelector("#btn-generate-3");
+    let BtnPage4 = document.querySelector("#btn-generate-4");
+    document.querySelector('.container-cards').innerHTML = '';
+    if (page == page1) {
+    for (var i = page.length - 1; i >= 0; i--) {
+        card(i,page);
     }
-
-
-function page2H() {
-    for (var i = page2.length - 1; i >= 0; i--) {
-        card(i,page2);
+    BtnPage1.className = "btn_link activeBtn";
+    BtnPage2.className = "pageBtn t_primary";
+    BtnPage3.className = "pageBtn t_primary";
+    BtnPage4.className = "pageBtn t_primary";
+    } else if (page == page2) {
+    
+    for (var i = page.length - 1; i >= 0; i--) {
+        card(i,page);
     }
-    document.querySelector("#btnNext").setAttribute("onclick","page3H()");
+    BtnPage2.className = "btn_link activeBtn";
+    BtnPage1.className = "pageBtn t_primary";
+    BtnPage3.className = "pageBtn t_primary";
+    BtnPage4.className = "pageBtn t_primary";
+    } else if (page == page3) {
+    
+    for (var i = page.length - 1; i >= 0; i--) {
+        card(i,page);
+    }
+    BtnPage3.className = "btn_link activeBtn";
+    BtnPage2.className = "pageBtn t_primary";
+    BtnPage1.className = "pageBtn t_primary";
+    BtnPage4.className = "pageBtn t_primary";
+    } else if (page == page4) {
+    
+    for (var i = page.length - 1; i >= 0; i--) {
+        card(i,page);
+    }
+    BtnPage4.className = "btn_link activeBtn";
+    BtnPage2.className = "pageBtn t_primary";
+    BtnPage1.className = "pageBtn t_primary";
+    BtnPage3.className = "pageBtn t_primary";      
+    }
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+   
 }
 
-function page3H() {
-    for (var i = page3.length - 1; i >= 0; i--) {
-        card(i,page3);
-    }   
-    document.querySelector("#btnNext").remove();
-}
+
+
+document.addEventListener("DOMContentLoaded", function() {pages(page1)});
+
+
 
     let count = List.length;
     let elemCount = document.querySelector("#count");
@@ -167,4 +205,3 @@ function page3H() {
 
 
 
-console.log(List.length);

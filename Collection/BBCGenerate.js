@@ -133,6 +133,7 @@ Other = [
 	{name:"Tighnari in sexy outfit",banner:"https://lh3.google.com/u/0/d/1ci3cNH4Bb_-gdhI0lLS60_YgeR7WKXla=w923-h933-iv1"},
 	{name:"Before my knight arrives",banner:"https://lh3.google.com/u/0/d/1d4BfvKsEtANfJfUsKqH1GupSzozMlffm=w1885-h940-iv1"},
 	{name:"Armin and Titan",banner:"https://lh3.google.com/u/0/d/1d79Wc98nVjaTQ4aNZrOtgOLSIS4DK3wG=w981-h933-iv1"},
+	{name:"Shall i make you my boyfriend",banner:"https://lh3.google.com/u/0/d/1eIU1UhW9y1VErSDd9TMnn0cRnjB3LOQc=w923-h917-iv1"},
 ];
 
 /*

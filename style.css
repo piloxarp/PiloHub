@@ -271,6 +271,7 @@ header svg:hover {
     text-align: center;
     transition: 0.3s;
     background: transparent;
+    cursor: pointer;
 }
 
 .btn_link:hover {
@@ -607,6 +608,7 @@ footer {
     letter-spacing: 0.05em;
     font-size: 20px;
     line-height: 100%;
+    cursor: pointer;
 }
 
 .button_f:hover {
@@ -662,9 +664,30 @@ div.paper:hover > nav.description {
     border-color: var(--primary);
 }
 
+.pageBtn {
+    display: block;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s;
+    background: transparent;
+    cursor: pointer;    
+}
+
+.activeBtn {
+    background: var(--primary);
+    border-color: var(--primary); 
+    color: var(--bg);   
+}
+
 .bottom-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
 }
 
 #btnNext {
@@ -800,6 +823,9 @@ div.paper:hover > nav.description {
     transition: 0.3s;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .MW0:hover {
@@ -807,8 +833,92 @@ div.paper:hover > nav.description {
     border-color: var(--primary);    
 }
 
+.video-card {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.video-card:hover > .vc-des {
+    background: var(--primary-hidden);
+}
+
+.video-card:hover > .vc-img p {
+    background: var(--primary);
+}
+
+.vc-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transition: 0.3s;
+}
+
+.vc-img p {
+    padding: 5px;
+    background: var(--primary-hidden);
+    position: absolute;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.vc-img img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.vc-des {
+    text-align: center;
+    background: var(--bg-secondry);
+    border-radius: 0px 0px 10px 10px;
+    width: 250px;
+    height: 100%;
+}
+
+.vc-des h2 {
+    padding: 10px 5px 12px 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white);
+    word-break: break-all;
+}
+
+iframe {
+    border: 0;
+    border-radius: 15px;
+
+}
+
+.container-other {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
 
 @media screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+        height: 40vh;
+    }
+    .vc-img img {
+        width: 100%;
+    }
+    .container-other {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .vc-des {
+        width: 100%;
+    }
     .start_page {
         font-size: 32px;
         line-height: 32px;
@@ -840,6 +950,7 @@ div.paper:hover > nav.description {
 
     .container-cards {
         justify-content: center;
+        flex-direction: column;
     }
     .menu {
         flex-direction: column;
@@ -847,9 +958,10 @@ div.paper:hover > nav.description {
 
     header svg, .card {
         border: 2px solid rgba(255, 255, 255, 0.1);
+        flex-direction: column;
     }
     .banner {
-        width: 180px;
+        width: 100%;
 }
     .card nav {
         width: initial;
