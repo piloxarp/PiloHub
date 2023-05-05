@@ -171,9 +171,8 @@ function MW0() {
   for (var i = 0; i < PagesList.length; i++) {
     PagesList[i].style = "max-width:100%;"
   }
-  let MW0btn = document.querySelector(".MW0");
-  MW0btn.setAttribute("id","activeBtn");
-  MW0btn.setAttribute("onclick", "MW0A()");
+  document.querySelector(".MW0 svg").setAttribute("id","activeBtn");
+  document.querySelector(".MW0").setAttribute("onclick", "MW0A()");
 }
 
 function MW0A() {
@@ -181,8 +180,25 @@ function MW0A() {
   for (var i = 0; i < PagesList.length; i++) {
     PagesList[i].removeAttribute("style");
   }
-  let MW0btn = document.querySelector(".MW0");
-  MW0btn.removeAttribute("id");
-  MW0btn.setAttribute("onclick", "MW0()");
+  document.querySelector(".MW0 svg").removeAttribute("id");
+  document.querySelector(".MW0").setAttribute("onclick", "MW0()");
 }
 
+function MixPost() {
+  let container = document.querySelector(".container");
+  let PagesList = document.querySelectorAll(".container div");
+  Array.from(PagesList)
+  .sort(() => Math.random() - 0.5)
+  .forEach(div => container.appendChild(div));
+}
+
+function Dropdown(x) {
+  document.getElementById("myDropdown").classList.toggle("show");
+  if (x == 1) {
+    document.querySelector(".dropbtn svg").setAttribute("id","activeBtn");
+    document.querySelector(".dropbtn").setAttribute("onclick","Dropdown(0)");
+  } else if (x == 0) {
+    document.querySelector(".dropbtn svg").removeAttribute("id");
+    document.querySelector(".dropbtn").setAttribute("onclick","Dropdown(1)");
+  }
+}

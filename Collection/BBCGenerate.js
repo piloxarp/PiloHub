@@ -326,11 +326,11 @@ function post(x,page) {
 }
 
 function MultiPost(page) {
-    navFlex = document.createElement("nav");
-    navFlex.className = "mangaFlex";
-	container = document.querySelector(".container");container.append(navFlex);
+    divFlex = document.createElement("div");
+    divFlex.className = "mangaFlex";
+	container = document.querySelector(".container");container.append(divFlex);
 	for (var x = page.length - 1; x >= 0; x--) {
-    let div = document.createElement("div");
+    let div = document.createElement("div2");
     div.className = "paper";
     div.style.id = page[x].name;
     let a = document.createElement("a");
@@ -344,7 +344,7 @@ function MultiPost(page) {
     h2.innerHTML = page[x].name;
     p = document.createElement("p");
     p.innerHTML = (x+1) + "/" + page.length;
-	navFlex.prepend(div);div.append(a);a.append(img);div.append(nav);nav.append(h2);nav.append(p);
+	divFlex.prepend(div);div.append(a);a.append(img);div.append(nav);nav.append(h2);nav.append(p);
     }
 
 }

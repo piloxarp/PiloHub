@@ -13,10 +13,9 @@
 <meta name="title" content="Gelatomusume pack">
 <meta name="description" content="Архив-сайт с переводами от piloxarp">
 <meta name=”Author” content="piloxarp">
-	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +29,17 @@
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
-	<header class="hBig"><nav><p id="count">0</p><h1>Gelatomusume pack</h1></nav><span style="gap:15px;display: flex;"><button class="MW0" onclick="MW0()">MW100</button><button id="sortbtn" onclick="SortUP()"><svg  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path id="sortIcon" fill="currentColor" d="M5.71 6.29a1 1 0 0 0-.33-.21a1 1 0 0 0-.76 0a1 1 0 0 0-.33.21l-2 2a1 1 0 0 0 1.42 1.42l.29-.3V17a1 1 0 0 0 2 0V9.41l.29.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42ZM11 8h10a1 1 0 0 0 0-2H11a1 1 0 0 0 0 2Zm10 8H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Zm0-5H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z"/></svg></button><a href="https://drive.google.com/drive/folders/1BetdZydh07gTP5QLzgGWHWk-Ghn5TLsH?usp=sharing"><span class="iconify" data-icon="mdi:folder-google-drive"></span></a><a href="../collection.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></span></header>
+	<header class="hBig"><nav><p id="count">0</p><h1>Gelatomusume pack</h1></nav>
+    <span style="gap:15px;display: flex;">
+    <div class="dropdown">
+  <button onclick="Dropdown(1)" class="dropbtn"><span class="iconify" data-icon="ic:baseline-settings"></span></button>
+  <div id="myDropdown" class="dropdown-content">
+    <button onclick="MixPost()"><span class="iconify" data-icon="ps:random"></span></button>
+    <button class="MW0" onclick="MW0()"><span class="iconify" data-icon="fluent:document-100-24-regular"></span></button>
+    <button id="sortbtn" onclick="SortUP()"><svg  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path id="sortIcon" fill="currentColor" d="M5.71 6.29a1 1 0 0 0-.33-.21a1 1 0 0 0-.76 0a1 1 0 0 0-.33.21l-2 2a1 1 0 0 0 1.42 1.42l.29-.3V17a1 1 0 0 0 2 0V9.41l.29.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42ZM11 8h10a1 1 0 0 0 0-2H11a1 1 0 0 0 0 2Zm10 8H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Zm0-5H11a1 1 0 0 0 0 2h10a1 1 0 0 0 0-2Z"/></svg></button>
+  </div>
+</div>
+        <a href="https://drive.google.com/drive/folders/1BetdZydh07gTP5QLzgGWHWk-Ghn5TLsH?usp=sharing"><span class="iconify" data-icon="mdi:folder-google-drive"></span></a><a href="../collection.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></span></header>
 <div class="container" style="gap:15px">
 		<div class="Choise">
 		<nav class="Cheader"><h1>What you want to see?</h1></nav>

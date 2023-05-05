@@ -19,6 +19,7 @@
     <link rel="manifest" href="icons/site.webmanifest">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
 	<title>COMICS</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +27,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 	<header>
 		<h1>COMICS</h1>
 		<nav class="btn_list">
 			<div class="settingsBlock">
-			<div class="settings_btn" id="btn-dropdown" onclick="LangDropDown()"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4"><path d="m34 41l10-17L34 7H14L4 24l10 17h20Z"/><path d="M24 29a5 5 0 1 0 0-10a5 5 0 0 0 0 10Z"/></g></svg>
+			<div class="settings_btn" id="btn-dropdown" onclick="LangDropDown()"><span class="iconify" data-icon="ic:baseline-settings">
 			</div>
 				<div id="lang-Dropdown" class="lang-content">
 					<button onclick="DefaultGrid()">Default</button>
