@@ -134,6 +134,9 @@ Other = [
 	{name:"Before my knight arrives",banner:"https://lh3.google.com/u/0/d/1d4BfvKsEtANfJfUsKqH1GupSzozMlffm=w1885-h940-iv1"},
 	{name:"Armin and Titan",banner:"https://lh3.google.com/u/0/d/1d79Wc98nVjaTQ4aNZrOtgOLSIS4DK3wG=w981-h933-iv1"},
 	{name:"Shall i make you my boyfriend",banner:"https://lh3.google.com/u/0/d/1eIU1UhW9y1VErSDd9TMnn0cRnjB3LOQc=w923-h917-iv1"},
+	{name:"Accepted their place",banner:"https://lh3.google.com/u/0/d/1fNnGjL8USRuxYp3S5WW-hZPTSZGgLEfT=w1092-h919-iv1"},
+	{name:"Saphir and geek",banner:"https://lh3.google.com/u/0/d/1fCEfQQrN_7VsMCDs2VmzR8aTOWrcbecs=w1092-h919-iv1"},
+	{name:"Mercy and photo",banner:"https://lh3.google.com/u/0/d/1fj-tb8XWKxxzi7hczaBd8AzzEUElonmp=w958-h903-iv1"},
 ];
 
 /*
@@ -305,6 +308,16 @@ Defeating_Traveler_and_Wendy = [
     {name:"Победа_над_Путешествиницей_и_Венди", banner:"https://lh3.google.com/u/0/d/1aQ1kxNDzM1NsRI0CUNjr2ESa1naSco3O=w1885-h940-iv1"},
 ];
 
+Makima_and_pet = [
+	{name:"Makima and pet", banner:"https://lh3.google.com/u/0/d/1fEsCkNMU8ZdrRmBS7pRNnCuqUiBFltLG=w1092-h919-iv1"},
+	{name:"Makima and pet", banner:"https://lh3.google.com/u/0/d/1fIAQcxs1jy9RJXd5d02a3qlpikNz4cjt=w1092-h919-iv1"},
+];
+
+Medical_checkup = [
+	{name:"Medical checkup", banner:"https://lh3.google.com/u/0/d/1fglKSINq-S4Ku7vDUoFsJZPMIq_q1y6G=w958-h903-iv1"},
+	{name:"Medical checkup", banner:"https://lh3.google.com/u/0/d/1fn7zwZQIdbiS02V9d9Jd0zA-z8QCqtUF=w958-h903-iv1"},
+];
+
 
 // Generation
 
@@ -374,6 +387,8 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Medical_checkup);
+		MultiPost(Makima_and_pet);
 		MultiPost(Defeating_Traveler_and_Wendy);
 		MultiPost(BLACKED_Person);
 		MultiPost(Its_just_his_dick_is_so_much_better);

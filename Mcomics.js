@@ -28,7 +28,7 @@ List = [
     {name:"Rimuru_and_Gobta", banner:"https://lh3.google.com/u/0/d/1AURKFoRYQSdHb6aQ-43FeJZiXXK_d1V9=w1885-h936-iv1",pages:4},
     {name:"First_trip", banner:"https://lh3.google.com/u/0/d/1AkplHpnK3v1D-jdIOnvB_c1cbSrUOthU=w1885-h936-iv1",pages:5},
     {name:"Fonny_bat", banner:"https://lh3.google.com/u/0/d/1BBW_ApifvMEF8N-MkFYnOmSTio78PTWZ=w1885-h936-iv1",pages:2},
-    {name:"Deku_kun_and_Ochaco_with_master", banner:"https://lh3.google.com/u/0/d/1B_Q4FkSwWcNWGIp53mrOprkKz2slALms=w1887-h938-iv1",pages:3,bbc:true},
+    {name:"Deku_kun_and_Ochaco_with_master", banner:"https://lh3.google.com/u/0/d/1B_Q4FkSwWcNWGIp53mrOprkKz2slALms=w1887-h938-iv1",pages:7,bbc:true},
     {name:"The_new_Black_Worldorder_Teachers", banner:"https://lh3.google.com/u/0/d/1KNU-sLGx_DjOJEHMj92griSN4kB7m19r=w1887-h938-iv1",pages:18,bbc:true},
     {name:"Cuckold_Relationship", banner:"https://lh3.google.com/u/0/d/1N5TdMNsOkDgXkxcSJGE1hoSJ2n4tV9dx=w1885-h936-iv1",pages:11,bbc:true},
     {name:"Stretch", banner:"https://lh3.google.com/u/0/d/1MHJwWtbwrAq8wmuOXqzKKoc1wl_0GYbZ=w1885-h936-iv1",pages:3,bbc:true},
@@ -72,6 +72,9 @@ List = [
     {name:"Will_you_really_cover_my_entire_bill",banner:"https://lh3.google.com/u/0/d/1ZZ6UTWWpVBcwDxFVT0JyE91mowdU8mT7=w923-h917-iv1",pages:2},
     {name:"Defeating_Traveler_and_Wendy",banner:"https://lh3.google.com/u/0/d/1_Wv8dofQH4m8bYSuqcTxWvUBweTmBuwi=w1885-h940-iv1",pages:12,bbc:true,machineTS:true},
     {name:"Submissive_Scaramouche",banner:"https://lh3.google.com/u/0/d/1cDT6O8IZqRgeUywJvoR1KgkXENfEYx_W=w923-h933-iv1",pages:9},
+    {name:"Yorha_9S",banner:"https://lh3.google.com/u/0/d/1fQQ4NILdKMNuzp32o4M_3wzkdRf6LnAN=w1278-h919-iv1",pages:2},
+    {name:"Makima_and_pet",banner:"https://lh3.google.com/u/0/d/1fEsCkNMU8ZdrRmBS7pRNnCuqUiBFltLG=w1092-h919-iv1",pages:2},
+    {name:"Medical_checkup",banner:"https://lh3.google.com/u/0/d/1fglKSINq-S4Ku7vDUoFsJZPMIq_q1y6G=w958-h903-iv1",pages:2,bbc:true},
     // {name:"Naming",banner:"img",pages:NNN,bbc:true},
 ];
 

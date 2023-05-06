@@ -64,6 +64,12 @@ Other = [
 	{name:"You need to be quiet Nari",banner:"https://lh3.google.com/u/0/d/1esVaevRx35RDBm0IUfgW9X_ex7B3sjEO=w1108-h933-iv1"},
 	{name:"Did you miss me that much?",banner:"https://lh3.google.com/u/0/d/1eU7AH8L7YKCREK4DwEnxQ58-B6IwjHmJ=w1108-h933-iv1"},
 	{name:"Traveler slut",banner:"https://lh3.google.com/u/0/d/1f4TAywbmR8B3n3MRDmGBAHm_EhnMaf5n=w1885-h940-iv1"},
+	{name:"Archon whore",banner:"https://lh3.google.com/u/0/d/1fYgyGZSYJbV4qxsMAX6yivESf1OxYyqy=w1092-h919-iv1"},
+	{name:"Special service",banner:"https://lh3.google.com/u/0/d/1fYtRR6lSNcNUWBulau8BhuHGxVIAtxJU=w1092-h919-iv1"},
+	{name:"Heal slut",banner:"https://lh3.google.com/u/0/d/1fPBQs2jFKfB048dUMfXnAy8ayaZOwGcP=w1092-h919-iv1"},
+	{name:"Yours is bigger",banner:"https://lh3.google.com/u/0/d/1fZzdO9aS-jbJzklPur1JeQS_P6bRDf1m=w958-h903-iv1"},
+	{name:"Masturbator",banner:"https://lh3.google.com/u/0/d/1fbbDKY4DZts7Ax8qABMg_UG-frzVapl3=w958-h903-iv1"},
+	{name:"Information fee",banner:"https://lh3.google.com/u/0/d/1fgPsHiqOQBGipcNPf-kEIJDV2SV-Th7V=w958-h903-iv1"},
 ];
 
 
