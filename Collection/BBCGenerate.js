@@ -272,7 +272,9 @@ Kirito_Sissy = [
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1SJP5P7HHR37wFm1bkq3DxTFvWuzNsM_z=w1885-h936-iv1"},
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1SHuMhXLLrnvimkGsb8U64dge6RIuny-1=w1885-h936-iv1"},
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Shcj-_AKu2HAibaG99rEf4VDXtCwZjX8=w1885-h936-iv1"},
-	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Sf4neDwIlhI6cV9uEmEgtlhGe2iAn0XT=w1885-h936-iv1"}
+	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Sf4neDwIlhI6cV9uEmEgtlhGe2iAn0XT=w1885-h936-iv1"},
+	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fpgLtZ4PRinMda_x80oFVdL-FnlqnvyT=w1920-h929-iv1"},
+	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fnHq31i4IoAK6Fa2Ac8YAHymLM6R-O1-=w958-h919-iv1"},
 ];
 
 Its_just_his_dick_is_so_much_better = [
@@ -316,6 +318,16 @@ Makima_and_pet = [
 Medical_checkup = [
 	{name:"Medical checkup", banner:"https://lh3.google.com/u/0/d/1fglKSINq-S4Ku7vDUoFsJZPMIq_q1y6G=w958-h903-iv1"},
 	{name:"Medical checkup", banner:"https://lh3.google.com/u/0/d/1fn7zwZQIdbiS02V9d9Jd0zA-z8QCqtUF=w958-h903-iv1"},
+];
+
+Xingqiu_and_likes = [
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1h1eM8_gbA80U1YhlY7sj18o6fCrRUZeT=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1ge0bqAWb5EseJIjGetI6OHZ6RlLTiVWM=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1gdKBawTzm2R6kaEKviws02IcVfsDLl2b=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1gGsJjR1JVGHTbu3MayOStRXgFGo5Vejm=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1gEJHJJqHgkHeWBEK-Xb7x21GckMI1V3y=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1g8hvSZoq6KSxnCUxvSCEPA-5QahYMDIj=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1g7e6Xy6sriEOWtsgB-d-wUfi_l5K5kxt=w958-h903-iv1"},
 ];
 
 
@@ -387,6 +399,7 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Xingqiu_and_likes);
 		MultiPost(Medical_checkup);
 		MultiPost(Makima_and_pet);
 		MultiPost(Defeating_Traveler_and_Wendy);

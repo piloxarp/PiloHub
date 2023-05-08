@@ -63,7 +63,7 @@ List = [
     {name:"Suzu_Nakano_Handjob", banner:"https://lh3.google.com/u/0/d/1OJoVo9VG9o5O9CaEKUBmbOYn_n3a5W1N=w1885-h936-iv1",pages:3},
     {name:"Elf", banner:"https://lh3.google.com/u/0/d/1QlYbgc_afx02c04uuDSfPMDerB8AP9WJ=w1885-h936-iv1",pages:2},
     {name:"A_manga_about_brainwashing_a_brother_and_sister", banner:"https://lh3.google.com/u/0/d/1RvFysodd6JEuP2xheEfk-EMtckVaNQH7=w1885-h936",pages:2},
-    {name:"Kirito_Sissy",banner:"https://lh3.google.com/u/0/d/1SEJhsGgD8zcsuqex8YD5lwmgdBQvFNFU=w1885-h936-iv1",pages:17,bbc:true},
+    {name:"Kirito_Sissy",banner:"https://lh3.google.com/u/0/d/1SEJhsGgD8zcsuqex8YD5lwmgdBQvFNFU=w1885-h936-iv1",pages:19,bbc:true},
     {name:"Its_just_his_dick_is_so_much_better",banner:"https://lh3.google.com/u/0/d/1TONdC4tSNsm8ySZbutqE6u3s_b5aDtzk=w1885-h936-iv1",pages:2,bbc:true},
     {name:"BLACKED_Person",banner:"https://lh3.google.com/u/0/d/1VHI683QMCun8AonTdWuMExtxZFZSkain=w1885-h936-iv1",pages:10,bbc:true},
     {name:"Gwen_Stacy",banner:"https://lh3.google.com/u/0/d/1VaFL4XPNv6qyFpHMxWhyB3NdHJh734fY=w1885-h936-iv1",pages:4},
@@ -75,6 +75,8 @@ List = [
     {name:"Yorha_9S",banner:"https://lh3.google.com/u/0/d/1fQQ4NILdKMNuzp32o4M_3wzkdRf6LnAN=w1278-h919-iv1",pages:2},
     {name:"Makima_and_pet",banner:"https://lh3.google.com/u/0/d/1fEsCkNMU8ZdrRmBS7pRNnCuqUiBFltLG=w1092-h919-iv1",pages:2},
     {name:"Medical_checkup",banner:"https://lh3.google.com/u/0/d/1fglKSINq-S4Ku7vDUoFsJZPMIq_q1y6G=w958-h903-iv1",pages:2,bbc:true},
+    {name:"Xingqiu_and_likes", banner:"https://lh3.google.com/u/0/d/1h1eM8_gbA80U1YhlY7sj18o6fCrRUZeT=w958-h903-iv1",pages:7,bbc:true},
+    {name:"Cuck_Lessons", banner:"https://lh3.google.com/u/0/d/1hb4PxF5uxbwnt2eQygUftiDRWTWgYn8M=w958-h903-iv1",pages:5},
     // {name:"Naming",banner:"img",pages:NNN,bbc:true},
 ];
 
@@ -146,59 +148,48 @@ function card(x,page) {
 }
 
 
-function pages(page) {
-    let BtnPage1 = document.querySelector("#btn-generate-1");
-    let BtnPage2 = document.querySelector("#btn-generate-2");
-    let BtnPage3 = document.querySelector("#btn-generate-3");
-    let BtnPage4 = document.querySelector("#btn-generate-4");
+const buttonsPages = document.querySelectorAll('.pageBtn');
+
+buttonsPages.forEach(button => {
+  button.addEventListener('click', function() {
+    
+    buttonsPages.forEach(btn => {
+      btn.className = "pageBtn t_primary";
+    });
+
+    this.className = "pageBtn activeBtn";
+  });
+});
+
+
+
+function Page(x) {
     document.querySelector('.container-cards').innerHTML = '';
-    if (page == page1) {
-    for (var i = page.length - 1; i >= 0; i--) {
-        card(i,page);
-    }
-    BtnPage1.className = "btn_link activeBtn";
-    BtnPage2.className = "pageBtn t_primary";
-    BtnPage3.className = "pageBtn t_primary";
-    BtnPage4.className = "pageBtn t_primary";
-    } else if (page == page2) {
-    
-    for (var i = page.length - 1; i >= 0; i--) {
-        card(i,page);
-    }
-    BtnPage2.className = "btn_link activeBtn";
-    BtnPage1.className = "pageBtn t_primary";
-    BtnPage3.className = "pageBtn t_primary";
-    BtnPage4.className = "pageBtn t_primary";
-    } else if (page == page3) {
-    
-    for (var i = page.length - 1; i >= 0; i--) {
-        card(i,page);
-    }
-    BtnPage3.className = "btn_link activeBtn";
-    BtnPage2.className = "pageBtn t_primary";
-    BtnPage1.className = "pageBtn t_primary";
-    BtnPage4.className = "pageBtn t_primary";
-    } else if (page == page4) {
-    
-    for (var i = page.length - 1; i >= 0; i--) {
-        card(i,page);
-    }
-    BtnPage4.className = "btn_link activeBtn";
-    BtnPage2.className = "pageBtn t_primary";
-    BtnPage1.className = "pageBtn t_primary";
-    BtnPage3.className = "pageBtn t_primary";      
-    }
+    if (x == page1) {
+    for (var i = x.length - 1; i >= 0; i--) {
+        card(i,x);
+    }} else if (x == page2) {
+    for (var i = x.length - 1; i >= 0; i--) {
+        card(i,x);
+    }} else if (x == page3) {
+    for (var i = x.length - 1; i >= 0; i--) {
+        card(i,x);
+    }} else if (x == page4) {
+    for (var i = x.length - 1; i >= 0; i--) {
+        card(i,x);
+    }}
       window.scrollTo({
         top: 0,
         left: 0,
         behavior: 'smooth'
       });
-   
 }
 
 
 
-document.addEventListener("DOMContentLoaded", function() {pages(page1)});
+
+
+document.addEventListener("DOMContentLoaded", function() {Page(page1)});
 
 
 

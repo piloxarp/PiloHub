@@ -144,7 +144,9 @@ Kirito_Sissy = [
     {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1SJP5P7HHR37wFm1bkq3DxTFvWuzNsM_z=w1885-h936-iv1"},
     {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1SHuMhXLLrnvimkGsb8U64dge6RIuny-1=w1885-h936-iv1"},
     {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Shcj-_AKu2HAibaG99rEf4VDXtCwZjX8=w1885-h936-iv1"},
-    {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Sf4neDwIlhI6cV9uEmEgtlhGe2iAn0XT=w1885-h936-iv1"}
+    {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Sf4neDwIlhI6cV9uEmEgtlhGe2iAn0XT=w1885-h936-iv1"},
+    {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fpgLtZ4PRinMda_x80oFVdL-FnlqnvyT=w1920-h929-iv1"},
+    {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fnHq31i4IoAK6Fa2Ac8YAHymLM6R-O1-=w958-h919-iv1"},
 ];
 
 Its_just_his_dick_is_so_much_better = [
@@ -506,6 +508,23 @@ Medical_checkup = [
     {name:"Medical checkup", banner:"https://lh3.google.com/u/0/d/1fn7zwZQIdbiS02V9d9Jd0zA-z8QCqtUF=w958-h903-iv1"},
 ];
 
+Xingqiu_and_likes = [
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1h1eM8_gbA80U1YhlY7sj18o6fCrRUZeT=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1ge0bqAWb5EseJIjGetI6OHZ6RlLTiVWM=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1gdKBawTzm2R6kaEKviws02IcVfsDLl2b=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1gGsJjR1JVGHTbu3MayOStRXgFGo5Vejm=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1gEJHJJqHgkHeWBEK-Xb7x21GckMI1V3y=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1g8hvSZoq6KSxnCUxvSCEPA-5QahYMDIj=w958-h903-iv1"},
+    {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1g7e6Xy6sriEOWtsgB-d-wUfi_l5K5kxt=w958-h903-iv1"},
+];
+
+Cuck_Lessons = [
+    {name:"Cuck Lessons", banner:"https://lh3.google.com/u/0/d/1hb4PxF5uxbwnt2eQygUftiDRWTWgYn8M=w958-h903-iv1"},
+    {name:"Cuck Lessons", banner:"https://lh3.google.com/u/0/d/1hJTRvJL_iIbEhb0lJMsE8pfcjdxy5s3j=w958-h903-iv1"},
+    {name:"Cuck Lessons", banner:"https://lh3.google.com/u/0/d/1h7lGjjZBvEOQ4yOuSZxcAyh3H-MpNoh5=w958-h903-iv1"},
+    {name:"Cuck Lessons", banner:"https://lh3.google.com/u/0/d/1h4U7R2SaYqZr9WE1fIDMmPyqEQ4yJaDE=w958-h903-iv1"},
+    {name:"Cuck Lessons", banner:"https://lh3.google.com/u/0/d/1h4FaDKMyWY2VTC86ItyN_17RbIheW0-L=w958-h903-iv1"},
+];
 
 
 function MultiPost(page) {
