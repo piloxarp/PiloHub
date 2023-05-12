@@ -526,6 +526,16 @@ Cuck_Lessons = [
     {name:"Cuck Lessons", banner:"https://lh3.google.com/u/0/d/1h4FaDKMyWY2VTC86ItyN_17RbIheW0-L=w958-h903-iv1"},
 ];
 
+TracerxSombra = [
+    {name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1hz-5va5y1mSwsE62F6duKrlTxmxAR1vk=w1034-h903-iv1"},
+    {name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1hvRXwfmsdGjbhWH2R3484CBYlgsUKef2=w1034-h903-iv1"},
+    {name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iDtTS1NjnPfW31kguu3-ZkGJkGuziUHz=w1034-h903-iv1"},
+    {name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1i4h1w20K8mH-7Izpj580synHEsAqjHhO=w1034-h903-iv1"},
+    {name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iFH86CIAQyJrmahditOBrvV0k50bpFYH=w1034-h903-iv2"},
+    {name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iGn-zBbkhDr07a3-Naea4Kz8G9ITMx1X=w1034-h903-iv1"},
+];
+
+
 
 function MultiPost(page) {
     navFlex = document.createElement("nav");

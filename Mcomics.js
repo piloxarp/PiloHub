@@ -77,6 +77,7 @@ List = [
     {name:"Medical_checkup",banner:"https://lh3.google.com/u/0/d/1fglKSINq-S4Ku7vDUoFsJZPMIq_q1y6G=w958-h903-iv1",pages:2,bbc:true},
     {name:"Xingqiu_and_likes", banner:"https://lh3.google.com/u/0/d/1h1eM8_gbA80U1YhlY7sj18o6fCrRUZeT=w958-h903-iv1",pages:7,bbc:true},
     {name:"Cuck_Lessons", banner:"https://lh3.google.com/u/0/d/1hb4PxF5uxbwnt2eQygUftiDRWTWgYn8M=w958-h903-iv1",pages:5},
+    {name:"TracerxSombra",banner:"",pages:6,bbc:true}
     // {name:"Naming",banner:"img",pages:NNN,bbc:true},
 ];
 
@@ -177,7 +178,7 @@ function Page(x) {
     }} else if (x == page4) {
     for (var i = x.length - 1; i >= 0; i--) {
         card(i,x);
-    }}
+    }}   
       window.scrollTo({
         top: 0,
         left: 0,
@@ -185,7 +186,23 @@ function Page(x) {
       });
 }
 
+function NoImage() {
+   // let y = sessionStorage.NoImage
+    let img = document.querySelectorAll("img");
+    for (var i = img.length - 1; i >= 0; i--) {
+        img[i].remove()
+    }
+/*   if (y == 0) {
+            sessionStorage.setItem('NoImage', 1);
+        } else if (y == 1) {
+            sessionStorage.setItem('NoImage', 0);
+            location.reload();
+        } */
+    }
 
+/*if (performance.navigation.type === 1) {
+  sessionStorage.setItem('NoImage', 0);
+} */
 
 
 

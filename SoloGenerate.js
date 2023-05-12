@@ -70,6 +70,8 @@ Other = [
 	{name:"Yours is bigger",banner:"https://lh3.google.com/u/0/d/1fZzdO9aS-jbJzklPur1JeQS_P6bRDf1m=w958-h903-iv1"},
 	{name:"Masturbator",banner:"https://lh3.google.com/u/0/d/1fbbDKY4DZts7Ax8qABMg_UG-frzVapl3=w958-h903-iv1"},
 	{name:"Information fee",banner:"https://lh3.google.com/u/0/d/1fgPsHiqOQBGipcNPf-kEIJDV2SV-Th7V=w958-h903-iv1"},
+	{name:"Mommy Dehya",banner:"https://lh3.google.com/u/0/d/1hjdSrh2MSM9-F1TmopK7Q8VY1psgOpDs=w957-h904-iv1"},
+	{name:"My general",banner:"https://lh3.google.com/u/0/d/1hkkfUd8E5jtqPYPPZHEJfaEpiLUAoNKg=w957-h904-iv1"},
 ];
 
 

@@ -137,6 +137,7 @@ Other = [
 	{name:"Accepted their place",banner:"https://lh3.google.com/u/0/d/1fNnGjL8USRuxYp3S5WW-hZPTSZGgLEfT=w1092-h919-iv1"},
 	{name:"Saphir and geek",banner:"https://lh3.google.com/u/0/d/1fCEfQQrN_7VsMCDs2VmzR8aTOWrcbecs=w1092-h919-iv1"},
 	{name:"Mercy and photo",banner:"https://lh3.google.com/u/0/d/1fj-tb8XWKxxzi7hczaBd8AzzEUElonmp=w958-h903-iv1"},
+	{name:"Look at this sissy slut",banner:"https://lh3.google.com/u/0/d/1hmdwaKz9XI9LeoXEm6yOSnZ-l07lAUkf=w957-h904-iv1"},
 ];
 
 /*
@@ -330,6 +331,14 @@ Xingqiu_and_likes = [
     {name:"Xingqiu and likes", banner:"https://lh3.google.com/u/0/d/1g7e6Xy6sriEOWtsgB-d-wUfi_l5K5kxt=w958-h903-iv1"},
 ];
 
+TracerxSombra = [
+	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1hz-5va5y1mSwsE62F6duKrlTxmxAR1vk=w1034-h903-iv1"},
+	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1hvRXwfmsdGjbhWH2R3484CBYlgsUKef2=w1034-h903-iv1"},
+	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iDtTS1NjnPfW31kguu3-ZkGJkGuziUHz=w1034-h903-iv1"},
+	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1i4h1w20K8mH-7Izpj580synHEsAqjHhO=w1034-h903-iv1"},
+	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iFH86CIAQyJrmahditOBrvV0k50bpFYH=w1034-h903-iv2"},
+	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iGn-zBbkhDr07a3-Naea4Kz8G9ITMx1X=w1034-h903-iv1"},
+];
 
 // Generation
 
@@ -399,6 +408,7 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(TracerxSombra);
 		MultiPost(Xingqiu_and_likes);
 		MultiPost(Medical_checkup);
 		MultiPost(Makima_and_pet);
