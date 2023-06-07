@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PFLQ2XJR6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PFLQ2XJR6');
+</script>
+<meta name="title" content="changelog">
+<meta name="description" content="Архив-сайт с переводами от piloxarp">
+<meta name=”Author” content="piloxarp">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/svg+xml" href="icons/git.svg">
+	<link rel="icon" type="image/png" href="icons/git.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Changelog</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<style>
+
+	.content-md {
+		display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+	}
+	.content-md ol, .content-md ul {
+		list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    width: fit-content;
+    border-radius: 10px;
+    background: var(--primary-hidden);		
+    transition: 0.3s;
+	}
+	.content-md a {
+		color: var(--secondry);
+	}
+
+	.content-md strong {
+		color: var(--primary);
+		font-size: 18px;
+	}
+	.content-md h1 {font-size: 1.7em;}
+	.content-md h2 {font-size: 1.3em;color: var(--text-secondry);margin-left: 5px;}
+	.content-md h3 {font-size: 1.1em;}
+	.content-md ol:hover {
+		transform: scale(1.1);
+	}
+
+
+</style>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+	<header><nav><p id="count">0</p><h1>Changelog</h1></nav>
+		<span style="gap:15px;display: flex;">
+  <a href="index.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></span></header>
+<div class="versions dragscroll "></div>
+<div class="container-changelog">
+	<div class="changelog-info ">
+	<h1>Технические изменения:</h1>
+	<div class="content-md"></div>
+</div>
+<div class="changelog-cards">
+	<div class="card-Mcomics ">
+		<h1>Mini-Comics:</h1>
+		<h2>New:</h2>
+		<nav class="nav-list"></nav>
+	</div>
+	<div class="card-Collection ">
+		<h1>Collection:</h1>
+		<div class="collection-grid">
+			<div class="collection-card BBCPack ">
+					<h1>BBC Pack:</h1>
+					<h2>Solo:</h2>					
+					<h2>Comics:</h2>
+					<nav class="nav-list"></nav>
+			</div>		
+
+			<div class="collection-card GelatomusumePack ">
+					<h1>Gelatomusume Pack:</h1>
+					<h2>Solo:</h2>					
+					<h2>Comics:</h2>
+					<nav class="nav-list"></nav>
+			</div>
+
+			<div class="collection-card YenneferBLACKED ">
+					<h1>Yennefer BLACKED:</h1>
+					<h2>Solo:</h2>					
+			</div>							
+		</div>
+	</div>
+	<div class="card-triple">
+				<div class="card-small Other ">
+		<h1>Other:</h1>
+		<h2>New:</h2>
+		</div>
+				<div class="card-small Videos ">
+		<h1>Videos:</h1>
+		<h2>New:</h2>
+		</div>
+				<div class="card-small Comics ">
+		<h1>Comics:</h1>
+		<h2>New:</h2>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="libs/dragscroll.js"></script>
+<script type="text/javascript" src="changelog.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- markdown lib -->
+<script>
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".versions > button")[0].click();
+    document.querySelectorAll(".versions > button")[0].className = "activeBtn";
+  }); 
+  marked.use({
+	headerIds: false,
+	mangle: false
+});
+</script>
+</body>
+</html>

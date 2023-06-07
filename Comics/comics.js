@@ -147,6 +147,7 @@ Kirito_Sissy = [
     {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Sf4neDwIlhI6cV9uEmEgtlhGe2iAn0XT=w1885-h936-iv1"},
     {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fpgLtZ4PRinMda_x80oFVdL-FnlqnvyT=w1920-h929-iv1"},
     {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fnHq31i4IoAK6Fa2Ac8YAHymLM6R-O1-=w958-h919-iv1"},
+    {name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1iH4Vd2SYpKfoe5qJ2X6_53QP9Iyaea2K=w1920-h917-iv2"},
 ];
 
 Its_just_his_dick_is_so_much_better = [
@@ -535,6 +536,39 @@ TracerxSombra = [
     {name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iGn-zBbkhDr07a3-Naea4Kz8G9ITMx1X=w1034-h903-iv1"},
 ];
 
+The_BBC_addicted_wife_KISARAGI_AYAKO = [
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17T_Ax6ZrI0VuF4GkMCGHXlZA4Pt-vE9S=w1823-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17VTA4620fge_HsQyfKr7U3U66r1uZDzo=w1215-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17X2tRCqG3cVbF66Zp1xXNFk2njP0r6y9=w1238-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17oBR384UpHqewgS345G-HYuZLqs6WHY6=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17ivo6HL6MADAnsSfX2l-PVxt_ubR301Y=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17zWmMOJTdseWIoOCanPUF65Q0Pu2yGNa=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/186ugMkbS5cQYxEK3D1C4A_jm15thcmqM=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/1855DdDcqNwzd6KTPF2Bf2QsRUdYHYFtB=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18ERBKdZ1PrBfvrBD6VO9t6pELSMeJDE9=w1238-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18FlAJ1A50ZgprTNxvtllJDYnivCBPC7c=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18FMY6_AAETjHiIfYv8G3GKlDNLrk7_35=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18HSyhW1iaZiQYaEnZWgIxmbdVM1o2lOI=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18Plm9r-tt8amUC9mCYJgCY4RwQSwXGnA=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18Qcah0JKw6D6m2_M_RD7oxAWU-otWjTc=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18R4VHGfI7Js6ATF_qQxmjlJ9U7xOfHMH=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18VZMssBM1BRjeErrzLMYISb0w4HbNvX8=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18UY6J8GvvyErhGQNWYwOLR7cSMtqEAKW=w1239-h966-iv1"},
+];
+
+Good_friends_of_Uraki = [
+    {name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jfp8FUdUkRZruOI7Ihokd_4UvXscdXM8=w1920-h917-iv1"},
+    {name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jeYpwMmOgkyFyOL9fLofJ1Mof9ololKm=w1920-h917-iv1"},
+    {name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jdjlApLKKbxcaT9gn9eUTth5RGUPPSn6=w1920-h917-iv1"},
+    {name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jdQe5gS2kz4cPANR9C7VAkF0oqpolkva=w1920-h917-iv1"},
+];
+
+Suzu_Nakano_Doggy = [
+    {name:"Suzu Nakano Doggy", banner:"https://lh3.google.com/u/0/d/1jOGNv6b7rnVyut_0_f334YSDr5NUPxwA=w1150-h906-iv1"},
+    {name:"Suzu Nakano Doggy", banner:"https://lh3.google.com/u/0/d/1jV1qoxCJkBCLbL0PbkyHck1jQCPdsALZ=w1150-h906-iv1"},
+    {name:"Suzu Nakano Doggy", banner:"https://lh3.google.com/u/0/d/1jSWTGkDbe7uA3m10eajMr2TkUrjc8MnM=w1150-h906-iv1"},
+];
+
 
 
 function MultiPost(page) {
@@ -553,7 +587,7 @@ function MultiPost(page) {
     nav = document.createElement("nav");
     nav.className = "description";
     h2 = document.createElement("h2");
-    h2.innerHTML = page[x].name;
+    h2.innerHTML = page[x].name.replace(/_/g, " ");
     p = document.createElement("p");
     p.innerHTML = (x+1) + "/" + page.length;
 	navFlex.prepend(div);div.append(a);a.append(img);div.append(nav);nav.append(h2);nav.append(p);
@@ -561,11 +595,21 @@ function MultiPost(page) {
 
 }
 
+const urlParams = new URLSearchParams(window.location.search);
+const name = urlParams.get('name');
+const theme = urlParams.get('theme');
 
-var result=location.search.substring(1);
-document.querySelector("h1").innerHTML = result;
-document.querySelector("title").innerHTML = result;
-MultiPost(window[result])
+document.querySelector("h1").innerHTML = name.replace(/_/g, " ");
+document.querySelector("title").innerHTML = name.replace(/_/g, " ");
+MultiPost(window[name]);
+
+if (theme == "bbc") {
+    let link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "../Collection/bbcEdition.css";
+    document.querySelector("head").prepend(link);
+    document.querySelector("body").style = "background: url(../Collection/bbcBG.png) #151515 repeat;";
+}
 
 
 /*

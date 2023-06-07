@@ -1,6 +1,3 @@
-
-
-
 ListV = [
   [{name:"Makima_BLACKED",banner:"https://lh3.google.com/u/1/d/12t_KkVaYdlHP8CNu7JWE6MFjcpETS3DI=w200-h190-p-k-nu-iv2",link:"https://drive.google.com/file/d/12t_KkVaYdlHP8CNu7JWE6MFjcpETS3DI/preview",duration:"1:10",author:"@LeHornySFX"}],
   [{name:"BadBadBilly",banner:"https://lh3.google.com/u/1/d/12q7RMM-pIfPzY5qnA_AUR4qsN1JCvPcM=w200-h190-p-k-nu-iv2",link:"https://drive.google.com/file/d/12q7RMM-pIfPzY5qnA_AUR4qsN1JCvPcM/preview",duration:"1:36",author:"@BadBadBilly1"}],
@@ -51,7 +48,11 @@ ListV = [
   [{name:"Special_For_Whiteboys",banner:"https://lh3.google.com/u/1/d/13Qkh2wGpi_Qj0jYebcDnfjam9X-kumpF=w200-h190-p-k-nu-iv1",link:"https://drive.google.com/file/d/13Qkh2wGpi_Qj0jYebcDnfjam9X-kumpF/preview",duration:"2:52",author:"@BlackedTwoB"}],
   [{name:"Bbc_Wap_Compilation",banner:"https://lh3.google.com/u/1/d/13haLGy_sIi25UDLXQ3iQpr7v1uaYzxvI=w1920-h929-iv1",link:"https://drive.google.com/file/d/13lClvQhgfaaukzWG3guYgu8FKTKMloBX/preview",duration:"2:35",author:"G_B & Firebrand"}],
   [{name:"The_2B_Cuck_9",banner:"https://lh3.google.com/u/1/d/13VXyYELgXqWAScGfTcoMMsruM8EgPbsM=w1453-h929-iv1",link:"https://drive.google.com/file/d/13_htxF5wX1ksdlby9hE1lfLoImQYBbom/preview",duration:"4:46",author:"DPMAKER"}],	
-    // [{name:"Naming",link:"linking"}], // /preview
+  [{name:"Watch_and_cry_cuckie",banner:"https://lh3.google.com/u/1/d/13mGNiKi3HgzwnyPxYiNfsLG2mREG9T3L=w150-h143-p-k-nu-iv1",link:"https://drive.google.com/file/d/13mGNiKi3HgzwnyPxYiNfsLG2mREG9T3L/preview",duration:"2:03",author:"Sweetcf2B"}],
+  [{name:"Hypno_for_losers",banner:"https://lh3.google.com/u/1/d/13oJbmA3e1TKsiWD2e4nRj_X2fqFJ5trF=w150-h143-p-k-nu-iv1",link:"https://drive.google.com/file/d/13oJbmA3e1TKsiWD2e4nRj_X2fqFJ5trF/preview",duration:"1:45",author:"M0xime1"}],
+  [{name:"RubberyWordyAllosaurus",banner:"https://lh3.google.com/u/1/d/13p9sI9Xaf6mGvWer2g-g8xDypE_1qMCS=w150-h143-p-k-nu-iv1",link:"https://drive.google.com/file/d/13p9sI9Xaf6mGvWer2g-g8xDypE_1qMCS/preview",duration:"0:34"}],
+  [{name:"OnlyLink_HMV",banner:"https://lh3.google.com/u/1/d/142aWKAEpNnBsBZ8zNcaTaHSQQ_JPjU9C=w1150-h906-iv1",link:"https://drive.google.com/file/d/14Ainsujv_iEG7_uo7vqetLZNqL7Rbuna/preview",duration:"3:16",author:"RElocationFX"}],
+    // [{name:"Naming",banner:"",link:"linking",duration:"0:00",author:"NAME"}], // /preview
 ];
 
 
@@ -83,7 +84,7 @@ function Infograph(x) {
     let p = document.createElement("p");
     p.innerHTML = ListV[result][0].duration;
     let h2 = document.createElement("h2");
-    h2.innerHTML = ListV[result][0].name;
+    h2.innerHTML = ListV[result][0].name.replace(/_/g, " ");
     container_inf.prepend(h2);
     container_inf.append(p);
     container_inf.append(nav);
@@ -111,7 +112,7 @@ function Other(y,x) {
     let div2 = document.createElement("div");
     div2.className = "vc-des";
     let h2 = document.createElement("h2");
-    h2.innerHTML = ListV[y][0].name;
+    h2.innerHTML = ListV[y][0].name.replace(/_/g, " ");
     div.prepend(p);
     div.append(img);
     div2.append(h2);
@@ -126,8 +127,8 @@ function Other(y,x) {
 }
 
 var result=location.search.substring(1);
-document.querySelector("h1").innerHTML = result;
-document.querySelector("title").innerHTML = result;
+document.querySelector("h1").innerHTML = result.replace(/_/g, " ");;
+document.querySelector("title").innerHTML = result.replace(/_/g, " ");;
 
 Video(result);
 Infograph(result);

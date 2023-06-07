@@ -194,14 +194,38 @@ header svg:hover {
     max-width: 800px;
 }
 
-footer h2 {
+footer a {
     color: var(--secondry);
     padding: 10px;
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     transition: 0.3s;
-    letter-spacing: 0.06em;    
+    letter-spacing: 0.06em;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+footer a svg {
+    font-size: 32px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    border-color: var(--secondry);
+}
+
+footer a:hover svg {
+    transform: rotate(360deg);
+}
+
+
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 .paper a {
@@ -704,9 +728,9 @@ div.paper:hover > nav.description {
 }
 
 .activeBtn {
-    background: var(--primary);
-    border-color: var(--primary); 
-    color: var(--bg);   
+    background: var(--primary) !important;
+    border-color: var(--primary) !important; 
+    color: var(--bg) !important;   
 }
 
 .bottom-container {
@@ -897,7 +921,8 @@ div.paper:hover > nav.description {
     font-weight: 400;
     font-size: 16px;
     color: var(--white);
-    word-break: break-all;
+    word-break: break-word;
+    text-align: center;
 }
 
 iframe {
@@ -1002,8 +1027,173 @@ content {
     margin-top: 15px;
 }
 
+.versions {
+    display: flex;
+    gap:10px;
+    overflow-x: auto;
+}
+
+.versions::-webkit-scrollbar {
+    height: 0px;
+}
+
+.versions button {
+    padding: 12px;
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.versions button:hover {
+    background: var(--primary-hidden);
+    border-color: var(--primary);
+}
+
+.container-changelog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: var(--white);
+} 
+
+.changelog-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 15px;
+}
+
+.card-Collection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid #2d2d2d;
+    border-radius: 15px;
+    transition: 0.3s;
+    padding: 15px;
+}
+
+.collection-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.collection-card {
+    border: 2px solid #2d2d2d;
+    border-radius: 15px;
+    transition: 0.3s;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap:10px; 
+}
+
+.collection-card .nav-list,.card-Mcomics .nav-list {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.collection-card .nav-list h3,.card-Mcomics .nav-list h3 {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    max-width: 300px;
+    font-size: 16px;
+}
+
+
+.card-triple {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.changelog-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 40%;
+    border: 2px solid #2d2d2d;
+    border-radius: 15px;
+    transition: 0.3s;
+    padding: 15px 15px 20px 15px;    
+}
+
+.card-Mcomics {
+    border: 2px solid #2d2d2d;
+    border-radius: 15px;
+    transition: 0.3s;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    background: url('covers changelog/Venti1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 10px;
+}
+
+.card-small {
+    padding: 13px;
+    border: 2px solid #2d2d2d;
+    border-radius: 15px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+}
+
+.BBCPack {
+    background: url('Collection/bbcBG.png') no-repeat;
+    background-size: cover;
+}
+
+.GelatomusumePack {
+    background: url('covers changelog/Makima BBC.png') no-repeat;
+    background-size: cover;
+    background-position: 0 -201px;
+}
+
+.YenneferBLACKED {
+    background: url('covers changelog/yen.png') no-repeat;
+    background-size: cover;
+    background-position: 0 -78px;
+}
 
 @media screen and (max-width: 768px) {
+    .changelog-info {
+        max-width: 100%;
+    }
+    .card-small {
+        width: auto;
+        justify-content: space-between;
+}
+    
+    .card-triple {
+        flex-direction: column;
+    }
     .container-inf h2,.container-inf p {
         font-size: 16px;
     }

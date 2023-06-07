@@ -61,7 +61,8 @@ Other = [
 	{name:"Millie Being A Goth Baddie",banner:"https://lh3.google.com/u/0/d/1Vv8eNvXagVTj7PJrzpozIkTLleUjWNWc=w1885-h936-iv1"},
 	{name:"Millie",banner:"https://lh3.google.com/u/0/d/1Vw15WJztjF0oVx6sAsS8kxClG1DiruK_=w1885-h936-iv1"},
 	{name:"Quinn's Prize",banner:"https://lh3.google.com/u/0/d/1Vwg91tj6R3OgJ7lw9NQT_e8j1D1OwAoK=w1885-h936-iv1"},
-	{name:"Valeria Rimjob",banner:"https://lh3.google.com/u/0/d/1VzgVkx9d8REXCyEEZN-lhxxzZZ1vi214=w1885-h936-iv1"}
+	{name:"Valeria Rimjob",banner:"https://lh3.google.com/u/0/d/1VzgVkx9d8REXCyEEZN-lhxxzZZ1vi214=w1885-h936-iv1"},
+	{name:"Zelda X Ganon NTR",banner:"https://lh3.google.com/u/0/d/1jWlTwNKG7iHERhapa-04AM1KBvrvXcgV=w1150-h906-iv1"},
 ];
 
 /*
@@ -229,6 +230,12 @@ Valeria_Disciplining_Millie = [
 	{name:"Valeria Disciplining Millie", banner:"https://lh3.google.com/u/0/d/1W-aAghiJ-y1d2-k0-couethraKbjEDep=w1885-h936-iv1"}
 ];
 
+Suzu_Nakano_Doggy = [
+	{name:"Suzu Nakano Doggy", banner:"https://lh3.google.com/u/0/d/1jOGNv6b7rnVyut_0_f334YSDr5NUPxwA=w1150-h906-iv1"},
+	{name:"Suzu Nakano Doggy", banner:"https://lh3.google.com/u/0/d/1jV1qoxCJkBCLbL0PbkyHck1jQCPdsALZ=w1150-h906-iv1"},
+	{name:"Suzu Nakano Doggy", banner:"https://lh3.google.com/u/0/d/1jSWTGkDbe7uA3m10eajMr2TkUrjc8MnM=w1150-h906-iv1"},
+];
+
 
 // Generation
 
@@ -298,6 +305,7 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Suzu_Nakano_Doggy);
 		MultiPost(Valeria_Disciplining_Millie);
 		MultiPost(Mariya_Shidou);
 		MultiPost(Gwen_Stacy);

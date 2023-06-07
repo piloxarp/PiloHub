@@ -49,7 +49,12 @@ List = [
     {name:"Black_Colleagues",banner:"https://lh3.google.com/u/1/d/13QibTJ9sdBZ-cn0pvOBJsM4hGZysxc_G=w200-h190-p-k-nu-iv1",duration:"4:43",author:"AANIX"},
     {name:"Special_For_Whiteboys",banner:"https://lh3.google.com/u/1/d/13Qkh2wGpi_Qj0jYebcDnfjam9X-kumpF=w200-h190-p-k-nu-iv1",duration:"2:52",author:"@BlackedTwoB"},
     {name:"Bbc_Wap_Compilation",banner:"https://lh3.google.com/u/1/d/13haLGy_sIi25UDLXQ3iQpr7v1uaYzxvI=w1920-h929-iv1",duration:"2:35",author:"G_B & Firebrand"},
-    {name:"The_2B_Cuck_9",banner:"https://lh3.google.com/u/1/d/13VXyYELgXqWAScGfTcoMMsruM8EgPbsM=w1453-h929-iv1",duration:"4:46",author:"DPMAKER"},    
+    {name:"The_2B_Cuck_9",banner:"https://lh3.google.com/u/1/d/13VXyYELgXqWAScGfTcoMMsruM8EgPbsM=w1453-h929-iv1",duration:"4:46",author:"DPMAKER"},
+    {name:"Watch_and_cry_cuckie",banner:"https://lh3.google.com/u/1/d/13mGNiKi3HgzwnyPxYiNfsLG2mREG9T3L=w150-h143-p-k-nu-iv1",duration:"2:03",author:"Sweetcf2B"},
+    {name:"Hypno_for_losers",banner:"https://lh3.google.com/u/1/d/13oJbmA3e1TKsiWD2e4nRj_X2fqFJ5trF=w150-h143-p-k-nu-iv1",duration:"1:45",author:"M0xime1"},
+    {name:"RubberyWordyAllosaurus",banner:"https://lh3.google.com/u/1/d/13p9sI9Xaf6mGvWer2g-g8xDypE_1qMCS=w150-h143-p-k-nu-iv1",duration:"0:34"},
+    {name:"OnlyLink_HMV",banner:"https://lh3.google.com/u/1/d/142aWKAEpNnBsBZ8zNcaTaHSQQ_JPjU9C=w1150-h906-iv1",duration:"3:16",author:"RElocationFX"},    
+
     // {name:"Naming",banner:"img",duration:"NNN"},
 ];
 
@@ -90,7 +95,7 @@ function card(x,page) {
     let div2 = document.createElement("div");
     div2.className = "vc-des";
     let h2 = document.createElement("h2");
-    h2.innerHTML = page[x].name;
+    h2.innerHTML = page[x].name.replace(/_/g, " ");
     if (typeof page[x].author !== "undefined") {
     let nav = document.createElement("nav");
     nav.className = "vc-tags";

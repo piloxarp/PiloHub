@@ -70,7 +70,11 @@ Other = [
 	{name:"",banner:"https://wimg.rule34.xxx//images/6141/6c53090d8c15c7a74b3d54a9c8c56071.jpeg"},
 	{name:"",banner:"https://wimg.rule34.xxx//images/6753/2ade59daab44059b177ab9c66950d18b.png"},
 	{name:"",banner:"https://wimg.rule34.xxx//images/6699/d2689e82291c5246807ded11e211a5ef.png"},
-	{name:"",banner:"https://wimg.rule34.xxx//images/6062/6d146bad5b025c896bbefbfb2bb304cb.png"}
+	{name:"",banner:"https://wimg.rule34.xxx//images/6062/6d146bad5b025c896bbefbfb2bb304cb.png"},
+	{name:"",banner:"https://wimg.rule34.xxx//images/6959/139ecb2cf24dd99c6f23bbcb1d0eb1ac.jpeg"},
+	{name:"",banner:"https://wimg.rule34.xxx//images/6979/4b54eb9e629f2f21c01c0e7e3c76392b.jpeg"},
+	{name:"",banner:"https://wimg.rule34.xxx//images/6979/25596e7c679d80f043f2dd671c315429.jpeg"},
+	{name:"",banner:"https://wimg.rule34.xxx//images/6989/14c5e6dfc5d1dc015865541eee5b0c0c.jpeg"},
 	// {name:"NNN",banner:"ban"},
 ];
 

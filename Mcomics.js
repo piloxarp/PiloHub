@@ -28,17 +28,17 @@ List = [
     {name:"Rimuru_and_Gobta", banner:"https://lh3.google.com/u/0/d/1AURKFoRYQSdHb6aQ-43FeJZiXXK_d1V9=w1885-h936-iv1",pages:4},
     {name:"First_trip", banner:"https://lh3.google.com/u/0/d/1AkplHpnK3v1D-jdIOnvB_c1cbSrUOthU=w1885-h936-iv1",pages:5},
     {name:"Fonny_bat", banner:"https://lh3.google.com/u/0/d/1BBW_ApifvMEF8N-MkFYnOmSTio78PTWZ=w1885-h936-iv1",pages:2},
-    {name:"Deku_kun_and_Ochaco_with_master", banner:"https://lh3.google.com/u/0/d/1B_Q4FkSwWcNWGIp53mrOprkKz2slALms=w1887-h938-iv1",pages:7,bbc:true},
-    {name:"The_new_Black_Worldorder_Teachers", banner:"https://lh3.google.com/u/0/d/1KNU-sLGx_DjOJEHMj92griSN4kB7m19r=w1887-h938-iv1",pages:18,bbc:true},
-    {name:"Cuckold_Relationship", banner:"https://lh3.google.com/u/0/d/1N5TdMNsOkDgXkxcSJGE1hoSJ2n4tV9dx=w1885-h936-iv1",pages:11,bbc:true},
-    {name:"Stretch", banner:"https://lh3.google.com/u/0/d/1MHJwWtbwrAq8wmuOXqzKKoc1wl_0GYbZ=w1885-h936-iv1",pages:3,bbc:true},
-    {name:"Waifu_Interview", banner:"https://lh3.google.com/u/0/d/1I8wxUkeLvNQerGyRgQccmN1pwTbSeWqG=w1887-h938-iv1",pages:4,bbc:true},
-    {name:"A_new_side_of_Uraraka", banner:"https://lh3.google.com/u/0/d/1HuOl6msyb-EGSkCzQ2my8xOXThCYuplN=w1887-h938-iv1",pages:3,bbc:true},
-    {name:"Inko_and_BBC", banner:"https://lh3.google.com/u/0/d/1ITVewpsVviXzCToPJYk-eycmvdRf14t7=w1887-h938-iv1",pages:2,bbc:true},
-    {name:"Waitress_for_bbc", banner:"https://lh3.google.com/u/0/d/1JThrXi5a8X4yIPgxFMuaDIWtpLQ0wR1R=w1887-h938-iv1",pages:2,bbc:true,positionBanner:1},
-    {name:"Mother_assisted_femboy_test", banner:"https://lh3.google.com/u/0/d/1JoJdKwNQdrxe3KW4uqzi8BLKsC1MfXPp=w1083-h907-iv1",pages:6,bbc:true},
-    {name:"After", banner:"https://lh3.google.com/u/0/d/1NV0RELsrJ-Or06D2rBJYJZdinG2soSlR=w1885-h936-iv1",pages:2,bbc:true},
-    {name:"Mother_Training_Daughter", banner:"https://lh3.google.com/u/0/d/1NxyrdotQwNy0-yav79kagWcmxvNUO0zi=w1885-h936-iv1",pages:4,bbc:true},
+    {name:"Deku_kun_and_Ochaco_with_master", banner:"https://lh3.google.com/u/0/d/1B_Q4FkSwWcNWGIp53mrOprkKz2slALms=w1887-h938-iv1",pages:7,theme:"bbc"},
+    {name:"The_new_Black_Worldorder_Teachers", banner:"https://lh3.google.com/u/0/d/1KNU-sLGx_DjOJEHMj92griSN4kB7m19r=w1887-h938-iv1",pages:18,theme:"bbc"},
+    {name:"Cuckold_Relationship", banner:"https://lh3.google.com/u/0/d/1N5TdMNsOkDgXkxcSJGE1hoSJ2n4tV9dx=w1885-h936-iv1",pages:11,theme:"bbc"},
+    {name:"Stretch", banner:"https://lh3.google.com/u/0/d/1MHJwWtbwrAq8wmuOXqzKKoc1wl_0GYbZ=w1885-h936-iv1",pages:3,theme:"bbc"},
+    {name:"Waifu_Interview", banner:"https://lh3.google.com/u/0/d/1I8wxUkeLvNQerGyRgQccmN1pwTbSeWqG=w1887-h938-iv1",pages:4,theme:"bbc"},
+    {name:"A_new_side_of_Uraraka", banner:"https://lh3.google.com/u/0/d/1HuOl6msyb-EGSkCzQ2my8xOXThCYuplN=w1887-h938-iv1",pages:3,theme:"bbc"},
+    {name:"Inko_and_BBC", banner:"https://lh3.google.com/u/0/d/1ITVewpsVviXzCToPJYk-eycmvdRf14t7=w1887-h938-iv1",pages:2,theme:"bbc"},
+    {name:"Waitress_for_bbc", banner:"https://lh3.google.com/u/0/d/1JThrXi5a8X4yIPgxFMuaDIWtpLQ0wR1R=w1887-h938-iv1",pages:2,theme:"bbc",positionBanner:1},
+    {name:"Mother_assisted_femboy_test", banner:"https://lh3.google.com/u/0/d/1JoJdKwNQdrxe3KW4uqzi8BLKsC1MfXPp=w1083-h907-iv1",pages:6,theme:"bbc"},
+    {name:"After", banner:"https://lh3.google.com/u/0/d/1NV0RELsrJ-Or06D2rBJYJZdinG2soSlR=w1885-h936-iv1",pages:2,theme:"bbc"},
+    {name:"Mother_Training_Daughter", banner:"https://lh3.google.com/u/0/d/1NxyrdotQwNy0-yav79kagWcmxvNUO0zi=w1885-h936-iv1",pages:4,theme:"bbc"},
     {name:"BBC_Cock_Worship", banner:"https://lh3.google.com/u/0/d/1ECjjXlQ8OSjL-cC5dFt0HmZzPzbhPIzk=w1887-h938-iv1",pages:2},
     {name:"First_time", banner:"https://lh3.google.com/u/0/d/1Dvvm36TS4mZUBPFH4fjSJr5esegX2tdf=w1887-h938-iv1",pages:3},
     {name:"Full_nelson", banner:"https://lh3.google.com/u/0/d/1DobsJUUDjlIt-ZmlXHqyGSQqiFoCKjb-=w1887-h938-iv1",pages:2},
@@ -63,22 +63,25 @@ List = [
     {name:"Suzu_Nakano_Handjob", banner:"https://lh3.google.com/u/0/d/1OJoVo9VG9o5O9CaEKUBmbOYn_n3a5W1N=w1885-h936-iv1",pages:3},
     {name:"Elf", banner:"https://lh3.google.com/u/0/d/1QlYbgc_afx02c04uuDSfPMDerB8AP9WJ=w1885-h936-iv1",pages:2},
     {name:"A_manga_about_brainwashing_a_brother_and_sister", banner:"https://lh3.google.com/u/0/d/1RvFysodd6JEuP2xheEfk-EMtckVaNQH7=w1885-h936",pages:2},
-    {name:"Kirito_Sissy",banner:"https://lh3.google.com/u/0/d/1SEJhsGgD8zcsuqex8YD5lwmgdBQvFNFU=w1885-h936-iv1",pages:19,bbc:true},
-    {name:"Its_just_his_dick_is_so_much_better",banner:"https://lh3.google.com/u/0/d/1TONdC4tSNsm8ySZbutqE6u3s_b5aDtzk=w1885-h936-iv1",pages:2,bbc:true},
-    {name:"BLACKED_Person",banner:"https://lh3.google.com/u/0/d/1VHI683QMCun8AonTdWuMExtxZFZSkain=w1885-h936-iv1",pages:10,bbc:true},
+    {name:"Kirito_Sissy",banner:"https://lh3.google.com/u/0/d/1SEJhsGgD8zcsuqex8YD5lwmgdBQvFNFU=w1885-h936-iv1",pages:20,theme:"bbc"},
+    {name:"Its_just_his_dick_is_so_much_better",banner:"https://lh3.google.com/u/0/d/1TONdC4tSNsm8ySZbutqE6u3s_b5aDtzk=w1885-h936-iv1",pages:2,theme:"bbc"},
+    {name:"BLACKED_Person",banner:"https://lh3.google.com/u/0/d/1VHI683QMCun8AonTdWuMExtxZFZSkain=w1885-h936-iv1",pages:10,theme:"bbc"},
     {name:"Gwen_Stacy",banner:"https://lh3.google.com/u/0/d/1VaFL4XPNv6qyFpHMxWhyB3NdHJh734fY=w1885-h936-iv1",pages:4},
     {name:"Mariya_Shidou",banner:"https://lh3.google.com/u/0/d/1VtTaZf63GbfZpHxgk38Ah04mzFtL3TEs=w1885-h936-iv1",pages:4},
     {name:"Valeria_Disciplining_Millie",banner:"https://lh3.google.com/u/0/d/1VyPYSaoV-cLkzPXAUhkm8OjBCpRgSj89=w1885-h936-iv1",pages:2},
     {name:"Will_you_really_cover_my_entire_bill",banner:"https://lh3.google.com/u/0/d/1ZZ6UTWWpVBcwDxFVT0JyE91mowdU8mT7=w923-h917-iv1",pages:2},
-    {name:"Defeating_Traveler_and_Wendy",banner:"https://lh3.google.com/u/0/d/1_Wv8dofQH4m8bYSuqcTxWvUBweTmBuwi=w1885-h940-iv1",pages:12,bbc:true,machineTS:true},
+    {name:"Defeating_Traveler_and_Wendy",banner:"https://lh3.google.com/u/0/d/1_Wv8dofQH4m8bYSuqcTxWvUBweTmBuwi=w1885-h940-iv1",pages:12,theme:"bbc",machineTS:true},
     {name:"Submissive_Scaramouche",banner:"https://lh3.google.com/u/0/d/1cDT6O8IZqRgeUywJvoR1KgkXENfEYx_W=w923-h933-iv1",pages:9},
     {name:"Yorha_9S",banner:"https://lh3.google.com/u/0/d/1fQQ4NILdKMNuzp32o4M_3wzkdRf6LnAN=w1278-h919-iv1",pages:2},
     {name:"Makima_and_pet",banner:"https://lh3.google.com/u/0/d/1fEsCkNMU8ZdrRmBS7pRNnCuqUiBFltLG=w1092-h919-iv1",pages:2},
-    {name:"Medical_checkup",banner:"https://lh3.google.com/u/0/d/1fglKSINq-S4Ku7vDUoFsJZPMIq_q1y6G=w958-h903-iv1",pages:2,bbc:true},
-    {name:"Xingqiu_and_likes", banner:"https://lh3.google.com/u/0/d/1h1eM8_gbA80U1YhlY7sj18o6fCrRUZeT=w958-h903-iv1",pages:7,bbc:true},
+    {name:"Medical_checkup",banner:"https://lh3.google.com/u/0/d/1fglKSINq-S4Ku7vDUoFsJZPMIq_q1y6G=w958-h903-iv1",pages:2,theme:"bbc"},
+    {name:"Xingqiu_and_likes", banner:"https://lh3.google.com/u/0/d/1h1eM8_gbA80U1YhlY7sj18o6fCrRUZeT=w958-h903-iv1",pages:7,theme:"bbc"},
     {name:"Cuck_Lessons", banner:"https://lh3.google.com/u/0/d/1hb4PxF5uxbwnt2eQygUftiDRWTWgYn8M=w958-h903-iv1",pages:5},
-    {name:"TracerxSombra",banner:"",pages:6,bbc:true}
-    // {name:"Naming",banner:"img",pages:NNN,bbc:true},
+    {name:"TracerxSombra",banner:"https://lh3.google.com/u/0/d/1hz-5va5y1mSwsE62F6duKrlTxmxAR1vk=w1034-h903-iv1",pages:6,theme:"bbc"},
+    {name:"The_BBC_addicted_wife_KISARAGI_AYAKO",banner:"https://lh3.google.com/u/0/d/17T_Ax6ZrI0VuF4GkMCGHXlZA4Pt-vE9S=w1823-h966-iv1",pages:17,theme:"bbc"},
+    {name:"Good_friends_of_Uraki",banner:"https://lh3.google.com/u/0/d/1jfp8FUdUkRZruOI7Ihokd_4UvXscdXM8=w1920-h917-iv1",pages:4,theme:"bbc"},
+    {name:"Suzu_Nakano_Doggy",banner:"https://lh3.google.com/u/0/d/1jOGNv6b7rnVyut_0_f334YSDr5NUPxwA=w1150-h906-iv1",pages:3},
+    // {name:"Naming",banner:"img",pages:NNN,theme:""},
 ];
 
 // positionBanner: 
@@ -106,7 +109,7 @@ let page4 = List.slice(60,80);
 function card(x,page) {
     let div = document.createElement("div");
     div.className = "card";
-    if (page[x].bbc == true) {
+    if (page[x].theme == "bbc") {
         div.className = "card cardBBC";
     }
     let img = document.createElement("img");
@@ -129,11 +132,11 @@ function card(x,page) {
     }
     
     let h1 = document.createElement("h1");
-    h1.innerHTML = page[x].name;
+    h1.innerHTML = page[x].name.replace(/_/g, " ");
     let p = document.createElement("p");
     p.innerHTML = page[x].pages + " " + "pages";
     let a = document.createElement("a");
-    a.href = "Comics/comics.html?"+ page[x].name
+    a.href = "Comics/comics.html?"+ "name=" + page[x].name + "&" + "theme=" + page[x].theme 
     a.className = "btn_link t_primary";
     a.innerHTML = "Read";
     let cardPlace = document.querySelector(".container-cards");

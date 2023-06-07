@@ -72,6 +72,12 @@ Other = [
 	{name:"Information fee",banner:"https://lh3.google.com/u/0/d/1fgPsHiqOQBGipcNPf-kEIJDV2SV-Th7V=w958-h903-iv1"},
 	{name:"Mommy Dehya",banner:"https://lh3.google.com/u/0/d/1hjdSrh2MSM9-F1TmopK7Q8VY1psgOpDs=w957-h904-iv1"},
 	{name:"My general",banner:"https://lh3.google.com/u/0/d/1hkkfUd8E5jtqPYPPZHEJfaEpiLUAoNKg=w957-h904-iv1"},
+	{name:"Makima and his pet",banner:"https://lh3.google.com/u/0/d/1ioSAWdsLQybWvkoPFPzwM-W3OI14J8Cz=w1206-h906-iv1"},
+	{name:"Cloud and futa",banner:"https://lh3.google.com/u/0/d/1j2P3e2yefsknrvXJKJ9mD9H9vGhVdOEq=w1206-h906-iv1"},
+	{name:"Say thank you bitch",banner:"https://lh3.google.com/u/0/d/1jGIy4M_wVoHxzAe9kzOJ1JHhPmgf1ww7=w1206-h906-iv1"},
+	{name:"Ben and futa",banner:"https://lh3.google.com/u/0/d/1iuqenQDc9bn2wSXiGuFYXDf1lKvm_ccg=w1206-h906-iv2"},
+	{name:"Futa makima and pet",banner:"https://lh3.google.com/u/0/d/1jBZwhU6vnhn3Qxrkmx8b8bxgGvz2XGjx=w1206-h906-iv2"},
+	{name:"Futa Makima and pet 2",banner:"https://lh3.google.com/u/0/d/1jJjxf0LGURAYAnFJSYYnVGy83xe43tTJ=w1206-h906-iv2"},
 ];
 
 

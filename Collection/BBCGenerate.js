@@ -14,7 +14,6 @@ Other = [
 	{name:"Mother`s deal",banner:"https://lh3.google.com/u/0/d/1JSX7AUKdtfm1fuPW0s_TKcZ99OzoMYGS=w1887-h938-iv1"},
 	{name:"Ochaco need money?",banner:"https://lh3.google.com/u/0/d/1JRAzukMKB9PYN-jKVVOS78dAGITQ1fi1=w1887-h938-iv1"},
 	{name:"Ochaco size different",banner:"https://lh3.google.com/u/0/d/1JNpedRyUfkOxGrYKR13SbaGddM6u42T0=w1887-h938-iv1"},
-	{name:"Plan",banner:"https://lh3.google.com/u/0/d/1JI7HfDZyVrXbUes8BQVsmCkaJfTQ2Udm=w1887-h938-iv1"},
 	{name:"Promise",banner:"https://lh3.google.com/u/0/d/1JH3KsZP9kXb0w2rsq_KB6foKHfXxWc2V=w1887-h938-iv1"},
 	{name:"Punishment",banner:"https://lh3.google.com/u/0/d/1IovilpiEvfoIghuCjPXmKGhrkoUDv6GR=w1887-h938-iv1"},
 	{name:"Pussy free senpai",banner:"https://lh3.google.com/u/0/d/1JggQbQ0vrHMRbzvKuPjiQh1QfGL9HEBS=w1887-h938-iv1"},
@@ -138,6 +137,13 @@ Other = [
 	{name:"Saphir and geek",banner:"https://lh3.google.com/u/0/d/1fCEfQQrN_7VsMCDs2VmzR8aTOWrcbecs=w1092-h919-iv1"},
 	{name:"Mercy and photo",banner:"https://lh3.google.com/u/0/d/1fj-tb8XWKxxzi7hczaBd8AzzEUElonmp=w958-h903-iv1"},
 	{name:"Look at this sissy slut",banner:"https://lh3.google.com/u/0/d/1hmdwaKz9XI9LeoXEm6yOSnZ-l07lAUkf=w957-h904-iv1"},
+	{name:"Whiteboys are adapting", banner:"https://lh3.google.com/u/0/d/1iRXjOdyOO7Kwt-zWV_vFNZEOdHV_l_sf=w1920-h917-iv1"},
+	{name:"Modern relationship", banner:"https://lh3.google.com/u/0/d/1ib99prQA3gfyyOAd4KvceqI-Nu6KEaUS=w1206-h906-iv1"},
+	{name:"Just like the book says", banner:"https://lh3.google.com/u/0/d/1ieVItOzMR5WKEHGAVEjGJeHwZOP-er_Q=w1206-h906-iv1"},
+	{name:"Makima angel", banner:"https://lh3.google.com/u/0/d/1ihE13pn55C8PyO84xwZctzhQkpwetAjF=w1206-h906-iv1"},
+	{name:"Kaguya hobbies", banner:"https://lh3.google.com/u/0/d/1jhwqpDz69enAanpGy_nMrHGXXY1o7MP6=w1206-h906-iv1"},
+	{name:"This will be your reward", banner:"https://lh3.google.com/u/0/d/1jo5I1P8Orsm6oXuCxshah58XJvaQIMww=w1206-h906-iv1"},
+	{name:"White boys can`t compete", banner:"https://lh3.google.com/u/0/d/1jn0qVtZcJ4eoH_TFUIT3gPiEvqRHUhz-=w1206-h906-iv1"},
 ];
 
 /*
@@ -276,6 +282,7 @@ Kirito_Sissy = [
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Sf4neDwIlhI6cV9uEmEgtlhGe2iAn0XT=w1885-h936-iv1"},
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fpgLtZ4PRinMda_x80oFVdL-FnlqnvyT=w1920-h929-iv1"},
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fnHq31i4IoAK6Fa2Ac8YAHymLM6R-O1-=w958-h919-iv1"},
+	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1iH4Vd2SYpKfoe5qJ2X6_53QP9Iyaea2K=w1920-h917-iv2"},
 ];
 
 Its_just_his_dick_is_so_much_better = [
@@ -338,6 +345,33 @@ TracerxSombra = [
 	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1i4h1w20K8mH-7Izpj580synHEsAqjHhO=w1034-h903-iv1"},
 	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iFH86CIAQyJrmahditOBrvV0k50bpFYH=w1034-h903-iv2"},
 	{name:"Tracer and Sombra", banner:"https://lh3.google.com/u/0/d/1iGn-zBbkhDr07a3-Naea4Kz8G9ITMx1X=w1034-h903-iv1"},
+];
+
+The_BBC_addicted_wife_KISARAGI_AYAKO = [
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17T_Ax6ZrI0VuF4GkMCGHXlZA4Pt-vE9S=w1823-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17VTA4620fge_HsQyfKr7U3U66r1uZDzo=w1215-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17X2tRCqG3cVbF66Zp1xXNFk2njP0r6y9=w1238-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17oBR384UpHqewgS345G-HYuZLqs6WHY6=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17ivo6HL6MADAnsSfX2l-PVxt_ubR301Y=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/17zWmMOJTdseWIoOCanPUF65Q0Pu2yGNa=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/186ugMkbS5cQYxEK3D1C4A_jm15thcmqM=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/1855DdDcqNwzd6KTPF2Bf2QsRUdYHYFtB=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18ERBKdZ1PrBfvrBD6VO9t6pELSMeJDE9=w1238-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18FlAJ1A50ZgprTNxvtllJDYnivCBPC7c=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18FMY6_AAETjHiIfYv8G3GKlDNLrk7_35=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18HSyhW1iaZiQYaEnZWgIxmbdVM1o2lOI=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18Plm9r-tt8amUC9mCYJgCY4RwQSwXGnA=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18Qcah0JKw6D6m2_M_RD7oxAWU-otWjTc=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18R4VHGfI7Js6ATF_qQxmjlJ9U7xOfHMH=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18VZMssBM1BRjeErrzLMYISb0w4HbNvX8=w1239-h966-iv1"},
+    {name:"The BBC addicted wife KISARAGI AYAKO",banner:"https://lh3.google.com/u/0/d/18UY6J8GvvyErhGQNWYwOLR7cSMtqEAKW=w1239-h966-iv1"},
+];
+
+Good_friends_of_Uraki = [
+	{name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jfp8FUdUkRZruOI7Ihokd_4UvXscdXM8=w1920-h917-iv1"},
+	{name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jeYpwMmOgkyFyOL9fLofJ1Mof9ololKm=w1920-h917-iv1"},
+	{name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jdjlApLKKbxcaT9gn9eUTth5RGUPPSn6=w1920-h917-iv1"},
+	{name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jdQe5gS2kz4cPANR9C7VAkF0oqpolkva=w1920-h917-iv1"},
 ];
 
 // Generation
@@ -408,6 +442,8 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Good_friends_of_Uraki);
+		MultiPost(The_BBC_addicted_wife_KISARAGI_AYAKO);
 		MultiPost(TracerxSombra);
 		MultiPost(Xingqiu_and_likes);
 		MultiPost(Medical_checkup);
