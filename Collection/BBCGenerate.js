@@ -75,7 +75,7 @@ Other = [
 	{name:"Breeder boy",banner:"https://lh3.google.com/u/0/d/1R9XOluBo1jaZJMubs7daSgAcMzTGEs_i=w1885-h936-iv1"},
 	{name:"What comes after stroke three",banner:"https://lh3.google.com/u/0/d/1RAHXkyVZi9dbEzrGw79kAagkki0Me_XT=w1885-h936-iv1"},
 	{name:"Interesting game",banner:"https://lh3.google.com/u/0/d/1RvK9EgeSEJuxwXI3vvmbUP7xl8TiN-6A=w1885-h936-iv1"},
-	{name:"A huge load of cum just for you",banner:"https://lh3.google.com/u/0/d/1RvK9EgeSEJuxwXI3vvmbUP7xl8TiN-6A=w1885-h936-iv1"},		
+	{name:"A huge load of cum just for you",banner:"https://lh3.google.com/u/0/d/1TCVFfOK-UkAQsg7Cfp1cZpFNGafFOh68=w1920-h917-iv1"},		
 	{name:"Guide How to serve a black man",banner:"https://lh3.google.com/u/0/d/1TOn-S32TpweMI_ZXzwR5FaeBSMht3GaX=w1885-h936-iv1"},
 	{name:"It's the same thing every time",banner:"https://lh3.google.com/u/0/d/1TPpLNbsCI8EY4N9Hlzbi95OKzDe35L_r=w1885-h936-iv1"},
 	{name:"why white boys will always be inferior",banner:"https://lh3.google.com/u/0/d/1TUeVHjbTr8IuvYq3LpX_4xfQSLEo7RFt=w1885-h936-iv1"},
@@ -144,7 +144,23 @@ Other = [
 	{name:"Kaguya hobbies", banner:"https://lh3.google.com/u/0/d/1jhwqpDz69enAanpGy_nMrHGXXY1o7MP6=w1206-h906-iv1"},
 	{name:"This will be your reward", banner:"https://lh3.google.com/u/0/d/1jo5I1P8Orsm6oXuCxshah58XJvaQIMww=w1206-h906-iv1"},
 	{name:"White boys can`t compete", banner:"https://lh3.google.com/u/0/d/1jn0qVtZcJ4eoH_TFUIT3gPiEvqRHUhz-=w1206-h906-iv1"},
+	{name:"Makes me wet",banner:"https://lh3.google.com/u/0/d/1-3lL6NYsxdOCVzs3RESAFDCxxqvUzx69=w1920-h917-iv1"},
+	{name:"Whore your daughter`s age",banner:"https://lh3.google.com/u/0/d/1-4m8rZ4flb79K3cBuWBSEn-ppspZWQLk=w1920-h917-iv1"},
+	{name:"Mirko Choice",banner:"https://lh3.google.com/u/0/d/1-I0JGACWZp5XBj5uDqtcmsUd1o3LGmLh=w1920-h917-iv1"},
+	{name:"Read the laws white boys",banner:"https://lh3.google.com/u/0/d/1-EMNe2gz9140t9YE8MtUPmny-DQmOwKC=w1920-h917-iv1"},
+	{name:"Try to get your work done",banner:"https://lh3.google.com/u/0/d/1-IBtkx8GUP0SZZ1JsTOxbByMIKql5lpM=w1920-h917-iv1"},
+	{name:"Hu Tao and bbc`s",banner:"https://lh3.google.com/u/0/d/1-mPrfxBuGQJrZ8oqHTMg9dGch6vJvlYO=w1220-h903-iv1"},
+	{name:"Makima blacked",banner:"https://lh3.google.com/u/0/d/1-qBSrk8rnUXr7DXJib3tkzNt1Z5DDooO=w1220-h903-iv1"},
+	{name:"Unexpected deal",banner:"https://lh3.google.com/u/0/d/1-qqNPotj-n6q3Q2zry-V-SuRBYP9PbzI=w1220-h903-iv1"},
+	{name:"BBC Virus",banner:"https://lh3.google.com/u/0/d/1-tzLKiYLSB19bcVH5PKAA787px3y_Tws=w1220-h903-iv1"},
+	{name:"Loss Makima",banner:"https://lh3.google.com/u/0/d/1-akaDOf74rtYw4xMP2OziEqfFNriOcf-=w1220-h903-iv1"},
+	{name:"Progressive mommy",banner:"https://lh3.google.com/u/0/d/1-fTRzC8iXpUMogfP5BqzzeVFy1WjZwl-=w1220-h903-iv1"},
+	{name:"Anniversary gift",banner:"https://lh3.google.com/u/0/d/1-jSxTOmfswhYxfxgBpml0jDAMn5tU6Ib=w1220-h903-iv1"},
+	{name:"BNWO-Bar",banner:"https://lh3.google.com/u/0/d/1-NEbAuqRW8D6ELHBDkofUW1mLuaaq3EO=w1220-h903-iv1"},
+	{name:"Getting to know the new neighbor",banner:"https://lh3.google.com/u/0/d/1-Nk86PFzJQEzaevnYVG6jxu1f6z0bgeV=w1220-h903-iv1"},	
 ];
+
+
 
 /*
 Sample = [
@@ -374,6 +390,13 @@ Good_friends_of_Uraki = [
 	{name:"Good friends of Uraki",banner:"https://lh3.google.com/u/0/d/1jdQe5gS2kz4cPANR9C7VAkF0oqpolkva=w1920-h917-iv1"},
 ];
 
+Bard = [
+    {name:"Bard", banner:"https://lh3.google.com/u/0/d/10KesGL-1uv6N9AxbanWUI5W8xOLqZQM9=w1920-h917-iv1"},
+    {name:"Bard", banner:"https://lh3.google.com/u/0/d/108mWY4pakIC4dYoAei-JWVa7cxcyWshn=w1920-h917-iv1"},
+    {name:"Bard", banner:"https://lh3.google.com/u/0/d/108Rs3h94uDMBEIYipVuM4k1mzkyXlWId=w1920-h917-iv1"},
+    {name:"Bard: Poster", banner:"https://lh3.google.com/u/0/d/10R3B0a_VgxwrSpHseu8QIeaWEaZCkuuz=w1920-h917-iv1"},
+]; 
+
 // Generation
 
 function post(x,page) {
@@ -442,6 +465,7 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Bard);
 		MultiPost(Good_friends_of_Uraki);
 		MultiPost(The_BBC_addicted_wife_KISARAGI_AYAKO);
 		MultiPost(TracerxSombra);

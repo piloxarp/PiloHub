@@ -362,22 +362,22 @@ footer a:hover {
 }
 
 #myBtn {
-  display: none; 
-  position: fixed; 
-  bottom: 762px;
-  right: -25px;
-  width: 50px;
-  height: 50px;
-  z-index: 99; 
-  border: none; 
-  outline: none; 
-  border: 3px solid rgba(255, 255, 255, 0.1);
-  background: transparent;
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 10px; 
-  font-size: 18px; 
-  backdrop-filter: blur(3px);
+    display: none; 
+    position: fixed; 
+    bottom: 667px;
+    right: -31px;
+    width: 50px;
+    height: 50px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    backdrop-filter: blur(3px);
 }
 
 #myBtn:hover {
@@ -434,7 +434,7 @@ footer a:hover {
     }
 
     .cardImgLargeReverse {
-        width: 400px;
+        width: 475px;
         max-height: 1000px;
     }
 
@@ -1025,6 +1025,7 @@ content {
     gap: 15px;
     justify-content: space-between;
     margin-top: 15px;
+    right: 0;
 }
 
 .versions {
@@ -1180,6 +1181,29 @@ content {
     background: url('covers changelog/yen.png') no-repeat;
     background-size: cover;
     background-position: 0 -78px;
+}
+
+.info-p {
+    backdrop-filter: blur(3px);
+    border: 0;
+    background: transparent;
+    color: var(--text-secondry);
+    letter-spacing: 0.06em;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    align-self: center;
+    opacity: 5%;
+    transition: 0.3s;
+}
+
+.info-p:hover {
+    opacity: 100%;
 }
 
 @media screen and (max-width: 768px) {

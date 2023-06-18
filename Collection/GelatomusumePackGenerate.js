@@ -63,7 +63,9 @@ Other = [
 	{name:"Quinn's Prize",banner:"https://lh3.google.com/u/0/d/1Vwg91tj6R3OgJ7lw9NQT_e8j1D1OwAoK=w1885-h936-iv1"},
 	{name:"Valeria Rimjob",banner:"https://lh3.google.com/u/0/d/1VzgVkx9d8REXCyEEZN-lhxxzZZ1vi214=w1885-h936-iv1"},
 	{name:"Zelda X Ganon NTR",banner:"https://lh3.google.com/u/0/d/1jWlTwNKG7iHERhapa-04AM1KBvrvXcgV=w1150-h906-iv1"},
+	{name:"College Expectations",banner:"https://lh3.google.com/u/0/d/10uAK_4kPhSd87A1mK2u8wTtG4NDnqsS-=w1920-h917-iv1"}
 ];
+
 
 /*
 Sample = [
@@ -236,6 +238,41 @@ Suzu_Nakano_Doggy = [
 	{name:"Suzu Nakano Doggy", banner:"https://lh3.google.com/u/0/d/1jSWTGkDbe7uA3m10eajMr2TkUrjc8MnM=w1150-h906-iv1"},
 ];
 
+Alexs_Social_Media_Hijinks = [
+	{name:"Alex's Social Media Hijinks", banner:"https://lh3.google.com/u/0/d/10V6M_Y853p0DvHrOwv5wSmaAVLUihPQb=w1920-h917-iv1"},
+	{name:"Alex's Social Media Hijinks", banner:"https://lh3.google.com/u/0/d/10UR_oB7GsFQjMw2NPiI_cCApDMdQmoHn=w1920-h917-iv1"},
+	{name:"Alex's Social Media Hijinks", banner:"https://lh3.google.com/u/0/d/10Tab6_lXJLSAPEYU1O2emTptl1komA4R=w1920-h917-iv1"},
+];
+
+Izuku_and_Inko_Midoriya_Oyakodon = [
+	{name:"Izuku and Inko Midoriya Oyakodon", banner:"https://lh3.google.com/u/0/d/10gvCNsBaTOPcqGN91NVtiHJ2EsY0yQD6=w1920-h917-iv1"},
+	{name:"Izuku and Inko Midoriya Oyakodon", banner:"https://lh3.google.com/u/0/d/10b4aK2EbLdQOydqk6Us_Kmxyxani9r7b=w1920-h917-iv1"},
+	{name:"Izuku and Inko Midoriya Oyakodon", banner:"https://lh3.google.com/u/0/d/10Zj-jedhX0FMLRD9rKGmPUQrSbeiC5NE=w1920-h917-iv1"},
+	{name:"Izuku and Inko Midoriya Oyakodon", banner:"https://lh3.google.com/u/0/d/10Y5i9FD69xTPkZX7EgGZh6VNekL-U9G_=w1920-h917-iv1"},
+];
+
+Millie_being_pounded = [
+	{name:"Millie being pounded", banner:"https://lh3.google.com/u/0/d/119rtXkF9_b7Dm6sEKCPsgSLps-4VpYpP=w1920-h917-iv1"},
+	{name:"Millie being pounded", banner:"https://lh3.google.com/u/0/d/11BaWW_4uphqeJm3NG-VO80XbOnYJLjqv=w1920-h917-iv1"},
+];
+
+Princess_Peach_NTR = [
+	{name:"Princess Peach NTR", banner:"https://lh3.google.com/u/0/d/112FR4NZmacXwa90bW3FdWfIuv5DxfLPP=w1920-h917-iv1"},
+	{name:"Princess Peach NTR", banner:"https://lh3.google.com/u/0/d/117ukBdr2ICMtpc0Z44DiruJRQKYa2-vi=w1920-h917-iv1"},
+	{name:"Princess Peach NTR", banner:"https://lh3.google.com/u/0/d/115_67EWAc-Nt2B1_GfktvFIjEFDKBeNF=w1920-h917-iv1"},
+];
+
+Quinn_Leg_Day = [
+	{name:"Quinn Leg Day", banner:"https://lh3.google.com/u/0/d/11XY75cHfvDTdAWGQLzCyEEn81u4-JPI-=w1920-h917-iv1"},
+	{name:"Quinn Leg Day", banner:"https://lh3.google.com/u/0/d/11NP-L1PiVHn9Nybm_wKDO-pVYrv2QHwN=w1920-h917-iv1"},
+	{name:"Quinn Leg Day", banner:"https://lh3.google.com/u/0/d/11MNcuqcy4sKbHQ78psvH_dFsBGOag2U_=w1920-h917-iv1"},
+];
+
+Ren = [
+	{name:"Ren", banner:"https://lh3.google.com/u/0/d/10v7-oLOrbMurPO-8zz8uUv8z0R3DaoSh=w1920-h917-iv1"},
+	{name:"Ren", banner:"https://lh3.google.com/u/0/d/111QouZq4Pi-jnkfjGmtxoBgRDmexyMf0=w1920-h917-iv1"},
+];
+
 
 // Generation
 
@@ -305,6 +342,12 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Ren);
+		MultiPost(Quinn_Leg_Day);
+		MultiPost(Princess_Peach_NTR);
+		MultiPost(Millie_being_pounded);
+		MultiPost(Izuku_and_Inko_Midoriya_Oyakodon);
+		MultiPost(Alexs_Social_Media_Hijinks);
 		MultiPost(Suzu_Nakano_Doggy);
 		MultiPost(Valeria_Disciplining_Millie);
 		MultiPost(Mariya_Shidou);

@@ -78,8 +78,37 @@ Other = [
 	{name:"Ben and futa",banner:"https://lh3.google.com/u/0/d/1iuqenQDc9bn2wSXiGuFYXDf1lKvm_ccg=w1206-h906-iv2"},
 	{name:"Futa makima and pet",banner:"https://lh3.google.com/u/0/d/1jBZwhU6vnhn3Qxrkmx8b8bxgGvz2XGjx=w1206-h906-iv2"},
 	{name:"Futa Makima and pet 2",banner:"https://lh3.google.com/u/0/d/1jJjxf0LGURAYAnFJSYYnVGy83xe43tTJ=w1206-h906-iv2"},
+	{name:"Hilichurl and hypno devices",banner:"https://lh3.google.com/u/0/d/102bTBfa5IblwuTSwvDLJDOaIXLIn8tNy=w1920-h917-iv1"},
+	{name:"Captain, i got a gift for you",banner:"https://lh3.google.com/u/0/d/11cxN4DMdfblWmGAyLKGGbHwFjDHLYuJS=w1920-h917-iv1"},
 ];
 
+/* Code for find Duplicates link [banner]
+
+function findDuplicates(array, property) {
+  var duplicates = [];
+  for (var i = 0; i < array.length; i++) {
+    for (var j = i + 1; j < array.length; j++) {
+      if (array[i][property] === array[j][property] && !duplicates.includes(array[i])) {
+        duplicates.push(array[i]);
+      }
+    }
+  }
+  return duplicates;
+}
+
+function isEqual(obj1, obj2) {
+  // Compare properties or elements of the objects/arrays
+  // and return true if they are equal, false otherwise
+  // You can use a library like Lodash for deep equality comparison
+  // or implement your own comparison logic based on your requirements
+  // For simplicity, let's assume the objects/arrays have a single property/element
+  return obj1.property === obj2.property;
+}
+
+var duplicateValues = findDuplicates(Other, 'banner');
+console.log(duplicateValues); 
+
+*/
 
 // Generation
 

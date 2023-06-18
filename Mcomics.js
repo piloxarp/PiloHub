@@ -81,6 +81,13 @@ List = [
     {name:"The_BBC_addicted_wife_KISARAGI_AYAKO",banner:"https://lh3.google.com/u/0/d/17T_Ax6ZrI0VuF4GkMCGHXlZA4Pt-vE9S=w1823-h966-iv1",pages:17,theme:"bbc"},
     {name:"Good_friends_of_Uraki",banner:"https://lh3.google.com/u/0/d/1jfp8FUdUkRZruOI7Ihokd_4UvXscdXM8=w1920-h917-iv1",pages:4,theme:"bbc"},
     {name:"Suzu_Nakano_Doggy",banner:"https://lh3.google.com/u/0/d/1jOGNv6b7rnVyut_0_f334YSDr5NUPxwA=w1150-h906-iv1",pages:3},
+    {name:"Bard",banner:"https://lh3.google.com/u/0/d/10R3B0a_VgxwrSpHseu8QIeaWEaZCkuuz=w1920-h917-iv1",pages:4,theme:"bbc"},
+    {name:"Alexs_Social_Media_Hijinks",banner:"https://lh3.google.com/u/0/d/10V6M_Y853p0DvHrOwv5wSmaAVLUihPQb=w1920-h917-iv1",pages:3},
+    {name:"Izuku_and_Inko_Midoriya_Oyakodon",banner:"https://lh3.google.com/u/0/d/10gvCNsBaTOPcqGN91NVtiHJ2EsY0yQD6=w1920-h917-iv1",pages:4},
+    {name:"Millie_being_pounded",banner:"https://lh3.google.com/u/0/d/119rtXkF9_b7Dm6sEKCPsgSLps-4VpYpP=w1920-h917-iv1",pages:2},
+    {name:"Princess_Peach_NTR",banner:"https://lh3.google.com/u/0/d/112FR4NZmacXwa90bW3FdWfIuv5DxfLPP=w1920-h917-iv1",pages:3},
+    {name:"Quinn_Leg_Day",banner:"https://lh3.google.com/u/0/d/11XY75cHfvDTdAWGQLzCyEEn81u4-JPI-=w1920-h917-iv1",pages:3},
+    {name:"Ren",banner:"https://lh3.google.com/u/0/d/10v7-oLOrbMurPO-8zz8uUv8z0R3DaoSh=w1920-h917-iv1",pages:2},
     // {name:"Naming",banner:"img",pages:NNN,theme:""},
 ];
 
@@ -97,6 +104,7 @@ let page1 = List.slice(0,20);
 let page2 = List.slice(20,40);
 let page3 = List.slice(40,60);
 let page4 = List.slice(60,80);
+let page5 = List.slice(80,100);
 
     
 
@@ -181,13 +189,25 @@ function Page(x) {
     }} else if (x == page4) {
     for (var i = x.length - 1; i >= 0; i--) {
         card(i,x);
-    }}   
+    }} else if (x == page5) {
+    for (var i = x.length - 1; i >= 0; i--) {
+        card(i,x);
+    }}    
       window.scrollTo({
         top: 0,
         left: 0,
         behavior: 'smooth'
       });
 }
+
+function PageStorage(x) {
+    localStorage.setItem("page_Mcomics",x);
+    let f = "page" + localStorage.page_Mcomics
+    Page(eval(f));
+    document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS"; 
+}
+
+
 
 function NoImage() {
    // let y = sessionStorage.NoImage
@@ -209,7 +229,21 @@ function NoImage() {
 
 
 
-document.addEventListener("DOMContentLoaded", function() {Page(page1)});
+document.addEventListener("DOMContentLoaded", function() {
+    if (localStorage.page_Mcomics == null) {
+        localStorage.setItem("page_Mcomics",1);
+        let f = "page" + localStorage.page_Mcomics
+        Page(eval(f));     
+        document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS";   
+    } else {
+         let f = "page" + localStorage.page_Mcomics
+        Page(eval(f));  
+        let num = Number(localStorage.page_Mcomics);
+        buttonsPages[num - 1].click();  
+        document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS";   
+    }
+
+});
 
 
 

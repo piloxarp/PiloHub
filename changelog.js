@@ -1,5 +1,6 @@
 Comics = [
 	{count:29,version:1.0},
+	{count:1,version:4.2},
 		
 
 ];
@@ -28,7 +29,8 @@ Mcomics = [
 	{name:"Yorha 9S&Makima and pet&Medical checkup&Deku-kun and Ochaco with master(+4)",version:3.8},
 	{name:"Kirito Sissy(+2)&Xingqiu and likes&Cuck Lessons",version:3.9},
 	{name:"Tracer and Sombra",version:4.0},
-	{name:"Good friends of Uraki",version:4.1},
+	{name:"Good friends of Uraki&Kirito Sissy(+1)&Suzu Nakano Doggy",version:4.1},
+	{name:"Bard&Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",version:4.2},
 ];
 
 
@@ -56,6 +58,7 @@ BBCPack = [
   {name:"Kirito Sissy(+2)&Xingqiu and likes",count:0,version:3.9},
   {name:"Tracer and Sombra",count:1,version:4.0},
   {name:"Kirito Sissy(+1)&Good friends of Uraki",count:7,version:4.1},
+  {name:"Bard",count:14,version:4.2},
 ];
 
 
@@ -65,6 +68,7 @@ GelatomusumePack = [
 	{name:"Succubus&The Beloved Hero's Secret&Astolfo Reverse Bunnysuit&Val and Millie Edging&Suzu Nakano&Suzu Nakano Handjob",count:18,version:2.5},
 	{name:"Gwen Stacy&Mariya Shidou&Valeria Disciplining Millie",count:5,version:3.1},
 	{name:"Suzu Nakano Doggy",count:1,version:4.1},
+	{name:"Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",count:1,version:4.2},
 ];
 
 
@@ -73,6 +77,7 @@ YenneferBLACKED = [
 	{count:66,version:3.6},
 	{count:4,version:3.7},
 	{count:4,version:4.1},
+	{count:4,version:4.2},
 ];
 
 
@@ -89,6 +94,7 @@ Other = [
 	{count:6,version:3.8},
 	{count:2,version:4.0},
 	{count:6,version:4.1},
+	{count:2,version:4.2},
 ];
 
 
@@ -96,6 +102,7 @@ Videos = [
 	{count:45,version:3.6},
 	{count:4,version:3.7},
 	{count:4,version:4.1},
+	{count:2,version:4.2},
 ];
 
 
@@ -281,7 +288,17 @@ Texts = [
 ### Был добавлен ChangeLog всех событий на сайте
 ### Замена свойства bbc на theme для будущих расширений. ( **Mini-Comics** )
 ### Исправлены названия комиксов. Теперь никаких ( _ ) вместо пробелов
-	`,version:4.1},			
+	`,version:4.1},
+	{name:`
+# - *Я должен был сделать это раньше...* -
+### В **Mini-Comics** был исправлен header на мобильных устройствах
+### Редизайн карточек **Collection**
+### В **BBC Pack** была добавлена скрытая расшифровка
+### Добавление иконок на функции (Default, ReverseGrid, LargeReverseGrid)
+### Добавил на видео заглушки вместо обложек где это было необходимо
+### Теперь сайт запоминает страницу на которой ты был.
+### У раздела **Videos** появилась собственная иконка
+ 	`,version:4.2},				
 ];
 
 
@@ -299,7 +316,10 @@ let Comics_Card = document.querySelector(".Comics");
 let changelogInfo_Card = document.querySelector(".changelog-info");
 
 	let version_container = document.querySelector(".versions");
-	let numbers = ["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8","1.9","2.0","2.1","2.2","2.3","2.4","2.5","2.6","2.7","2.8","2.9","3.0","3.1","3.2","3.3","3.4","3.5","3.6","3.7","3.8","3.9","4.0","4.1"];
+	let numbers = ["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8",
+		"1.9","2.0","2.1","2.2","2.3","2.4","2.5","2.6","2.7","2.8","2.9",
+		"3.0","3.1","3.2","3.3","3.4","3.5","3.6","3.7","3.8","3.9","4.0",
+		"4.1","4.2"];
 	for (var i = numbers.length - 1; i >= 0; i--) {
 		let button = document.createElement("button");
 		button.setAttribute("onclick",`Version(${numbers[i]})`);

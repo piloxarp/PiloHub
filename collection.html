@@ -23,47 +23,43 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="collection.css">
+<style type="text/css">
+    .button_m img {
+        width: 400px;
+        height: 550px;
+    }
+    @media screen and (max-width: 768px) {
+    .button_m img {
+        width: 300px;
+        height: 450px;
+    }        
+    }
+</style>
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 	<header>
 		<h1>COLLECTION</h1>
-		<nav class="btn_list">
-			<div class="settingsBlock">
-			<div class="settings_btn" id="btn-dropdown" onclick="LangDropDown()"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4"><path d="m34 41l10-17L34 7H14L4 24l10 17h20Z"/><path d="M24 29a5 5 0 1 0 0-10a5 5 0 0 0 0 10Z"/></g></svg>
-			</div>
-				<div id="lang-Dropdown" class="lang-content">
-					<button onclick="DefaultGrid()">Default</button>
-					<button onclick="ReverseGrid()">Reverse</button>
-					<button onclick="LargeReverseGrid()">Large-reverse</button>				
-  </div>
-		</div>
+
 			<a href="index.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/>
 			</svg></a>
 	</nav>
 	</header>
 <div class="container-cards">
-	<!-- end -->
-	<div class="card">
-		<img class="banner" src="https://lh3.google.com/u/0/d/1I8wxUkeLvNQerGyRgQccmN1pwTbSeWqG=w1887-h938-iv1" alt="">
-		<nav>
-		<h1>BBC Pack</h1>
-		<a href="Collection/BBC Pack.html" class="btn_link t_primary">Read</a></nav>
-	</div>
-	<!-- end -->
-	<div class="card">
-		<img class="banner" src="https://lh3.google.com/u/0/d/1E7MkCfeWTnubStY96js83t4bdOr0PyMN=w1887-h938-iv1" alt="">
-		<nav>
-		<h1>Gelatomusume Pack</h1>
-		<a href="Collection/GelatomusumePack.html" class="btn_link t_primary">Read</a></nav>
-	</div>
-	<!-- end -->
-	<div class="card">
-		<img class="banner" src="https://lh3.google.com/u/0/d/1LZL3XVSQiY12tpO1Vtc8CJTQVyeo_rjl=w1885-h936-iv1" alt="Yennefer banner">
-		<nav>
-		<h1>Yennefer BLACKED</h1>
-		<a href="Collection/Yennefer_BLACKED.html" class="btn_link t_primary">Read</a></nav>
-	</div>
-	<!-- end -->
+
+    <a href="Collection/BBC Pack.html" class="button_m">
+        <img id="imgBBC" src="loading.png" alt="">
+        <h2>BBC Pack</h2>
+    </a>   
+    <a href="Collection/GelatomusumePack.html" class="button_m">
+        <img id="imgGelatomusume" src="loading.png" alt="">
+        <h2>Gelatomusume Pack</h2>
+    </a>
+    <a href="Collection/Yennefer_BLACKED.html" class="button_m">
+        <img id="imgYen" src="loading.png" alt="">
+        <h2>Yennefer Blacked</h2>
+    </a>  
 
 
 
@@ -71,5 +67,6 @@
 
 </div>
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="cardCollection.js"></script>
 </body>
 </html>
