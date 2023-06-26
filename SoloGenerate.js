@@ -2,17 +2,8 @@
 
 Other = [
 	// {name:"NNN",banner:"ban"},
-	{name:"Porn Addiction",banner:"https://lh3.google.com/u/0/d/1-MeZ4LTfDSSa1U7JDwP2Ns5TZwy6gVh2=w1823-h966-iv1"},
-	{name:"Panchy",banner:"https://lh3.google.com/u/0/d/11tPwzCJeJqGbKftBwjfpt_urtabjN-j3=w1823-h966-iv1"},
 	{name:"BBC and Tsunade",banner:"https://lh3.google.com/u/0/d/1wIX2XgBNi2GQ2KQlReUa6iISFq6GkpvT=w1885-h918-iv3"},
-	{name:"Alicia",banner:"https://lh3.google.com/u/0/d/19FVe2yzrpE_KOvevtNfaeFSIJkFERt2V=w1885-h913-iv1"},
-	{name:"Tigress",banner:"https://lh3.google.com/u/0/d/19uNe_H5RmNrSoPt0-RpXVoRxL3Ky9UNP=w1885-h913-iv1"},
 	{name:"Rimuru and strapon Shion",banner:"https://lh3.google.com/u/0/d/1ASJcKdNorJeYttZWD3qm4NVUBg4mAceS=w1885-h936-iv1"},
-	{name:"Falkner",banner:"https://lh3.google.com/u/0/d/1Wpp0btgysi_HV-IbV_imsR7xKL9i4Wkx=w1885-h936-iv1"},
-	{name:"Femboy tip",banner:"https://lh3.google.com/u/0/d/1Wp4Xike3lDeUEYSN6H-cSoHRwSYoPIHR=w1885-h936-iv1"},
-	{name:"Growing type of relationships",banner:"https://lh3.google.com/u/0/d/1WspvXVmPs772Ok748d2937dg7feRxvUv=w1885-h936-iv1"},
-	{name:"Kuvira",banner:"https://lh3.google.com/u/0/d/1X3AWd2cBHTwGdxo8hd8_o3EEczeDlh3r=w1885-h936-iv1"},
-	{name:"Joy",banner:"https://lh3.google.com/u/0/d/1X8a-F7sDb80k7wPfVpduqWtHnq63mxEm=w1885-h936-iv1"},
 	{name:"Venti 2",banner:"https://lh3.google.com/u/0/d/1XZHllQPdYrlBCeecx0RfOKKk3eZ8MEW3=w1885-h940-iv1"},	
 	{name:"Venti",banner:"https://lh3.google.com/u/0/d/1XPi0cnMkhJyQziQgWXEujGgZ7hCKlono=w1885-h940-iv1"},
 	{name:"Bad cow venti",banner:"https://lh3.google.com/u/0/d/1XwwzpObIRyqDtNCuNJ0F5XTH1HhgfqXT=w1885-h940-iv1"},
@@ -80,6 +71,10 @@ Other = [
 	{name:"Futa Makima and pet 2",banner:"https://lh3.google.com/u/0/d/1jJjxf0LGURAYAnFJSYYnVGy83xe43tTJ=w1206-h906-iv2"},
 	{name:"Hilichurl and hypno devices",banner:"https://lh3.google.com/u/0/d/102bTBfa5IblwuTSwvDLJDOaIXLIn8tNy=w1920-h917-iv1"},
 	{name:"Captain, i got a gift for you",banner:"https://lh3.google.com/u/0/d/11cxN4DMdfblWmGAyLKGGbHwFjDHLYuJS=w1920-h917-iv1"},
+	{name:"It feels much better when she calls me good girl",banner:"https://lh3.google.com/u/0/d/129jtxj-QZljyzRsVvvjvsZ_DNjESu9aU=w1920-h917-iv1"},
+	{name:"You can throw away all my belongings just keep me!!",banner:"https://lh3.google.com/u/0/d/12Q3hrC8scyWrJy2_0iABG3anm3GDwCjO=w1920-h917"},
+	{name:"You`re here to see me", banner:"https://lh3.google.com/u/0/d/12bhqP2ug4DgYrR6Qqt66TPXqKbpNYotW=w1920-h917-iv1"},
+	{name:"See you later, master", banner:"https://lh3.google.com/u/0/d/12_2BXv3DYJfOTUpw-lun4abcApSR87UA=w1920-h917-iv1"},	
 ];
 
 /* Code for find Duplicates link [banner]

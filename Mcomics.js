@@ -88,6 +88,7 @@ List = [
     {name:"Princess_Peach_NTR",banner:"https://lh3.google.com/u/0/d/112FR4NZmacXwa90bW3FdWfIuv5DxfLPP=w1920-h917-iv1",pages:3},
     {name:"Quinn_Leg_Day",banner:"https://lh3.google.com/u/0/d/11XY75cHfvDTdAWGQLzCyEEn81u4-JPI-=w1920-h917-iv1",pages:3},
     {name:"Ren",banner:"https://lh3.google.com/u/0/d/10v7-oLOrbMurPO-8zz8uUv8z0R3DaoSh=w1920-h917-iv1",pages:2},
+    {name:"Mommy_Val_cages_Millie",banner:"https://lh3.google.com/u/0/d/12GGzznol-Dl1cLsQNsNaCavhzWgpB8Pc=w1920-h917-iv1",pages:2},
     // {name:"Naming",banner:"img",pages:NNN,theme:""},
 ];
 
@@ -100,13 +101,28 @@ List = [
 
 // pages
 
-let page1 = List.slice(0,20);
-let page2 = List.slice(20,40);
-let page3 = List.slice(40,60);
-let page4 = List.slice(60,80);
-let page5 = List.slice(80,100);
+let page1 = List.slice(0,21);
+let page2 = List.slice(21,42);
+let page3 = List.slice(42,63);
+let page4 = List.slice(63,84);
+let page5 = List.slice(84,105);
 
-    
+let max_pages = 5;
+
+function GenPagesBTN() {
+    let l = max_pages + 1;
+    for (var i = 0; i < l; i++) {
+         let div = document.createElement("div");
+        div.classList = "pageBtn t_primary";
+        div.setAttribute("onclick",`PageStorage(${i})`);
+        div.innerHTML = i;
+        document.querySelector(".bottom-container").append(div);       
+    }
+    document.querySelectorAll(".pageBtn")[0].remove();
+
+}
+
+GenPagesBTN();
 
 // functions
 
@@ -115,48 +131,62 @@ let page5 = List.slice(80,100);
     }
 
 function card(x,page) {
-    let div = document.createElement("div");
-    div.className = "card";
-    if (page[x].theme == "bbc") {
-        div.className = "card cardBBC";
+    let a = document.createElement("a");
+    a.classList = "card";
+    a.href = "Comics/comics.html?"+ "name=" + page[x].name + "&" + "theme=" + page[x].theme;
+    if (localStorage.NoImage_Mcomics == "1") {
+        a.style = "background-image: linear-gradient(to top, rgb(31, 28, 44), rgb(146, 141, 171));";
+    } else if (localStorage.NoImage_Mcomics == "0" || localStorage.NoImage_Mcomics == null) {
+        a.style = `background-image:url(${page[x].banner})`;
     }
-    let img = document.createElement("img");
-    img.className = "banner";
-    img.src = page[x].banner;
+    
     if (page[x].positionBanner == 1) {
-        img.style = "object-position:left";
+        a.setAttribute("id","cardLeft");
     } else if (page[x].positionBanner == 2) {
-        img.style = "object-position:right";
+        a.setAttribute("id","cardRight");
     } else if (page[x].positionBanner == 3) {
-        img.style = "object-position:center";
-    }
+        a.setAttribute("id","cardCenter");
+    } 
     let nav = document.createElement("nav");
     let div2 = document.createElement("div");
-    div2.style = "gap:5px; display: flex;flex-direction: column;"
+    div2.style = "gap:5px; display: flex;flex-direction: column; align-items: flex-start;width:100%;}"
     let h2 = document.createElement("h2");
     if (page[x].machineTS == true) {
         h2.innerHTML = "Machine Translate"
         h2.className = "tag_RED"
     }
+    if (page[x].theme == "bbc") {
+       let img = document.createElement("img");
+       img.style = "height:32px;"
+       img.src = "icons/Q ICON/favicon-32x32.png";
+       nav.append(img);
+    }
     
     let h1 = document.createElement("h1");
     h1.innerHTML = page[x].name.replace(/_/g, " ");
     let p = document.createElement("p");
-    p.innerHTML = page[x].pages + " " + "pages";
-    let a = document.createElement("a");
-    a.href = "Comics/comics.html?"+ "name=" + page[x].name + "&" + "theme=" + page[x].theme 
-    a.className = "btn_link t_primary";
-    a.innerHTML = "Read";
+    p.innerHTML = page[x].pages + " " + "pages"; 
     let cardPlace = document.querySelector(".container-cards");
-    div.append(img);
     nav.append(div2);
     div2.prepend(h1);
     div2.append(p);
     div2.append(h2);
-    nav.append(a);
-    div.append(nav);
-    cardPlace.append(div)
+    a.append(nav);
+    cardPlace.append(a)
+    
 
+var cards = document.querySelectorAll('.card');
+for (var i = 0; i < cards.length; i++) {
+    cards[i].addEventListener('mouseover', function(e) {
+        var nav = e.currentTarget.querySelector('nav');
+        nav.style = "padding:15px;backdrop-filter: blur(12px);border-radius: 25px 25px 0 0;";
+    });
+
+    cards[i].addEventListener('mouseout', function(e) {
+        var nav = e.currentTarget.querySelector('nav');
+        nav.style = "";
+    });
+}
 }
 
 
@@ -177,22 +207,15 @@ buttonsPages.forEach(button => {
 
 function Page(x) {
     document.querySelector('.container-cards').innerHTML = '';
-    if (x == page1) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }} else if (x == page2) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }} else if (x == page3) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }} else if (x == page4) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }} else if (x == page5) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }}    
+    let l = max_pages + 1;
+    for (var i = l - 1; i > 0; i--) {
+        let page = "page" + i;
+        if (x == eval(page)) {
+            for (var k = x.length - 1; k >= 0; k--) {
+                card(k,x);
+            }
+        }
+    }
       window.scrollTo({
         top: 0,
         left: 0,
@@ -202,38 +225,37 @@ function Page(x) {
 
 function PageStorage(x) {
     localStorage.setItem("page_Mcomics",x);
-    let f = "page" + localStorage.page_Mcomics
+    let f = "page" + localStorage.page_Mcomics;
     Page(eval(f));
     document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS"; 
 }
 
+function NoImage(x) {
+      if (x == 1) {
+    document.querySelector(".dropdown-content button").setAttribute("id","activeSVG");
+    document.querySelector(".dropdown-content button").setAttribute("onclick","NoImage(0)");
+  } else if (x == 0 ) {
+    document.querySelector(".dropdown-content button").removeAttribute("id");
+    document.querySelector(".dropdown-content button").setAttribute("onclick","NoImage(1)");
+  }
 
-
-function NoImage() {
-   // let y = sessionStorage.NoImage
-    let img = document.querySelectorAll("img");
-    for (var i = img.length - 1; i >= 0; i--) {
-        img[i].remove()
-    }
-/*   if (y == 0) {
-            sessionStorage.setItem('NoImage', 1);
-        } else if (y == 1) {
-            sessionStorage.setItem('NoImage', 0);
-            location.reload();
-        } */
-    }
-
-/*if (performance.navigation.type === 1) {
-  sessionStorage.setItem('NoImage', 0);
-} */
-
+    if (localStorage.NoImage_Mcomics == "0" || localStorage.NoImage_Mcomics == null ) {
+        localStorage.setItem("NoImage_Mcomics",1);
+    } else if (localStorage.NoImage_Mcomics == "1") {
+        localStorage.setItem("NoImage_Mcomics",0);
+    } 
+    let f = "page" + localStorage.page_Mcomics;
+    Page(eval(f));
+}
 
 
 document.addEventListener("DOMContentLoaded", function() {
     if (localStorage.page_Mcomics == null) {
         localStorage.setItem("page_Mcomics",1);
         let f = "page" + localStorage.page_Mcomics
-        Page(eval(f));     
+        Page(eval(f));
+        let num = Number(localStorage.page_Mcomics);
+        buttonsPages[num - 1].click();           
         document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS";   
     } else {
          let f = "page" + localStorage.page_Mcomics
@@ -242,7 +264,10 @@ document.addEventListener("DOMContentLoaded", function() {
         buttonsPages[num - 1].click();  
         document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS";   
     }
-
+    if (localStorage.NoImage_Mcomics == "1") {
+        document.querySelector(".dropdown-content button").setAttribute("id","activeSVG");
+        document.querySelector(".dropdown-content button").setAttribute("onclick","NoImage(0)");
+    }
 });
 
 

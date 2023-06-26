@@ -1,10 +1,12 @@
 const coverBBC = ["covers collection/BBC Pack/1waifu_interview.png","covers collection/BBC Pack/Pussy free senpai.png","covers collection/BBC Pack/bbc only.png","covers collection/BBC Pack/makima best!.png","covers collection/BBC Pack/tighnari bbc slut.png"];
 const coverGelatomusume = ["covers collection/Gelatomusume/Makima BBC1.png","covers collection/Gelatomusume/Mariya Shidou4.png","covers collection/Gelatomusume/Mom NTR Impregnation.jpg","covers collection/Gelatomusume/Wife Bathroom NTR1.png","covers collection/Gelatomusume/Zelda X Ganon NTR.png"];
 const coverYen = ["covers collection/Yen/yen.png","covers collection/Yen/yen2.png","covers collection/Yen/yen3.png","covers collection/Yen/yen4.png","covers collection/Yen/yen5.png"];
+const coverPicturd = ["covers collection/Picturd/picturd1.png","covers collection/Picturd/picturd2.png","covers collection/Picturd/picturd3.png","covers collection/Picturd/picturd4.png","covers collection/Picturd/picturd5.png"];
 
 const imgBBC = document.querySelector("#imgBBC");
 const imgGelatomusume = document.querySelector("#imgGelatomusume");
 const imgYen = document.querySelector("#imgYen");
+const imgPicturd = document.querySelector("#imgPicturd");
 
 let frames = 0;
 
@@ -12,6 +14,7 @@ function changeImages() {
   imgBBC.src = coverBBC[frames % coverBBC.length];
   imgGelatomusume.src = coverGelatomusume[frames % coverGelatomusume.length];
   imgYen.src = coverYen[frames % coverYen.length];
+  imgPicturd.src = coverPicturd[frames % coverPicturd.length];
   
   frames++;
 }

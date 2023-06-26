@@ -56,17 +56,11 @@ List = [
     {name:"OnlyLink_HMV",banner:"https://lh3.google.com/u/1/d/142aWKAEpNnBsBZ8zNcaTaHSQQ_JPjU9C=w1150-h906-iv1",duration:"3:16",author:"RElocationFX"},    
     {name:"PMV/HMV_WIDOWMAKER//BLACKED",banner:"https://rule34video.com/contents/videos_screenshots/3107000/3107472/336x189/1.jpg",duration:"2:56",author:"Eris"},
     {name:"Kitagawa_Marin_BLACKED",banner:"imagenotfound.png",duration:"2:05",author:"@Stephi3_wb"},
-
+    {name:"Your_Son_Is_My_Daughter_HMV",banner:"https://lh3.google.com/u/1/d/1-BI4tAMt2ib3g5V99q9K6MnbTJz6Jsfx=w1920-h917-iv2",duration:"1:47",author:"@CeCeFem"},
+    {name:"Everything_blacked",banner:"https://lh3.google.com/u/1/d/19v1bcUeJXzDm-aV4uf-RWcA8HBjkRGaE=w1920-h917-iv2",duration:"4:56",author:"CHWARAE"},
+    {name:"Hololive_Mori_BBC",banner:"https://lh3.google.com/u/1/d/1Ry5QgpQWEPECd4vhOOVSx3_h5aB10ubK=w200-h190-p-k-rw-v1-nu-iv2",duration:"2:59"},
     // {name:"Naming",banner:"img",duration:"NNN"},
 ];
-
-
-
-// positionBanner: 
-// 0 - normal
-// 1 - left
-// 2 - right
-// 3 - center
 
 
 // pages
@@ -74,9 +68,23 @@ List = [
 let page1 = List.slice(0,21);
 let page2 = List.slice(21,42);
 let page3 = List.slice(42,62);
-let page4 = List.slice(62,81);
 
-    
+let max_pages = 3;
+
+function GenPagesBTN() {
+    let l = max_pages + 1;
+    for (var i = 0; i < l; i++) {
+         let div = document.createElement("div");
+        div.classList = "pageBtn t_primary";
+        div.setAttribute("onclick",`PageStorage(${i})`);
+        div.innerHTML = i;
+        document.querySelector(".bottom-container").append(div);       
+    }
+    document.querySelectorAll(".pageBtn")[0].remove();
+
+}
+
+GenPagesBTN();
 
 // functions
 
@@ -133,17 +141,15 @@ buttonsPages.forEach(button => {
 
 function Page(x) {
     document.querySelector('.container-cards').innerHTML = '';
-    if (x == page1) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }} else if (x == page2) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }} else if (x == page3) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        card(i,x);
-    }}
-       
+    let l = max_pages + 1;
+    for (var i = l - 1; i > 0; i--) {
+        let page = "page" + i;
+        if (x == eval(page)) {
+            for (var k = x.length - 1; k >= 0; k--) {
+                card(k,x);
+            }
+        }
+    }
       window.scrollTo({
         top: 0,
         left: 0,
@@ -163,7 +169,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (localStorage.page_videos == null) {
         localStorage.setItem("page_videos",1);
         let f = "page" + localStorage.page_videos
-        Page(eval(f));     
+        Page(eval(f)); 
+        let num = Number(localStorage.page_videos);
+        buttonsPages[num - 1].click();             
         document.querySelector("title").innerHTML = localStorage.page_videos + " " + "|" + " " + "VIDEOS";   
     } else {
          let f = "page" + localStorage.page_videos

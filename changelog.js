@@ -59,6 +59,7 @@ BBCPack = [
   {name:"Tracer and Sombra",count:1,version:4.0},
   {name:"Kirito Sissy(+1)&Good friends of Uraki",count:7,version:4.1},
   {name:"Bard",count:14,version:4.2},
+  {name:"",count:14,version:4.3},
 ];
 
 
@@ -69,6 +70,7 @@ GelatomusumePack = [
 	{name:"Gwen Stacy&Mariya Shidou&Valeria Disciplining Millie",count:5,version:3.1},
 	{name:"Suzu Nakano Doggy",count:1,version:4.1},
 	{name:"Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",count:1,version:4.2},
+	{name:"Mommy Val cages Millie",count:0,version:4.3},
 ];
 
 
@@ -78,15 +80,22 @@ YenneferBLACKED = [
 	{count:4,version:3.7},
 	{count:4,version:4.1},
 	{count:4,version:4.2},
+	{count:4,version:4.3},
+];
+
+PicturdPack = [
+	{name:"Nick&Rona&ZOO&Grusha&Nido Queen&Orendi&Tails Bimbo&TailsxAmy&Tony&Link and Isabelle&Mary&Zozo&Jade&Lola x Bugs&Midna",count:2,version:1.0},
+	{name:"Venti&Cody",count:0,version:1.3},
+	{name:"Isui&Koda&Bowser",count:2,version:1.5},
+	{name:"Tony Gloryhole&Ren and sisters&Fonny bat",count:0,version:1.6},
+	{name:"",count:5,version:3.2},
 ];
 
 
 
 Other = [
-	{count:3,version:1.0},
-	{count:2,version:1.5},
+	{count:1,version:1.0},
 	{count:1,version:1.6},
-	{count:5,version:3.2},
 	{count:8,version:3.3},
 	{count:22,version:3.4},
 	{count:13,version:3.5},
@@ -95,6 +104,7 @@ Other = [
 	{count:2,version:4.0},
 	{count:6,version:4.1},
 	{count:2,version:4.2},
+	{count:4,version:4.3},
 ];
 
 
@@ -103,6 +113,7 @@ Videos = [
 	{count:4,version:3.7},
 	{count:4,version:4.1},
 	{count:2,version:4.2},
+	{count:3,version:4.3},
 ];
 
 
@@ -114,9 +125,9 @@ Texts = [
 ## Основные разделы:
 
  1. Solo (вмещает соло арты)
- 2. Comics (ссылки на мои переводы на других сайтах)
- 3. Mini-Comics (комиксы с малым количеством страниц)
- 4. ALL (Весь существующий контент кроме **Comics**)
+ 2. Nude-moon (ссылки на мои переводы на другом сайте)
+ 3. Comics (комиксы с малым количеством страниц)
+ 4. ALL (Весь существующий контент кроме **Nude-moon**)
  
 ## Добавлена заготовка под читалку:
 
@@ -133,7 +144,7 @@ Texts = [
 	`,version:1.1},
 	{name:`
 # - Нумерация -
-### Добавление количества страниц в карточках **Mini-Comics**
+### Добавление количества страниц в карточках **Comics**
 	`,version:1.2},
 	{name:`
 # - Без происшествий -
@@ -141,7 +152,7 @@ Texts = [
 	`,version:1.3},
 	{name:`
 # - Настройки сетки -
-### Добавление настроек отображение карточек в **Mini-Comics**
+### Добавление настроек отображение карточек в **Comics**
 	
  1. DefaultGrid ( Стандартный режим )
  2. ReverseGrid ( Меняет расположение текста и кнопки распологая его сниуз картинки )
@@ -178,9 +189,9 @@ Texts = [
 ## Текущие Разделы:
 
  1. Other (вмещает соло арты)
- 2. Comics (ссылки на мои переводы на других сайтах)
- 3. Mini-Comics (комиксы с малым количеством страниц)
- 4. Collections (Весь существующий контент кроме **Comics**)
+ 2. Comics (ссылки на мои переводы на другом сайте)
+ 3. Comics (комиксы с малым количеством страниц)
+ 4. Collections (Весь существующий контент кроме **Nude-moon**)
 	`,version:2.0},
 	{name:`
 # - Переделка анимации -
@@ -201,7 +212,7 @@ Texts = [
 # - Дополнение стиля -
 ### К стилю **BBC Pack** был добавлен blur для header
 ### Стиль **BBC Pack** был добавлен в комиксы которые относились к **BBC Pack**
-### К некоторым карточкам ( **BBC Pack** ) в **Mini-Comics** было добавлено новое оформление
+### К некоторым карточкам ( **BBC Pack** ) в **Comics** было добавлено новое оформление
 	`,version:2.4},
 	{name:`
 # - MP3,фикс -
@@ -214,10 +225,10 @@ Texts = [
 	`,version:2.6},
 	{name:`
 # - Новая эра -
-### Карточки **Mini-Comics** теперь генерируются через JS
+### Карточки **Comics** теперь генерируются через JS
 ### Карточки имеют свойства: pages, bbc.
-### **Mini-Comics** получил разделение на страницы
-### **Mini-Comics** получил счётчик сумы всех комиксов
+### **Comics** получил разделение на страницы
+### **Comics** получил счётчик сумы всех комиксов
 	`,version:2.7},	
 	{name:`
 # - Без происшествий -
@@ -243,13 +254,13 @@ Texts = [
 	`,version:3.2},
 	{name:`
 # - Новая эра 5 -
-### Теперь все комиксы используют один .html файл. Теперь генерация комиксов из **Mini-Comics** происходит через js
+### Теперь все комиксы используют один .html файл. Теперь генерация комиксов из **Comics** происходит через js
 	`,version:3.3},
 	{name:`
 # - Новый день новая кнопка -
 ### На некоторых страницах появилась кнопка MW100 которая убирает лимит артов по ширине
 ### Над выбором в **BBC Pack** рандомно выбирается гифка
-### В карточках **Mini-Comics** появилась возможность выставить новый тег (Machine Translate)
+### В карточках **Comics** появилась возможность выставить новый тег (Machine Translate)
 ### Эффект blur стал применяться в большем количестве мест а именно в header
 	`,version:3.4},
 	{name:`
@@ -261,7 +272,7 @@ Texts = [
 ### В рандомайзер гифок добавлено 2 новые гифки
 ### Удаление манифест файлов
 ### Добавлен новый Collection: **Yennefer BLACKED**
-### Расширено количество страниц на 1 ( было 3 стало 4 ) у **Mini-Comics**
+### Расширено количество страниц на 1 ( было 3 стало 4 ) у **Comics**
 ### В раздел **Videos** был добавлен собственный интерфейс который включает как каталог видео так и плеер.
 ### Переработка анимации на главной странице. Визуально ничего не изменилось
 ### На сайт была добавлена Google Analytics
@@ -281,24 +292,33 @@ Texts = [
 	`,version:3.9},		
 	{name:`
 # - Кнопка -
-### В раздел **Mini-Comics** Была добавлена кнопка NoImage которая скрывает изображения в карточках
+### В раздел **Comics** Была добавлена кнопка NoImage которая скрывает изображения в карточках
 	`,version:4.0},
 	{name:`
 # - Список изменений -
 ### Был добавлен ChangeLog всех событий на сайте
-### Замена свойства bbc на theme для будущих расширений. ( **Mini-Comics** )
+### Замена свойства bbc на theme для будущих расширений. ( **Comics** )
 ### Исправлены названия комиксов. Теперь никаких ( _ ) вместо пробелов
 	`,version:4.1},
 	{name:`
 # - *Я должен был сделать это раньше...* -
-### В **Mini-Comics** был исправлен header на мобильных устройствах
+### В **Comics** был исправлен header на мобильных устройствах
 ### Редизайн карточек **Collection**
 ### В **BBC Pack** была добавлена скрытая расшифровка
 ### Добавление иконок на функции (Default, ReverseGrid, LargeReverseGrid)
 ### Добавил на видео заглушки вместо обложек где это было необходимо
 ### Теперь сайт запоминает страницу на которой ты был.
 ### У раздела **Videos** появилась собственная иконка
- 	`,version:4.2},				
+ 	`,version:4.2},
+	{name:`
+# - ИЗМЕНИТЬ НАЗВАНИЕ -
+### Снова изменил работу страниц.
+### Был добавлен новый Collection pack и это **Picturd Pack**. Весь контект связанный с этим паком был изьят из раздела **Other**.Так же и в changelog
+### Добавлена кнопка почта. Для связи со мной.(Не уверен в её надобности)
+### Переделан дизайн карточек в **Comics** и **NUDE-MOON**
+### Настройки позиционирования карточек в **Comics** и **NUDE-MOON** были удалены.
+### Теперь функция NoImage запоминает была ли она включена.
+ 	`,version:4.3},		
 ];
 
 
@@ -310,6 +330,7 @@ let Mcomics_Card = document.querySelector(".card-Mcomics");
 let BBCPack_Card = document.querySelector(".BBCPack");
 let GelatomusumePack_Card = document.querySelector(".GelatomusumePack");
 let YenneferBLACKED_Card = document.querySelector(".YenneferBLACKED");
+let Picturd_Card = document.querySelector(".PicturdPack")
 let Other_Card = document.querySelector(".Other");
 let Videos_Card = document.querySelector(".Videos");
 let Comics_Card = document.querySelector(".Comics");
@@ -319,7 +340,7 @@ let changelogInfo_Card = document.querySelector(".changelog-info");
 	let numbers = ["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8",
 		"1.9","2.0","2.1","2.2","2.3","2.4","2.5","2.6","2.7","2.8","2.9",
 		"3.0","3.1","3.2","3.3","3.4","3.5","3.6","3.7","3.8","3.9","4.0",
-		"4.1","4.2"];
+		"4.1","4.2","4.3"];
 	for (var i = numbers.length - 1; i >= 0; i--) {
 		let button = document.createElement("button");
 		button.setAttribute("onclick",`Version(${numbers[i]})`);
@@ -418,6 +439,7 @@ Generate_Card(YenneferBLACKED_Card,YenneferBLACKED,"solo",x);
 Generate_Card(Comics_Card,Comics,"solo",x);
 Generate_Card(BBCPack_Card,BBCPack,"chapter",x);
 Generate_Card(GelatomusumePack_Card,GelatomusumePack,"chapter",x);
+Generate_Card(Picturd_Card,PicturdPack,"chapter",x);
 Generate_Card(Mcomics_Card,Mcomics,"chapter",x,"sum");
 
 const Texts_index = Texts.findIndex(item => item.version === x);
@@ -432,6 +454,7 @@ if (Texts_index === -1) {
 Generate_ColorCard(Mcomics_Card,"chapter","Sum");
 Generate_ColorCard(BBCPack_Card,"chapter","Solo");
 Generate_ColorCard(GelatomusumePack_Card,"chapter","Solo");
+Generate_ColorCard(Picturd_Card,"chapter","Solo");
 Generate_ColorCard(YenneferBLACKED_Card,"solo","New");
 Generate_ColorCard(Other_Card,"solo","New");	
 Generate_ColorCard(Videos_Card,"solo","New");

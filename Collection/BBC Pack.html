@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<audio id="videos" loop><source src="hypno.mp3" type="audio/mpeg"></audio>
+	<audio id="videos" loop><source src="Multimedia/hypno.mp3" type="audio/mpeg"></audio>
    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 	<header>
 		<nav>
@@ -49,7 +49,7 @@
 <a href="https://drive.google.com/drive/folders/1HOmx4iB1ZSimGWKsWyvETqDf71xZ9eKY?usp=sharing"><span class="iconify" data-icon="mdi:folder-google-drive"></span></a><a href="../collection.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></span></header>
 <div class="container" style="gap:15px">
 	<div class="Choise">
-		<nav class="Cheader"><img src="0QOSgif.gif" alt="Qos_Kali"><h1>What you want to see?</h1></nav>
+		<nav class="Cheader"><img src="Multimedia/0QOSgif.gif" alt="Qos_Kali"><h1>What you want to see?</h1></nav>
 		<nav class="Selects">
 			<input type="checkbox" class="custom-checkbox" id="Solo" name="Solo" onchange="Check()"><label for="Solo">Solo arts</label>
 			<input type="checkbox" class="custom-checkbox" id="Comics" name="Comics" onchange="Check()"><label for="Comics">Comics</label>
@@ -65,7 +65,7 @@
 
 // random gif for "choise"
   const random = Math.floor(Math.random() * 4);  
-  document.querySelector(".Cheader > img").src = random + "QOSgif.gif"; 
+  document.querySelector(".Cheader > img").src = "Multimedia/" + random + "QOSgif.gif"; 
 
 
 // Hypno button

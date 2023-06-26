@@ -24,10 +24,9 @@
 	<script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="hBig.css">
 <style>
 	.cardBBC {
-		background: url(Collection/bbcBG.png) #151515 repeat;
+		background: url(Collection/Multimedia/bbcBG.png) #151515 repeat;
     	background-size: 150%;
 	}
 	.btnBBC {
@@ -46,10 +45,7 @@
 						<div class="dropdown">
   <button onclick="Dropdown(1)" class="dropbtn"><span class="iconify" data-icon="ic:baseline-settings"></span></button>
   <div id="myDropdown" class="dropdown-content">
-  			<button onclick="NoImage()"><span class="iconify" data-icon="mdi:file-image-remove"></span></button>
-				<button onclick="DefaultGrid()"><span class="iconify" data-icon="codicon:layout-sidebar-right"></span></button>
-				<button onclick="ReverseGrid()"><span class="iconify" data-icon="codicon:layout-panel"></span></button>
-				<button onclick="LargeReverseGrid()"><span class="iconify" data-icon="codicon:layout-statusbar"></span></button>	  	
+  			<button onclick="NoImage(1)"><span class="iconify" data-icon="mdi:file-image-remove"></span></button>	
   </div>
 </div>		
 		<a href="index.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg>
@@ -57,13 +53,7 @@
 	</nav>
 	</header>
 <div class="container-cards"></div>
-<div class="bottom-container">
-	<div class="pageBtn activeBtn" onclick="PageStorage(1)">1</div>
-	<div class="pageBtn t_primary" onclick="PageStorage(2)">2</div>
-	<div class="pageBtn t_primary" onclick="PageStorage(3)">3</div>
-	<div class="pageBtn t_primary" onclick="PageStorage(4)">4</div>
-	<div class="pageBtn t_primary" onclick="PageStorage(5)">5</div>
-</div>
+<div class="bottom-container"></div>
     
     <script src="Mcomics.js"></script>
 <script type="text/javascript" src="script.js"></script>

@@ -273,6 +273,11 @@ Ren = [
 	{name:"Ren", banner:"https://lh3.google.com/u/0/d/111QouZq4Pi-jnkfjGmtxoBgRDmexyMf0=w1920-h917-iv1"},
 ];
 
+Mommy_Val_cages_Millie = [
+	{name:"Mommy Val cages Millie", banner:"https://lh3.google.com/u/0/d/12GGzznol-Dl1cLsQNsNaCavhzWgpB8Pc=w1920-h917-iv1"},
+	{name:"Mommy Val cages Millie", banner:"https://lh3.google.com/u/0/d/12KYHEXdAhqs6E4rMT7mqvKAjraz7tgtc=w1920-h917-iv1"}
+];
+
 
 // Generation
 
@@ -342,6 +347,7 @@ function Uploading(Comics,Solo) {
 	}
 	if (Comics == 1) {
 		// stick on top
+		MultiPost(Mommy_Val_cages_Millie);
 		MultiPost(Ren);
 		MultiPost(Quinn_Leg_Day);
 		MultiPost(Princess_Peach_NTR);

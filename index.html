@@ -29,7 +29,51 @@
     body {
         align-items: center;
     }
-
+    .info {
+        padding: 15px;
+        color: var(--white);
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 15px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;    
+    }
+    .info-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .info-header button {
+    padding: 5px;
+    border: 1px solid rgb(255 255 255 / 10%);
+    background: transparent;
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    }
+    .info-header button:hover {
+        cursor: pointer;
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+    
+    h3 {
+        word-wrap: break-word;
+        letter-spacing: 0.03em;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .info {
+            width: fit-content;
+        }
+    }
 </style>
 </head>
 <body>
@@ -39,11 +83,11 @@
 <div class="menu">
     <a href="comics.html" class="button_m">
         <img id="imgCOMICS" src="loading.png" alt="">
-        <h2>COMICS</h2>
+        <h2>NUDE-MOON</h2>
     </a>
         <a href="mini-comics.html" class="button_m">
         <img id="imgMINI" src="loading.png" alt="">
-        <h2>MINI</h2>
+        <h2>Comics</h2>
     </a>
     <a href="solo.html" class="button_m">
         <img id="imgOTHER" src="loading.png" alt="">
@@ -58,8 +102,17 @@
         <h2>Videos</h2>
     </a>    
 </div>
+<div class="info">
+    <nav class="info-header">
+        <h2>Важная информация</h2>
+        <button onclick="closeinfo()"><span class="iconify" data-icon="ic:round-close"></span></button>
+    </nav>
+    <h3>Для отображения картинок на сайте вам необходимо быть залогиненым в аккаунте Google. Так как сайт использую Google drive</h3>
+</div>
+
 <footer>
     <a href="changelog.html"><span class="iconify" data-icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"></span></a>
+    <a target="_blank" class="email" href="mailto:piloxarp@gmail.com"><span class="iconify" data-icon="line-md:email"></span></a>
 </footer>
 
 
@@ -90,8 +143,21 @@
     </div> -->
 
 </div>
+
 <!-- <script src="slider.js"></script> -->
 <script src="card.js"></script>
+<script>
+
+        if (localStorage.index_info == "1") {
+            document.querySelector(".info").remove();
+        }
+
+
+    function closeinfo() {
+        localStorage.setItem("index_info",1);
+        document.querySelector(".info").remove();
+    }
+</script>
 <style>
     /* Tooltip container */
     .tooltip {

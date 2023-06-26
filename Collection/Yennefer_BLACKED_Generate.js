@@ -71,13 +71,16 @@ Other = [
 	{name:"",banner:"https://wimg.rule34.xxx/images/6699/d2689e82291c5246807ded11e211a5ef.png"},
 	{name:"",banner:"https://wimg.rule34.xxx/images/6062/6d146bad5b025c896bbefbfb2bb304cb.png"},
 	{name:"",banner:"https://wimg.rule34.xxx/images/6959/139ecb2cf24dd99c6f23bbcb1d0eb1ac.jpeg"},
-	{name:"",banner:"https://wimg.rule34.xxx/images/6979/4b54eb9e629f2f21c01c0e7e3c76392b.jpeg"},
 	{name:"",banner:"https://wimg.rule34.xxx/images/6979/25596e7c679d80f043f2dd671c315429.jpeg"},
 	{name:"",banner:"https://wimg.rule34.xxx/images/6989/14c5e6dfc5d1dc015865541eee5b0c0c.jpeg"},
 	{name:"",banner:"https://rule34.xxx//samples/7067/sample_1b911dcb5e132783598850a9ebf7d80c.jpg"},
 	{name:"",banner:"https://rule34.xxx//samples/7087/sample_3c483bf87aa163ae84d79ea0352c64b4.jpg"},
 	{name:"",banner:"https://rule34.xxx//samples/6979/sample_4b54eb9e629f2f21c01c0e7e3c76392b.jpg"},
 	{name:"",banner:"https://rule34.xxx//samples/5099/sample_099256be64e343fc58420be7629800d6.jpg"},
+	{name:"",banner:"https://wimg.rule34.xxx//images/7092/624a28a25ebc9f1aad927556fb99ad40.jpeg"},
+	{name:"",banner:"https://wimg.rule34.xxx//images/7097/f075d9351cdb6b62bccac62dc49a58d1.png"},
+	{name:"",banner:"https://wimg.rule34.xxx//images/7112/1cc723a40588f68f7ddfa01334f9a40c.png"},
+	{name:"Yen and some very... rought sessions",banner:"https://lh3.google.com/u/0/d/1UnkYy9kUbHXiMaz0mIUuAR7VLaH4xvQ8=w1920-h917-iv1"},
 	// {name:"NNN",banner:"ban"},
 ];
 
@@ -89,6 +92,22 @@ let page2 = Other.slice(20,40);
 let page3 = Other.slice(40,60);
 let page4 = Other.slice(60,80);
 
+let max_pages = 4;
+
+function GenPagesBTN() {
+    let l = max_pages + 1;
+    for (var i = 0; i < l; i++) {
+         let div = document.createElement("div");
+        div.classList = "pageBtn t_primary";
+        div.setAttribute("onclick",`PageStorage(${i})`);
+        div.innerHTML = i;
+        document.querySelector(".bottom-container").append(div);       
+    }
+    document.querySelectorAll(".pageBtn")[0].remove();
+
+}
+
+GenPagesBTN();
 
 // Generation
 
@@ -152,20 +171,15 @@ buttonsPages.forEach(button => {
 
 function Page(x) {
     document.querySelector('.container').innerHTML = '';
-    if (x == page1) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        post(i,x);
-    }} else if (x == page2) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        post(i,x);
-    }} else if (x == page3) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        post(i,x);
-    }} else if (x == page4) {
-    for (var i = x.length - 1; i >= 0; i--) {
-        post(i,x);
-    }} 
-
+    let l = max_pages + 1;
+    for (var i = l - 1; i > 0; i--) {
+        let page = "page" + i;
+        if (x == eval(page)) {
+            for (var k = x.length - 1; k >= 0; k--) {
+                post(k,x);
+            }
+        }
+    }
       window.scrollTo({
         top: 0,
         left: 0,
@@ -193,7 +207,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (localStorage.page_Yen == null) {
         localStorage.setItem("page_Yen",1);
         let f = "page" + localStorage.page_Yen
-        Page(eval(f));     
+        Page(eval(f));
+        let num = Number(localStorage.page_Yen);
+        buttonsPages[num - 1].click();      
         document.querySelector("title").innerHTML = localStorage.page_Yen + " " + "|" + " " + "YENNEFER BLACEKD";   
     } else {
          let f = "page" + localStorage.page_Yen

@@ -54,7 +54,9 @@ ListV = [
   [{name:"OnlyLink_HMV",banner:"https://lh3.google.com/u/1/d/142aWKAEpNnBsBZ8zNcaTaHSQQ_JPjU9C=w1150-h906-iv1",link:"https://drive.google.com/file/d/14Ainsujv_iEG7_uo7vqetLZNqL7Rbuna/preview",duration:"3:16",author:"RElocationFX"}],
   [{name:"PMV/HMV_WIDOWMAKER//BLACKED",banner:"https://rule34video.com/contents/videos_screenshots/3107000/3107472/336x189/1.jpg",link:"https://drive.google.com/file/d/1-7CHjcVJbBhIoUt_7vtb4pexnuapOfQt/preview",duration:"2:56",author:"Eris"}],
   [{name:"Kitagawa_Marin_BLACKED",banner:"imagenotfound.png",link:"https://drive.google.com/file/d/1BOC2r3s7hOvPtWxgbC289xMdkAqMsv1G/preview",duration:"2:05",author:"@Stephi3_wb"}],
-
+  [{name:"Your_Son_Is_My_Daughter_HMV",banner:"https://lh3.google.com/u/1/d/1-BI4tAMt2ib3g5V99q9K6MnbTJz6Jsfx=w1920-h917-iv2",link:"https://drive.google.com/file/d/1-B3L2bT17zuYgJggMEhTX_rhgkeFcYZ1/preview",duration:"1:47",author:"@CeCeFem"}],
+  [{name:"Everything_blacked",banner:"https://lh3.google.com/u/1/d/19v1bcUeJXzDm-aV4uf-RWcA8HBjkRGaE=w1920-h917-iv2",link:"https://drive.google.com/file/d/1zoGWyKmqrhG4odJoqxO9SMqndaLanjtz/preview",duration:"4:56",author:"CHWARAE"}],
+  [{name:"Hololive_Mori_BBC",banner:"https://lh3.google.com/u/1/d/1Ry5QgpQWEPECd4vhOOVSx3_h5aB10ubK=w200-h190-p-k-rw-v1-nu-iv2",link:"https://drive.google.com/file/d/1Ry5QgpQWEPECd4vhOOVSx3_h5aB10ubK/preview",duration:"2:59"}],
     // [{name:"Naming",banner:"",link:"linking",duration:"0:00",author:"NAME"}], // /preview
   
 ];
