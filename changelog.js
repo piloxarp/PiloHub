@@ -1,335 +1,6 @@
-Comics = [
-	{count:29,version:1.0},
-	{count:1,version:4.2},
-		
-
-];
-
-// {name:"",version:"},// {count:,version:"},// " " - отделение для name
-
-Mcomics = [
-	{name:"James&Nick&Rona&ZOO&Grusha&Nido Queen&Orendi&Tails Bimbo&TailsxAmy&Tony&Link and Isabelle&Mary&Zozo&Jade&Lola x Bugs&Midna",version:1.0},
-	{name:"Lynn Defeated and Trained",version:1.2},
-	{name:"Venti&Cody",version:1.3},
-	{name:"Isui&Koda&Bowser",version:1.5},
-	{name:"Tony Gloryhole&Ren and sisters&Rimuru and Gobta&First trip&Fonny bat",version:1.6},
-	{name:"Deku-kun and Ochaco with master",version:1.8},
-	{name:"The new Black Worldorder Teachers",version:2.0},
-	{name:"Cuckold Relationship&Stretch",version:2.4},
-	{name:"Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc&Mother assisted femboy test&After&Mother Training Daughter&BBC Cock Worship&First time&Full nelson&Mom NTR&Peeking&Pregnant Mommy&Sissy Training&Wife Bathroom NTR&Alex and Millie&Quinn and Friends Reuniting&Valeria and Millie&Ann Possible NTR&Lana`s Mom, Breeding Cow&Makima BBC&Starfire goes Trick or Treating&Workout&Succubus&The Beloved Hero's Secret&Astolfo Reverse Bunnysuit&Val and Millie Edging&Suzu Nakano&Suzu Nakano Handjob",version:2.5},
-	{name:"Elf",version:2.6},
-	{name:"Kirito Sissy&It's just his dick is so much better",version:2.7},
-	{name:"BLACKED Person",version:2.9},
-	{name:"BLACKED Person(+1)",version:3.0},
-	{name:"Gwen Stacy&Mariya Shidou&Valeria Disciplining Millie",version:3.1},
-	{name:"Bowser(+6)",version:3.2},
-	{name:"A manga about brainwashing a brother and sister&Will you really cover my entire bill",version:3.3},
-	{name:"Submissive Scaramouche&Победа над Путешествиницей и Венди",version:3.4},
-	{name:"Lynn Defeated and Trained(+3)",version:3.6},
-	{name:"Yorha 9S&Makima and pet&Medical checkup&Deku-kun and Ochaco with master(+4)",version:3.8},
-	{name:"Kirito Sissy(+2)&Xingqiu and likes&Cuck Lessons",version:3.9},
-	{name:"Tracer and Sombra",version:4.0},
-	{name:"Good friends of Uraki&Kirito Sissy(+1)&Suzu Nakano Doggy",version:4.1},
-	{name:"Bard&Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",version:4.2},
-];
-
-
-
-
-BBCPack = [
-	{name:"Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc",count:18,version:1.9},
-	{name:"Mother assisted femboy test&The new Black Worldorder Teachers&",count:2,version:2.0},
-	{name:"",count:3,version:2.1},
-	{name:"",count:8,version:2.2},
-	{name:"",count:5,version:2.3},
-	{name:"Cuckold Relationship&Stretch&After",count:18,version:2.4},
-	{name:"Mother Training Daughter",count:0,version:2.5},
-	{name:"Elf",count:19,version:2.6},
-	{name:"Kirito Sissy&It's just his dick is so much better",count:3,version:2.7},
-  {name:"",count:16,version:2.8},
-  {name:"BLACKED Person",count:3,version:2.9},
-  {name:"BLACKED Person(+1)",count:1,version:3.0},
-  {name:"",count:4,version:3.1},
-  {name:"",count:17,version:3.3},
-  {name:"Победа над Путешествиницей и Венди",count:12,version:3.4},
-  {name:"",count:2,version:3.5},
-  {name:"",count:1,version:3.6},
-  {name:"Makima and pet&Medical checkup",count:3,version:3.8},
-  {name:"Kirito Sissy(+2)&Xingqiu and likes",count:0,version:3.9},
-  {name:"Tracer and Sombra",count:1,version:4.0},
-  {name:"Kirito Sissy(+1)&Good friends of Uraki",count:7,version:4.1},
-  {name:"Bard",count:14,version:4.2},
-  {name:"",count:14,version:4.3},
-];
-
-
-
-GelatomusumePack = [
-	{name:"BBC Cock Worship&First time&Full nelson&Mom NTR&Peeking&Pregnant Mommy&Sissy Training&Wife Bathroom NTR&Alex and Millie&Quinn and Friends Reuniting&Valeria and Millie&Ann Possible NTR&Lana`s Mom, Breeding Cow&Makima BBC&Starfire goes Trick or Treating&Workout",count:37,version:1.8},
-	{name:"Succubus&The Beloved Hero's Secret&Astolfo Reverse Bunnysuit&Val and Millie Edging&Suzu Nakano&Suzu Nakano Handjob",count:18,version:2.5},
-	{name:"Gwen Stacy&Mariya Shidou&Valeria Disciplining Millie",count:5,version:3.1},
-	{name:"Suzu Nakano Doggy",count:1,version:4.1},
-	{name:"Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",count:1,version:4.2},
-	{name:"Mommy Val cages Millie",count:0,version:4.3},
-];
-
-
-
-YenneferBLACKED = [
-	{count:66,version:3.6},
-	{count:4,version:3.7},
-	{count:4,version:4.1},
-	{count:4,version:4.2},
-	{count:4,version:4.3},
-];
-
-PicturdPack = [
-	{name:"Nick&Rona&ZOO&Grusha&Nido Queen&Orendi&Tails Bimbo&TailsxAmy&Tony&Link and Isabelle&Mary&Zozo&Jade&Lola x Bugs&Midna",count:2,version:1.0},
-	{name:"Venti&Cody",count:0,version:1.3},
-	{name:"Isui&Koda&Bowser",count:2,version:1.5},
-	{name:"Tony Gloryhole&Ren and sisters&Fonny bat",count:0,version:1.6},
-	{name:"",count:5,version:3.2},
-];
-
-
-
-Other = [
-	{count:1,version:1.0},
-	{count:1,version:1.6},
-	{count:8,version:3.3},
-	{count:22,version:3.4},
-	{count:13,version:3.5},
-	{count:8,version:3.6},
-	{count:6,version:3.8},
-	{count:2,version:4.0},
-	{count:6,version:4.1},
-	{count:2,version:4.2},
-	{count:4,version:4.3},
-];
-
-
-Videos = [
-	{count:45,version:3.6},
-	{count:4,version:3.7},
-	{count:4,version:4.1},
-	{count:2,version:4.2},
-	{count:3,version:4.3},
-];
-
-
-
-Texts = [
-	{name:`
-# - Начало -
-Первая публичная версия **PiloHub** 
-## Основные разделы:
-
- 1. Solo (вмещает соло арты)
- 2. Nude-moon (ссылки на мои переводы на другом сайте)
- 3. Comics (комиксы с малым количеством страниц)
- 4. ALL (Весь существующий контент кроме **Nude-moon**)
- 
-## Добавлена заготовка под читалку:
-
- 1. Название
- 2. Кнопка возврата
- 3. Название арта под картинкой
- 4. Нумерация страницы арта если это комикс
- 5. Кнопка которая возвращает к началу страницы
-	`,version:1.0},
-	{name:`
-# - Графические изменения -
-### Изменение некоторых цветов 
-### Изменение размера карточки с 300px до 145px
-	`,version:1.1},
-	{name:`
-# - Нумерация -
-### Добавление количества страниц в карточках **Comics**
-	`,version:1.2},
-	{name:`
-# - Без происшествий -
-### *А ты думал здесь что-то будет*
-	`,version:1.3},
-	{name:`
-# - Настройки сетки -
-### Добавление настроек отображение карточек в **Comics**
-	
- 1. DefaultGrid ( Стандартный режим )
- 2. ReverseGrid ( Меняет расположение текста и кнопки распологая его сниуз картинки )
- 3. LargeReverseGrid ( Повторяет действия ReverseGrid но ещё убирает ограничение по размеру у картинок...*ну почти* )
-	`,version:1.4},
-	{name:`
-# - Логотип -
-### Добавление логотипа
-	`,version:1.5},
-	{name:`
-# - Фикс картинок -
-### Поскольку nude-moon решил заблокать прогрузку обложок моих комиксов то мне пришлость скачать эти обложки.
-	`,version:1.6},
-	{name:`
-# - Новый раздел -
-### Добавлен новый раздел **Videos** пока что без собственного интерфейса
-	`,version:1.7},
-	{name:`
-# - Первый Collection pack -
-### Добавлен первый Collection pack и это **Gelatomusume Pack**
-	`,version:1.8},
-	{name:`
-# - Второй Collection pack -
-### Добавлен Второй Collection pack и это **BBC Pack**
-	`,version:1.9},
-	{name:`
-# - Анимация,Фиксы,Прощание,Цвета -
-### Добавлена анимация разделов на главной странице
-### Удален раздел **ALL**
-### Изменение цвета иконки
-### Изменение общей схемы цветов сайта
-### Добавление иконок ко всем Collection packs
-### Изменение концепта раздела **Solo** на **Other**. Теперь этот раздел будет содержать весь контент который не используется в Collection
-## Текущие Разделы:
-
- 1. Other (вмещает соло арты)
- 2. Comics (ссылки на мои переводы на другом сайте)
- 3. Comics (комиксы с малым количеством страниц)
- 4. Collections (Весь существующий контент кроме **Nude-moon**)
-	`,version:2.0},
-	{name:`
-# - Переделка анимации -
-### Переписан код анимации на более лёгкий
-	`,version:2.1},
-	{name:`
-# - Новая иконка, счётчик -
-### **BBC Pack** получил собственную иконку
-### Появился счётчик который отображает сумарное количество артов на странице
-### Была добавлена кнопка сортировки по времени
-	`,version:2.2},
-	{name:`
-# - Уникальный стиль -
-### **BBC Pack** получил уникальный стиль css. На данный момент меняется только фон
-### Был оптимизирован header для страниц где это нужно
-	`,version:2.3},
-	{name:`
-# - Дополнение стиля -
-### К стилю **BBC Pack** был добавлен blur для header
-### Стиль **BBC Pack** был добавлен в комиксы которые относились к **BBC Pack**
-### К некоторым карточкам ( **BBC Pack** ) в **Comics** было добавлено новое оформление
-	`,version:2.4},
-	{name:`
-# - MP3,фикс -
-### **BBC Pack** получил фоновую музыку по кнопке
-### Была исправлена проблема когда использовалась кнопка сортировки и комиксы перемещались не в том порядке
-	`,version:2.5},
-	{name:`
-# - Без происшествий -
-### Опять
-	`,version:2.6},
-	{name:`
-# - Новая эра -
-### Карточки **Comics** теперь генерируются через JS
-### Карточки имеют свойства: pages, bbc.
-### **Comics** получил разделение на страницы
-### **Comics** получил счётчик сумы всех комиксов
-	`,version:2.7},	
-	{name:`
-# - Без происшествий -
-### Снова
-	`,version:2.8},
-	{name:`
-# - Анекдот -
-### *Что нужно сделать что бы секс перестал быть банальным? Убрать букву Б.*
-	`,version:2.9},	
-	{name:`
-# - Новая эра 2 -
-### Арты и комиксы **BBC Pack** теперь генерируются через JS
-### При заходе на страницу **BBC Pack** можно выбрать что показывать. ( Solo arts или Comics )
-	`,version:3.0},
-	{name:`
-# - Новая эра 3 -
-### Арты и комиксы **Gelatomusume Pack** теперь генерируются через JS
-### При заходе на страницу **Gelatomusume Pack** можно выбрать что показывать. ( Solo arts или Comics )
-	`,version:3.1},
-	{name:`
-# - Новая эра 4 -
-### Арты **Other** теперь генерируются через JS
-	`,version:3.2},
-	{name:`
-# - Новая эра 5 -
-### Теперь все комиксы используют один .html файл. Теперь генерация комиксов из **Comics** происходит через js
-	`,version:3.3},
-	{name:`
-# - Новый день новая кнопка -
-### На некоторых страницах появилась кнопка MW100 которая убирает лимит артов по ширине
-### Над выбором в **BBC Pack** рандомно выбирается гифка
-### В карточках **Comics** появилась возможность выставить новый тег (Machine Translate)
-### Эффект blur стал применяться в большем количестве мест а именно в header
-	`,version:3.4},
-	{name:`
-# - Цитата -
-### *Чем ленивее человек, тем больше его труд напоминает подвиг.*
-	`,version:3.5},
-	{name:`
-# - Новые гифки -
-### В рандомайзер гифок добавлено 2 новые гифки
-### Удаление манифест файлов
-### Добавлен новый Collection: **Yennefer BLACKED**
-### Расширено количество страниц на 1 ( было 3 стало 4 ) у **Comics**
-### В раздел **Videos** был добавлен собственный интерфейс который включает как каталог видео так и плеер.
-### Переработка анимации на главной странице. Визуально ничего не изменилось
-### На сайт была добавлена Google Analytics
-	`,version:3.6},	
-	{name:`
-# - Настройки -
-### На некоторые разделы была добавлена кнопка настроек которая вмещала остальные кнопки ( MW100, Sort, Sound ). Так же все кнопки получили новые иконки
-### **Yennefer BLACKED** получила разделение контента на страницы ( 3 )
-	`,version:3.7},
-	{name:`
-# - Ничего нового -
-### В этой версии ничего нового не появилась
-	`,version:3.8},
-	{name:`
-# - Переработка страниц -
-### Код работы страниц был переписан на более простой
-	`,version:3.9},		
-	{name:`
-# - Кнопка -
-### В раздел **Comics** Была добавлена кнопка NoImage которая скрывает изображения в карточках
-	`,version:4.0},
-	{name:`
-# - Список изменений -
-### Был добавлен ChangeLog всех событий на сайте
-### Замена свойства bbc на theme для будущих расширений. ( **Comics** )
-### Исправлены названия комиксов. Теперь никаких ( _ ) вместо пробелов
-	`,version:4.1},
-	{name:`
-# - *Я должен был сделать это раньше...* -
-### В **Comics** был исправлен header на мобильных устройствах
-### Редизайн карточек **Collection**
-### В **BBC Pack** была добавлена скрытая расшифровка
-### Добавление иконок на функции (Default, ReverseGrid, LargeReverseGrid)
-### Добавил на видео заглушки вместо обложек где это было необходимо
-### Теперь сайт запоминает страницу на которой ты был.
-### У раздела **Videos** появилась собственная иконка
- 	`,version:4.2},
-	{name:`
-# - ИЗМЕНИТЬ НАЗВАНИЕ -
-### Снова изменил работу страниц.
-### Был добавлен новый Collection pack и это **Picturd Pack**. Весь контект связанный с этим паком был изьят из раздела **Other**.Так же и в changelog
-### Добавлена кнопка почта. Для связи со мной.(Не уверен в её надобности)
-### Переделан дизайн карточек в **Comics** и **NUDE-MOON**
-### Настройки позиционирования карточек в **Comics** и **NUDE-MOON** были удалены.
-### Теперь функция NoImage запоминает была ли она включена.
- 	`,version:4.3},		
-];
-
-
-
-
-
-
 let Mcomics_Card = document.querySelector(".card-Mcomics");
 let BBCPack_Card = document.querySelector(".BBCPack");
 let GelatomusumePack_Card = document.querySelector(".GelatomusumePack");
-let YenneferBLACKED_Card = document.querySelector(".YenneferBLACKED");
 let Picturd_Card = document.querySelector(".PicturdPack")
 let Other_Card = document.querySelector(".Other");
 let Videos_Card = document.querySelector(".Videos");
@@ -340,7 +11,7 @@ let changelogInfo_Card = document.querySelector(".changelog-info");
 	let numbers = ["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8",
 		"1.9","2.0","2.1","2.2","2.3","2.4","2.5","2.6","2.7","2.8","2.9",
 		"3.0","3.1","3.2","3.3","3.4","3.5","3.6","3.7","3.8","3.9","4.0",
-		"4.1","4.2","4.3"];
+		"4.1","4.2","4.3","4.4"];
 	for (var i = numbers.length - 1; i >= 0; i--) {
 		let button = document.createElement("button");
 		button.setAttribute("onclick",`Version(${numbers[i]})`);
@@ -431,11 +102,11 @@ function Version(x) {
 	} else {
 		document.querySelector("#count").innerHTML = "v." + x;
 	}
+
 	
 // Generate cards
-Generate_Card(Other_Card,Other,"solo",x);
+Generate_Card(Other_Card,Other,"chapter",x);
 Generate_Card(Videos_Card,Videos,"solo",x);
-Generate_Card(YenneferBLACKED_Card,YenneferBLACKED,"solo",x);
 Generate_Card(Comics_Card,Comics,"solo",x);
 Generate_Card(BBCPack_Card,BBCPack,"chapter",x);
 Generate_Card(GelatomusumePack_Card,GelatomusumePack,"chapter",x);
@@ -455,10 +126,11 @@ Generate_ColorCard(Mcomics_Card,"chapter","Sum");
 Generate_ColorCard(BBCPack_Card,"chapter","Solo");
 Generate_ColorCard(GelatomusumePack_Card,"chapter","Solo");
 Generate_ColorCard(Picturd_Card,"chapter","Solo");
-Generate_ColorCard(YenneferBLACKED_Card,"solo","New");
 Generate_ColorCard(Other_Card,"solo","New");	
 Generate_ColorCard(Videos_Card,"solo","New");
 Generate_ColorCard(Comics_Card,"solo","New");
-									
+
+
+
 
 };

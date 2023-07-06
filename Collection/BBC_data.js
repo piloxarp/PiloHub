@@ -1,6 +1,6 @@
 // Lists
 
-Other = [
+Other_BBC = [
 	// {name:"NNN",banner:"ban"},
 	{name:"Breakfast from BBC",banner:"https://lh3.google.com/u/0/d/1HmlLzUt_z6nQ75-gPstZ7TjjDOt7JEqX=w1887-h938-iv1"},
 	{name:"Changes at the Komi for the year",banner:"https://lh3.google.com/u/0/d/1HloitGQRZATaYyI9Gw5CaiFMWJ09xdz2=w1887-h938-iv1"},
@@ -172,6 +172,13 @@ Other = [
 	{name:"Responsibilities of the white son", banner:"https://lh3.google.com/u/0/d/12fgPaw06ntX2qIC98TpVYKqKc918ISAu=w1920-h917-iv1"},
 	{name:"I'm a femboy who belongs to Daddy!", banner:"https://lh3.google.com/u/0/d/12ma87A_r9hEl8ZPRNzwIieIDC8hMbLEf=w1920-h917-iv1"},
 	{name:"You`ll be cleaning me between rounds", banner:"https://lh3.google.com/u/0/d/12iEPwqeK9yhHpZ4vMwoKmJhPwRMVFFG0=w1920-h917-iv1"},
+	{name:"I see someone`s in a mood today", banner:"https://lh3.google.com/u/0/d/14Sc_kbtJ1_dBe6wqAwsN4IH6xA0L89GN=w1278-h903-iv1"},
+	{name:"Rapebait", banner:"https://lh3.google.com/u/0/d/13zp_2XKVFPc-mWaD_6B4PLgslsfo2eOZ=w1278-h903-iv1"},
+	{name:"That cute little nerdy girl you're into is masturbating to interracial porn", banner:"https://lh3.google.com/u/0/d/14SWtPwYoNJGzQu7pLnB9xskQCbyWulM8=w1278-h903-iv1"},
+	{name:"10 seconds of joy", banner:"https://lh3.google.com/u/0/d/15NCLx-4c29XjdrmiL8OWM4VtbSI7uYS-=w1559-h903-iv1"},
+	{name:"Mommy's bed", banner:"https://lh3.google.com/u/0/d/15O-bVGOJYXExvAjKqrfGp78oWrjFADCH=w1559-h903-iv1"},
+	{name:"Lesson from Mommy", banner:"https://lh3.google.com/u/0/d/15PdGv3v3goYe3tAh_dk5W8d_dTnQI49f=w1559-h903-iv1"},
+	{name:"Fantasy will turn into reality", banner:"https://lh3.google.com/u/0/d/15WQzf6xFMoXYP_I8QxP2nO6IuYkrZzVn=w1559-h903-iv1"},
 ];
 
 
@@ -251,19 +258,6 @@ The_new_Black_Worldorder_Teachers = [
 	{name:"The_new_Black_Worldorder_Teachers", banner:"https://lh3.google.com/u/0/d/1KmnWO74UTv1OjIksMMZ7X5Kyurl8JJHJ=w923-h934-iv1"}
 ];
 
-Cuckold_Relationship = [
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1N3YmTA8CEW9f50BV7se6AyQqk4IrYdSW=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1N5TdMNsOkDgXkxcSJGE1hoSJ2n4tV9dx=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1N7KDL6Oskg5yQX0ekEDn9twFXDEFa5A9=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1Mhbr0RhQlFvubqM-JbUhnbZI1SUaOqK1=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1MicoY423-9ZLjEqEmDLjJhKCoBYJeotM=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1MkADIO7bd6hFj7wPGas3ezjXNC6gBtPy=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1MqJZmZQkMEXgIQRqQ5kk3OLgJ17iCRhm=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1MrAPwz9R71qlXqTiDlG6wCMQj4WwJRfi=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1N1rUOjUb5h0yNOX8Rnishr6k-nWUrQlg=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1N2VxWdkPa9W7HszG8j4Tdw_k8WQJTHj5=w1885-h936-iv1"},
-	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1N2ZZ-IuhQ7hjO3QD-FaV5ZQVLkai1VsZ=w1885-h936-iv1"},
-];
 
 Stretch = [
 	{name:"Stretch", banner:"https://lh3.google.com/u/0/d/1MFkphai9PlaLeBwp6PWw5eNoojbjy_u-=w1885-h936-iv1"},
@@ -411,107 +405,7 @@ Bard = [
     {name:"Bard: Poster", banner:"https://lh3.google.com/u/0/d/10R3B0a_VgxwrSpHseu8QIeaWEaZCkuuz=w1920-h917-iv1"},
 ]; 
 
-// Generation
-
-function post(x,page) {
-    let div = document.createElement("div");
-    div.className = "paper";
-    let a = document.createElement("a");
-    a.href = page[x].banner;
-    let img = document.createElement("img");
-    img.src = page[x].banner;
-    img.loading = "lazy";
-    img.alt = page[x].name;
-    nav = document.createElement("nav");
-    nav.className = "description";
-    h2 = document.createElement("h2");
-    h2.innerHTML = page[x].name;
-    div.append(a);a.append(img);div.append(nav);nav.append(h2);
-    container = document.querySelector(".container");container.append(div);
-}
-
-function MultiPost(page) {
-    divFlex = document.createElement("div");
-    divFlex.className = "mangaFlex";
-	container = document.querySelector(".container");container.append(divFlex);
-	for (var x = page.length - 1; x >= 0; x--) {
-    let div = document.createElement("div2");
-    div.className = "paper";
-    div.style.id = page[x].name;
-    let a = document.createElement("a");
-    a.href = page[x].banner;
-    let img = document.createElement("img");
-    img.src = page[x].banner;
-    img.loading = "lazy";
-    nav = document.createElement("nav");
-    nav.className = "description";
-    h2 = document.createElement("h2");
-    h2.innerHTML = page[x].name;
-    p = document.createElement("p");
-    p.innerHTML = (x+1) + "/" + page.length;
-	divFlex.prepend(div);div.append(a);a.append(img);div.append(nav);nav.append(h2);nav.append(p);
-    }
-
-}
-
-// Uploading
-
-let ComicsBTN = document.querySelector("#Comics");
-let SoloBTN = document.querySelector("#Solo");
-let GenerateBTN = document.querySelector(".Choise > button");
-
-function Check() {
-	if (ComicsBTN.checked && SoloBTN.checked) {
-		GenerateBTN.setAttribute("onclick","Uploading(1,1)");
-	} else if (ComicsBTN.checked) {
-		GenerateBTN.setAttribute("onclick","Uploading(1,0)");
-	} else if (SoloBTN.checked) {
-		GenerateBTN.setAttribute("onclick","Uploading(0,1)");
-	}
-}
-
-function Uploading(Comics,Solo) {
-	document.querySelector(".Choise").remove();
-	if (Solo == 1) {
-		for (var i = Other.length - 1; i >= 0; i--) {
-			post(i,Other);
-		} 		
-	}
-	if (Comics == 1) {
-		// stick on top
-		MultiPost(Bard);
-		MultiPost(Good_friends_of_Uraki);
-		MultiPost(The_BBC_addicted_wife_KISARAGI_AYAKO);
-		MultiPost(TracerxSombra);
-		MultiPost(Xingqiu_and_likes);
-		MultiPost(Medical_checkup);
-		MultiPost(Makima_and_pet);
-		MultiPost(Defeating_Traveler_and_Wendy);
-		MultiPost(BLACKED_Person);
-		MultiPost(Its_just_his_dick_is_so_much_better);
-		MultiPost(Kirito_Sissy);
-		MultiPost(Elf);
-		MultiPost(Mother_Training_Daughter);
-		MultiPost(After);
-		MultiPost(Stretch);
-		MultiPost(Cuckold_Relationship);
-		MultiPost(The_new_Black_Worldorder_Teachers);
-		MultiPost(Mother_assisted_femboy_test);
-		MultiPost(Waitress_for_bbc);
-		MultiPost(Inko_and_BBC);
-		MultiPost(Deku_kun_and_Ochaco_with_master);
-		MultiPost(Waifu_Interview);	
-		MultiPost(A_new_side_of_Uraraka);
-	}
-	
-		let count = document.querySelectorAll(".paper");
-		let elemCount = document.querySelector("#count");
-		elemCount.innerHTML = count.length;
-};
-
-
-
-
-
-
-
+Her_boyfriends_hobbies = [
+	{name:"Her boyfriend`s hobbies", banner:"https://lh3.google.com/u/0/d/149gwQo7FPqtgJfbSekja5HPP8L3ntqe0=w1278-h903-iv1"},
+	{name:"Her boyfriend`s hobbies", banner:"https://lh3.google.com/u/0/d/14GHmcfXxEXXm8s8rx4Tya52g3Su1e5If=w1278-h903-iv1"},
+];

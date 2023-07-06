@@ -73,33 +73,22 @@ function Video(x) {
   	iframe.height = "560";
   	iframe.allow = "fullscreen";
   	let container = document.querySelector(".container-vids");
-  	container.append(iframe);
+  	container.prepend(iframe);
 }
 
 function Infograph(x) {
-  let container_inf = document.createElement("div");
-  container_inf.className = "container-inf";
   let nameToFind = x;
   const result = ListV.findIndex(subArray => subArray.findIndex(obj => obj.name === nameToFind) !== -1); // result
   if (result !== -1) {
-    let nav = document.createElement("nav");
-    nav.className = "vc-tags";
-    nav.setAttribute("id", "tag-author");
-    nav.style.cssText = "margin-bottom:0;";
+    let nav = document.querySelector("#tag-author");
+    let p = document.querySelector(".info_vid > p");
+    let h2 = document.querySelector(".info_vid > h2");
     nav.innerHTML = ListV[result][0].author;
-    let p = document.createElement("p");
     p.innerHTML = ListV[result][0].duration;
-    let h2 = document.createElement("h2");
     h2.innerHTML = ListV[result][0].name.replace(/_/g, " ");
-    container_inf.prepend(h2);
-    container_inf.append(p);
-    container_inf.append(nav);
+    document.querySelector("#download_btn_vid").href = ListV[result][0].link.replace("file/d/","u/1/uc?id=").replace("/preview","&export=download");
   }
 
-
-
-  let container = document.querySelector(".container-vids");
-  container.append(container_inf);
 }
 
 function Other(y,x) {
@@ -119,9 +108,14 @@ function Other(y,x) {
     div2.className = "vc-des";
     let h2 = document.createElement("h2");
     h2.innerHTML = ListV[y][0].name.replace(/_/g, " ");
+    let nav = document.createElement("nav");
+    nav.className = "vc-tags";
+    nav.setAttribute("id", "tag-author");
+    nav.innerHTML = ListV[y][0].author;
+    div2.append(nav);    
     div.prepend(p);
     div.append(img);
-    div2.append(h2);
+    div2.prepend(h2);
     a.prepend(div);
     a.append(div2);
     let cardPlace = document.querySelector(".container-other");

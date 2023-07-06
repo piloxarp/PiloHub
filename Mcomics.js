@@ -30,7 +30,7 @@ List = [
     {name:"Fonny_bat", banner:"https://lh3.google.com/u/0/d/1BBW_ApifvMEF8N-MkFYnOmSTio78PTWZ=w1885-h936-iv1",pages:2},
     {name:"Deku_kun_and_Ochaco_with_master", banner:"https://lh3.google.com/u/0/d/1B_Q4FkSwWcNWGIp53mrOprkKz2slALms=w1887-h938-iv1",pages:7,theme:"bbc"},
     {name:"The_new_Black_Worldorder_Teachers", banner:"https://lh3.google.com/u/0/d/1KNU-sLGx_DjOJEHMj92griSN4kB7m19r=w1887-h938-iv1",pages:18,theme:"bbc"},
-    {name:"Cuckold_Relationship", banner:"https://lh3.google.com/u/0/d/1N5TdMNsOkDgXkxcSJGE1hoSJ2n4tV9dx=w1885-h936-iv1",pages:11,theme:"bbc"},
+    {name:"Cuckold_Relationship", banner:"https://lh3.google.com/u/0/d/1N5TdMNsOkDgXkxcSJGE1hoSJ2n4tV9dx=w1885-h936-iv1",pages:30,theme:"bbc"},
     {name:"Stretch", banner:"https://lh3.google.com/u/0/d/1MHJwWtbwrAq8wmuOXqzKKoc1wl_0GYbZ=w1885-h936-iv1",pages:3,theme:"bbc"},
     {name:"Waifu_Interview", banner:"https://lh3.google.com/u/0/d/1I8wxUkeLvNQerGyRgQccmN1pwTbSeWqG=w1887-h938-iv1",pages:4,theme:"bbc"},
     {name:"A_new_side_of_Uraraka", banner:"https://lh3.google.com/u/0/d/1HuOl6msyb-EGSkCzQ2my8xOXThCYuplN=w1887-h938-iv1",pages:3,theme:"bbc"},
@@ -89,6 +89,8 @@ List = [
     {name:"Quinn_Leg_Day",banner:"https://lh3.google.com/u/0/d/11XY75cHfvDTdAWGQLzCyEEn81u4-JPI-=w1920-h917-iv1",pages:3},
     {name:"Ren",banner:"https://lh3.google.com/u/0/d/10v7-oLOrbMurPO-8zz8uUv8z0R3DaoSh=w1920-h917-iv1",pages:2},
     {name:"Mommy_Val_cages_Millie",banner:"https://lh3.google.com/u/0/d/12GGzznol-Dl1cLsQNsNaCavhzWgpB8Pc=w1920-h917-iv1",pages:2},
+    {name:"Her_boyfriends_hobbies",banner:"https://lh3.google.com/u/0/d/149gwQo7FPqtgJfbSekja5HPP8L3ntqe0=w1278-h903-iv1",pages:2,theme:"bbc"},
+    {name:"Astolfo_matemi",banner:"https://lh3.google.com/u/0/d/14sxGhZ63eNP7GkjebKC6fGqZc-SMxzC1=w1355-h903-iv1",pages:3},
     // {name:"Naming",banner:"img",pages:NNN,theme:""},
 ];
 
@@ -172,7 +174,7 @@ function card(x,page) {
     div2.append(p);
     div2.append(h2);
     a.append(nav);
-    cardPlace.append(a)
+    cardPlace.append(a);
     
 
 var cards = document.querySelectorAll('.card');
@@ -221,6 +223,9 @@ function Page(x) {
         left: 0,
         behavior: 'smooth'
       });
+          if (localStorage.SizeCard !== null) {
+        SizeControl(localStorage.SizeCard);
+    }
 }
 
 function PageStorage(x) {
@@ -232,11 +237,11 @@ function PageStorage(x) {
 
 function NoImage(x) {
       if (x == 1) {
-    document.querySelector(".dropdown-content button").setAttribute("id","activeSVG");
-    document.querySelector(".dropdown-content button").setAttribute("onclick","NoImage(0)");
+    document.querySelector(".NoImage").setAttribute("id","activeSVG");
+    document.querySelector(".NoImage").setAttribute("onclick","NoImage(0)");
   } else if (x == 0 ) {
-    document.querySelector(".dropdown-content button").removeAttribute("id");
-    document.querySelector(".dropdown-content button").setAttribute("onclick","NoImage(1)");
+    document.querySelector(".NoImage").removeAttribute("id");
+    document.querySelector(".NoImage").setAttribute("onclick","NoImage(1)");
   }
 
     if (localStorage.NoImage_Mcomics == "0" || localStorage.NoImage_Mcomics == null ) {
@@ -248,6 +253,42 @@ function NoImage(x) {
     Page(eval(f));
 }
 
+function SizeControl(size) {
+    console.log("name: " + size + " " + "type: " + typeof size);
+    let card = document.querySelectorAll(".card");
+    let word = document.querySelectorAll(".SizeControlCenter > .group > button");
+    if (size == "s") {
+        for (var i = card.length - 1; i >= 0; i--) {
+            card[i].setAttribute("id","Size_S");
+        }
+        for (var i = word.length - 1; i >= 0; i--) {
+            word[i].style = "color:var(--white);"
+        }
+        word[0].style = "color:var(--primary);"
+        localStorage.setItem("SizeCard","s");
+
+    } else if (size == "m") {
+        for (var i = card.length - 1; i >= 0; i--) {
+            card[i].setAttribute("id","Size_M");
+        }
+        for (var i = word.length - 1; i >= 0; i--) {
+            word[i].style = "color:var(--white);"
+        }        
+        word[1].style = "color:var(--primary);"  
+        localStorage.setItem("SizeCard","m");
+
+    } else if (size == "l") {
+        for (var i = card.length - 1; i >= 0; i--) {
+            card[i].setAttribute("id","Size_L");
+        }
+        for (var i = word.length - 1; i >= 0; i--) {
+            word[i].style = "color:var(--white);"
+        }        
+        word[2].style = "color:var(--primary);"
+        localStorage.setItem("SizeCard","l");
+
+    } else {console.log("Not Size")}
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     if (localStorage.page_Mcomics == null) {
@@ -265,8 +306,11 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS";   
     }
     if (localStorage.NoImage_Mcomics == "1") {
-        document.querySelector(".dropdown-content button").setAttribute("id","activeSVG");
-        document.querySelector(".dropdown-content button").setAttribute("onclick","NoImage(0)");
+        document.querySelector(".NoImage").setAttribute("id","activeSVG");
+        document.querySelector(".NoImage").setAttribute("onclick","NoImage(0)");
+    }
+    if (localStorage.SizeCard !== null) {
+        SizeControl(localStorage.SizeCard);
     }
 });
 

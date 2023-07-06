@@ -33,6 +33,14 @@
 		background:transparent;
 		backdrop-filter: blur(3px);		
 	}
+	.dropdown-content {
+		min-width: 90px;
+	}
+	.dropdown-content button, .dropdown-content button svg {
+		display: flex;
+    width: 100%;
+    align-items: center;
+	}
 </style>
 </head>
 <body>
@@ -45,7 +53,15 @@
 						<div class="dropdown">
   <button onclick="Dropdown(1)" class="dropbtn"><span class="iconify" data-icon="ic:baseline-settings"></span></button>
   <div id="myDropdown" class="dropdown-content">
-  			<button onclick="NoImage(1)"><span class="iconify" data-icon="mdi:file-image-remove"></span></button>	
+  			<div class="SizeControlCenter">
+  				<div class="group">
+  					<button onclick="SizeControl('s')" id="group_s">S</button>
+  					<button onclick="SizeControl('m')" id="group_m">M</button>
+  					<button onclick="SizeControl('l')" id="group_l">L</button>
+  				</div>
+  				<h3>Size</h3>
+  			</div>
+  			<button class="NoImage" onclick="NoImage(1)"><span class="iconify" data-icon="mdi:file-image-remove"></span></button>	
   </div>
 </div>		
 		<a href="index.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg>

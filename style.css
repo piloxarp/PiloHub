@@ -183,7 +183,7 @@ header svg {
     cursor: pointer;
 }
 
-header svg:hover {
+header svg:hover, .btn_group_vid a:hover {
 	background: var(--primary-hidden);
 	border-color: var(--primary);
 }
@@ -968,6 +968,8 @@ iframe {
 .container-inf {
     display: flex;
     padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;    
     justify-content: space-between;
     gap: 10px;
     flex-direction: row;
@@ -975,6 +977,7 @@ iframe {
     align-items: center;
     border-radius: 15px;
     background: var(--bg-secondry);
+    max-width: 1015px;
 }
 
 .container-inf h2 {
@@ -1028,16 +1031,16 @@ content {
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.1);
-    align-items: stretch;
     gap: 15px;
-    justify-content: space-between;
     margin-top: 15px;
     right: 0;
+    align-items: center;
+
 }
 
 .versions {
@@ -1248,7 +1251,125 @@ content {
     border-color: var(--primary);
 }
 
+.info_vid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 10px;
+    width: 70%;
+
+}
+
+.btn_group_vid {
+    width: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.btn_group_vid a {
+    color: var(--primary);
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.SizeControlCenter {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.SizeControlCenter:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: var(--primary-hidden);
+}
+
+.SizeControlCenter .group {
+    display: flex;
+    gap:15px;
+}
+
+.SizeControlCenter .group button {
+    color: var(--white);
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.SizeControlCenter .group button:hover {
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.SizeControlCenter .group #group_s {
+    font-size: 16px;
+}
+.SizeControlCenter .group #group_m {
+    font-size: 20px;
+}
+.SizeControlCenter .group #group_l {
+    font-size: 24px;
+}
+
+.SizeControlCenter h3 {
+    letter-spacing: 0.03em;
+}
+
+#Size_S, #Size_S:after {
+    width: 370px;
+    height: 150px;
+}
+
+#Size_M, #Size_M:after {
+    width: 250px;
+    height: 300px;
+}
+
+#Size_L, #Size_L:after {
+    width: 500px;
+    height: 600px;
+}
+
+
 @media screen and (max-width: 768px) {
+#Size_S, #Size_S:after {
+    width: 150px;
+    height: 300px;
+}
+
+#Size_M, #Size_M:after {
+    width: 250px;
+    height: 300px;
+}
+
+#Size_L, #Size_L:after {
+    width: 90%;
+    height: 400px;
+}    
+    .btn_group_vid a {
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    body {
+        padding: 10px;
+    }
     .changelog-info {
         max-width: 100%;
     }
@@ -1265,6 +1386,8 @@ content {
     }
     .container-inf {
         width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     iframe {
         width: 100%;
@@ -1318,15 +1441,51 @@ content {
     width: 350px;
     height: 230px;      
     }
-    .container-cards {
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+
+
+.container-vids {
+    width: 100%;
 }
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
+
+.button_m {
+    padding: 10px;
+}
+
+.button_m h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.button_m img {
+    width: 140px;
+    height: 150px;
+}
+
+
+.info h2 {
+    font-size: 18px;
+}
+
+.info h3 {
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+footer a svg {
+    font-size: 24px;
+}
+
+header {
+    gap:5px;
+    padding: 15px 10px 5px 10px;
+}
+
+.btn_list {
+    gap: 5px;
+}
 
     header svg {
         border: 2px solid rgba(255, 255, 255, 0.1);

@@ -22,12 +22,25 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
 <body>
 	<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 	<header><h1>NAME</h1><span style="gap:15px;display: flex;"><a href="Videos.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></span></header>
 	<content>
-<div class="container-vids" style="gap:15px"></div><div class="container-other"></div></content>
+<div class="container-vids" style="gap:15px">
+	<div class="container-inf">
+		<div class="info_vid">
+			<h2>Unknown</h2>
+			<p>0:00</p><nav class="vc-tags" id="tag-author" style="margin-bottom: 0px;">Unknown</nav>
+		</div>
+		<div class="btn_group_vid">
+			<a target="_blank" href="#" id="download_btn_vid"><span class="iconify" data-icon="material-symbols:download-rounded"></span></a>
+		</div>
+	</div>
+</div>
+<div class="container-other"></div>
+</content>
 <script type="text/javascript" src="player.js"></script>
 <script type="text/javascript" src="../script.js"></script>
 </body>

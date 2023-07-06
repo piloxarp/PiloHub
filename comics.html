@@ -33,6 +33,19 @@
 		<p id="count">0</p>
 		<h1>NUDE-MOON</h1></nav>
 		<nav class="btn_list">
+									<div class="dropdown">
+  <button onclick="Dropdown(1)" class="dropbtn"><span class="iconify" data-icon="ic:baseline-settings"></span></button>
+  <div id="myDropdown" class="dropdown-content">
+  			<div class="SizeControlCenter">
+  				<div class="group">
+  					<button onclick="SizeControl('s')" id="group_s">S</button>
+  					<button onclick="SizeControl('m')" id="group_m">M</button>
+  					<button onclick="SizeControl('l')" id="group_l">L</button>
+  				</div>
+  				<h3>Size</h3>
+  			</div>	
+  </div>
+</div>
 			<a href="index.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/>
 			</svg></a>
 	</nav>
@@ -264,6 +277,51 @@ for (var i = 0; i < cards.length; i++) {
     let count = document.querySelectorAll(".card").length;
     let elemCount = document.querySelector("#count");
     elemCount.innerHTML = count;
+</script>
+<script type="text/javascript">
+	function SizeControl(size) {
+    console.log("name: " + size + " " + "type: " + typeof size);
+    let card = document.querySelectorAll(".card");
+    let word = document.querySelectorAll(".SizeControlCenter > .group > button");
+    if (size == "s") {
+        for (var i = card.length - 1; i >= 0; i--) {
+            card[i].setAttribute("id","Size_S");
+        }
+        for (var i = word.length - 1; i >= 0; i--) {
+            word[i].style = "color:var(--white);"
+        }
+        word[0].style = "color:var(--primary);"
+        localStorage.setItem("Nude_moon_SizeCard","s");
+
+    } else if (size == "m") {
+        for (var i = card.length - 1; i >= 0; i--) {
+            card[i].setAttribute("id","Size_M");
+        }
+        for (var i = word.length - 1; i >= 0; i--) {
+            word[i].style = "color:var(--white);"
+        }        
+        word[1].style = "color:var(--primary);"  
+        localStorage.setItem("Nude_moon_SizeCard","m");
+
+    } else if (size == "l") {
+        for (var i = card.length - 1; i >= 0; i--) {
+            card[i].setAttribute("id","Size_L");
+        }
+        for (var i = word.length - 1; i >= 0; i--) {
+            word[i].style = "color:var(--white);"
+        }        
+        word[2].style = "color:var(--primary);"
+        localStorage.setItem("Nude_moon_SizeCard","l");
+
+    } else {console.log("Not Size")}
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    if (localStorage.Nude_moon_SizeCard !== null) {
+        SizeControl(localStorage.Nude_moon_SizeCard);
+    }
+});
 </script>
 <script type="text/javascript" src="script.js"></script>
 </body>
