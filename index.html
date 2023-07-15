@@ -68,7 +68,7 @@
         word-wrap: break-word;
         letter-spacing: 0.03em;
     }
-    
+
     @media screen and (max-width: 768px) {
         .info {
             width: fit-content;
@@ -80,24 +80,45 @@
 	<div class="container">
 <div class="header"><span class="icon"><span class="iconify" data-icon="bx:archive"></span></span>
 <h1 class="start_page">PILOHUB</h1></div>
+
 <div class="menu">
-    <a href="comics.html" class="button_m">
-        <img id="imgCOMICS" src="loading.png" alt="">
+    <a id="imgCOMICS" href="comics.html" class="button_m">
+        <div class="stat_grid">
+            <span><h3>Comics</h3><p></p></span>
+        </div>
+        <nav>
         <h2>Nude-moon</h2>
+        
+        </nav>
     </a>
-        <a href="mini-comics.html" class="button_m">
-        <img id="imgMINI" src="loading.png" alt="">
+        <a id="imgMINI" href="mini-comics.html" class="button_m">
+        <div class="stat_grid">
+            <span><h3>Comics</h3><p></p></span>
+            <span><h3>Pages</h3><p></p></span>
+        </div>            
+        <nav>
         <h2>Comics</h2>
+        </nav>
     </a>
-    <a href="Catalog.html" class="button_m">
-        <img id="imgCOLLECTION" src="loading.png" alt="">
+    <a id="imgCOLLECTION" href="Catalog.html" class="button_m">
+        <div class="stat_grid">
+            <span><h3>Comics</h3><p></p></span>
+            <span><h3>Arts</h3><p></p></span>
+        </div>        
+        <nav>
         <h2>Catalog</h2>
+        </nav>
     </a>
-    <a href="Videos/Videos.html" class="button_m">
-        <img id="imgVideos" src="loading.png" alt="">
+    <a id="imgVideos" href="Videos/Videos.html" class="button_m">
+        <div class="stat_grid">
+            <span><h3>Videos</h3><p></p></span>
+        </div>         
+        <nav>
         <h2>Videos</h2>
+        </nav>
     </a>    
 </div>
+
 <div class="info">
     <nav class="info-header">
         <h2>Важная информация</h2>
@@ -110,38 +131,110 @@
     <a href="changelog.html"><span class="iconify" data-icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"></span></a>
     <a target="_blank" class="email" href="mailto:piloxarp@gmail.com"><span class="iconify" data-icon="line-md:email"></span></a>
 </footer>
-
-
-<!--
-<div id="cardC">
-    <div class="containerLeft">
-    <img src="" alt="image">
-    </div>
-    <div class="containerRight">
-    <nav class="textC">
-    <h3>Collection: Eror</h3>
-    <h1>text eror</h1>
-    <h2>Author: Eror</h2>
-    </nav>
-    
-    <div class="listC">
-        <a target="_blank" href="#" class="listCItem">
-            <div class="tooltip"><span class="tooltiptext"><img src="https://lh3.google.com/u/0/d/10IUh2GRY0EXRyoS3NgooaHxOOoKdPoZu=w1215-h966-iv1" alt=""></span><span  id="PreviewIMG" class="iconify" data-icon="material-symbols:image-search"></span></div>
-            <p id="listLabel">Error</p></a>
-        </div> 
-    <div class="containerBtn">
-    <button class="btnC" onclick="LeftClick()">🠔</button>
-    <button class="btnC" onclick="RightClick()">➝</button>
-    <a href="#" class="btnC">Go</a>
-    <p id="number">1</p>
-    </div>
-    </div>
-    </div> -->
-
 </div>
 
-<!-- <script src="slider.js"></script> -->
-<script src="card.js"></script>
+
+<script src="Mcomics_data.js"></script>
+<script src="changelog_data.js"></script>
+<script>
+    // Start Stats
+
+const countNames = (arr) => {
+  let count = 0;
+  arr.forEach((item) => {
+    if (item.name !== "") {
+      const names = item.name.split("&");
+      count += names.length;
+    }
+  });
+  return count;
+};
+
+function countElementsWithParentheses(arr) {
+  let countWithParentheses = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].name.includes("(") && arr[i].name.includes(")")) {
+      countWithParentheses++;
+    }
+  }
+
+  return countWithParentheses;
+}
+
+const AnswerBBCPackComics = countNames(BBC) - countElementsWithParentheses(BBC);
+const AnswerGelatomusumePackComics = countNames(Gelatomusume) - countElementsWithParentheses(Gelatomusume);
+const AnswerPicturdPackComics = countNames(Picturd) - countElementsWithParentheses(Picturd);
+const AnswerOtherComics = countNames(Other) - countElementsWithParentheses(Other);
+const AnswerFiveTComics = countNames(FiveT) - countElementsWithParentheses(FiveT);
+const AnswerNudeMoonComics = Comics.reduce((total, item) => total + item.count, 0);
+const AnswerMcomicsComics = countNames(Mcomics) - countElementsWithParentheses(Mcomics);
+
+const AnswerGelatomusumePackArts = Gelatomusume.reduce((total, item) => total + item.count, 0);
+const AnswerBBCPackArts = BBC.reduce((total, item) => total + item.count, 0) - 1;
+const AnswerPicturdPackArts = Picturd.reduce((total, item) => total + item.count, 0);
+const AnswerOtherArts = Other.reduce((total, item) => total + item.count, 0);
+const AnswerVideos = Videos.reduce((total, item) => total + item.count, 0);
+const AnswerMcomicsPages = List.reduce((total, item) => total + item.pages, 0);
+
+document.querySelectorAll("#imgCOMICS > .stat_grid > span > p")[0].innerHTML = AnswerNudeMoonComics;
+document.querySelectorAll("#imgMINI > .stat_grid > span > p")[0].innerHTML = AnswerMcomicsComics;
+document.querySelectorAll("#imgCOLLECTION > .stat_grid > span > p")[0].innerHTML = AnswerBBCPackComics + AnswerGelatomusumePackComics + AnswerPicturdPackComics + AnswerOtherComics + AnswerFiveTComics;
+document.querySelectorAll("#imgVideos > .stat_grid > span > p")[0].innerHTML = AnswerVideos;
+document.querySelectorAll("#imgMINI > .stat_grid > span > p")[1].innerHTML = AnswerMcomicsPages;
+document.querySelectorAll("#imgCOLLECTION > .stat_grid > span > p")[1].innerHTML = AnswerGelatomusumePackArts + AnswerBBCPackArts + AnswerPicturdPackArts + AnswerOtherArts;
+
+
+document.querySelectorAll('.button_m').forEach(button => {
+  button.addEventListener('mouseover', () => {
+    const statGrid = button.querySelector('.stat_grid');
+    statGrid.style.opacity = '1';
+    button.classList.add('button_m_active');
+  });
+
+  button.addEventListener('mouseout', () => {
+    const statGrid = button.querySelector('.stat_grid');
+    statGrid.style.opacity = '0';
+    button.classList.remove('button_m_active');
+  });
+});
+
+// End Stats
+</script>
+<script>
+    const coverComics = ["covers moon/003.jpg","covers moon/028.jpg","covers moon/088.jpg","covers moon/176.jpg"];
+const coverMini = ["covers miniComics/grusha1.png","covers miniComics/nick1.png","covers miniComics/rona1.png","covers miniComics/Venti1.png"];
+const coverCollection = ["covers collection/BBC pack/1waifu_interview.png","covers collection/Gelatomusume/Makima BBC1.png","covers collection/BBC pack/Pussy free senpai.png","covers collection/Gelatomusume/Wife Bathroom NTR1.png"];
+const coverVideos = ["covers videos/Yennefer - BLACKED. BBC HMV _ PMV [The Witcher]_upscayl_8x_realesrgan-x4plus.png","covers videos/no-problems-hmv-pmv-with-link-9s-and-cloud_1080p_upscayl_8x_realesrgan-x4plus-anime.png","covers videos/Makima - BLACKED - Chainsaw Man. [Artist_ _mamimi _ _violetva]_upscayl_8x_realesrgan-x4plus-min.png","covers videos/180792a69e739e38ea54629a00c5b903_upscayl_8x_realesrgan-x4plus-anime.png"];
+
+const imgComics = document.querySelector("#imgCOMICS");
+const imgMini = document.querySelector("#imgMINI");
+const imgCollection = document.querySelector("#imgCOLLECTION");
+const imgVideos = document.querySelector("#imgVideos");
+
+function changeImages(frames) {
+  imgComics.style = `background-image:url('${coverComics[frames]}')`;
+  imgMini.style = `background-image:url('${coverMini[frames]}')`;
+  imgCollection.style = `background-image:url('${coverCollection[frames]}')`;
+  imgVideos.style = `background-image:url('${coverVideos[frames]}')`;
+}
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  setInterval(() => {
+    changeImages(0);
+  }, 1000);
+  setInterval(() => {
+    changeImages(1);
+  }, 2000);
+  setInterval(() => {
+    changeImages(2);
+  }, 3000);
+  setInterval(() => {
+    changeImages(3);
+  }, 4000);
+});
+</script>
 <script>
 
         if (localStorage.index_info == "1") {

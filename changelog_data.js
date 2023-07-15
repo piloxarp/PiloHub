@@ -13,10 +13,10 @@ Mcomics = [
 	{name:"Venti&Cody",version:1.3},
 	{name:"Isui&Koda&Bowser",version:1.5},
 	{name:"Tony Gloryhole&Ren and sisters&Rimuru and Gobta&First trip&Fonny bat",version:1.6},
-	{name:"Deku-kun and Ochaco with master",version:1.8},
+	{name:"Deku-kun and Ochaco with master&The BBC addicted wife KISARAGI AYAKO",version:1.8},
 	{name:"The new Black Worldorder Teachers",version:2.0},
 	{name:"Cuckold Relationship&Stretch",version:2.4},
-	{name:"Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc&Mother assisted femboy test&After&Mother Training Daughter&BBC Cock Worship&First time&Full nelson&Mom NTR&Peeking&Pregnant Mommy&Sissy Training&Wife Bathroom NTR&Alex and Millie&Quinn and Friends Reuniting&Valeria and Millie&Ann Possible NTR&Lana`s Mom, Breeding Cow&Makima BBC&Starfire goes Trick or Treating&Workout&Succubus&The Beloved Hero's Secret&Astolfo Reverse Bunnysuit&Val and Millie Edging&Suzu Nakano&Suzu Nakano Handjob",version:2.5},
+	{name:"Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc&Mother assisted femboy test&After&Mother Training Daughter&BBC Cock Worship&First time&Full nelson&Mom NTR&Peeking&Pregnant Mommy&Sissy Training&Wife Bathroom NTR&Alex and Millie&Quinn and Friends Reuniting&Valeria and Millie&Ann Possible NTR&Lanas Mom, Breeding Cow&Makima BBC&Starfire goes Trick or Treating&Workout&Succubus&The Beloved Hero's Secret&Astolfo Reverse Bunnysuit&Val and Millie Edging&Suzu Nakano&Suzu Nakano Handjob",version:2.5},
 	{name:"Elf",version:2.6},
 	{name:"Kirito Sissy&It's just his dick is so much better",version:2.7},
 	{name:"BLACKED Person",version:2.9},
@@ -33,13 +33,14 @@ Mcomics = [
 	{name:"Bard&Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",version:4.2},
 	{name:"Mommy Val cages Millie",version:4.3},
 	{name:"Cuckold Relationship (+19)&Astolfo matemi&Her boyfriend`s hobbies",version:4.4},
+	{name:"A Mother`s Apology&Defeated Makima&Prostitution Devil Makima&Sunny Jerks You Off&Suddenly Choking Bunny Gf&Blacked underwear&Black Breeding initiative",version:4.5},
 ];
 
 
 
 
-BBCPack = [
-	{name:"Deku-kun and Ochaco with master&The BBC addicted wife KISARAGI AYAKO&Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc",count:18,version:1.9},
+BBC = [
+	{name:"Deku-kun and Ochaco with master&The BBC addicted wife KISARAGI AYAKO&Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc",count:17,version:1.9},
 	{name:"Mother assisted femboy test&The new Black Worldorder Teachers",count:2,version:2.0},
 	{name:"",count:3,version:2.1},
 	{name:"",count:8,version:2.2},
@@ -63,12 +64,13 @@ BBCPack = [
 	{name:"Bard",count:14,version:4.2},
 	{name:"",count:14,version:4.3},
 	{name:"Her boyfriend`s hobbies",count:7,version:4.4},
+	{name:"A Mother`s Apology&Blacked underwear&Black Breeding initiative",count:33,version:4.5},
 ];
 
 
 
-GelatomusumePack = [
-	{name:"BBC Cock Worship&First time&Full nelson&Mom NTR&Peeking&Pregnant Mommy&Sissy Training&Wife Bathroom NTR&Alex and Millie&Quinn and Friends Reuniting&Valeria and Millie&Ann Possible NTR&Lana`s Mom, Breeding Cow&Makima BBC&Starfire goes Trick or Treating&Workout",count:37,version:1.8},
+Gelatomusume = [
+	{name:"BBC Cock Worship&First time&Full nelson&Mom NTR&Peeking&Pregnant Mommy&Sissy Training&Wife Bathroom NTR&Alex and Millie&Quinn and Friends Reuniting&Valeria and Millie&Ann Possible NTR&Lanas Mom, Breeding Cow&Makima BBC&Starfire goes Trick or Treating&Workout",count:37,version:1.8},
 	{name:"Succubus&The Beloved Hero's Secret&Astolfo Reverse Bunnysuit&Val and Millie Edging&Suzu Nakano&Suzu Nakano Handjob",count:18,version:2.5},
 	{name:"Gwen Stacy&Mariya Shidou&Valeria Disciplining Millie",count:5,version:3.1},
 	{name:"Suzu Nakano Doggy",count:1,version:4.1},
@@ -77,16 +79,7 @@ GelatomusumePack = [
 ];
 
 
-
-YenneferBLACKED = [
-	{count:66,version:3.6},
-	{count:4,version:3.7},
-	{count:4,version:4.1},
-	{count:4,version:4.2},
-	{count:4,version:4.3},
-];
-
-PicturdPack = [
+Picturd = [
 	{name:"Nick&Rona&ZOO&Grusha&Nido Queen&Orendi&Tails Bimbo&TailsxAmy&Tony&Link and Isabelle&Mary&Zozo&Jade&Lola x Bugs&Midna",count:2,version:1.0},
 	{name:"Venti&Cody",count:0,version:1.3},
 	{name:"Isui&Koda&Bowser",count:2,version:1.5},
@@ -98,20 +91,21 @@ PicturdPack = [
 Other = [
 	{name:"James",count:1,version:1.0},
 	{name:"Lynn Defeated and Trained",count:0,version:1.2},
-	{name:"First trip",count:1,version:1.6},
+	{name:"First trip&Rimuru and Gobta",count:1,version:1.6},
 	{name:"Cuckold Relationship",count:0,version:2.4},
 	{name:"Elf",count:0,version:2.6},
 	{name:"A manga about brainwashing a brother and sister&Will you really cover my entire bill",count:8,version:3.3},
 	{name:"",count:22,version:3.4},
 	{name:"",count:13,version:3.5},
 	{name:"Lynn Defeated and Trained(+3)",count:8,version:3.6},
-	{name:"",count:6,version:3.8},
+	{name:"Yorha 9S",count:6,version:3.8},
 	{name:"Cuck Lessons",count:0,version:3.9},
 	{name:"",count:2,version:4.0},
 	{name:"",count:6,version:4.1},
 	{name:"",count:2,version:4.2},
 	{name:"",count:4,version:4.3},
 	{name:"Cuckold Relationship (+19)&Astolfo matemi",count:9,version:4.4},
+	{name:"Sunny Jerks You Off&Suddenly Choking Bunny Gf",count:5,version:4.5},
 ];
 
 
@@ -121,6 +115,11 @@ Videos = [
 	{count:4,version:4.1},
 	{count:2,version:4.2},
 	{count:3,version:4.3},
+	{count:5,version:4.5},
+];
+
+FiveT = [
+	{name:"Defeated Makima&Prostitution Devil Makima",count:0,version:4.5},
 ];
 
 
@@ -334,5 +333,10 @@ Texts = [
 ### **Comics** и **NUDE-MOON** получили новую настройку. Изменение размера карточек ( S M L )
 ### Был удалён **Yennefer Pack**. У него были слишком частные проблемы с загрузкой артов
 ### Была удалена категория **Collection**. Вместо него была введена новая система **Catalog**. В эту категорию были добавлены все блоки из **Collection** (BBC, Gelatomusume, Picturd) а также категория **Other** была перенесена в **Catalog**. С помощью этого нового раздела стала возможна множественная загрузка артов и комиксов сразу с нескольких подразделов. Также имеется выбор тем (Default, BBC). А ещё из-за внутренней перерабоки файлов сайта появилась возможность выводить статистику по количеству артов и комиксов на другие страницы помимо **ChangeLog**
-  	`,version:4.4}, 	
+  	`,version:4.4}, 
+	{name:`
+# - Новые карточки, Новый автор -
+### На главной странице сайта были переработаны карточки. Теперь они при наведении показываю статистику того раздела на который вы наведёте
+### В **Catalog** был добавлен новый автор FiveT (5t,ttttt)
+  	`,version:4.5},   		
 ];

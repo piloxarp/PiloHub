@@ -59,6 +59,11 @@ List = [
     {name:"Your_Son_Is_My_Daughter_HMV",banner:"https://lh3.google.com/u/1/d/1-BI4tAMt2ib3g5V99q9K6MnbTJz6Jsfx=w1920-h917-iv2",duration:"1:47",author:"@CeCeFem"},
     {name:"Everything_blacked",banner:"https://lh3.google.com/u/1/d/19v1bcUeJXzDm-aV4uf-RWcA8HBjkRGaE=w1920-h917-iv2",duration:"4:56",author:"CHWARAE"},
     {name:"Hololive_Mori_BBC",banner:"https://lh3.google.com/u/1/d/1Ry5QgpQWEPECd4vhOOVSx3_h5aB10ubK=w200-h190-p-k-rw-v1-nu-iv2",duration:"2:59"},
+    {name:"Dont_resist_finished",banner:"https://lh3.google.com/u/1/d/1-RUzghh1bSYOaTssqHPUxuVGIzWFwFFZ=w200-h190-p-k-rw-v1-nu-iv1",duration:"5:02"},
+    {name:"Genshin_Venti_x_Aether_x_Gorou",banner:"https://lh3.google.com/u/1/d/1-WXDwP2KaejkVaComIzWV7Kqj6lYnQiZ=w1920-h917-iv1",duration:"2:37",author:"theobrobine"},
+    {name:"HMV_Komi_san",banner:"https://lh3.google.com/u/1/d/1-_8yiEagMq8aKazx0Dyoh6h--DwoYKwr=w1920-h917-iv1",duration:"6:11",author:"M1URA"},
+    {name:"Makima_cum_swallow",banner:"https://lh3.google.com/u/1/d/1-cXeg4YukJ4JiArWTXXu6lHTOMmNBaKj=w1920-h917-iv1",duration:"0:18",author:"theobrobine"},
+    {name:"Widowmaker_[Black]",banner:"https://lh3.google.com/u/1/d/1-pVr2orU5yW38sEw0w5D7KJiBJhcIY-7=w1920-h917-iv1",duration:"1:22",author:"Aphy3d"},
     // {name:"Naming",banner:"img",duration:"NNN"},
 ];
 
@@ -67,9 +72,10 @@ List = [
 
 let page1 = List.slice(0,21);
 let page2 = List.slice(21,42);
-let page3 = List.slice(42,62);
+let page3 = List.slice(42,63);
+let page4 = List.slice(63,84);
 
-let max_pages = 3;
+let max_pages = 4;
 
 function GenPagesBTN() {
     let l = max_pages + 1;

@@ -179,6 +179,39 @@ Other_BBC = [
 	{name:"Mommy's bed", banner:"https://lh3.google.com/u/0/d/15O-bVGOJYXExvAjKqrfGp78oWrjFADCH=w1559-h903-iv1"},
 	{name:"Lesson from Mommy", banner:"https://lh3.google.com/u/0/d/15PdGv3v3goYe3tAh_dk5W8d_dTnQI49f=w1559-h903-iv1"},
 	{name:"Fantasy will turn into reality", banner:"https://lh3.google.com/u/0/d/15WQzf6xFMoXYP_I8QxP2nO6IuYkrZzVn=w1559-h903-iv1"},
+	{name:"Welcome to the club",banner:"https://lh3.google.com/u/0/d/17FfbCy2p1AOBUpJEuJJe7RyDAAaNk2R-=w1920-h917-iv1"},
+	{name:"Shido i`m sorry",banner:"https://lh3.google.com/u/0/d/17as4dnBEdeQIckeq0vPc-eVBxXk4hDPV=w1920-h917-iv1"},
+	{name:"Are definitely directed at you, after all", banner:"https://lh3.google.com/u/0/d/1986c-8DAajBSbQY8jCZz_BeaMWFCW7gb=w1364-h907-iv1"},
+	{name:"Good girl", banner:"https://lh3.google.com/u/0/d/197dz2bjXafC_VQcPd-IR_ZL3-Hlv5Ajx=w1364-h907-iv1"},
+	{name:"Ichika and answer to comment", banner:"https://lh3.google.com/u/0/d/1906myIfm8MOSOED-tJLgwbx0BGIXBXLR=w1364-h907-iv1"},
+	{name:"Maybe I could make it up to you", banner:"https://lh3.google.com/u/0/d/18zzXw2u00kkV0T7j0Bj2e0-1VPjqPEKH=w1364-h907-iv1"},
+	{name:"Sumbit whiteboy", banner:"https://lh3.google.com/u/0/d/18u_9pFnfixvndYbCHB1NO7cCAn7o7lvl=w1364-h907-iv1"},
+	{name:"I got so soaked just from one photo", banner:"https://lh3.google.com/u/0/d/18qlI732CzwBMjlguPRyQBWMTfcICiHvZ=w1364-h907-iv1"},
+	{name:"Makima poster", banner:"https://lh3.google.com/u/0/d/19LfPeJty91YphkyNmglh0pzPB66W9Ct_=w1364-h907-iv1"},
+	{name:"My boyfriend is so pathetic!", banner:"https://lh3.google.com/u/0/d/19Rpn3y489X-MWVFHOFgbf_z9URhj_Jv_=w1364-h907-iv1"},
+	{name:"Mommy tattoo", banner:"https://lh3.google.com/u/0/d/1AiiejMscq_2MTaZeVTMEEB0xOkPsrz06=w1436-h850-iv1"},
+	{name:"He wants to fuck both of us this time", banner:"https://lh3.google.com/u/0/d/1AdoJ3IC7GMNu0GjU0jak1dMfgPLun3b8=w1436-h850-iv1"},
+	{name:"It`s all about the distractions", banner:"https://lh3.google.com/u/0/d/1ARM3cqYzq8t7TeqYRw3olFo7e_PezBjE=w1436-h850-iv1"},
+	{name:"Our office isn`t know for making mistakes", banner:"https://lh3.google.com/u/0/d/1AKYW2HGVNZADwezwfsR4mi6Kzc8edGE3=w1436-h850-iv1"},
+	{name:"Mommy`s new necklace", banner:"https://lh3.google.com/u/0/d/1AyW39pE6aKLPgBl75EqcwFnrfFi8U1VL=w1436-h850-iv1"},
+	{name:"BECAUSE BOYS KNOW WHAT BOYS LIKE", banner:"https://lh3.google.com/u/0/d/1ArIUG_wu78qjWAy493Iox6ILRq9VQ18B=w1436-h850-iv1"},
+	{name:"I saw what you were looking at on the computer", banner:"https://lh3.google.com/u/0/d/1AoRWDcCDxsOkiMng0J9_GYKzTnYot1q-=w1436-h850-iv1"},
+	{name:"Mommy, look at her son's browsing history", banner:"https://lh3.google.com/u/0/d/1B3hQ_SlOCME7-KqbPLgqPfxDiKPOjf_3=w1436-h850-iv1"},		
+	{name:"Your Isekai Story", banner:"https://lh3.google.com/u/0/d/1CQdaps772NtqhE4EVBrlY1QYSjqZ3rbi=w1341-h907-iv1"},
+	{name:"BlackedMoms.cum", banner:"https://lh3.google.com/u/0/d/1CQPRD2rhSzm57q2YXSKftQNMWaExe1Xa=w1341-h907-iv1"},
+	{name:"Mommy Whiteboy education", banner:"https://lh3.google.com/u/0/d/1CP_NIg6MyezpaXvCPg0v8oydy0wbROx5=w1341-h907-iv1"},
+	{name:"Doggies are always loyal to their owners", banner:"https://lh3.google.com/u/0/d/1CMiNZMx_-MIuxWS-7RkINqgTUy7U4PKx=w1341-h907-iv1"},
+	{name:"Trust the science", banner:"https://lh3.google.com/u/0/d/1CJ8C3vB_3KTTIaqXW_3eDkRKN_6CVFiu=w1341-h907-iv1"},
+	{name:"Son visit tattoo salon", banner:"https://lh3.google.com/u/0/d/1CHQb5XM6Blkg3kKO5Y67e7GCx1UGvIcb=w1341-h907-iv1"},
+	{name:"Mommy's orders", banner:"https://lh3.google.com/u/0/d/1CEMD8Gr0pXvD6Hrni5xr1vH5fv85D6gt=w1341-h907-iv1"},
+	{name:"Hard choice", banner:"https://lh3.google.com/u/0/d/1BsxmOHc9MjUlk_sWhCcpKr3tStytzLKa=w1341-h907-iv1"},
+	{name:"Two second after year in chastity", banner:"https://lh3.google.com/u/0/d/1Bn-Fv-0RmkYao4WAnX3aN4Leof_snjwa=w1341-h907-iv1"},
+	{name:"While the weaker male is left in the dust", banner:"https://lh3.google.com/u/0/d/1BiZvX3pF8oOSxDYobZZj2VyB1P1VihKb=w1341-h907-iv1"},
+	{name:"Japan found a way to successfully to fix their declining birth rates", banner:"https://lh3.google.com/u/0/d/1BaMo9u8YWDZwZL9DiQifdr1XmSBaixhf=w1341-h907-iv1"},
+	{name:"The 3 stages of a snowbunny girlfriend", banner:"https://lh3.google.com/u/0/d/1BYLkrPoz9ndigO1pm-hWOryFu2wKrGOO=w1341-h907-iv1"},
+	{name:"You smile, and lick your lips in anticipation of another long night", banner:"https://lh3.google.com/u/0/d/1BKsweCudqKqYxo7223RVI6921fCvP-8C=w1341-h907-iv1"},
+	{name:"BBC addict outfit", banner:"https://lh3.google.com/u/0/d/1BICD1fIemH77dEStDIecKp585bDIqbRT=w1341-h907-iv1"},
+	{name:"Femboy in club Spade", banner:"https://lh3.google.com/u/0/d/1BI3znqiNIszAqBCFjgS5ZDMbLLEXgprm=w1341-h907-iv1"},
 ];
 
 
@@ -305,7 +338,7 @@ Kirito_Sissy = [
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Shcj-_AKu2HAibaG99rEf4VDXtCwZjX8=w1885-h936-iv1"},
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1Sf4neDwIlhI6cV9uEmEgtlhGe2iAn0XT=w1885-h936-iv1"},
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fpgLtZ4PRinMda_x80oFVdL-FnlqnvyT=w1920-h929-iv1"},
-	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1fnHq31i4IoAK6Fa2Ac8YAHymLM6R-O1-=w958-h919-iv1"},
+	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1iO1gj3hh7redAGInxEUt41zohe-iVvLa=w1920-h917-iv2"},
 	{name:"Kirito Sissy", banner:"https://lh3.google.com/u/0/d/1iH4Vd2SYpKfoe5qJ2X6_53QP9Iyaea2K=w1920-h917-iv2"},
 ];
 
@@ -408,4 +441,25 @@ Bard = [
 Her_boyfriends_hobbies = [
 	{name:"Her boyfriend`s hobbies", banner:"https://lh3.google.com/u/0/d/149gwQo7FPqtgJfbSekja5HPP8L3ntqe0=w1278-h903-iv1"},
 	{name:"Her boyfriend`s hobbies", banner:"https://lh3.google.com/u/0/d/14GHmcfXxEXXm8s8rx4Tya52g3Su1e5If=w1278-h903-iv1"},
+];
+
+A_Mothers_Apology = [
+	{name:"A Mother`s Apology", banner:"https://lh3.google.com/u/0/d/15eu4Xj1J_cUMmzXyegcNw_Hx6FqvPK7q=w1559-h903-iv1"},
+	{name:"A Mother`s Apology", banner:"https://lh3.google.com/u/0/d/15dgzE5eeszeFAabq41qD0PYjG9wCaPVF=w1474-h903-iv1"},
+	{name:"A Mother`s Apology", banner:"https://lh3.google.com/u/0/d/15bxoZdWh5O9fIm9zvCKachlp5nwC0UfK=w1474-h903-iv1"},
+	{name:"A Mother`s Apology", banner:"https://lh3.google.com/u/0/d/15m9dYc5yukH9U7lxNH4ywVr5NSHJ7nYt=w1474-h903-iv1"},
+	{name:"A Mother`s Apology", banner:"https://lh3.google.com/u/0/d/15lICGd7xceFVDNIk8QrwnH5lZL6DlW6M=w1474-h903-iv1"},
+	{name:"A Mother`s Apology", banner:"https://lh3.google.com/u/0/d/15kCYV-BYzCJ7kqet8yM-ea8hKCmsY4hk=w1474-h903-iv1"},
+	{name:"A Mother`s Apology", banner:"https://lh3.google.com/u/0/d/15jpOYdzD5GJYi4FToyc2OsIgLCi6mdYl=w1474-h903-iv1"},
+];
+
+Blacked_underwear = [
+	{name:"Blacked underwear", banner:"https://lh3.google.com/u/0/d/1AGU1taCw5GMCnfLD0BHbiehKa0KzI10G=w1436-h850-iv1"},
+	{name:"Blacked underwear", banner:"https://lh3.google.com/u/0/d/1ACAjVeP5uKxoiarrSndQMHwSdejqYGvq=w1436-h850-iv1"},
+];
+
+Black_Breeding_initiative = [
+	{name:"Black Breeding initiative", banner:"https://lh3.google.com/u/0/d/19rtOykpZuXwiH9Aw4DPuBpJzBjdz8RM4=w1436-h850-iv1"},
+	{name:"Black Breeding initiative", banner:"https://lh3.google.com/u/0/d/19iYxHNcV-IHE17fed66xX9MlHhoN3abE=w1436-h850-iv1"},
+	{name:"Black Breeding initiative", banner:"https://lh3.google.com/u/0/d/19ZfZMHFKVD3wucQVT0qEwE56WZOOYDcq=w1436-h850-iv1"},
 ];

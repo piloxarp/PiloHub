@@ -47,7 +47,6 @@ const countNames = (arr) => {
     if (item.name !== "") {
       const names = item.name.split("&");
       count += names.length;
-      console.log(names);
     }
   });
   return count;
@@ -65,20 +64,13 @@ function countElementsWithParentheses(arr) {
   return countWithParentheses;
 }
 
-const BBCPackCount = countNames(BBCPack);
-const GelatomusumePackCount = countNames(GelatomusumePack);
-const PicturdPackCount = countNames(PicturdPack);
-const OtherCount = countNames(Other);
 
-const BBCPackCountUn = countElementsWithParentheses(BBCPack);
-const GelatomusumePackCountUn = countElementsWithParentheses(GelatomusumePack);
-const PicturdPackCountUn = countElementsWithParentheses(PicturdPack);
-const OtherCountUn = countElementsWithParentheses(Other);
+const AnswerBBC = countNames(BBC) - countElementsWithParentheses(BBC);
+const AnswerGelatomusume = countNames(Gelatomusume) - countElementsWithParentheses(Gelatomusume);
+const AnswerPicturd = countNames(Picturd) - countElementsWithParentheses(Picturd);
+const AnswerOther = countNames(Other) - countElementsWithParentheses(Other);
+const AnswerFiveT = countNames(FiveT) - countElementsWithParentheses(FiveT);
 
-const AnswerBBCPack = BBCPackCount - BBCPackCountUn;
-const AnswerGelatomusumePack = GelatomusumePackCount - GelatomusumePackCountUn;
-const AnswerPicturdPack = PicturdPackCount - PicturdPackCountUn;
-const AnswerOther = OtherCount - OtherCountUn;
 
 // End Stats
 
@@ -97,27 +89,10 @@ let nav = document.createElement("nav");
   elem_inf.className = "preview_child_inf";
   let inf_comics = document.createElement("h3");
   let inf_soloArts = document.createElement("h3");
-  if (y == "BBC") {
-    elem_name.innerHTML = "BBC";
-    nav.id = "TagIdPreview_BBC";
-    inf_soloArts.innerHTML = "Solo arts: " + ( BBCPack.reduce((total, item) => total + item.count, 0) - 1);
-    inf_comics.innerHTML = "Comics: " + AnswerBBCPack;
-    } else if (y == "Gelatomusume") {
-    elem_name.innerHTML = "Gelatomusume";
-    nav.id = "TagIdPreview_Gelatomusume";
-    inf_soloArts.innerHTML = "Solo arts: " + GelatomusumePack.reduce((total, item) => total + item.count, 0);
-    inf_comics.innerHTML = "Comics: " + AnswerGelatomusumePack;
-    } else if (y == "Picturd") {
-    elem_name.innerHTML = "Picturd";
-    nav.id = "TagIdPreview_Picturd";
-    inf_soloArts.innerHTML = "Solo arts: " + PicturdPack.reduce((total, item) => total + item.count, 0);
-    inf_comics.innerHTML = "Comics: " + AnswerPicturdPack;
-    } else if (y == "Other") {
-    elem_name.innerHTML = "Other";
-    nav.id = "TagIdPreview_Other";
-    inf_soloArts.innerHTML = "Solo arts: " + Other.reduce((total, item) => total + item.count, 0);
-    inf_comics.innerHTML = "Comics: " + AnswerOther;
-    }
+    elem_name.innerHTML = y;
+    nav.id = "TagIdPreview_" + y;
+    inf_soloArts.innerHTML = "Solo arts: " + window[y].reduce((total, item) => total + item.count, 0);
+    inf_comics.innerHTML = "Comics: " + eval("Answer" + y);
   let preview_container = document.querySelector(".preview_first");
   preview_container.append(nav);nav.append(elem_name);nav.append(elem_inf);elem_inf.append(inf_comics);elem_inf.append(inf_soloArts);
 }
@@ -125,6 +100,7 @@ Preview("BBC");
 Preview("Gelatomusume");
 Preview("Picturd");
 Preview("Other");
+Preview("FiveT");
 
 
 function Tag(y) {
@@ -166,6 +142,8 @@ containers.forEach(function(container) {
         document.querySelector("#TagIdPreview_Picturd").classList.toggle("Preveiw_child_Active");
       } else if (button.id === "TagID_Other") {
         document.querySelector("#TagIdPreview_Other").classList.toggle("Preveiw_child_Active");
+      } else if (button.id === "TagID_FiveT") {
+        document.querySelector("#TagIdPreview_FiveT").classList.toggle("Preveiw_child_Active");
       }
 
       // Сохраняем состояние кнопки в localStorage
@@ -187,10 +165,12 @@ containers.forEach(function(container) {
   var isGelatomusumeActive = localStorage.getItem('TagID_Gelatomusume') === 'true';
   var isPicturdActive = localStorage.getItem('TagID_Picturd') === 'true';
   var isOtherActive = localStorage.getItem('TagID_Other') === 'true';
+  var isFiveTActive = localStorage.getItem('TagID_FiveT') === 'true';
   document.querySelector("#TagIdPreview_BBC").classList.toggle("Preveiw_child_Active", isBBCActive);
   document.querySelector("#TagIdPreview_Gelatomusume").classList.toggle("Preveiw_child_Active", isGelatomusumeActive);
   document.querySelector("#TagIdPreview_Picturd").classList.toggle("Preveiw_child_Active", isPicturdActive);
   document.querySelector("#TagIdPreview_Other").classList.toggle("Preveiw_child_Active", isOtherActive);
+  document.querySelector("#TagIdPreview_FiveT").classList.toggle("Preveiw_child_Active", isFiveTActive);
 });
 
 
@@ -200,6 +180,7 @@ function Clear() {
     localStorage.TagID_Gelatomusume = "false";
     localStorage.TagID_Picturd = "false";
     localStorage.TagID_Other = "false";
+    localStorage.TagID_FiveT = "false";
     localStorage.setItem("Select_Theme", 0);
     localStorage.setItem("Catalog_Type_Solo", 0);
     localStorage.setItem("Catalog_Type_Comics", 0);
@@ -351,6 +332,9 @@ function Uploading(Comics,Solo,tag) {
     }
     if (Comics == 1 && tag == "BBC") {
         // stick on top
+        MultiPost(Black_Breeding_initiative);
+        MultiPost(Blacked_underwear);
+        MultiPost(A_Mothers_Apology);
         MultiPost(Her_boyfriends_hobbies);
         MultiPost(Bard);
         MultiPost(Good_friends_of_Uraki);
@@ -436,6 +420,8 @@ function Uploading(Comics,Solo,tag) {
         MultiPost(Koda);        
     } else if (Comics == 1 && tag == "Other") {
         // stick on top
+        MultiPost(Sunny_Jerks_You_Off);
+        MultiPost(Suddenly_Choking_Bunny_Gf);
         MultiPost(Astolfo_matemi);
         MultiPost(Cuck_Lessons);
         MultiPost(Will_you_really_cover_my_entire_bill);
@@ -443,8 +429,14 @@ function Uploading(Comics,Solo,tag) {
         MultiPost(Elf);
         MultiPost(Cuckold_Relationship);
         MultiPost(First_trip);
+        MultiPost(Rimuru_and_Gobta);
         MultiPost(Lynn_Defeated_and_Trained);
-        MultiPost(James);  
+        MultiPost(James);
+        MultiPost(Yorha_9S);
+    } else if (Comics == 1 && tag == "FiveT") {
+        // stick on top
+        MultiPost(Defeated_Makima);
+        MultiPost(Prostitution_Devil_Makima);
     }
     
 

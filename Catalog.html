@@ -100,12 +100,14 @@
     font-size: 14px;
     letter-spacing: 0.035em;
     color: var(--white);
+    align-self: center;
 }
 
 .select_bigTag .preview_child_inf {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
+    align-items: flex-end;
 }
 
 .select_bigTag .preview_child_inf h3 {
@@ -315,9 +317,6 @@
     .last_container {
         width: auto;
     }
-    .select_bigTag {
-        flex-direction: column;
-    }
     .select_bigTag .preview_child_inf {
         justify-content: space-between;
     }
@@ -356,6 +355,7 @@
             <nav>
             <button id="TagID_Gelatomusume" onclick="Tag('Gelatomusume')" class="select_Tag">Gelatomusume</button>
             <button id="TagID_Picturd" onclick="Tag('Picturd')" class="select_Tag">Picturd</button>
+            <button id="TagID_FiveT" onclick="Tag('FiveT')" class="select_Tag">5t</button>
             </nav>
         </nav>
         <nav class="radio_container">
@@ -393,6 +393,7 @@
     </nav>
 </nav>
 </div>
+<script type="text/javascript" src="Collection/5t_data.js"></script>
 <script type="text/javascript" src="Collection/BBC_data.js"></script>
 <script type="text/javascript" src="Collection/GelatomusumePack_data.js"></script>
 <script type="text/javascript" src="Collection/PicturdPack_data.js"></script>

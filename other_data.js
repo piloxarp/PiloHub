@@ -82,6 +82,11 @@ Other_Other = [
 	{name:"Aether's wedding debt",banner:"https://lh3.google.com/u/0/d/15CECh2LTWm9z7Y11adEDhHY_WBIIMG1A=w1355-h903-iv1"},
 	{name:"Test",banner:"https://lh3.google.com/u/0/d/15ELJ4IxnpFGY91Avcloj6E1iM_i2V6oQ=w1355-h903-iv1"},
 	{name:"Don't worry about consequences",banner:"https://lh3.google.com/u/0/d/15Ftd0zQXSgMEWKbtbFHe0D8rK0vizyGL=w1355-h903-iv1"},
+	{name:"Futa mommy", banner:"https://lh3.google.com/u/0/d/18aUAZbdly25hGVIJ6ukXWhGz3xfradlW=w1364-h907-iv1"},
+	{name:"No Homo", banner:"https://lh3.google.com/u/0/d/18_f_c1br8Y-4ZoFkpaofp8zSvLcSSE9i=w1364-h907-iv1"},
+	{name:"Virgin protect", banner:"https://lh3.google.com/u/0/d/18ot7yKFWMG7elMcKO717N6QzDZDus7b9=w1364-h907-iv1"},
+	{name:"Mommy will click it for you!", banner:"https://lh3.google.com/u/0/d/1BBD-Za51CHvagh5NyqAJkne2FTYlqO-4=w1436-h850-iv1"},
+	{name:"2b repurposed 9s`s body appropriately", banner:"https://lh3.google.com/u/0/d/1B91oiJjKRGMuVKXyKqdtrbjL0I4Y8gAK=w1436-h850-iv1"},		
 ];
 
 /*
@@ -182,4 +187,33 @@ James = [
     {name:"James", banner:"https://lh3.google.com/u/0/d/1-6JjiqGGEawxXm7YwXl6e5q3HnB_bo_Z=w1823-h966-iv1"},
     {name:"James", banner:"https://lh3.google.com/u/0/d/1-_KtBgrf7OFY58lhRdZDtcxo0xl_HVG_=w1215-h966-iv1"},
     {name:"James", banner:"https://lh3.google.com/u/0/d/1-TEt_ezKs1qrgxLvfaTUIZjgH7muv5KL=w1215-h966-iv1"}
+];
+
+Rimuru_and_Gobta = [
+    {name:"Rimuru and Gobta", banner:"https://lh3.google.com/u/0/d/1AURKFoRYQSdHb6aQ-43FeJZiXXK_d1V9=w1885-h936-iv1"},
+    {name:"Rimuru and Gobta", banner:"https://lh3.google.com/u/0/d/1Aj2H5Upx8CC9h7CaAxfhpFntqMZVYO1-=w1885-h936-iv1"},
+    {name:"Rimuru and Gobta", banner:"https://lh3.google.com/u/0/d/1Ah3pTl4B6N_2zIg9CYp1-PgASN_Y22L4=w1885-h936-iv1"},
+    {name:"Rimuru and Gobta", banner:"https://lh3.google.com/u/0/d/1A_xtN3zVqSKCz3rlXNARHU15kL9kjSYN=w1885-h936-iv1"}
+];
+
+Yorha_9S = [
+    {name:"Yorha 9S", banner:"https://lh3.google.com/u/0/d/1fQQ4NILdKMNuzp32o4M_3wzkdRf6LnAN=w1278-h919-iv1"},
+    {name:"Yorha 9S", banner:"https://lh3.google.com/u/0/d/1fYa9VnB_C3Sz5VTlhOGEJO7jEqg4emzq=w1278-h919-iv1"},
+];
+
+Sunny_Jerks_You_Off = [
+	{name:"Sunny Jerks You Off", banner:"https://lh3.google.com/u/0/d/18ZjKJ4caV1a2K-L6nZHpgklOER8k9_-h=w1364-h907-iv1"},
+	{name:"Sunny Jerks You Off", banner:"https://lh3.google.com/u/0/d/18XVPhJ3M0QrrfMU4lFny7I1Aqz1KuxBh=w1364-h907-iv1"},
+	{name:"Sunny Jerks You Off", banner:"https://lh3.google.com/u/0/d/18Vn5ZSvn3r4cy7MwGj4LkpMtqYtye-AL=w1364-h907-iv1"},
+	{name:"Sunny Jerks You Off", banner:"https://lh3.google.com/u/0/d/18V__TvpVmGoeVRECfEkLn9lGp1kiaOFv=w1364-h907-iv1"},
+	{name:"Sunny Jerks You Off", banner:"https://lh3.google.com/u/0/d/18V8AR6tOUj9Fra8d4o5MfUi5kHz8XMsV=w1364-h907-iv1"},
+	{name:"Sunny Jerks You Off", banner:"https://lh3.google.com/u/0/d/18ThfAQ_J7aTTx5K0aPcGIbzl9icgxZ9a=w1364-h907-iv1"},
+	{name:"Sunny Jerks You Off", banner:"https://lh3.google.com/u/0/d/18OuatButEeriBmiYd4zpuy62EQkQ7C8e=w1364-h907-iv1"},
+];
+
+Suddenly_Choking_Bunny_Gf = [
+	{name:"Suddenly Choking Bunny Gf", banner:"https://lh3.google.com/u/0/d/18GD-l5oyqSEVwNEHOqTUwLdRRvIjKqhR=w1364-h907-iv1"},
+	{name:"Suddenly Choking Bunny Gf", banner:"https://lh3.google.com/u/0/d/185qCADBh52u9ZwN7L40a-Bf7J5LjN8jV=w1364-h907-iv1"},
+	{name:"Suddenly Choking Bunny Gf", banner:"https://lh3.google.com/u/0/d/184uX-eaDvCO6LRY8JPY9eO8W4DxGq828=w1364-h907-iv1"},
+	{name:"Suddenly Choking Bunny Gf", banner:"https://lh3.google.com/u/0/d/180BIJOMHwP3EubGuFEJUc8YQoEGaaf_c=w1364-h907-iv1"},
 ];
