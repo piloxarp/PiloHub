@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94384689, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94384689" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2PFLQ2XJR6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2PFLQ2XJR6');
+</script>
+<meta name="title" content="Publisher">
+<meta name="description" content="Архив-сайт с переводами от piloxarp">
+<meta name=”Author” content="piloxarp">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publisher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+        }
+        .type {
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+        }
+        .type nav {
+            display: flex;
+            flex-direction: row;
+            gap:15px;
+        }
+        #counterInput {
+            height: 60px;
+            width: 100px;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.10);
+            -moz-appearance: textfield;
+            -webkit-appearance: textfield;
+            appearance: textfield;   
+            background: transparent;
+            color: var(--white);
+            text-align: center;
+            font-size: 24px;      
+        }
+        .main_data nav label{
+            color: var(--white);
+            font-size: 27px;
+            font-weight: 700;           
+        }
+#counterInput::-webkit-outer-spin-button,
+#counterInput::-webkit-inner-spin-button {
+    display: none;
+}
+#counterInput:focus {
+    outline: none;
+}
+
+        .main_data nav #name_comics {
+            height: 100%;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.10);
+            background: transparent;
+            color: var(--white);
+            font-size: 18px;
+            padding: 15px;
+        }
+        #pagesContainer span {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+        #pagesContainer span input {
+            height: 100%;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.10);
+            background: transparent;
+            color: var(--white);
+            font-size: 18px;
+            padding: 15px;            
+        }
+        #pagesContainer span label {
+            color: var(--white);
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .main_data nav #name_comics:focus {
+            outline: none;
+        }
+        .container-input {
+            display: flex;
+            flex-direction: column;
+            gap:15px;           
+        }
+        .main_data {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;            
+        }
+        .main_data nav {
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+        }
+        #pagesContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        #pagesContainer nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap:10px;
+        }
+        .type nav input {
+            display: none;
+        }
+        .type nav label {
+            color: var(--white);
+            font-size: 24px;
+            font-weight: 700;
+            padding: 15px 12px 15px 12px;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.10);
+            background: transparent;
+        }
+        .type nav label:hover {
+            cursor: pointer;
+        }
+        .type nav input:checked + label {
+            color: var(--primary);
+            border-color: var(--primary);
+            background: var(--primary-hidden);
+        }
+        .output {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            padding: 15px;
+            border-radius: 15px;
+            background: #1C1C1C;
+            border: 2px solid rgba(255, 255, 255, 0.10);
+            gap: 10px;
+            align-items: stretch;
+        }
+
+        .output textarea {
+            resize: none;
+            background: var(--bg-secondry);
+            color: var(--white);
+            font-weight: 500;
+            height: 60px;
+            letter-spacing: 0.03em;
+            font-size: 13px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.10);
+            outline: none;
+            width: 800px;
+        }
+        .output button {
+            color: var(--white);
+            font-size: 13px;
+            font-weight: 500;
+            background: #000;
+            border:0;
+            border-radius: 30px;
+            padding: 10px;
+            width: fit-content;
+            transition: 0.3s;
+        }
+        .output button:hover {
+            cursor: pointer;
+            background: var(--white);
+            color: #000;
+        }
+        .button_f {
+            width: fit-content;
+        }
+        #select {
+            height: 100%;
+            border-radius: 15px;
+            font-size: 24px;
+            background: transparent;
+            border: 2px solid rgb(255 255 255 / 10%);
+            color: var(--white);
+            text-align: center;            
+        }
+        #select option {
+            color: var(--white);
+            background: var(--bg);
+        }
+        #output_add {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+    </style>
+
+</head>
+<body style="color:#fff;">
+    <div class="container-input">
+    <div class="type">
+    <nav>
+    <input type="radio" name="type" value="comics" id="comics">
+    <label for="comics">Comics</label>
+    
+    <input type="radio" name="type" value="art" id="art">
+    <label for="art">Art</label>
+    
+    <input type="radio" name="type" value="video" id="video">
+    <label for="video">Video</label>
+    </nav>
+    </div>
+    <div class="main_data">
+    </div>
+    <div id="pagesContainer"></div>    
+    <button class="button_f" onclick="Submit()">Sumbit</button>
+</div>
+    <div class="output">
+    <h2>Output</h2>
+    <textarea style="resize: none;"></textarea>
+    <button id="textarea_copy_btn" onclick="copyText(0)">Copy</button>
+    <nav id="output_add"></nav>      
+    </div>
+
+
+    <script>
+    function copyText(x) {
+        var textarea = document.querySelectorAll("textarea")[x];
+        textarea.select();
+        document.execCommand('copy');
+    }
+    </script>
+<script src="publisher.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

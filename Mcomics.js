@@ -59,6 +59,8 @@ function card(x,page) {
        img.style = "height:32px;"
        img.src = "icons/Q ICON/favicon-32x32.png";
        nav.append(img);
+    } else if (page[x].theme == "default") {
+        
     }
     
     let h1 = document.createElement("h1");
@@ -151,7 +153,6 @@ function NoImage(x) {
 }
 
 function SizeControl(size) {
-    console.log("name: " + size + " " + "type: " + typeof size);
     let card = document.querySelectorAll(".card");
     let word = document.querySelectorAll(".SizeControlCenter > .group > button");
     if (size == "s") {

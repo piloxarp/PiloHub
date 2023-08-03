@@ -87,6 +87,9 @@ Other_Other = [
 	{name:"Virgin protect", banner:"https://lh3.google.com/u/0/d/18ot7yKFWMG7elMcKO717N6QzDZDus7b9=w1364-h907-iv1"},
 	{name:"Mommy will click it for you!", banner:"https://lh3.google.com/u/0/d/1BBD-Za51CHvagh5NyqAJkne2FTYlqO-4=w1436-h850-iv1"},
 	{name:"2b repurposed 9s`s body appropriately", banner:"https://lh3.google.com/u/0/d/1B91oiJjKRGMuVKXyKqdtrbjL0I4Y8gAK=w1436-h850-iv1"},		
+	{name:"Entering a new life", banner:"https://lh3.google.com/u/0/d/1EOApPh62GWJP6aN_-mDCX0rhoAHRJEut=w1216-h905-iv1"},
+	{name:"Reincarnation", banner:"https://lh3.google.com/u/0/d/1FDYHYhorQLrLhWWUL_Zue1M27Ne2d0kK=w1226-h905-iv1"},
+
 ];
 
 /*
@@ -107,6 +110,7 @@ Astolfo_matemi = [
 	{name:"Astolfo matemi", banner:"https://lh3.google.com/u/0/d/14oqeeTcvoJfeNnWT1Yd7WJUeGtzWP-lv=w1355-h903-iv1"},
 	{name:"Astolfo matemi", banner:"https://lh3.google.com/u/0/d/14sxGhZ63eNP7GkjebKC6fGqZc-SMxzC1=w1355-h903-iv1"},
 ];
+
 
 Cuckold_Relationship = [
 	{name:"Cuckold Relationship", banner:"https://lh3.google.com/u/0/d/1N3YmTA8CEW9f50BV7se6AyQqk4IrYdSW=w1885-h936-iv1"},

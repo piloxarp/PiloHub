@@ -34,6 +34,7 @@ Mcomics = [
 	{name:"Mommy Val cages Millie",version:4.3},
 	{name:"Cuckold Relationship (+19)&Astolfo matemi&Her boyfriend`s hobbies",version:4.4},
 	{name:"A Mother`s Apology&Defeated Makima&Prostitution Devil Makima&Sunny Jerks You Off&Suddenly Choking Bunny Gf&Blacked underwear&Black Breeding initiative",version:4.5},
+	{name:"Whiteboy dinner&Mommy recognises her son's fetish&SV MTR 1&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",version:4.6},
 ];
 
 
@@ -65,6 +66,7 @@ BBC = [
 	{name:"",count:14,version:4.3},
 	{name:"Her boyfriend`s hobbies",count:7,version:4.4},
 	{name:"A Mother`s Apology&Blacked underwear&Black Breeding initiative",count:33,version:4.5},
+	{name:"Whiteboy dinner&Mommy recognises her son's fetish&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",count:32,version:4.6},
 ];
 
 
@@ -106,6 +108,7 @@ Other = [
 	{name:"",count:4,version:4.3},
 	{name:"Cuckold Relationship (+19)&Astolfo matemi",count:9,version:4.4},
 	{name:"Sunny Jerks You Off&Suddenly Choking Bunny Gf",count:5,version:4.5},
+	{name:"",count:2,version:4.6},
 ];
 
 
@@ -116,10 +119,12 @@ Videos = [
 	{count:2,version:4.2},
 	{count:3,version:4.3},
 	{count:5,version:4.5},
+	{count:2,version:4.6},
 ];
 
 FiveT = [
 	{name:"Defeated Makima&Prostitution Devil Makima",count:0,version:4.5},
+	{name:"SV MTR 1",count:0,version:4.6},
 ];
 
 
@@ -338,5 +343,10 @@ Texts = [
 # - Новые карточки, Новый автор -
 ### На главной странице сайта были переработаны карточки. Теперь они при наведении показываю статистику того раздела на который вы наведёте
 ### В **Catalog** был добавлен новый автор FiveT (5t,ttttt)
-  	`,version:4.5},   		
+  	`,version:4.5},
+	{name:`
+# - Статистика -
+### На главной странице сайта была добавлена кнопка на страницу полной статистики сайта.
+### Был переработан header на всех страницах
+  	`,version:4.6},
 ];

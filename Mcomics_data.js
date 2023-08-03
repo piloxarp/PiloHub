@@ -98,6 +98,12 @@ List = [
     {name:"Suddenly_Choking_Bunny_Gf",banner:"https://lh3.google.com/u/0/d/18GD-l5oyqSEVwNEHOqTUwLdRRvIjKqhR=w1364-h907-iv1",pages:4},
     {name:"Blacked_underwear",banner:"https://lh3.google.com/u/0/d/1AGU1taCw5GMCnfLD0BHbiehKa0KzI10G=w1436-h850-iv1",pages:2,theme:"bbc",positionBanner:1},
     {name:"Black_Breeding_initiative",banner:"https://lh3.google.com/u/0/d/19rtOykpZuXwiH9Aw4DPuBpJzBjdz8RM4=w1436-h850-iv1",pages:3,theme:"bbc",positionBanner:1},
+    {name:"Whiteboy_dinner", banner:"https://lh3.google.com/u/0/d/1DEJse-sOhzWgZX1KTfiD_I7BR3r72VnR=w1185-h905-iv1", pages:3, theme:"bbc"},
+    {name:"Mommy_recognises_her_sons_fetish", banner:"https://lh3.google.com/u/0/d/1EG6eSvC9JCa1qitg88L5hJtqyudKpkIA=w1216-h905-iv1", pages:5, theme:"bbc"},    
+    {name:"SV_MTR_1", banner:"https://lh3.google.com/u/0/d/1EgZjV6qElep9IU1XcHV5AXA1At7Fz7YQ=w1226-h905-iv1", pages:7, theme:"Default"},
+    {name:"The_Black_New_World_Order_Nurses", banner:"https://lh3.google.com/u/0/d/1FSKBGC3HHcsZ9nSJQHWf7bkfREkZA-KQ=w1338-h905-iv1", pages:20, theme:"bbc"}, 
+    {name:"Dont_cry_whiteboy", banner:"https://lh3.google.com/u/0/d/1H6vZzqB7TDlENWl_9HmqQMi-kioyhsyI=w1338-h905-iv1", pages:2, theme:"bbc"},
+    {name:"Makima_and_her_cuckold", banner:"https://lh3.google.com/u/0/d/1HKAj0UyUXuHTruxL2LYvgx_YlCh8Km2h=w1330-h913-iv1", pages:5, theme:"bbc"},           
     // {name:"Naming",banner:"img",pages:NNN,theme:""},
 ];
 

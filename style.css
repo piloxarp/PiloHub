@@ -65,7 +65,17 @@ body {
     letter-spacing: 0.035em;
     text-align: left;
 	color: var(--primary);
+    display: flex;
+    flex-direction: row;
+}
 
+.start_page a {
+    color: var(--primary);
+    transition: 0.3s;    
+}
+
+.start_page a:hover {
+    color: #ffc1f8;
 }
 
 .menu {
@@ -287,7 +297,7 @@ header h1 {
     word-break: break-word;
 }
 
-header svg {
+.btn_list svg {
 	color: var(--primary);
 	font-size: 32px;
 	font-weight: 700;
@@ -300,9 +310,10 @@ header svg {
     cursor: pointer;
 }
 
-header svg:hover, .btn_group_vid a:hover {
+.btn_list svg:hover, .btn_group_vid a:hover, .links a:hover {
 	background: var(--primary-hidden);
 	border-color: var(--primary);
+    color: var(--primary);
 }
 
 .paper {
@@ -486,7 +497,6 @@ footer a:hover {
     width: auto;
     padding: 10px;
     z-index: 2;
-    transition: 0.1s;
     align-items: center;
 }
 
@@ -1145,7 +1155,7 @@ content {
     display: none;
     position: absolute;
     background-color: var(--bg-secondry);
-    min-width: 150px;
+    min-width: 202px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     flex-direction: column;
@@ -1203,6 +1213,7 @@ content {
     flex-wrap: wrap;
     align-items: stretch;
     gap: 15px;
+    max-width: 42%;
 }
 
 .changelog-cards a {
@@ -1456,8 +1467,154 @@ content {
     height: 600px;
 }
 
+.container-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.stat-сolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stat-сolumn h2 {
+    color: #FFF;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.column-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.column-block {
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    background: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 10px 15px 10px;
+    width: 320px;
+    height: 70px;
+}
+
+.column-block nav:first-child {
+
+}
+
+.column-block nav:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column-block nav:first-child h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.column-block nav:last-child h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.column-block-large {
+    border-radius: 15px;
+    background: #1F1F1F;
+    padding: 15px;
+    width: 319px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.column-block-large nav:first-child h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.column-block-large nav:last-child h4, .column-block-large nav:last-child p {
+    color: #FFF;
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.times-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-inf svg {
+    color: var(--primary);
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: 0.3s;   
+    cursor: pointer;
+}
+
+
+.links a {
+    font-weight: 500;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    text-shadow: 0px 2px 9px black;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mobile_header_on {
+    position: absolute;
+    width: 93%;
+    height: 98%;
+    background: #00000082;
+    flex-direction: column;
+    align-items: stretch;    
+}
+
+.mobile_header_on .header-inf, .mobile_header_on .btn_list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile_header_on .links {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
 
 @media screen and (max-width: 768px) {
+    .dropdown-content {
+        flex-direction: row;
+    }
 #Size_S, #Size_S:after {
     width: 150px;
     height: 300px;
@@ -1481,7 +1638,7 @@ content {
     body {
         padding: 10px;
     }
-    .changelog-info {
+    .changelog-info, .changelog-cards {
         max-width: 100%;
     }
     .card-small {
@@ -1581,6 +1738,10 @@ header {
 
 .btn_list {
     gap: 5px;
+}
+
+header .links {
+    display: none;
 }
 
     header svg {

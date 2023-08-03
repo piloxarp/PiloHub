@@ -212,6 +212,37 @@ Other_BBC = [
 	{name:"You smile, and lick your lips in anticipation of another long night", banner:"https://lh3.google.com/u/0/d/1BKsweCudqKqYxo7223RVI6921fCvP-8C=w1341-h907-iv1"},
 	{name:"BBC addict outfit", banner:"https://lh3.google.com/u/0/d/1BICD1fIemH77dEStDIecKp585bDIqbRT=w1341-h907-iv1"},
 	{name:"Femboy in club Spade", banner:"https://lh3.google.com/u/0/d/1BI3znqiNIszAqBCFjgS5ZDMbLLEXgprm=w1341-h907-iv1"},
+	{name:"Special offer", banner:"https://lh3.google.com/u/0/d/1CfqUYaIBNSCDA90i9aDXz_Q0QvpZz1Gp=w1920-h860-iv1"},
+	{name:"Kickball day", banner:"https://lh3.google.com/u/0/d/1CZabRhQCEBkT8OMjFKgXDFU5twVXNWkI=w1920-h860-iv1"},
+	{name:"Last sperm youll ever shoot will be from white girls sliding over black cocks", banner:"https://lh3.google.com/u/0/d/1CZ01bsaXA1jK2slXMljQIJdJjWRA1YWK=w1920-h860-iv1"},	
+	{name:"Checkup..no..sterilization", banner:"https://lh3.google.com/u/0/d/1Cv8PtwNQ1kOCq7lt0cK9UhRR48kagKzr=w1920-h860-iv1"},
+	{name:"Changed today`s white boys", banner:"https://lh3.google.com/u/0/d/1CkRPBdo7ntRQExQ7Uf9vsuo3aTU2Fg9j=w1920-h860-iv1"},
+	{name:"Completely safe", banner:"https://lh3.google.com/u/0/d/1DGDlqepw97sWkoMcBtNmwzU9rmR912T6=w1185-h905-iv1"},
+	{name:"Sorry for white, fuck me later", banner:"https://lh3.google.com/u/0/d/1DtTm2JQP3O6AXo3RiHFtIuZSrSGNAts-=w1185-h905-iv1"},
+	{name:"Can you guess which syringe is yours", banner:"https://lh3.google.com/u/0/d/1DoZQde0jHiSKxsXNv5Z8lWaDreiyqxdg=w1185-h905-iv1"},
+	{name:"I don`t want your cum anywhere near me", banner:"https://lh3.google.com/u/0/d/1DgCWPSdujbqa-_8GdOw-QEZKMqWZBabw=w1185-h905-iv1"},
+	{name:"#WhiteSurrender", banner:"https://lh3.google.com/u/0/d/1DdIvVFisN9Nbo16ZgboixHEcS3U91ORS=w1185-h905-iv1"},
+	{name:"Jerk off for 02", banner:"https://lh3.google.com/u/0/d/1DbTFiaoD6RvW0PgbygL6KulMtPJykq36=w1185-h905-iv1"},
+	{name:"You know what to do now, whiteboy", banner:"https://lh3.google.com/u/0/d/1D_swmF0O6KBD4Zt4KeVKRszA-gOx2gmM=w1185-h905-iv1"},
+	{name:"Talking with the doctor", banner:"https://lh3.google.com/u/0/d/1D_3C0yxg3-RlbC3yKrVZ9cXhB8lT-69f=w1185-h905-iv1"},
+	{name:"But that dream is no longer realistic", banner:"https://lh3.google.com/u/0/d/1DSrd3wTTBvldUhyQav2cYIKUQpAbI_Hq=w1185-h905-iv1"},
+	{name:"MANDATORY STERILIZATION SHOTS", banner:"https://lh3.google.com/u/0/d/1ELlAwqcRSJ_AblnxR2ugEjvCiB0xyk_7=w1216-h905-iv1"},
+	{name:"Mommy teaches her son to be a cuckold", banner:"https://lh3.google.com/u/0/d/1EL8ydpdK11g9l9QPG7GB04AKTuHE3HWK=w1216-h905-iv1"},
+	{name:"White masculinity", banner:"https://lh3.google.com/u/0/d/1EKnaZGPpCYl5hvN-9H6dAo_KcfLUomOE=w1216-h905-iv1"},
+	{name:"Hatsune Miku dominatrix", banner:"https://lh3.google.com/u/0/d/1Eo37APbO8KhMUvJbNgQ7qr4JsMMa3BaS=w1226-h905-iv1"},
+	{name:"Sweet librarian", banner:"https://lh3.google.com/u/0/d/1F9QDITSr7NO4NQbrZTqcysU71PmY0Gc7=w1226-h905-iv1"},
+	{name:"Size Matters", banner:"https://lh3.google.com/u/0/d/1F36f0Ths36omX8-ZbxA8_bX0Ze6x7Ky7=w1226-h905-iv1"},
+	{name:"It's like you're more excited my black bull's coming over than I am", banner:"https://lh3.google.com/u/0/d/1EzmreHi249gCK-GvGmVtF3JnZHhXPILe=w1226-h905-iv1"},
+	{name:"Return to you with a kiss on your cheek", banner:"https://lh3.google.com/u/0/d/1Epg_7HOHQPgpPLEHC25H_o_vcwEOh4wi=w1226-h905-iv1"},
+	{name:"I`ve seen you`re search history", banner:"https://lh3.google.com/u/0/d/1Ep98GBXjnKFq07LUxvSFTV9JTRImzeWd=w1226-h905-iv1"},
+	{name:"You are now a real queen", banner:"https://lh3.google.com/u/0/d/1H-OXaDJM-PxBeAoD0mTP10cQUAca5MUV=w1338-h905-iv1"},
+	{name:"you know it`s rude for a white boy to have an erection near women", banner:"https://lh3.google.com/u/0/d/1H3OiSvldRik_nHJupuEFauZeAMU0IQbJ=w1338-h905-iv1"},
+	{name:"You like my huge breasts", banner:"https://lh3.google.com/u/0/d/1H2GmjhlhT96DZFqS5AMQygJdfHl50FZ5=w1338-h905-iv1"},	
+	{name:"Hurry and lube me up", banner:"https://lh3.google.com/u/0/d/1HKf9_EdZDO2a661U-4-YsOpYTyW5390o=w1330-h913-iv1"},
+	{name:"Black dick hunter", banner:"https://lh3.google.com/u/0/d/1HaqDZ_8BsQADcj9VYZ5Jocu2XwmS-sai=w1330-h913-iv1"},
+	{name:"Komi and Tadano", banner:"https://lh3.google.com/u/0/d/1HT0ssVa0L4Y73uht_BhICQL06_5dZqSq=w1330-h913-iv1"},
+	{name:"Beta has to learn the lesson", banner:"https://lh3.google.com/u/0/d/1HeeQFvoUHbp3EJVetlS4sLtnZx1W_qbk=w1920-h923-iv1"},
+	{name:"Size Queen Marin", banner:"https://lh3.google.com/u/0/d/1HbXBmrPkP3faytBq3svBqf8Z2eQrWfqi=w1920-h923-iv2"},		
 ];
 
 
@@ -462,4 +493,54 @@ Black_Breeding_initiative = [
 	{name:"Black Breeding initiative", banner:"https://lh3.google.com/u/0/d/19rtOykpZuXwiH9Aw4DPuBpJzBjdz8RM4=w1436-h850-iv1"},
 	{name:"Black Breeding initiative", banner:"https://lh3.google.com/u/0/d/19iYxHNcV-IHE17fed66xX9MlHhoN3abE=w1436-h850-iv1"},
 	{name:"Black Breeding initiative", banner:"https://lh3.google.com/u/0/d/19ZfZMHFKVD3wucQVT0qEwE56WZOOYDcq=w1436-h850-iv1"},
+];
+
+Whiteboy_dinner = [
+	{name:"Whiteboy dinner", banner:"https://lh3.google.com/u/0/d/1DEJse-sOhzWgZX1KTfiD_I7BR3r72VnR=w1185-h905-iv1"},
+	{name:"Whiteboy dinner", banner:"https://lh3.google.com/u/0/d/1D87uhQOlUrQWjFRovlLxQ1_vPwHgqMtS=w1185-h905-iv1"},
+	{name:"Whiteboy dinner", banner:"https://lh3.google.com/u/0/d/1D4nN6QVlHJMD47SzlwvV9RaoOyZATLD-=w1185-h905-iv1"},
+];
+
+Mommy_recognises_her_sons_fetish = [
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1EG6eSvC9JCa1qitg88L5hJtqyudKpkIA=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1EASqYoI3sDuIl3MCgYRZWfGfy3dqRUWO=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1E0VzzV8WIUxfcsmjeyVyZNBGCvKdXG7p=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1E05T_6ZE7CQ4FT1ZgKJI7zGlH-yDGpax=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1DwtmxxSVuBu6Qip0nxk4SGPbSK7MD9fp=w1216-h905-iv1"},
+];
+
+The_Black_New_World_Order_Nurses = [
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FSKBGC3HHcsZ9nSJQHWf7bkfREkZA-KQ=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FdKXQrQAYLlGk0RSz8KekHOoMKoBU0h2=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1F_VB3DEsA5xn_SUM78wYgGSjUtyKq369=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FZhurXlFnAT4BZxf1kxORYNPOS3MtTQa=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FY6TFbvJVu2mfRaLrog-s2r6UB3EHZ8O=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FSpC08bTPGL-67tc-k9A-6Sa6FLTvr-f=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FSQAAudYjsz_ceDrDFgH170Qe8nxvnmJ=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GCya3OsSzzKD0hF6uGcKsXm3IXVVebai=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1G5sn3FLFXk-pquA3z8c_-9HbIVh8UOj9=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1G0IYf54QEk1oB7ZTT50sBy4kfCCDgPWp=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FtPv0W3fUMpoqZbgU8OXHz6fp9N46k1B=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FqIne9d5NhFTkVMjDsbwZ8I7KfH7bAmZ=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FplZUkeYkspjO6mR4TbwFRGRhO6mq8Lk=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FitzKNnM8AtyUF9tCuR0wchY8bNsuSCI=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GzOePe0x-n-dIwrpDOyTwlOlYjQjdj4w=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GuSofydYb0N_GP3IzhAFzHVlGK-TDtPm=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GlbOs_4Kxg7M4ZCbMUq6arcoj5b-at_J=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GaJbYujccSUgKbhSW7o6pXyqE8RfPG03=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GVQ6U45VkZKUgbi7SUxutQrOpd4-2RWV=w1338-h905-iv1"},
+	{name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GPWPoERCOHGIwXK37eb_x7QdHZhpDTAF=w1338-h905-iv1"},
+];
+
+Dont_cry_whiteboy = [
+	{name:"Dont cry whiteboy", banner:"https://lh3.google.com/u/0/d/1H6vZzqB7TDlENWl_9HmqQMi-kioyhsyI=w1338-h905-iv1"},
+	{name:"Dont cry whiteboy", banner:"https://lh3.google.com/u/0/d/1H4UKZOUhd3ikrLasMtEKoIOKKUogsocm=w1338-h905-iv1"},
+];
+
+Makima_and_her_cuckold = [
+	{name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HKAj0UyUXuHTruxL2LYvgx_YlCh8Km2h=w1330-h913-iv1"},
+	{name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HK41J8vg4U0aiqydSoGMtEr-84MvjOr0=w1330-h913-iv1"},
+	{name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HIwaABj8cQyiLFn_nqutyE3oYUBUNTyG=w1330-h913-iv1"},
+	{name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HDsVw731a1S2dpDv16GmtAX51LkWZko0=w1330-h913-iv1"},
+	{name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HD_L1nfTssM9vE48mHpP0oXplbldUEXA=w1330-h913-iv1"},
 ];

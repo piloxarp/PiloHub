@@ -1,3 +1,4 @@
+
 function post(x,page) {
     let div = document.createElement("div");
     div.className = "paper";
@@ -91,7 +92,12 @@ let nav = document.createElement("nav");
   let inf_soloArts = document.createElement("h3");
     elem_name.innerHTML = y;
     nav.id = "TagIdPreview_" + y;
+    if (y == "BBC") {
+    inf_soloArts.innerHTML = "Solo arts: " + ( window[y].reduce((total, item) => total + item.count, 0) - 1);
+    } else {
     inf_soloArts.innerHTML = "Solo arts: " + window[y].reduce((total, item) => total + item.count, 0);
+    }
+
     inf_comics.innerHTML = "Comics: " + eval("Answer" + y);
   let preview_container = document.querySelector(".preview_first");
   preview_container.append(nav);nav.append(elem_name);nav.append(elem_inf);elem_inf.append(inf_comics);elem_inf.append(inf_soloArts);
@@ -332,6 +338,11 @@ function Uploading(Comics,Solo,tag) {
     }
     if (Comics == 1 && tag == "BBC") {
         // stick on top
+        MultiPost(Makima_and_her_cuckold);
+        MultiPost(Dont_cry_whiteboy);
+        MultiPost(The_Black_New_World_Order_Nurses);
+        MultiPost(Mommy_recognises_her_sons_fetish);
+        MultiPost(Whiteboy_dinner);       
         MultiPost(Black_Breeding_initiative);
         MultiPost(Blacked_underwear);
         MultiPost(A_Mothers_Apology);
@@ -435,6 +446,7 @@ function Uploading(Comics,Solo,tag) {
         MultiPost(Yorha_9S);
     } else if (Comics == 1 && tag == "FiveT") {
         // stick on top
+        MultiPost(SV_MTR_1);
         MultiPost(Defeated_Makima);
         MultiPost(Prostitution_Devil_Makima);
     }

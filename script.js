@@ -81,3 +81,65 @@ function Dropdown(x) {
     document.querySelector(".dropbtn").setAttribute("onclick","Dropdown(1)");
   }
 }
+
+
+const deviceType = () => {
+    const ua = navigator.userAgent;
+    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+        return "tablet";
+    }
+    else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+        return "mobile";
+    }
+    return "desktop";
+};
+
+// Пример использования
+if (deviceType() == "mobile") {
+  let btn = document.createElement("button");
+  btn.setAttribute("onclick","MobileMenu('open')");
+  btn.className = "btnMenu"
+  let span = document.createElement("span");
+  span.className = "iconify";
+  span.setAttribute("id","menuID");
+  span.setAttribute("data-icon","mingcute:menu-fill");
+  btn.append(span);document.querySelector(".btn_list").prepend(btn);
+} else {
+
+}
+
+function MobileMenu(x) {
+  if (x == "open") {
+    document.querySelector("body").style = "overflow:hidden";
+    document.querySelector("header").classList.add("mobile_header_on");
+    document.querySelector("#menuID").remove();
+    let span = document.createElement("span");
+    span.className = "iconify";
+    span.setAttribute("id","menuID");
+    span.setAttribute("data-icon","mingcute:close-fill");    
+    document.querySelector(".btnMenu").append(span);
+    document.querySelector(".btnMenu").setAttribute("onclick","MobileMenu('close')");
+    document.querySelector("#myDropdown").style = "top: -205px;"
+          window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+  } else if (x == "close") {
+    document.querySelector("body").style = "overflow:auto";
+    document.querySelector("header").classList.remove("mobile_header_on");
+    document.querySelector("#menuID").remove();
+    let span = document.createElement("span");
+    span.className = "iconify";
+    span.setAttribute("id","menuID");
+    span.setAttribute("data-icon","mingcute:menu-fill");    
+    document.querySelector(".btnMenu").append(span);
+    document.querySelector(".btnMenu").setAttribute("onclick","MobileMenu('open')");
+    document.querySelector("#myDropdown").style = "top: auto;" 
+          window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      }); 
+  }
+}

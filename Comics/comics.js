@@ -709,6 +709,66 @@ Black_Breeding_initiative = [
     {name:"Black Breeding initiative", banner:"https://lh3.google.com/u/0/d/19ZfZMHFKVD3wucQVT0qEwE56WZOOYDcq=w1436-h850-iv1"},
 ];
 
+Whiteboy_dinner = [
+    {name:"Whiteboy dinner", banner:"https://lh3.google.com/u/0/d/1DEJse-sOhzWgZX1KTfiD_I7BR3r72VnR=w1185-h905-iv1"},
+    {name:"Whiteboy dinner", banner:"https://lh3.google.com/u/0/d/1D87uhQOlUrQWjFRovlLxQ1_vPwHgqMtS=w1185-h905-iv1"},
+    {name:"Whiteboy dinner", banner:"https://lh3.google.com/u/0/d/1D4nN6QVlHJMD47SzlwvV9RaoOyZATLD-=w1185-h905-iv1"},
+];
+
+Mommy_recognises_her_sons_fetish = [
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1EG6eSvC9JCa1qitg88L5hJtqyudKpkIA=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1EASqYoI3sDuIl3MCgYRZWfGfy3dqRUWO=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1E0VzzV8WIUxfcsmjeyVyZNBGCvKdXG7p=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1E05T_6ZE7CQ4FT1ZgKJI7zGlH-yDGpax=w1216-h905-iv1"},
+    {name:"Mommy recognises her son's fetish", banner:"https://lh3.google.com/u/0/d/1DwtmxxSVuBu6Qip0nxk4SGPbSK7MD9fp=w1216-h905-iv1"},
+];
+
+SV_MTR_1 = [
+    {name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EgZjV6qElep9IU1XcHV5AXA1At7Fz7YQ=w1226-h905-iv1"},
+    {name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EbxVkM-0nZQhRROOMIdzIHLyxw_wUp56=w1226-h905-iv1"},
+    {name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EZCPU85US4WjWFjsNUuba5EMJTvFVph4=w1226-h905-iv1"},
+    {name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EkX9tLOpPSodxkHq9QLGXQQhyFJYyr0B=w1226-h905-iv1"},
+    {name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EkK4XDwzEopaPE2IWXl9UrRrDTCXrbG4=w1226-h905-iv1"},
+    {name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EilffUQDicWh-y2lb4kRkw9-gg_r966k=w1226-h905-iv1"},
+    {name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EiNRN4VCxFcN1DxXTDGUmcPjskggkJVg=w1226-h905-iv1"},
+];
+
+The_Black_New_World_Order_Nurses = [
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FSKBGC3HHcsZ9nSJQHWf7bkfREkZA-KQ=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FdKXQrQAYLlGk0RSz8KekHOoMKoBU0h2=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1F_VB3DEsA5xn_SUM78wYgGSjUtyKq369=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FZhurXlFnAT4BZxf1kxORYNPOS3MtTQa=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FY6TFbvJVu2mfRaLrog-s2r6UB3EHZ8O=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FSpC08bTPGL-67tc-k9A-6Sa6FLTvr-f=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FSQAAudYjsz_ceDrDFgH170Qe8nxvnmJ=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GCya3OsSzzKD0hF6uGcKsXm3IXVVebai=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1G5sn3FLFXk-pquA3z8c_-9HbIVh8UOj9=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1G0IYf54QEk1oB7ZTT50sBy4kfCCDgPWp=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FtPv0W3fUMpoqZbgU8OXHz6fp9N46k1B=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FqIne9d5NhFTkVMjDsbwZ8I7KfH7bAmZ=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FplZUkeYkspjO6mR4TbwFRGRhO6mq8Lk=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1FitzKNnM8AtyUF9tCuR0wchY8bNsuSCI=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GzOePe0x-n-dIwrpDOyTwlOlYjQjdj4w=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GuSofydYb0N_GP3IzhAFzHVlGK-TDtPm=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GlbOs_4Kxg7M4ZCbMUq6arcoj5b-at_J=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GaJbYujccSUgKbhSW7o6pXyqE8RfPG03=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GVQ6U45VkZKUgbi7SUxutQrOpd4-2RWV=w1338-h905-iv1"},
+    {name:"The Black New World Order Nurses", banner:"https://lh3.google.com/u/0/d/1GPWPoERCOHGIwXK37eb_x7QdHZhpDTAF=w1338-h905-iv1"},
+];
+
+Dont_cry_whiteboy = [
+    {name:"Dont cry whiteboy", banner:"https://lh3.google.com/u/0/d/1H6vZzqB7TDlENWl_9HmqQMi-kioyhsyI=w1338-h905-iv1"},
+    {name:"Dont cry whiteboy", banner:"https://lh3.google.com/u/0/d/1H4UKZOUhd3ikrLasMtEKoIOKKUogsocm=w1338-h905-iv1"},
+];
+
+Makima_and_her_cuckold = [
+    {name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HKAj0UyUXuHTruxL2LYvgx_YlCh8Km2h=w1330-h913-iv1"},
+    {name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HK41J8vg4U0aiqydSoGMtEr-84MvjOr0=w1330-h913-iv1"},
+    {name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HIwaABj8cQyiLFn_nqutyE3oYUBUNTyG=w1330-h913-iv1"},
+    {name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HDsVw731a1S2dpDv16GmtAX51LkWZko0=w1330-h913-iv1"},
+    {name:"Makima and her cuckold", banner:"https://lh3.google.com/u/0/d/1HD_L1nfTssM9vE48mHpP0oXplbldUEXA=w1330-h913-iv1"},
+];
+
 
 function MultiPost(page) {
     navFlex = document.createElement("nav");
@@ -738,7 +798,6 @@ const urlParams = new URLSearchParams(window.location.search);
 const name = urlParams.get('name');
 const theme = urlParams.get('theme');
 
-document.querySelector("h1").innerHTML = name.replace(/_/g, " ");
 document.querySelector("title").innerHTML = name.replace(/_/g, " ");
 MultiPost(window[name]);
 

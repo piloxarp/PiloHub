@@ -41,3 +41,13 @@ Prostitution_Devil_Makima = [
 	{name:"Prostitution Devil Makima", banner:"https://lh3.google.com/u/0/d/16UKmh9qi3y8voQcxTiO7PzQdRAu2QyRe=w1404-h907-iv1"},
 	{name:"Prostitution Devil Makima", banner:"https://lh3.google.com/u/0/d/16Sl0EpXMkOM6uttM5h_obbWJ4eWrhfV-=w1404-h907-iv1"},
 ];
+
+SV_MTR_1 = [
+	{name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EgZjV6qElep9IU1XcHV5AXA1At7Fz7YQ=w1226-h905-iv1"},
+	{name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EbxVkM-0nZQhRROOMIdzIHLyxw_wUp56=w1226-h905-iv1"},
+	{name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EZCPU85US4WjWFjsNUuba5EMJTvFVph4=w1226-h905-iv1"},
+	{name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EkX9tLOpPSodxkHq9QLGXQQhyFJYyr0B=w1226-h905-iv1"},
+	{name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EkK4XDwzEopaPE2IWXl9UrRrDTCXrbG4=w1226-h905-iv1"},
+	{name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EilffUQDicWh-y2lb4kRkw9-gg_r966k=w1226-h905-iv1"},
+	{name:"SV MTR 1", banner:"https://lh3.google.com/u/0/d/1EiNRN4VCxFcN1DxXTDGUmcPjskggkJVg=w1226-h905-iv1"},
+];
