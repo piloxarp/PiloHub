@@ -222,6 +222,12 @@
     flex-direction: column;
 }
 
+.preview_first p {
+    padding: 15px;
+    border: 1px solid rgb(42 42 42);
+    border-radius: 10px;
+}
+
 .preview_last {
     height: 30%;
     border: 2px solid rgb(42 42 42);
@@ -377,18 +383,7 @@
         <h1>Select:</h1>
         <nav class="tag_container">
             <h2>Tag:</h2>
-            <nav>
-            <button id="TagID_BBC" onclick="Tag('BBC')" class="select_Tag">BBC</button>
-            <button id="TagID_Other" onclick="Tag('Other')" class="select_Tag">Other</button>
-            </nav>
-        </nav>
-        <nav class="tag_container">
-            <h2>Author:</h2>
-            <nav>
-            <button id="TagID_Gelatomusume" onclick="Tag('Gelatomusume')" class="select_Tag">Gelatomusume</button>
-            <button id="TagID_Picturd" onclick="Tag('Picturd')" class="select_Tag">Picturd</button>
-            <button id="TagID_FiveT" onclick="Tag('FiveT')" class="select_Tag">5t</button>
-            </nav>
+            <nav id="TagsNav"></nav>
         </nav>
         <nav class="radio_container">
             <h2 id="Type_Detector">Type:</h2>
@@ -425,13 +420,15 @@
     </nav>
 </nav>
 </div>
-<script type="text/javascript" src="Collection/5t_data.js"></script>
-<script type="text/javascript" src="Collection/BBC_data.js"></script>
-<script type="text/javascript" src="Collection/GelatomusumePack_data.js"></script>
-<script type="text/javascript" src="Collection/PicturdPack_data.js"></script>
-<script type="text/javascript" src="other_data.js"></script>
+<script src="Collection/5t_data.js"></script>
+<script src="Collection/BBC_data.js"></script>
+<script src="Collection/GelatomusumePack_data.js"></script>
+<script src="Collection/PicturdPack_data.js"></script>
+<script src="other_data.js"></script>
+<script src="Comics/comics_data.js"></script>
+<script src="Mcomics_data.js"></script>
 
-<script type="text/javascript">
+<script>
     // Hypno button
 
     let btnHypno = document.querySelector("#SoundHypno");
@@ -450,8 +447,8 @@
         btnHypno.setAttribute("onclick","PlaySound()");     
     }
 </script>
-<script type="text/javascript" src="changelog_data.js"></script>
-<script type="text/javascript" src="catalog_post.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<!--<script src="changelog_data.js"></script> -->
+<script src="catalog_post.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 	Comics = [
-	{count:29,version:1.0},
+	{count:28,version:1.0},
 	{count:1,version:4.2},
 		
 
@@ -35,6 +35,7 @@ Mcomics = [
 	{name:"Cuckold Relationship (+19)&Astolfo matemi&Her boyfriend`s hobbies",version:4.4},
 	{name:"A Mother`s Apology&Defeated Makima&Prostitution Devil Makima&Sunny Jerks You Off&Suddenly Choking Bunny Gf&Blacked underwear&Black Breeding initiative",version:4.5},
 	{name:"Whiteboy dinner&Mommy recognises her son's fetish&SV MTR 1&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",version:4.6},
+	{name:"Consent NTR",version:4.7},
 ];
 
 
@@ -67,6 +68,7 @@ BBC = [
 	{name:"Her boyfriend`s hobbies",count:7,version:4.4},
 	{name:"A Mother`s Apology&Blacked underwear&Black Breeding initiative",count:33,version:4.5},
 	{name:"Whiteboy dinner&Mommy recognises her son's fetish&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",count:32,version:4.6},
+	{name:"Consent NTR",count:8,version:4.7},
 ];
 
 
@@ -120,6 +122,7 @@ Videos = [
 	{count:3,version:4.3},
 	{count:5,version:4.5},
 	{count:2,version:4.6},
+	{count:2,version:4.7},
 ];
 
 FiveT = [
@@ -349,4 +352,9 @@ Texts = [
 ### На главной странице сайта была добавлена кнопка на страницу полной статистики сайта.
 ### Был переработан header на всех страницах
   	`,version:4.6},
+	{name:`
+# - Перепланировка -
+### Была изменена работа **Catalog** теперь будет легче внедрять новые тэги.
+### Теперь все базы данных находятся в отдельных файлах.
+  	`,version:4.7},  	
 ];

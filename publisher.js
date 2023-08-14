@@ -39,6 +39,15 @@
         input2.id = "name_comics";
         input2.placeholder = "Enter name";
         input2.setAttribute("oninput","NameComics()");
+        let input4 = document.createElement("input");
+        let label4 = document.createElement("label");
+        let nav4 = document.createElement("nav");
+        label4.setAttribute("for","tag");
+        label4.innerHTML = "Tag";
+        input4.type = "text";
+        input4.id = "tag_comics";
+        input4.placeholder = "Enter tag";
+        input4.setAttribute("oninput","TagComics()");
         let select = document.createElement("select");
         select.id = "select";
         let option = document.createElement("option");
@@ -50,6 +59,7 @@
         let nav3 = document.createElement("nav");
         nav.prepend(label);nav.append(input);container.prepend(nav);
         nav2.prepend(label2);nav2.append(input2);container.append(nav2);
+        nav4.prepend(label4);nav4.append(input4);container.append(nav4);
         select.prepend(option);select.append(option2);nav3.prepend(select);nav3.prepend(label3);container.append(nav3);
 
     } else if (type === "art") {
@@ -76,7 +86,7 @@ if (sessionStorage.type_format == "comics") {
         inputField.name = `page_${i + 1}`;
         let label = document.createElement('label');
         label.setAttribute("for",`page_${i + 1}`);
-        label.innerHTML = "banner:";
+        label.innerHTML = `banner ${i + 1}: `;
         let span = document.createElement("span");
         sessionStorage.setItem("comics_pages",i + 1);
         span.prepend(label);span.append(inputField);pagesContainer.appendChild(span);
@@ -195,6 +205,11 @@ function NameComics() {
     sessionStorage.setItem("comics_name",comics_name);
 }
 
+function TagComics() {
+  let comics_tag = document.querySelector("#tag_comics").value;
+  sessionStorage.setItem("comics_tag",comics_tag);
+}
+
 function Page_Save(name,page) {
     let data = document.querySelector(`input[name="${name}_${page}"]`).value;
     sessionStorage.setItem(`${name}_${page}`,data);
@@ -210,6 +225,7 @@ function Submit() {
       var selectMenu = document.querySelector('#select');
       var selectedOption = selectMenu.options[selectMenu.selectedIndex];    
       const comicsTheme = selectedOption.value;
+      let comicsTag = sessionStorage.getItem('comics_tag');
   
       const pages = [];
       for (let i = 1; i <= comicsPages; i++) {
@@ -222,7 +238,8 @@ function Submit() {
         comics_name: comicsName,
         comics_pages: comicsPages,
         pages: pages,
-        theme: comicsTheme
+        theme: comicsTheme,
+        tag: comicsTag
       };
   
       const output = data.pages.map(page => ({
@@ -236,7 +253,7 @@ function Submit() {
       textarea.innerHTML = result;
       textarea.style.height = textarea.scrollHeight + 'px';
 
-      const resultMcomics = `\t{name:"${data.comics_name.replace(/\s/g, '_')}", banner:"${data.pages[0]}", pages:${data.comics_pages}, theme:"${data.theme}"},`;
+      const resultMcomics = `\t{name:"${data.comics_name.replace(/\s/g, '_')}", banner:"${data.pages[0]}", pages:${data.comics_pages}, theme:"${data.theme}", tag:"${data.tag}"},`;
       let textarea2 = document.createElement("textarea");
       textarea2.innerHTML = resultMcomics;
       textarea2.style.height = "60px";
@@ -339,7 +356,133 @@ function Submit() {
       textarea.style.height = textarea.scrollHeight + 'px';
            
     }
+    Preview(sessionStorage.type_format);
   }
+
+
+function Preview(format) {
+  document.querySelector("content").innerHTML = "";
+  const artPage = parseInt(sessionStorage.getItem('comics_pages'));
+      const pages = [];
+      for (let i = 1; i <= artPage; i++) {
+        const pageKey = `page_${i}`;
+        const pageValue = sessionStorage.getItem(pageKey);
+        pages.push(pageValue);
+      }
+          
+  if (format == "comics") {
+    let comics_name = sessionStorage.getItem('comics_name');
+    let content = document.querySelector("content");
+        navFlex = document.createElement("nav");
+    navFlex.className = "mangaFlex";
+content.append(navFlex);
+  for (var x = pages.length - 1; x >= 0; x--) {
+    let div = document.createElement("div");
+    div.className = "paper";
+    div.style.id = comics_name;
+    let a = document.createElement("a");
+    a.href = pages[x];
+    let img = document.createElement("img");
+    img.src = pages[x];
+    img.loading = "lazy";
+    nav = document.createElement("nav");
+    nav.className = "description";
+    h2 = document.createElement("h2");
+    h2.innerHTML = comics_name.replace(/_/g, " ");
+    p = document.createElement("p");
+    p.innerHTML = (x+1) + "/" + pages.length;
+  navFlex.prepend(div);div.append(a);a.append(img);div.append(nav);nav.append(h2);nav.append(p);
+}
+  } else if (format == "art") {
+      const name_pages = [];
+      for (let i = 1; i <= artPage; i++) {
+        const pageKey = `name_${i}`;
+        const pageValue = sessionStorage.getItem(pageKey);
+        name_pages.push(pageValue);
+      }
+    let content = document.querySelector("content");
+        navFlex = document.createElement("nav");
+    navFlex.className = "mangaFlex";
+content.append(navFlex);
+  for (var x = pages.length - 1; x >= 0; x--) {
+    console.log(name_pages[x])
+    let div = document.createElement("div");
+    div.className = "paper";
+    div.style.id = name_pages[x];
+    let a = document.createElement("a");
+    a.href = pages[x];
+    let img = document.createElement("img");
+    img.src = pages[x];
+    img.loading = "lazy";
+    nav = document.createElement("nav");
+    nav.className = "description";
+    h2 = document.createElement("h2");
+    h2.innerHTML = name_pages[x].replace(/_/g, " ");
+    p = document.createElement("p");
+    p.innerHTML = (x+1) + "/" + pages.length;
+  navFlex.prepend(div);div.append(a);a.append(img);div.append(nav);nav.append(h2);nav.append(p);
+}      
+  } else if (format == "video") {
+      const videoCount = parseInt(sessionStorage.getItem('video_count'));
+      let content = document.querySelector("content");
+      const banners = [];
+      const name_pages = [];
+      const links = [];
+      const durations = [];
+      const authors = [];
+      
+      for (let i = 1; i <= videoCount; i++) {
+        const bannerKey = `banner_${i}`;
+        const bannerValue = sessionStorage.getItem(bannerKey);
+        banners.push(bannerValue);
+        
+        const nameKey = `name_${i}`;
+        const nameValue = sessionStorage.getItem(nameKey);
+        name_pages.push(nameValue);
+        
+        const linkKey = `link_${i}`;
+        const linkValue = sessionStorage.getItem(linkKey);
+        links.push(linkValue);
+        
+        const durationKey = `duration_${i}`;
+        const durationValue = sessionStorage.getItem(durationKey);
+        durations.push(durationValue);
+        
+        const authorKey = `author_${i}`;
+        const authorValue = sessionStorage.getItem(authorKey);
+        authors.push(authorValue);
+      }
+      for (var i = videoCount - 1; i >= 0; i--) {
+      let div = document.createElement("div");
+      let iframe = document.createElement("iframe");
+      let inf = document.createElement("div");
+      iframe.src = links[i];
+      iframe.width = "1045";
+      iframe.height = "560";
+      iframe.allow = "fullscreen";
+      let inf_vid = document.createElement("div");
+      let h2 = document.createElement("h2");
+      let p = document.createElement("p");
+      let nav = document.createElement("nav");
+      h2.innerHTML = name_pages[i];
+      p.innerHTML = durations[i];
+      nav.className = "vc-tags";
+      nav.setAttribute("id","tag-author");
+      nav.style = "margin-bottom:0px;";
+      nav.innerHTML = authors[i];
+      inf_vid.className = "info_vid";
+      inf_vid.prepend(nav);;inf_vid.prepend(p);inf_vid.prepend(h2)
+      inf.className = "container-inf";
+      div.className = "container-vids";
+      inf.prepend(inf_vid);
+      div.prepend(iframe);
+      div.append(inf);
+      content.prepend(div);
+
+    }
+  }
+}
+
 
 document.addEventListener("DOMContentLoaded", function() {
     sessionStorage.clear();

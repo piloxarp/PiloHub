@@ -64,4 +64,6 @@ ListVideos = [
     [{name: "Widowmaker_[Black]",banner: "https://lh3.google.com/u/1/d/1-pVr2orU5yW38sEw0w5D7KJiBJhcIY-7=w1920-h917-iv1",link: "https://drive.google.com/file/d/1-jFRcf23FtBIcFdpc-frXCDL6B6y4TRV/preview",duration: "1:22",author: "Aphy3d"}], 
     [{name: "BLACKED_-_[PMV]_VOL_1_TO_5_COMPLIANTION",banner: "https://rule34video.com/contents/videos_screenshots/3127000/3127245/preview_1080p.mp4.jpg",link: "https://rule34video.com/embed/3127245",duration: "13:20",author: "Hibootys"}],
     [{name: "K/DA_blacked_hmv",banner: "https://rule34video.com/contents/videos_screenshots/3104000/3104543/336x189/1.jpg",link: "https://rule34video.com/embed/3104543",duration: "2:22",author: "Yurislov"}],    
+    [{name: "Chiaki_bnwo_hmv",banner: "https://rule34video.com/contents/videos_screenshots/3130000/3130960/336x189/1.jpg",link: "https://rule34video.com/embed/3130960",duration: "1:10",author: "Yurislov"}],
+    [{name: "BLACKED_BITCHES",banner: "https://rule34video.com/contents/videos_screenshots/3131000/3131039/336x189/1.jpg",link: "https://rule34video.com/embed/3131039",duration: "2:59",author: "CrystalHMV"}],
 ];

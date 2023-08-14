@@ -83,7 +83,7 @@
     outline: none;
 }
 
-        .main_data nav #name_comics {
+        .main_data nav #name_comics, .main_data nav #tag_comics {
             height: 100%;
             border-radius: 15px;
             border: 2px solid rgba(255, 255, 255, 0.10);
@@ -225,11 +225,25 @@
             flex-direction: column;
             gap: 10px;
         }
+        content {
+            gap:30px;
+        }
+        .preview {
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            border-radius: 15px;
+            background: #1C1C1C;
+            border: 2px solid rgba(255, 255, 255, 0.10);
+            width: fit-content;
+            gap:15px;
+        }
 
     </style>
 
 </head>
 <body style="color:#fff;">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     <div class="container-input">
     <div class="type">
     <nav>
@@ -253,6 +267,12 @@
     <textarea style="resize: none;"></textarea>
     <button id="textarea_copy_btn" onclick="copyText(0)">Copy</button>
     <nav id="output_add"></nav>      
+    </div>
+    <div class="preview">
+        <h2>Preview</h2>
+        <content>
+            
+        </content>
     </div>
 
 
