@@ -89,5 +89,17 @@ Other_Other = [
 	{name:"2b repurposed 9s`s body appropriately", banner:"https://lh3.google.com/u/0/d/1B91oiJjKRGMuVKXyKqdtrbjL0I4Y8gAK=w1436-h850-iv1"},		
 	{name:"Entering a new life", banner:"https://lh3.google.com/u/0/d/1EOApPh62GWJP6aN_-mDCX0rhoAHRJEut=w1216-h905-iv1"},
 	{name:"Reincarnation", banner:"https://lh3.google.com/u/0/d/1FDYHYhorQLrLhWWUL_Zue1M27Ne2d0kK=w1226-h905-iv1"},
-
+	{name:"What would Komi say", banner:"https://lh3.google.com/u/0/d/1J0dnuKxncntVeafL0cTTJqHWbS55LTyw=w3000-h6492-iv1"},
+	{name:"Sissy stream goals", banner:"https://lh3.google.com/u/0/d/1J2j4l5iIyJHNB9gNOrucKlem9P_ypHNd=w3000-h6492-iv1"},
+	{name:"Spread your legs further sissy", banner:"https://lh3.google.com/u/0/d/1J60BzvQwViuDtFIt5AAMVqGZPRsdnypf=w3000-h6492-iv1"},
+	{name:"Sissy story", banner:"https://lh3.google.com/u/0/d/1JVm7dF9b7OGNk1UwqIfcV6p8pqsjDk4I=w3000-h6492-iv1"},
+	{name:"Fembot cat", banner:"https://lh3.google.com/u/0/d/1JxHwXKNHxW3XWKnsISsu__IPucwhrQom=w1920-h923-iv1"},
+	{name:"Claws are not.. enough", banner:"https://lh3.google.com/u/0/d/1JvWaeWKmMKqkoRPuB5GWs20Cc9paN-B5=w1920-h923-iv1"},
+	{name:"Scaramouche punishment from a soldier", banner:"https://lh3.google.com/u/0/d/1O39mffLLDas9hRt43XJZGii8OOuANscC=w1208-h913-iv1"},
+	{name:"Venti can't resist a free drink", banner:"https://lh3.google.com/u/0/d/1O45LUvwtItVRmWPFvrU6sFBBVMFFbzn_=w1208-h913-iv1"},
+	{name:"It's a new toy for you", banner:"https://lh3.google.com/u/0/d/1O5TUbtjicRqsgx3IkjTvhWhxeJOKeE9B=w1208-h913-iv1"},		
+	{name:"Pathetic", banner:"https://lh3.google.com/u/0/d/1PKIGB0Wfr88oWd5YWHIgP8P0sFzIpu_C=w1208-h913-iv1"},
+	{name:"TNWO", banner:"https://lh3.google.com/u/0/d/1Q4P2DeRO1wa6EykTBYAapI_bz2PwdCHW=w1208-h913-iv2"},
+	{name:"What every white boy should look like in 2023", banner:"https://lh3.google.com/u/0/d/1PzMvqhy_Xa4CkxRaeZlTQecvB2B9C8qh=w1208-h913-iv2"},
+	{name:"How to become a premature ejaculator", banner:"https://lh3.google.com/u/0/d/1PsHfREHnCLz6Y7WTUkTR-50BeXZy2CJ4=w1208-h913-iv2"},
 ];

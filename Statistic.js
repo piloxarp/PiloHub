@@ -33,6 +33,8 @@ const AnswerGelatomusumePackComics = countNames(Gelatomusume) - countElementsWit
 const AnswerPicturdPackComics = countNames(Picturd) - countElementsWithParentheses(Picturd);
 const AnswerOtherComics = countNames(Other) - countElementsWithParentheses(Other);
 const AnswerFiveTComics = countNames(FiveT) - countElementsWithParentheses(FiveT);
+const AnswerHyanmaruComics = countNames(Hyanmaru) - countElementsWithParentheses(Hyanmaru);
+const AnswerYUE_CComics = countNames(YUE_C) - countElementsWithParentheses(YUE_C);
 const AnswerNudeMoonComics = Comics.reduce((total, item) => total + item.count, 0);
 const AnswerMcomicsComics = countNames(Mcomics) - countElementsWithParentheses(Mcomics);
 
@@ -42,6 +44,8 @@ const AnswerPicturdPackArts = Picturd.reduce((total, item) => total + item.count
 const AnswerOtherArts = Other.reduce((total, item) => total + item.count, 0);
 const AnswerVideos = Videos.reduce((total, item) => total + item.count, 0);
 const Answer5tArts = FiveT.reduce((total, item) => total + item.count, 0);
+const AnswerHyanmaruArts = Hyanmaru.reduce((total, item) => total + item.count, 0);
+const AnswerYUE_CArts = YUE_C.reduce((total, item) => total + item.count, 0);
 const AnswerMcomicsPages = List.reduce((total, item) => total + item.pages, 0);
 
 
@@ -59,10 +63,14 @@ document.querySelectorAll("#stat_5t > nav > h4")[0].innerHTML = "Comics: " + Ans
 document.querySelectorAll("#stat_5t > nav > h4")[1].innerHTML = "Solo arts: " + Answer5tArts;
 document.querySelectorAll("#stat_Picturd > nav > h4")[0].innerHTML = "Comics: " + AnswerPicturdPackComics;
 document.querySelectorAll("#stat_Picturd > nav > h4")[1].innerHTML = "Solo arts: " + AnswerPicturdPackArts;
+document.querySelectorAll("#stat_Hyanmaru > nav > h4")[0].innerHTML = "Comics: " + AnswerHyanmaruComics;
+document.querySelectorAll("#stat_Hyanmaru > nav > h4")[1].innerHTML = "Solo arts: " + AnswerHyanmaruArts;
+document.querySelectorAll("#stat_YUE_C > nav > h4")[0].innerHTML = "Comics: " + AnswerYUE_CComics;
+document.querySelectorAll("#stat_YUE_C > nav > h4")[1].innerHTML = "Solo arts: " + AnswerYUE_CArts;
 
-document.querySelector("#stat_TotalComics > nav > h4").innerHTML = AnswerBBCPackComics + AnswerGelatomusumePackComics + AnswerPicturdPackComics + AnswerOtherComics + AnswerFiveTComics + AnswerNudeMoonComics;
+document.querySelector("#stat_TotalComics > nav > h4").innerHTML = AnswerBBCPackComics + AnswerGelatomusumePackComics + AnswerPicturdPackComics + AnswerOtherComics + AnswerFiveTComics + AnswerHyanmaruComics + AnswerHyanmaruComics + AnswerNudeMoonComics;
 document.querySelector("#stat_TotalPages > nav > h4").innerHTML = AnswerMcomicsPages;
-document.querySelector("#stat_TotalSoloArts > nav > h4").innerHTML = AnswerGelatomusumePackArts + AnswerBBCPackArts + AnswerPicturdPackArts + AnswerOtherArts + Answer5tArts;
+document.querySelector("#stat_TotalSoloArts > nav > h4").innerHTML = AnswerGelatomusumePackArts + AnswerBBCPackArts + AnswerPicturdPackArts + AnswerOtherArts + AnswerHyanmaruArts + AnswerYUE_CArts + Answer5tArts;
 document.querySelector("#stat_TotalVideos > nav > h4").innerHTML = AnswerVideos;
 
 document.querySelectorAll("#stat_TotalVideosTimes > nav > h4")[0].innerHTML = Math.floor(totalDuration / 3600);

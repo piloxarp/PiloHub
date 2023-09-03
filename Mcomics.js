@@ -5,23 +5,19 @@ let page2 = List.slice(21,42);
 let page3 = List.slice(42,63);
 let page4 = List.slice(63,84);
 let page5 = List.slice(84,105);
+let page6 = List.slice(105,126);
 
-let max_pages = 5;
+let max_pages = 6;
 
-function GenPagesBTN() {
-    let l = max_pages + 1;
-    for (var i = 0; i < l; i++) {
-         let div = document.createElement("div");
-        div.classList = "pageBtn t_primary";
-        div.setAttribute("onclick",`PageStorage(${i})`);
-        div.innerHTML = i;
-        document.querySelector(".bottom-container").append(div);       
-    }
-    document.querySelectorAll(".pageBtn")[0].remove();
-
+let max_pages_tex = max_pages + 1;
+for (var i = 0; i < max_pages_tex; i++) {
+     let div = document.createElement("div");
+    div.classList = "pageBtn t_primary";
+    div.setAttribute("onclick",`PageStorage(${max_pages_tex - i})`);
+    div.innerHTML = i;
+    document.querySelector(".bottom-container").append(div);       
 }
-
-GenPagesBTN();
+document.querySelectorAll(".pageBtn")[0].remove();
 
 // functions
 
@@ -131,7 +127,7 @@ function PageStorage(x) {
     localStorage.setItem("page_Mcomics",x);
     let f = "page" + localStorage.page_Mcomics;
     Page(eval(f));
-    document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS"; 
+    document.querySelector("title").innerHTML =(max_pages_tex - localStorage.page_Mcomics) + " " + "|" + " " + "MINI-COMICS"; 
 }
 
 function NoImage(x) {
@@ -195,13 +191,15 @@ document.addEventListener("DOMContentLoaded", function() {
         Page(eval(f));
         let num = Number(localStorage.page_Mcomics);
         buttonsPages[num - 1].click();           
-        document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS";   
+        document.querySelector("title").innerHTML =(max_pages_tex - localStorage.page_Mcomics) + " " + "|" + " " + "MINI-COMICS";   
     } else {
-         let f = "page" + localStorage.page_Mcomics
+         let f = "page" + (max_pages_tex - localStorage.page_Mcomics)
         Page(eval(f));  
-        let num = Number(localStorage.page_Mcomics);
+        let num = max_pages_tex - Number(localStorage.page_Mcomics);
+        console.log(num);
+        console.log(buttonsPages[num - 1]);
         buttonsPages[num - 1].click();  
-        document.querySelector("title").innerHTML = localStorage.page_Mcomics + " " + "|" + " " + "MINI-COMICS";   
+        document.querySelector("title").innerHTML =(max_pages_tex - localStorage.page_Mcomics) + " " + "|" + " " + "MINI-COMICS";   
     }
     if (localStorage.NoImage_Mcomics == "1") {
         document.querySelector(".NoImage").setAttribute("id","activeSVG");

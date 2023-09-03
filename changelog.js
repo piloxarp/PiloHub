@@ -7,6 +7,8 @@ let Videos_Card = document.querySelector(".Videos");
 let Comics_Card = document.querySelector(".Comics");
 let changelogInfo_Card = document.querySelector(".changelog-info");
 let FiveT_Card = document.querySelector(".FiveT");
+let Hyanmaru_Card = document.querySelector(".Hyanmaru");
+let YUE_C_Card = document.querySelector(".YUE_C");
 
 	let version_container = document.querySelector(".versions");
 	let numbers = ["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8",
@@ -111,6 +113,8 @@ Generate_Card(Videos_Card,Videos,"solo",x);
 Generate_Card(Comics_Card,Comics,"solo",x);
 Generate_Card(BBC_Card,BBC,"chapter",x);
 Generate_Card(FiveT_Card,FiveT,"chapter",x);
+Generate_Card(Hyanmaru_Card,Hyanmaru,"chapter",x);
+Generate_Card(YUE_C_Card,YUE_C,"chapter",x);
 Generate_Card(Gelatomusume_Card,Gelatomusume,"chapter",x);
 Generate_Card(Picturd_Card,Picturd,"chapter",x);
 Generate_Card(Mcomics_Card,Mcomics,"chapter",x,"sum");
@@ -127,6 +131,8 @@ if (Texts_index === -1) {
 Generate_ColorCard(Mcomics_Card,"chapter","Sum");
 Generate_ColorCard(BBC_Card,"chapter","Solo");
 Generate_ColorCard(FiveT_Card,"chapter","Solo");
+Generate_ColorCard(Hyanmaru_Card,"chapter","Solo");
+Generate_ColorCard(YUE_C_Card,"chapter","Solo");
 Generate_ColorCard(Gelatomusume_Card,"chapter","Solo");
 Generate_ColorCard(Picturd_Card,"chapter","Solo");
 Generate_ColorCard(Other_Card,"chapter","Solo");	

@@ -8,20 +8,15 @@ let page3 = ListVideos.slice(42,63);
 let page4 = ListVideos.slice(63,84);
 let max_pages = 4;
 
-function GenPagesBTN() {
-    let l = max_pages + 1;
-    for (var i = 0; i < l; i++) {
-         let div = document.createElement("div");
-        div.classList = "pageBtn t_primary";
-        div.setAttribute("onclick",`PageStorage(${i})`);
-        div.innerHTML = i;
-        document.querySelector(".bottom-container").append(div);       
-    }
-    document.querySelectorAll(".pageBtn")[0].remove();
-
+let max_pages_tex = max_pages + 1;
+for (var i = 0; i < max_pages_tex; i++) {
+     let div = document.createElement("div");
+    div.classList = "pageBtn t_primary";
+    div.setAttribute("onclick",`PageStorage(${max_pages_tex - i})`);
+    div.innerHTML = i;
+    document.querySelector(".bottom-container").append(div);       
 }
-
-GenPagesBTN();
+document.querySelectorAll(".pageBtn")[0].remove();
 
 // functions
 
@@ -99,7 +94,7 @@ function PageStorage(x) {
     localStorage.setItem("page_videos",x);
     let f = "page" + localStorage.page_videos
     Page(eval(f));
-    document.querySelector("title").innerHTML = localStorage.page_videos + " " + "|" + " " + "VIDEOS"; 
+    document.querySelector("title").innerHTML = (max_pages_tex - localStorage.page_videos) + " " + "|" + " " + "VIDEOS"; 
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -107,15 +102,15 @@ document.addEventListener("DOMContentLoaded", function() {
         localStorage.setItem("page_videos",1);
         let f = "page" + localStorage.page_videos
         Page(eval(f)); 
-        let num = Number(localStorage.page_videos);
+        let num = max_pages_tex - Number(localStorage.page_videos);
         buttonsPages[num - 1].click();             
-        document.querySelector("title").innerHTML = localStorage.page_videos + " " + "|" + " " + "VIDEOS";   
+        document.querySelector("title").innerHTML = (max_pages_tex - localStorage.page_videos) + " " + "|" + " " + "VIDEOS";   
     } else {
          let f = "page" + localStorage.page_videos
         Page(eval(f));  
-        let num = Number(localStorage.page_videos);
+        let num = max_pages_tex - Number(localStorage.page_videos);
         buttonsPages[num - 1].click();  
-        document.querySelector("title").innerHTML = localStorage.page_videos + " " + "|" + " " + "VIDEOS";   
+        document.querySelector("title").innerHTML = (max_pages_tex - localStorage.page_videos) + " " + "|" + " " + "VIDEOS";   
     }
 
 });

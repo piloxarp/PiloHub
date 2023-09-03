@@ -40,11 +40,65 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+<style>
+    .info {
+        padding: 15px;
+        color: var(--white);
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 15px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;    
+    }
+    .info-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .info-header button {
+    padding: 5px;
+    border: 1px solid rgb(255 255 255 / 10%);
+    background: transparent;
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    }
+    .info-header button:hover {
+        cursor: pointer;
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+    
+    h3 {
+        word-wrap: break-word;
+        letter-spacing: 0.03em;
+    }
+
+    @media screen and (max-width: 768px) {
+        .info {
+            width: fit-content;
+        }
+    }
+</style>
 </head>
-<body>
+<body data-mobile="off">
 	<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
 	<header style="justify-content: flex-end;"><nav class="btn_list"><a href="Videos.html" class="back"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m11 5l-7 7l7 7m-7-7h16"/></svg></a></nav></header>
 	<content>
+		<div class="info">
+    <nav class="info-header">
+        <h2>Важная информация</h2>
+        <button onclick="closeinfo()"><span class="iconify" data-icon="ic:round-close"></span></button>
+    </nav>
+    <h3>Для отображения видео на сайте вам необходимо быть залогиненым в аккаунте Google. Так как сайт использую Google drive</h3>
+</div>
 <div class="container-vids" style="gap:15px">
 	<div class="container-inf">
 		<div class="info_vid">
@@ -61,5 +115,17 @@
 <script type="text/javascript" src="videos_data.js"></script>
 <script type="text/javascript" src="player.js"></script>
 <script type="text/javascript" src="../script.js"></script>
+<script>
+
+        if (localStorage.index_info == "1") {
+            document.querySelector(".info").remove();
+        }
+
+
+    function closeinfo() {
+        localStorage.setItem("index_info",1);
+        document.querySelector(".info").remove();
+    }
+</script>
 </body>
 </html>

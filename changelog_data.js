@@ -35,14 +35,14 @@ Mcomics = [
 	{name:"Cuckold Relationship (+19)&Astolfo matemi&Her boyfriend`s hobbies",version:4.4},
 	{name:"A Mother`s Apology&Defeated Makima&Prostitution Devil Makima&Sunny Jerks You Off&Suddenly Choking Bunny Gf&Blacked underwear&Black Breeding initiative",version:4.5},
 	{name:"Whiteboy dinner&Mommy recognises her son's fetish&SV MTR 1&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",version:4.6},
-	{name:"Consent NTR",version:4.7},
+	{name:"Consent NTR&A Mother`s Apology(+2)&Flowers&SV MTR 2&The battle for the role of master&SV MTR 3&Valeria Findom&Maid Sissy&Widowmaker Penis Humiliation P.O.V&Alex Wrestling&Alex Social Media Shenanigans&Ema and Quinn Summer Vacation&Mommy Val cages Millie(+2)&whiteboy punishment&The BBC addicted wife KISARAGI AYAKO 2",version:4.7},
 ];
 
 
 
 
 BBC = [
-	{name:"Deku-kun and Ochaco with master&The BBC addicted wife KISARAGI AYAKO&Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc",count:17,version:1.9},
+	{name:"Deku-kun and Ochaco with master&Waifu Interview&A new side of Uraraka&Inko and BBC&Waitress for bbc",count:17,version:1.9},
 	{name:"Mother assisted femboy test&The new Black Worldorder Teachers",count:2,version:2.0},
 	{name:"",count:3,version:2.1},
 	{name:"",count:8,version:2.2},
@@ -68,7 +68,7 @@ BBC = [
 	{name:"Her boyfriend`s hobbies",count:7,version:4.4},
 	{name:"A Mother`s Apology&Blacked underwear&Black Breeding initiative",count:33,version:4.5},
 	{name:"Whiteboy dinner&Mommy recognises her son's fetish&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",count:32,version:4.6},
-	{name:"Consent NTR",count:8,version:4.7},
+	{name:"Consent NTR&A Mother`s Apology(+2)&The battle for the role of master",count:62,version:4.7},
 ];
 
 
@@ -80,6 +80,7 @@ Gelatomusume = [
 	{name:"Suzu Nakano Doggy",count:1,version:4.1},
 	{name:"Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",count:1,version:4.2},
 	{name:"Mommy Val cages Millie",count:0,version:4.3},
+	{name:"Valeria Findom&Maid Sissy&Widowmaker Penis Humiliation P.O.V&Alex Wrestling&Alex Social Media Shenanigans&Ema and Quinn Summer Vacation&Mommy Val cages Millie(+2)",count:7,version:4.7},
 ];
 
 
@@ -96,38 +97,52 @@ Other = [
 	{name:"James",count:1,version:1.0},
 	{name:"Lynn Defeated and Trained",count:0,version:1.2},
 	{name:"First trip&Rimuru and Gobta",count:1,version:1.6},
-	{name:"Cuckold Relationship",count:0,version:2.4},
 	{name:"Elf",count:0,version:2.6},
 	{name:"A manga about brainwashing a brother and sister&Will you really cover my entire bill",count:8,version:3.3},
 	{name:"",count:22,version:3.4},
 	{name:"",count:13,version:3.5},
 	{name:"Lynn Defeated and Trained(+3)",count:8,version:3.6},
 	{name:"Yorha 9S",count:6,version:3.8},
-	{name:"Cuck Lessons",count:0,version:3.9},
 	{name:"",count:2,version:4.0},
 	{name:"",count:6,version:4.1},
 	{name:"",count:2,version:4.2},
 	{name:"",count:4,version:4.3},
-	{name:"Cuckold Relationship (+19)&Astolfo matemi",count:9,version:4.4},
-	{name:"Sunny Jerks You Off&Suddenly Choking Bunny Gf",count:5,version:4.5},
+	{name:"Astolfo matemi",count:9,version:4.4},
+	{name:"",count:5,version:4.5},
 	{name:"",count:2,version:4.6},
+	{name:"whiteboy punishment",count:13,version:4.7},
 ];
 
 
 Videos = [
-	{count:45,version:3.6},
+	{count:44,version:3.6},
 	{count:4,version:3.7},
 	{count:4,version:4.1},
 	{count:2,version:4.2},
 	{count:3,version:4.3},
 	{count:5,version:4.5},
 	{count:2,version:4.6},
-	{count:2,version:4.7},
+	{count:20,version:4.7},
 ];
 
 FiveT = [
 	{name:"Defeated Makima&Prostitution Devil Makima",count:0,version:4.5},
 	{name:"SV MTR 1",count:0,version:4.6},
+	{name:"SV MTR 2&SV MTR 3",count:0,version:4.7},
+];
+
+Hyanmaru = [
+	{name:"Cuckold Relationship",count:0,version:2.4},
+	{name:"Cuck Lessons",count:0,version:3.9},
+	{name:"Cuckold Relationship (+19)",count:0,version:4.4},
+	{name:"Sunny Jerks You Off&Suddenly Choking Bunny Gf",count:0,version:4.5},
+	{name:"Flowers",count:0,version:4.7},
+];
+
+YUE_C = [
+	{name:"The BBC addicted wife KISARAGI AYAKO",count:0,version:1.8},
+	{name:"Победа над Путешествиницей и Венди",count:0,version:3.4},	
+	{name:"The BBC addicted wife KISARAGI AYAKO 2",count:0,version:4.7},
 ];
 
 
@@ -356,5 +371,7 @@ Texts = [
 # - Перепланировка -
 ### Была изменена работа **Catalog** теперь будет легче внедрять новые тэги.
 ### Теперь все базы данных находятся в отдельных файлах.
+### При скроллинге скрывается Header
+### На странице комиксов и видео теперь новый контент всегда будет выше по списку чем старый
   	`,version:4.7},  	
 ];

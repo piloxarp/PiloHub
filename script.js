@@ -94,8 +94,9 @@ const deviceType = () => {
     return "desktop";
 };
 
+let Mobile = document.querySelector("body").dataset.mobile;
 // Пример использования
-if (deviceType() == "mobile") {
+if (deviceType() == "mobile" && Mobile !== "off") {
   let btn = document.createElement("button");
   btn.setAttribute("onclick","MobileMenu('open')");
   btn.className = "btnMenu"
@@ -143,3 +144,17 @@ function MobileMenu(x) {
       }); 
   }
 }
+
+    var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+
+  if (prevScrollpos > currentScrollPos || currentScrollPos < 50) {
+    document.querySelector("header").style.top = "0";
+  } else {
+    document.querySelector("header").style.top = "-100px";
+  }
+
+  prevScrollpos = currentScrollPos;
+};

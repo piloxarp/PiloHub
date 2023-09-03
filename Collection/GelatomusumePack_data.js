@@ -62,4 +62,12 @@ Other_Gelatomusume = [
 	{name:"Valeria Rimjob",banner:"https://lh3.google.com/u/0/d/1VzgVkx9d8REXCyEEZN-lhxxzZZ1vi214=w1885-h936-iv1"},
 	{name:"Zelda X Ganon NTR",banner:"https://lh3.google.com/u/0/d/1jWlTwNKG7iHERhapa-04AM1KBvrvXcgV=w1150-h906-iv1"},
 	{name:"College Expectations",banner:"https://lh3.google.com/u/0/d/10uAK_4kPhSd87A1mK2u8wTtG4NDnqsS-=w1920-h917-iv1"}
+	{name:"Catboy", banner:"https://lh3.google.com/u/0/d/1MjdIQcI2sS77EAANd5tFkKzY90Z-qkoJ=w1416-h913-iv1"},
+	{name:"Purple Girl1", banner:"https://lh3.google.com/u/0/d/1NcVV8lAAyv2fdZie9bXO80-0mdlq9CJJ=w1416-h913-iv1"},
+	{name:"Purple Girl2", banner:"https://lh3.google.com/u/0/d/1NW5GmGx7vlNevyvo-hg3BFPc6CHgH4uv=w1416-h913-iv1"},
+	{name:"Pick your poison", banner:"https://lh3.google.com/u/0/d/1NNy_jGi-PxiMboI0HPcsbcp9gU2ooSDq=w1416-h913-iv1"},
+	{name:"Triple Team 1", banner:"https://lh3.google.com/u/0/d/1NMk7ZfknkFxtaV-R16O8mTaxh3G5-94J=w1416-h913-iv1"},
+	{name:"Triple Team 2", banner:"https://lh3.google.com/u/0/d/1NEZjJGlvSREHMX5PBWlrAJJqTIFpdAG4=w1416-h913-iv1"},
+	{name:"Val and Millie Orgy", banner:"https://lh3.google.com/u/0/d/1NAwa_GUl-CDRHZg-IIiEru6eFS5Aj1qt=w1416-h913-iv1"},
+
 ];
