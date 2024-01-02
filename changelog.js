@@ -8,13 +8,13 @@ let Comics_Card = document.querySelector(".Comics");
 let changelogInfo_Card = document.querySelector(".changelog-info");
 let FiveT_Card = document.querySelector(".FiveT");
 let Hyanmaru_Card = document.querySelector(".Hyanmaru");
-let YUE_C_Card = document.querySelector(".YUE_C");
+let YUEC_Card = document.querySelector(".YUEC");
 
 	let version_container = document.querySelector(".versions");
 	let numbers = ["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8",
 		"1.9","2.0","2.1","2.2","2.3","2.4","2.5","2.6","2.7","2.8","2.9",
 		"3.0","3.1","3.2","3.3","3.4","3.5","3.6","3.7","3.8","3.9","4.0",
-		"4.1","4.2","4.3","4.4","4.5","4.6","4.7"];
+		"4.1","4.2","4.3","4.4","4.5","4.6","4.7","4.8"];
 	for (var i = numbers.length - 1; i >= 0; i--) {
 		let button = document.createElement("button");
 		button.setAttribute("onclick",`Version(${numbers[i]})`);
@@ -64,6 +64,7 @@ if (index === -1) /* not find version */ {
 };  		
   	} else if (type == "chapter") {
 const index = array.findIndex(item => item.version === x);
+console.log(id,array,type,x,y);
 if (id.querySelectorAll("h3").length != 0) {
 for (var i = id.querySelectorAll("h3").length - 1; i >= 0; i--) {
 	id.querySelectorAll("h3")[i].remove();
@@ -114,7 +115,7 @@ Generate_Card(Comics_Card,Comics,"solo",x);
 Generate_Card(BBC_Card,BBC,"chapter",x);
 Generate_Card(FiveT_Card,FiveT,"chapter",x);
 Generate_Card(Hyanmaru_Card,Hyanmaru,"chapter",x);
-Generate_Card(YUE_C_Card,YUE_C,"chapter",x);
+Generate_Card(YUEC_Card,YUEC,"chapter",x);
 Generate_Card(Gelatomusume_Card,Gelatomusume,"chapter",x);
 Generate_Card(Picturd_Card,Picturd,"chapter",x);
 Generate_Card(Mcomics_Card,Mcomics,"chapter",x,"sum");
@@ -132,7 +133,7 @@ Generate_ColorCard(Mcomics_Card,"chapter","Sum");
 Generate_ColorCard(BBC_Card,"chapter","Solo");
 Generate_ColorCard(FiveT_Card,"chapter","Solo");
 Generate_ColorCard(Hyanmaru_Card,"chapter","Solo");
-Generate_ColorCard(YUE_C_Card,"chapter","Solo");
+Generate_ColorCard(YUEC_Card,"chapter","Solo");
 Generate_ColorCard(Gelatomusume_Card,"chapter","Solo");
 Generate_ColorCard(Picturd_Card,"chapter","Solo");
 Generate_ColorCard(Other_Card,"chapter","Solo");	

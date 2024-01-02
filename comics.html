@@ -306,7 +306,6 @@ for (var i = 0; i < cards.length; i++) {
 </script>
 <script type="text/javascript">
 	function SizeControl(size) {
-    console.log("name: " + size + " " + "type: " + typeof size);
     let card = document.querySelectorAll(".card");
     let word = document.querySelectorAll(".SizeControlCenter > .group > button");
     if (size == "s") {
@@ -339,7 +338,7 @@ for (var i = 0; i < cards.length; i++) {
         word[2].style = "color:var(--primary);"
         localStorage.setItem("Nude_moon_SizeCard","l");
 
-    } else {console.log("Not Size")}
+    } else {}
 }
 
 document.addEventListener("DOMContentLoaded", function() {

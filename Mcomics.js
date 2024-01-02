@@ -6,6 +6,10 @@ let page3 = List.slice(42,63);
 let page4 = List.slice(63,84);
 let page5 = List.slice(84,105);
 let page6 = List.slice(105,126);
+//let page7 = List.slice(126,147)
+//
+//
+//
 
 let max_pages = 6;
 
@@ -181,7 +185,7 @@ function SizeControl(size) {
         word[2].style = "color:var(--primary);"
         localStorage.setItem("SizeCard","l");
 
-    } else {console.log("Not Size")}
+    } else {}
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -196,8 +200,6 @@ document.addEventListener("DOMContentLoaded", function() {
          let f = "page" + (max_pages_tex - localStorage.page_Mcomics)
         Page(eval(f));  
         let num = max_pages_tex - Number(localStorage.page_Mcomics);
-        console.log(num);
-        console.log(buttonsPages[num - 1]);
         buttonsPages[num - 1].click();  
         document.querySelector("title").innerHTML =(max_pages_tex - localStorage.page_Mcomics) + " " + "|" + " " + "MINI-COMICS";   
     }

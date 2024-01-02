@@ -19,7 +19,12 @@ function Infograph(x) {
     let nav = document.querySelector("#tag-author");
     let p = document.querySelector(".info_vid > p");
     let h2 = document.querySelector(".info_vid > h2");
-    nav.innerHTML = ListVideos[result][0].author;
+    if (ListVideos[result][0].author == undefined) {
+      nav.remove();
+    } else {
+      nav.innerHTML = ListVideos[result][0].author;
+    }
+    
     p.innerHTML = ListVideos[result][0].duration;
     h2.innerHTML = ListVideos[result][0].name.replace(/_/g, " ");
     document.querySelector("#download_btn_vid").href = ListVideos[result][0].link.replace("file/d/","u/1/uc?id=").replace("/preview","&export=download");

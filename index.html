@@ -55,7 +55,8 @@
         width: 450px;
         display: flex;
         flex-direction: column;
-        gap: 10px;    
+        gap: 10px;
+        animation: Info-anim 2s linear infinite alternate;
     }
     .info-header {
         display: flex;
@@ -84,6 +85,12 @@
     h3 {
         word-wrap: break-word;
         letter-spacing: 0.03em;
+    }
+
+    @keyframes Info-anim {
+      0% { color: #FF0000;border-color: #FF0000; }
+  100% { color: var(--white); border-color:rgba(255, 255, 255, 0.1);}
+
     }
 
     @media screen and (max-width: 768px) {
@@ -149,6 +156,7 @@
     <a href="changelog.html"><span class="iconify" data-icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"></span></a>
     <a href="Statistic.html"><span class="iconify" data-icon="fluent:data-usage-24-regular"></span></a>
     <a target="_blank" class="email" href="mailto:piloxarp@gmail.com"><span class="iconify" data-icon="line-md:email"></span></a>
+    <a target="_blank" href="https://t.me/+xc3To291wHEzNDhl"><span class="iconify" data-icon="line-md:telegram"></span></a>
 </footer>
 </div>
 
@@ -187,7 +195,7 @@ const AnswerPicturdPackComics = countNames(Picturd) - countElementsWithParenthes
 const AnswerOtherComics = countNames(Other) - countElementsWithParentheses(Other);
 const AnswerFiveTComics = countNames(FiveT) - countElementsWithParentheses(FiveT);
 const AnswerNudeMoonComics = Comics.reduce((total, item) => total + item.count, 0);
-const AnswerMcomicsComics = countNames(Mcomics) - countElementsWithParentheses(Mcomics);
+const AnswerMcomicsComics = ( countNames(Mcomics) - countElementsWithParentheses(Mcomics) ) - 1;
 
 const AnswerGelatomusumePackArts = Gelatomusume.reduce((total, item) => total + item.count, 0);
 const AnswerBBCPackArts = BBC.reduce((total, item) => total + item.count, 0) - 1;

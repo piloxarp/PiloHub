@@ -1302,7 +1302,7 @@ content {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
-    background: url('covers changelog/Venti1.png') no-repeat;
+    background: url('covers changelog/Kawaii-Sylvee.png') no-repeat top;
     background-position: center;
     background-size: cover;
     gap: 10px;
@@ -1332,7 +1332,6 @@ content {
 }
 
 .Picturd {
-    background: url('covers changelog/femboytip.png') no-repeat;
     background-size: cover;
     background-position: 0 -200px;    
 }
@@ -1564,13 +1563,14 @@ content {
     font-size: 32px;
     font-weight: 700;
     padding: 10px;
-    background: transparent;
+    background: var(--primary-hidden);
     backdrop-filter: blur(3px);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--primary);
     border-radius: 15px;
-    transition: 0.3s;   
+    transition: 0.3s;
     cursor: pointer;
 }
+
 
 
 .links a {
@@ -1610,6 +1610,20 @@ content {
     display: flex;
     align-items: stretch;
     flex-direction: column;
+}
+
+#pagecount {
+    z-index: 3;
+    position: sticky;
+    bottom: 10px;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 10px;
+    background: #16161685;
+    color: var(--text-secondry);
+    backdrop-filter: blur(4px);
+    border: 1px solid #ffffff47;
+    font-size: 14px;
 }
 
 
@@ -1714,6 +1728,7 @@ content {
     width: 350px;
     height: 230px;      
     }
+
 
 
 .container-vids {

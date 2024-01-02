@@ -240,3 +240,9 @@ function Uploading(Comics,Solo,tagFind) {
     }
 };
 
+document.addEventListener("DOMContentLoaded", function() {
+    localStorage.tag = "";
+    localStorage.setItem("Select_Theme", 0);
+    localStorage.setItem("Catalog_Type_Solo", 0);
+    localStorage.setItem("Catalog_Type_Comics", 0);
+  });

@@ -102,4 +102,9 @@ Other_Other = [
 	{name:"TNWO", banner:"https://lh3.google.com/u/0/d/1Q4P2DeRO1wa6EykTBYAapI_bz2PwdCHW=w1208-h913-iv2"},
 	{name:"What every white boy should look like in 2023", banner:"https://lh3.google.com/u/0/d/1PzMvqhy_Xa4CkxRaeZlTQecvB2B9C8qh=w1208-h913-iv2"},
 	{name:"How to become a premature ejaculator", banner:"https://lh3.google.com/u/0/d/1PsHfREHnCLz6Y7WTUkTR-50BeXZy2CJ4=w1208-h913-iv2"},
+	{name:"Do you know this about whiteboys?", banner:"https://lh3.google.com/u/0/d/11NnGsH-hG0njorNRAD261If9A42qM4O8=w1920-h911-iv1"},
+	{name:"Become a real girl", banner:"https://lh3.google.com/u/0/d/1faIUGOWM-saWsJyW_5DkkXjiCDYBXern=w1920-h911-iv1"},
+	{name:"2.6 cm", banner:"https://lh3.google.com/u/0/d/1ouixrfdAbYCLgkqT2kAHp_XNwHogaWzr=w1920-h911-iv1"},
+	{name:"On the eve of a femboy's girlfriend's birthday.", banner:"https://lh3.google.com/u/0/d/1o4gEkh5JSntCp_7uLo2up1Z9ZDqNDGaF=w1920-h911-iv1"},
+	
 ];

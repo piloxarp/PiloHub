@@ -36,6 +36,7 @@ Mcomics = [
 	{name:"A Mother`s Apology&Defeated Makima&Prostitution Devil Makima&Sunny Jerks You Off&Suddenly Choking Bunny Gf&Blacked underwear&Black Breeding initiative",version:4.5},
 	{name:"Whiteboy dinner&Mommy recognises her son's fetish&SV MTR 1&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",version:4.6},
 	{name:"Consent NTR&A Mother`s Apology(+2)&Flowers&SV MTR 2&The battle for the role of master&SV MTR 3&Valeria Findom&Maid Sissy&Widowmaker Penis Humiliation P.O.V&Alex Wrestling&Alex Social Media Shenanigans&Ema and Quinn Summer Vacation&Mommy Val cages Millie(+2)&whiteboy punishment&The BBC addicted wife KISARAGI AYAKO 2",version:4.7},
+	{name:"Nino&Komi deepthroat&Ren love hotel&Quinn Cheerleading&Valeria Hypno&Venti&Yoruichi&9s&Neuron Activation&Noel Housewife&Tadano&Millie and Alex QOS club&Alex and Friends night out&Val and Alex&Millie and val Perma-locked&Alex BJ",version:4.8},
 ];
 
 
@@ -69,6 +70,7 @@ BBC = [
 	{name:"A Mother`s Apology&Blacked underwear&Black Breeding initiative",count:33,version:4.5},
 	{name:"Whiteboy dinner&Mommy recognises her son's fetish&The Black New World Order Nurses&Dont cry whiteboy&Makima and her cuckold",count:32,version:4.6},
 	{name:"Consent NTR&A Mother`s Apology(+2)&The battle for the role of master",count:62,version:4.7},
+	{name:"Nino&Komi deepthroat",count:29,version:4.8},
 ];
 
 
@@ -81,6 +83,7 @@ Gelatomusume = [
 	{name:"Alex's Social Media Hijinks&Izuku and Inko Midoriya Oyakodon&Millie being pounded&Princess Peach NTR&Quinn Leg Day&Ren",count:1,version:4.2},
 	{name:"Mommy Val cages Millie",count:0,version:4.3},
 	{name:"Valeria Findom&Maid Sissy&Widowmaker Penis Humiliation P.O.V&Alex Wrestling&Alex Social Media Shenanigans&Ema and Quinn Summer Vacation&Mommy Val cages Millie(+2)",count:7,version:4.7},
+	{name:"Ren love hotel&Quinn Cheerleading&Valeria Hypno&Venti&Yoruichi&9s&Neuron Activation&Noel Housewife&Tadano&Millie and Alex QOS club&Alex and Friends night out&Val and Alex&Millie and val Perma-locked&Alex BJ",count:18,version:4.8},
 ];
 
 
@@ -111,6 +114,7 @@ Other = [
 	{name:"",count:5,version:4.5},
 	{name:"",count:2,version:4.6},
 	{name:"whiteboy punishment",count:13,version:4.7},
+	{name:"",count:5,version:4.8},
 ];
 
 
@@ -123,6 +127,7 @@ Videos = [
 	{count:5,version:4.5},
 	{count:2,version:4.6},
 	{count:20,version:4.7},
+	{count:1,version:4.8},
 ];
 
 FiveT = [
@@ -139,7 +144,7 @@ Hyanmaru = [
 	{name:"Flowers",count:0,version:4.7},
 ];
 
-YUE_C = [
+YUEC = [
 	{name:"The BBC addicted wife KISARAGI AYAKO",count:0,version:1.8},
 	{name:"Победа над Путешествиницей и Венди",count:0,version:3.4},	
 	{name:"The BBC addicted wife KISARAGI AYAKO 2",count:0,version:4.7},
@@ -373,5 +378,11 @@ Texts = [
 ### Теперь все базы данных находятся в отдельных файлах.
 ### При скроллинге скрывается Header
 ### На странице комиксов и видео теперь новый контент всегда будет выше по списку чем старый
-  	`,version:4.7},  	
+  	`,version:4.7},  
+	{name:`
+# - Возвращение -
+### Был создан телеграм канал 😅
+### Теперь на странице с комиксом показывается на какой вы картинке сейчас. Следовательно были убраны описания под ними и отсупы между картинками.
+### Были исправлены несколько багов
+  	`,version:4.8},  		
 ];
