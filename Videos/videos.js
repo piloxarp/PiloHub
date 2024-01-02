@@ -6,7 +6,8 @@ let page1 = ListVideos.slice(0,21);
 let page2 = ListVideos.slice(21,42);
 let page3 = ListVideos.slice(42,63);
 let page4 = ListVideos.slice(63,84);
-let max_pages = 4;
+let page5 = ListVideos.slice(84,105);
+let max_pages = 5;
 
 let max_pages_tex = max_pages + 1;
 for (var i = 0; i < max_pages_tex; i++) {
